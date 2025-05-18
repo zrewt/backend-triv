@@ -157,7 +157,7 @@ const questions = [
   },
   // Hockey Questions
   {
-    question: "Which team won the 2023 Stanley Cup?",
+    question: "Which team won the 20243 Stanley Cup?",
     correct_answer: "Vegas Golden Knights",
     incorrect_answers: ["Florida Panthers", "Boston Bruins", "Toronto Maple Leafs"]
   },
