@@ -220,6 +220,189 @@ const questions = [
     correct_answer: "Red Bull Racing",
     incorrect_answers: ["Mercedes", "Ferrari", "McLaren"],
     difficulty: "hard"
+  },
+  // New Easy Questions
+  {
+    question: "Which sport uses a net and a ball that players hit with their hands?",
+    correct_answer: "Volleyball",
+    incorrect_answers: ["Basketball", "Tennis", "Badminton"],
+    difficulty: "easy"
+  },
+  {
+    question: "In which sport do players try to hit a ball with a bat and run around bases?",
+    correct_answer: "Baseball",
+    incorrect_answers: ["Cricket", "Softball", "Rounders"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which sport is played on ice with sticks and a puck?",
+    correct_answer: "Ice Hockey",
+    incorrect_answers: ["Field Hockey", "Lacrosse", "Curling"],
+    difficulty: "easy"
+  },
+  {
+    question: "How many players are on a volleyball team?",
+    correct_answer: "6",
+    incorrect_answers: ["5", "7", "8"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which sport uses a shuttlecock?",
+    correct_answer: "Badminton",
+    incorrect_answers: ["Tennis", "Squash", "Table Tennis"],
+    difficulty: "easy"
+  },
+  {
+    question: "In which sport do players try to knock down pins?",
+    correct_answer: "Bowling",
+    incorrect_answers: ["Curling", "Bocce", "Lawn Bowling"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which sport is played on a table with small paddles?",
+    correct_answer: "Table Tennis",
+    incorrect_answers: ["Badminton", "Squash", "Racquetball"],
+    difficulty: "easy"
+  },
+  {
+    question: "How many players are on a rugby team?",
+    correct_answer: "15",
+    incorrect_answers: ["11", "13", "14"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which sport uses a small white ball and clubs?",
+    correct_answer: "Golf",
+    incorrect_answers: ["Croquet", "Polo", "Cricket"],
+    difficulty: "easy"
+  },
+  {
+    question: "In which sport do players try to throw a ball into a hoop?",
+    correct_answer: "Basketball",
+    incorrect_answers: ["Netball", "Handball", "Water Polo"],
+    difficulty: "easy"
+  },
+  // New Medium Questions
+  {
+    question: "Which country won the most medals in the 2020 Tokyo Olympics?",
+    correct_answer: "United States",
+    incorrect_answers: ["China", "Japan", "Great Britain"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who won the 2023 Tour de France?",
+    correct_answer: "Jonas Vingegaard",
+    incorrect_answers: ["Tadej Pogačar", "Primož Roglič", "Egan Bernal"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team won the 2023 UEFA Champions League?",
+    correct_answer: "Manchester City",
+    incorrect_answers: ["Real Madrid", "Bayern Munich", "PSG"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who won the 2023 Women's World Cup?",
+    correct_answer: "Spain",
+    incorrect_answers: ["England", "Sweden", "Australia"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which country hosted the 2023 Rugby World Cup?",
+    correct_answer: "France",
+    incorrect_answers: ["England", "South Africa", "New Zealand"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who won the 2023 NBA MVP award?",
+    correct_answer: "Joel Embiid",
+    incorrect_answers: ["Nikola Jokić", "Giannis Antetokounmpo", "Luka Dončić"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team won the 2023 MLB World Series?",
+    correct_answer: "Texas Rangers",
+    incorrect_answers: ["Arizona Diamondbacks", "Houston Astros", "Philadelphia Phillies"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who won the 2023 US Open Tennis Men's Singles?",
+    correct_answer: "Novak Djokovic",
+    incorrect_answers: ["Carlos Alcaraz", "Daniil Medvedev", "Jannik Sinner"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which country won the 2023 Cricket World Cup?",
+    correct_answer: "Australia",
+    incorrect_answers: ["India", "England", "New Zealand"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who won the 2023 Formula 1 World Championship?",
+    correct_answer: "Max Verstappen",
+    incorrect_answers: ["Lewis Hamilton", "Charles Leclerc", "Lando Norris"],
+    difficulty: "medium"
+  },
+  // New Hard Questions
+  {
+    question: "What is the exact length of a standard Olympic swimming pool in meters?",
+    correct_answer: "50",
+    incorrect_answers: ["45", "55", "48"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact weight of a standard basketball in ounces?",
+    correct_answer: "22",
+    incorrect_answers: ["20", "24", "21"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact diameter of a standard golf hole in inches?",
+    correct_answer: "4.25",
+    incorrect_answers: ["4", "4.5", "4.125"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact height of a standard volleyball net for men in meters?",
+    correct_answer: "2.43",
+    incorrect_answers: ["2.35", "2.40", "2.45"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact weight of a standard soccer ball in grams?",
+    correct_answer: "410-450",
+    incorrect_answers: ["400-440", "420-460", "430-470"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact length of a standard cricket pitch in meters?",
+    correct_answer: "20.12",
+    incorrect_answers: ["19.12", "21.12", "20.00"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact diameter of a standard tennis ball in inches?",
+    correct_answer: "2.575-2.700",
+    incorrect_answers: ["2.500-2.625", "2.600-2.725", "2.550-2.675"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact height of a standard basketball hoop in feet?",
+    correct_answer: "10",
+    incorrect_answers: ["9.5", "10.5", "9.75"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact weight of a standard baseball in ounces?",
+    correct_answer: "5-5.25",
+    incorrect_answers: ["4.75-5", "5.25-5.5", "5.5-5.75"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact length of a standard football field in yards?",
+    correct_answer: "120",
+    incorrect_answers: ["100", "110", "130"],
+    difficulty: "hard"
   }
 ];
 
