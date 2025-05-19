@@ -156,6 +156,43 @@ const questions = [
     correct_answer: "120",
     incorrect_answers: ["100", "110", "130"],
     difficulty: "hard"
+  },
+  // Hockey Questions
+  {
+    question: "Which team won the Stanley Cup in 2023?",
+    correct_answer: "Vegas Golden Knights",
+    incorrect_answers: ["Florida Panthers", "Boston Bruins", "Toronto Maple Leafs"],
+    difficulty: "medium"
+  },
+  {
+    question: "How many players are on the ice for each team in hockey?",
+    correct_answer: "6",
+    incorrect_answers: ["5", "7", "8"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which player has won the most Stanley Cups?",
+    correct_answer: "Henri Richard",
+    incorrect_answers: ["Wayne Gretzky", "Mario Lemieux", "Gordie Howe"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the name of the NHL's most valuable player award?",
+    correct_answer: "Hart Memorial Trophy",
+    incorrect_answers: ["Vezina Trophy", "Art Ross Trophy", "Calder Trophy"],
+    difficulty: "medium"
+  },
+  {
+    question: "How many periods are in a standard NHL game?",
+    correct_answer: "3",
+    incorrect_answers: ["2", "4", "5"],
+    difficulty: "easy"
+  },
+  {
+    question: "What is the exact diameter of a hockey puck in inches?",
+    correct_answer: "3",
+    incorrect_answers: ["2.5", "3.5", "4"],
+    difficulty: "hard"
   }
 ];
 
