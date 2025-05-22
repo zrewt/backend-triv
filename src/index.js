@@ -193,6 +193,183 @@ const questions = [
     correct_answer: "3",
     incorrect_answers: ["2.5", "3.5", "4"],
     difficulty: "hard"
+  },
+  // Additional Easy Questions
+  {
+    question: "Which country won the most FIFA World Cups?",
+    correct_answer: "Brazil",
+    incorrect_answers: ["Germany", "Italy", "Argentina"],
+    difficulty: "easy"
+  },
+  {
+    question: "How many players are on a basketball court for each team?",
+    correct_answer: "5",
+    incorrect_answers: ["6", "4", "7"],
+    difficulty: "easy"
+  },
+  {
+    question: "What is the main color of a standard basketball?",
+    correct_answer: "Orange",
+    incorrect_answers: ["Red", "Yellow", "Brown"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which sport uses a 'touchdown' as a scoring method?",
+    correct_answer: "Football",
+    incorrect_answers: ["Soccer", "Basketball", "Baseball"],
+    difficulty: "easy"
+  },
+  {
+    question: "What is the shape of a baseball field?",
+    correct_answer: "Diamond",
+    incorrect_answers: ["Circle", "Square", "Triangle"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which sport uses a 'goal' as a scoring method?",
+    correct_answer: "Soccer",
+    incorrect_answers: ["Basketball", "Baseball", "Football"],
+    difficulty: "easy"
+  },
+  {
+    question: "How many bases are there in baseball?",
+    correct_answer: "4",
+    incorrect_answers: ["3", "5", "6"],
+    difficulty: "easy"
+  },
+  {
+    question: "What is the main equipment used in hockey?",
+    correct_answer: "Stick",
+    incorrect_answers: ["Bat", "Racket", "Club"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which sport uses a 'home run' as a scoring method?",
+    correct_answer: "Baseball",
+    incorrect_answers: ["Football", "Basketball", "Soccer"],
+    difficulty: "easy"
+  },
+  // Additional Medium Questions
+  {
+    question: "Who is known as 'The King' in basketball?",
+    correct_answer: "LeBron James",
+    incorrect_answers: ["Michael Jordan", "Kobe Bryant", "Magic Johnson"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which country has won the most Olympic gold medals in basketball?",
+    correct_answer: "United States",
+    incorrect_answers: ["Russia", "Spain", "Argentina"],
+    difficulty: "medium"
+  },
+  {
+    question: "What is the name of the trophy awarded to the NHL champions?",
+    correct_answer: "Stanley Cup",
+    incorrect_answers: ["Larry O'Brien Trophy", "Vince Lombardi Trophy", "World Series Trophy"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team has won the most NBA championships?",
+    correct_answer: "Boston Celtics",
+    incorrect_answers: ["Los Angeles Lakers", "Chicago Bulls", "Golden State Warriors"],
+    difficulty: "medium"
+  },
+  {
+    question: "What is the name of the NFL's championship game?",
+    correct_answer: "Super Bowl",
+    incorrect_answers: ["World Series", "Stanley Cup Finals", "NBA Finals"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which country has won the most FIFA Women's World Cups?",
+    correct_answer: "United States",
+    incorrect_answers: ["Germany", "Norway", "Japan"],
+    difficulty: "medium"
+  },
+  {
+    question: "What is the name of the MLB's championship series?",
+    correct_answer: "World Series",
+    incorrect_answers: ["Super Bowl", "Stanley Cup Finals", "NBA Finals"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team has won the most Super Bowls?",
+    correct_answer: "New England Patriots",
+    incorrect_answers: ["Pittsburgh Steelers", "Dallas Cowboys", "San Francisco 49ers"],
+    difficulty: "medium"
+  },
+  {
+    question: "What is the name of the NBA's championship series?",
+    correct_answer: "NBA Finals",
+    incorrect_answers: ["World Series", "Super Bowl", "Stanley Cup Finals"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which country has won the most Olympic gold medals in soccer?",
+    correct_answer: "Hungary",
+    incorrect_answers: ["Brazil", "Argentina", "Germany"],
+    difficulty: "medium"
+  },
+  // Additional Hard Questions
+  {
+    question: "What is the exact weight of an NBA basketball in ounces?",
+    correct_answer: "22",
+    incorrect_answers: ["20", "24", "26"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact length of a standard soccer field in meters?",
+    correct_answer: "100-130",
+    incorrect_answers: ["90-120", "110-140", "80-110"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact diameter of a standard baseball in inches?",
+    correct_answer: "2.86-2.94",
+    incorrect_answers: ["2.76-2.84", "2.96-3.04", "2.66-2.74"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact height of a standard soccer goal in feet?",
+    correct_answer: "8",
+    incorrect_answers: ["7", "9", "10"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact weight of a standard football in ounces?",
+    correct_answer: "14-15",
+    incorrect_answers: ["13-14", "15-16", "12-13"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact length of a standard basketball court in feet?",
+    correct_answer: "94",
+    incorrect_answers: ["84", "104", "74"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact width of a standard hockey rink in feet?",
+    correct_answer: "85",
+    incorrect_answers: ["75", "95", "65"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact weight of a standard soccer ball in ounces?",
+    correct_answer: "14-16",
+    incorrect_answers: ["12-14", "16-18", "10-12"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact length of a standard baseball bat in inches?",
+    correct_answer: "42",
+    incorrect_answers: ["40", "44", "38"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact diameter of a standard basketball hoop in inches?",
+    correct_answer: "18",
+    incorrect_answers: ["16", "20", "22"],
+    difficulty: "hard"
   }
 ];
 
