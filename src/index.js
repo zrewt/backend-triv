@@ -693,6 +693,189 @@ const questions = [
     correct_answer: "New York City",
     incorrect_answers: ["Indianapolis", "Chicago", "Los Angeles"],
     difficulty: "medium"
+  },
+  // New Easy Questions (2024)
+  {
+    question: "Which team won the 2024 Super Bowl?",
+    correct_answer: "Kansas City Chiefs",
+    incorrect_answers: ["San Francisco 49ers", "Baltimore Ravens", "Detroit Lions"],
+    difficulty: "easy"
+  },
+  {
+    question: "Who won the 2024 NBA All-Star Game MVP?",
+    correct_answer: "Damian Lillard",
+    incorrect_answers: ["LeBron James", "Stephen Curry", "Giannis Antetokounmpo"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which team won the 2024 NHL Winter Classic?",
+    correct_answer: "Seattle Kraken",
+    incorrect_answers: ["Vegas Golden Knights", "Boston Bruins", "Toronto Maple Leafs"],
+    difficulty: "easy"
+  },
+  {
+    question: "Who won the 2024 Australian Open men's singles?",
+    correct_answer: "Jannik Sinner",
+    incorrect_answers: ["Novak Djokovic", "Daniil Medvedev", "Carlos Alcaraz"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which team won the 2024 NBA In-Season Tournament?",
+    correct_answer: "Los Angeles Lakers",
+    incorrect_answers: ["Indiana Pacers", "Milwaukee Bucks", "Boston Celtics"],
+    difficulty: "easy"
+  },
+  {
+    question: "Who won the 2024 NFL MVP?",
+    correct_answer: "Lamar Jackson",
+    incorrect_answers: ["Patrick Mahomes", "Christian McCaffrey", "Josh Allen"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which team won the 2024 NHL Stadium Series?",
+    correct_answer: "New York Rangers",
+    incorrect_answers: ["New York Islanders", "New Jersey Devils", "Philadelphia Flyers"],
+    difficulty: "easy"
+  },
+  {
+    question: "Who won the 2024 NBA Slam Dunk Contest?",
+    correct_answer: "Mac McClung",
+    incorrect_answers: ["Ja Morant", "Zion Williamson", "Anthony Edwards"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which country will host the 2025 FIFA Club World Cup?",
+    correct_answer: "United States",
+    incorrect_answers: ["Saudi Arabia", "Qatar", "Brazil"],
+    difficulty: "easy"
+  },
+  {
+    question: "Who won the 2024 NBA Three-Point Contest?",
+    correct_answer: "Damian Lillard",
+    incorrect_answers: ["Stephen Curry", "Buddy Hield", "Tyrese Haliburton"],
+    difficulty: "easy"
+  },
+  // New Medium Questions (2024-2025)
+  {
+    question: "Which player won the 2024 NFL Offensive Player of the Year?",
+    correct_answer: "Christian McCaffrey",
+    incorrect_answers: ["Tyreek Hill", "CeeDee Lamb", "Travis Kelce"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team won the 2024 NHL All-Star Game?",
+    correct_answer: "Team Matthews",
+    incorrect_answers: ["Team McDavid", "Team MacKinnon", "Team Hughes"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who won the 2024 NFL Defensive Player of the Year?",
+    correct_answer: "Myles Garrett",
+    incorrect_answers: ["Micah Parsons", "T.J. Watt", "Nick Bosa"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team won the 2024 NBA Rising Stars Challenge?",
+    correct_answer: "Team Jalen",
+    incorrect_answers: ["Team Pau", "Team Detlef", "Team Tamika"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who won the 2024 NFL Comeback Player of the Year?",
+    correct_answer: "Joe Flacco",
+    incorrect_answers: ["Damar Hamlin", "Baker Mayfield", "Tua Tagovailoa"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team won the 2024 NHL Stadium Series?",
+    correct_answer: "New York Rangers",
+    incorrect_answers: ["New York Islanders", "New Jersey Devils", "Philadelphia Flyers"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who won the 2024 NFL Offensive Rookie of the Year?",
+    correct_answer: "C.J. Stroud",
+    incorrect_answers: ["Puka Nacua", "Bijan Robinson", "Jahmyr Gibbs"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team won the 2024 NBA Skills Challenge?",
+    correct_answer: "Team Pacers",
+    incorrect_answers: ["Team All-Stars", "Team Top Picks", "Team Rising Stars"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who won the 2024 NFL Defensive Rookie of the Year?",
+    correct_answer: "Will Anderson Jr.",
+    incorrect_answers: ["Jalen Carter", "Devon Witherspoon", "Kobie Turner"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team won the 2024 NHL Winter Classic?",
+    correct_answer: "Seattle Kraken",
+    incorrect_answers: ["Vegas Golden Knights", "Boston Bruins", "Toronto Maple Leafs"],
+    difficulty: "medium"
+  },
+  // New Hard Questions (2024-2025)
+  {
+    question: "What was the exact attendance at Super Bowl LVIII in 2024?",
+    correct_answer: "61,629",
+    incorrect_answers: ["62,417", "60,742", "63,400"],
+    difficulty: "hard"
+  },
+  {
+    question: "What was the exact score of the 2024 NBA All-Star Game?",
+    correct_answer: "211-186",
+    incorrect_answers: ["205-178", "198-182", "215-190"],
+    difficulty: "hard"
+  },
+  {
+    question: "What was the exact temperature at the 2024 NHL Winter Classic?",
+    correct_answer: "32°F",
+    incorrect_answers: ["28°F", "35°F", "30°F"],
+    difficulty: "hard"
+  },
+  {
+    question: "What was the exact duration of the 2024 Australian Open men's final in minutes?",
+    correct_answer: "208",
+    incorrect_answers: ["195", "215", "225"],
+    difficulty: "hard"
+  },
+  {
+    question: "What was the exact attendance at the 2024 NBA In-Season Tournament final?",
+    correct_answer: "19,021",
+    incorrect_answers: ["18,997", "19,156", "18,842"],
+    difficulty: "hard"
+  },
+  {
+    question: "What was the exact number of votes received by the 2024 NFL MVP winner?",
+    correct_answer: "45",
+    incorrect_answers: ["42", "48", "39"],
+    difficulty: "hard"
+  },
+  {
+    question: "What was the exact attendance at the 2024 NHL Stadium Series game?",
+    correct_answer: "82,000",
+    incorrect_answers: ["79,690", "84,500", "81,200"],
+    difficulty: "hard"
+  },
+  {
+    question: "What was the exact score of the 2024 NBA Slam Dunk Contest final round?",
+    correct_answer: "98.8",
+    incorrect_answers: ["97.5", "99.2", "96.8"],
+    difficulty: "hard"
+  },
+  {
+    question: "What was the exact number of teams that will participate in the 2025 FIFA Club World Cup?",
+    correct_answer: "32",
+    incorrect_answers: ["24", "28", "36"],
+    difficulty: "hard"
+  },
+  {
+    question: "What was the exact score of the 2024 NBA Three-Point Contest final round?",
+    correct_answer: "26",
+    incorrect_answers: ["24", "28", "25"],
+    difficulty: "hard"
   }
 ];
 
