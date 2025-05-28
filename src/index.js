@@ -1059,6 +1059,183 @@ const questions = [
     correct_answer: "1",
     incorrect_answers: ["0.75", "1.25", "0.875"],
     difficulty: "hard"
+  },
+  // Additional Easy Questions
+  {
+    question: "What is the main surface of a basketball court?",
+    correct_answer: "Wood",
+    incorrect_answers: ["Grass", "Ice", "Dirt"],
+    difficulty: "easy"
+  },
+  {
+    question: "How many players are on a baseball field for each team?",
+    correct_answer: "9",
+    incorrect_answers: ["10", "8", "11"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which sport uses a 'penalty kick' as a scoring method?",
+    correct_answer: "Soccer",
+    incorrect_answers: ["Hockey", "Basketball", "Baseball"],
+    difficulty: "easy"
+  },
+  {
+    question: "What is the main surface of a hockey rink?",
+    correct_answer: "Ice",
+    incorrect_answers: ["Grass", "Wood", "Concrete"],
+    difficulty: "easy"
+  },
+  {
+    question: "How many periods are in a standard hockey game?",
+    correct_answer: "3",
+    incorrect_answers: ["2", "4", "5"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which sport uses a 'three-pointer' as a scoring method?",
+    correct_answer: "Basketball",
+    incorrect_answers: ["Football", "Hockey", "Baseball"],
+    difficulty: "easy"
+  },
+  {
+    question: "What is the main piece of equipment used in football?",
+    correct_answer: "Football",
+    incorrect_answers: ["Ball", "Puck", "Bat"],
+    difficulty: "easy"
+  },
+  {
+    question: "What is the main surface of a baseball field?",
+    correct_answer: "Grass",
+    incorrect_answers: ["Wood", "Ice", "Concrete"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which sport uses a 'power play' as a game situation?",
+    correct_answer: "Hockey",
+    incorrect_answers: ["Football", "Basketball", "Baseball"],
+    difficulty: "easy"
+  },
+  // Additional Medium Questions
+  {
+    question: "Who holds the record for most goals scored in a single NHL season?",
+    correct_answer: "Wayne Gretzky",
+    incorrect_answers: ["Mario Lemieux", "Alex Ovechkin", "Sidney Crosby"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team has won the most World Series titles?",
+    correct_answer: "New York Yankees",
+    incorrect_answers: ["St. Louis Cardinals", "Boston Red Sox", "Los Angeles Dodgers"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who is the all-time leading scorer in NHL history?",
+    correct_answer: "Wayne Gretzky",
+    incorrect_answers: ["Jaromir Jagr", "Mark Messier", "Gordie Howe"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team has won the most UEFA Champions League titles?",
+    correct_answer: "Real Madrid",
+    incorrect_answers: ["Barcelona", "Bayern Munich", "AC Milan"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who holds the record for most touchdown passes in NFL history?",
+    correct_answer: "Tom Brady",
+    incorrect_answers: ["Peyton Manning", "Drew Brees", "Brett Favre"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which player has won the most NBA MVP awards?",
+    correct_answer: "Kareem Abdul-Jabbar",
+    incorrect_answers: ["Michael Jordan", "LeBron James", "Bill Russell"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who holds the record for most home runs in a single MLB season?",
+    correct_answer: "Barry Bonds",
+    incorrect_answers: ["Mark McGwire", "Sammy Sosa", "Babe Ruth"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which country has won the most Olympic gold medals in basketball?",
+    correct_answer: "United States",
+    incorrect_answers: ["Russia", "Spain", "Argentina"],
+    difficulty: "medium"
+  },
+  {
+    question: "What is the name of the trophy awarded to the NHL champions?",
+    correct_answer: "Stanley Cup",
+    incorrect_answers: ["Larry O'Brien Trophy", "Vince Lombardi Trophy", "World Series Trophy"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team has won the most NBA championships?",
+    correct_answer: "Boston Celtics",
+    incorrect_answers: ["Los Angeles Lakers", "Chicago Bulls", "Golden State Warriors"],
+    difficulty: "medium"
+  },
+  // Additional Hard Questions
+  {
+    question: "What is the exact circumference of a standard NBA basketball in inches?",
+    correct_answer: "29.5",
+    incorrect_answers: ["28.5", "30.5", "27.5"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact pressure of a standard soccer ball in PSI?",
+    correct_answer: "8.5-15.6",
+    incorrect_answers: ["7.5-14.6", "9.5-16.6", "6.5-13.6"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact distance from home plate to the center field wall in Yankee Stadium?",
+    correct_answer: "408 feet",
+    incorrect_answers: ["400 feet", "415 feet", "420 feet"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact width of a standard NHL goal in feet?",
+    correct_answer: "6",
+    incorrect_answers: ["5.5", "6.5", "7"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact height of a standard NFL goal post in feet?",
+    correct_answer: "35",
+    incorrect_answers: ["30", "40", "45"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact weight of a standard NHL puck in ounces?",
+    correct_answer: "6",
+    incorrect_answers: ["5", "7", "8"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact diameter of a standard MLB baseball in inches?",
+    correct_answer: "2.86-2.94",
+    incorrect_answers: ["2.76-2.84", "2.96-3.04", "2.66-2.74"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact length of a standard FIFA soccer field in meters?",
+    correct_answer: "100-130",
+    incorrect_answers: ["90-120", "110-140", "80-110"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact height of a standard basketball hoop in feet?",
+    correct_answer: "10",
+    incorrect_answers: ["9.5", "10.5", "9.75"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact distance between bases in Major League Baseball?",
+    correct_answer: "90 feet",
+    incorrect_answers: ["80 feet", "100 feet", "85 feet"],
+    difficulty: "hard"
   }
 ];
 
