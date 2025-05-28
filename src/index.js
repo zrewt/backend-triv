@@ -194,6 +194,7 @@ const questions = [
     incorrect_answers: ["2.5", "3.5", "4"],
     difficulty: "hard"
   },
+  
   // Additional Easy Questions
   {
     question: "Which country won the most FIFA World Cups?",
@@ -1236,6 +1237,189 @@ const questions = [
     correct_answer: "90 feet",
     incorrect_answers: ["80 feet", "100 feet", "85 feet"],
     difficulty: "hard"
+  },
+  // 2025-2026 Future Events Questions
+  {
+    question: "Which team was disqualified from the 2025 FIFA Club World Cup due to ownership rule breaches?",
+    correct_answer: "Club León",
+    incorrect_answers: ["Al Hilal", "Monterrey", "Tigres UANL"],
+    difficulty: "hard"
+  },
+  {
+    question: "Which country made its first-ever semifinal appearance in the 2025 IIHF World Championship?",
+    correct_answer: "Denmark",
+    incorrect_answers: ["Latvia", "Germany", "Slovakia"],
+    difficulty: "hard"
+  },
+  {
+    question: "Which NHL player was the scoring leader in the 2025 IIHF World Championship?",
+    correct_answer: "David Pastrňák",
+    incorrect_answers: ["Connor McDavid", "Patrick Kane", "Leon Draisaitl"],
+    difficulty: "hard"
+  },
+  {
+    question: "Which goalkeeper was named MVP of the 2025 IIHF World Championship?",
+    correct_answer: "Leonardo Genoni",
+    incorrect_answers: ["John Gibson", "Henrik Lundqvist", "Carey Price"],
+    difficulty: "hard"
+  },
+  {
+    question: "Which country hosted the 2025 UEFA Women's Euro tournament?",
+    correct_answer: "Switzerland",
+    incorrect_answers: ["Germany", "England", "France"],
+    difficulty: "hard"
+  },
+  {
+    question: "Which city hosted the 2025 Canada Summer Games?",
+    correct_answer: "St. John's, Newfoundland and Labrador",
+    incorrect_answers: ["Toronto", "Vancouver", "Calgary"],
+    difficulty: "hard"
+  },
+  {
+    question: "Which stadium hosted the opening match of the 2025 CONCACAF Gold Cup?",
+    correct_answer: "SoFi Stadium",
+    incorrect_answers: ["NRG Stadium", "MetLife Stadium", "Rose Bowl"],
+    difficulty: "hard"
+  },
+  {
+    question: "Which team did Nebraska face in the first round of the 2025 NCAA baseball tournament?",
+    correct_answer: "Oklahoma",
+    incorrect_answers: ["Texas", "Arkansas", "LSU"],
+    difficulty: "hard"
+  },
+  {
+    question: "Which two countries co-hosted the 2025 IIHF World Championship?",
+    correct_answer: "Sweden and Denmark",
+    incorrect_answers: ["Finland and Norway", "Germany and Austria", "Czech Republic and Slovakia"],
+    difficulty: "hard"
+  },
+  {
+    question: "Which NHL team is set to host the 2026 Winter Classic at LoanDepot Park?",
+    correct_answer: "Florida Panthers",
+    incorrect_answers: ["Tampa Bay Lightning", "Dallas Stars", "Arizona Coyotes"],
+    difficulty: "hard"
+  },
+  // 2025 Future Events and Announcements Questions
+  {
+    question: "Which goalkeeper announced her international retirement ahead of UEFA Euro 2025?",
+    correct_answer: "Mary Earps",
+    incorrect_answers: ["Hope Solo", "Karen Bardsley", "Sari van Veenendaal"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which Kansas City Chiefs tight end confirmed his return for at least one more NFL season in 2025?",
+    correct_answer: "Travis Kelce",
+    incorrect_answers: ["George Kittle", "Zach Ertz", "Rob Gronkowski"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which two NFL stars hinted at a potential reunion for the 2028 Olympics?",
+    correct_answer: "Tyreek Hill and Patrick Mahomes",
+    incorrect_answers: ["Tom Brady and Rob Gronkowski", "Aaron Rodgers and Davante Adams", "Russell Wilson and DK Metcalf"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which Ontario Hockey League (OHL) player is projected as the likely No. 1 overall pick in the 2025 NHL Draft?",
+    correct_answer: "Michael Misa",
+    incorrect_answers: ["Connor Bedard", "Shane Wright", "Adam Fantilli"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which country is the two-time defending champion entering the 2025 FIBA AfroBasket?",
+    correct_answer: "Tunisia",
+    incorrect_answers: ["Nigeria", "Angola", "Senegal"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which stadium is set to host the final of the 2025 FIFA Club World Cup?",
+    correct_answer: "MetLife Stadium",
+    incorrect_answers: ["Wembley Stadium", "Maracanã Stadium", "Camp Nou"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which NHL player was named MVP of the 2025 4 Nations Face-Off tournament?",
+    correct_answer: "Nathan MacKinnon",
+    incorrect_answers: ["Connor McDavid", "Auston Matthews", "Leon Draisaitl"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which country was the runner-up in the 2025 IIHF World Championship?",
+    correct_answer: "Switzerland",
+    incorrect_answers: ["Canada", "Sweden", "Finland"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team did Newcastle United defeat in the 2025 EFL Cup Final?",
+    correct_answer: "Liverpool",
+    incorrect_answers: ["Manchester United", "Chelsea", "Arsenal"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which WNBA player launched her custom Nike shoe line in 2025?",
+    correct_answer: "A'ja Wilson",
+    incorrect_answers: ["Breanna Stewart", "Candace Parker", "Elena Delle Donne"],
+    difficulty: "medium"
+  },
+  // 2025 Easy Questions
+  {
+    question: "Which team won the 2025 EFL Cup Final, securing their first domestic trophy since 1955?",
+    correct_answer: "Newcastle United",
+    incorrect_answers: ["Liverpool", "Manchester City", "Chelsea"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which country hosted the 2025 IIHF World Championship?",
+    correct_answer: "Sweden and Denmark",
+    incorrect_answers: ["Canada", "USA", "Finland"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which MLB teams participated in the 2025 Tokyo Series?",
+    correct_answer: "Los Angeles Dodgers and Chicago Cubs",
+    incorrect_answers: ["New York Yankees and Boston Red Sox", "San Francisco Giants and Seattle Mariners", "Houston Astros and Texas Rangers"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which country is set to host the 2025 FIBA AfroBasket tournament?",
+    correct_answer: "Angola",
+    incorrect_answers: ["Nigeria", "Egypt", "South Africa"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which NFL quarterback is expected to start for the New York Giants in the 2025 season?",
+    correct_answer: "Russell Wilson",
+    incorrect_answers: ["Daniel Jones", "Jaxson Dart", "Eli Manning"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which country won the 2025 SheBelieves Cup, marking their first title in the tournament?",
+    correct_answer: "Japan",
+    incorrect_answers: ["USA", "England", "Canada"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which NHL team won the 2025 IIHF World Championship?",
+    correct_answer: "United States",
+    incorrect_answers: ["Canada", "Sweden", "Russia"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which WNBA team debuted in the 2025 season?",
+    correct_answer: "Golden State Valkyries",
+    incorrect_answers: ["Las Vegas Aces", "New York Liberty", "Chicago Sky"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which MLB pitcher made his debut with the Dodgers during the 2025 Tokyo Series?",
+    correct_answer: "Roki Sasaki",
+    incorrect_answers: ["Shohei Ohtani", "Yu Darvish", "Masahiro Tanaka"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which country won the 2025 IIHF World Championship, securing their first gold since 1960?",
+    correct_answer: "United States",
+    incorrect_answers: ["Canada", "Switzerland", "Sweden"],
+    difficulty: "easy"
   }
 ];
 
