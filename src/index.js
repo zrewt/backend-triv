@@ -16,6 +16,254 @@ const questions = [
     incorrect_answers: ["Anfield", "Emirates Stadium", "Stamford Bridge"],
     difficulty: "easy"
   },
+    // Soccer
+    {
+      "question": "Which goalkeeper announced her international retirement ahead of UEFA Euro 2025?",
+      "correct_answer": "Mary Earps",
+      "incorrect_answers": ["Hope Solo", "Karen Bardsley", "Sari van Veenendaal"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which country hosted the UEFA Women's Euro 2025?",
+      "correct_answer": "Switzerland",
+      "incorrect_answers": ["Germany", "England", "France"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which team won the 2025 EFL Cup Final?",
+      "correct_answer": "Newcastle United",
+      "incorrect_answers": ["Liverpool", "Manchester City", "Chelsea"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who scored the winning goal in the 2025 FA Cup Final?",
+      "correct_answer": "Bukayo Saka",
+      "incorrect_answers": ["Erling Haaland", "Marcus Rashford", "Phil Foden"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which stadium is set to host the final of the 2025 FIFA Club World Cup?",
+      "correct_answer": "MetLife Stadium",
+      "incorrect_answers": ["Wembley Stadium", "Maracanã", "Camp Nou"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which player won the 2025 Ballon d'Or Féminin?",
+      "correct_answer": "Alexia Putellas",
+      "incorrect_answers": ["Sam Kerr", "Aitana Bonmatí", "Megan Rapinoe"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which nation won the 2025 SheBelieves Cup?",
+      "correct_answer": "Japan",
+      "incorrect_answers": ["USA", "England", "Canada"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which team was disqualified from the 2025 FIFA Club World Cup?",
+      "correct_answer": "Club León",
+      "incorrect_answers": ["Monterrey", "Al Hilal", "Tigres UANL"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which manager led Newcastle United to a domestic title in 2025?",
+      "correct_answer": "Eddie Howe",
+      "incorrect_answers": ["Pep Guardiola", "Erik ten Hag", "Jürgen Klopp"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which team won the 2025 UEFA Super Cup?",
+      "correct_answer": "Real Madrid",
+      "incorrect_answers": ["Manchester City", "Barcelona", "Inter Milan"],
+      "difficulty": "medium"
+    },
+  
+    // Football
+    {
+      "question": "Which Kansas City Chiefs tight end returned for the 2025 NFL season?",
+      "correct_answer": "Travis Kelce",
+      "incorrect_answers": ["George Kittle", "Zach Ertz", "Rob Gronkowski"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which quarterback signed with the New York Giants in 2025?",
+      "correct_answer": "Russell Wilson",
+      "incorrect_answers": ["Daniel Jones", "Jameis Winston", "Tyrod Taylor"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which NFL team moved into a new stadium in 2025?",
+      "correct_answer": "Buffalo Bills",
+      "incorrect_answers": ["Las Vegas Raiders", "Miami Dolphins", "Cleveland Browns"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who won Super Bowl LIX in 2025?",
+      "correct_answer": "San Francisco 49ers",
+      "incorrect_answers": ["Kansas City Chiefs", "Philadelphia Eagles", "Buffalo Bills"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which coach won NFL Coach of the Year for the 2024–25 season?",
+      "correct_answer": "Dan Campbell",
+      "incorrect_answers": ["Kyle Shanahan", "Andy Reid", "Sean McVay"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which player won the 2025 NFL MVP?",
+      "correct_answer": "Patrick Mahomes",
+      "incorrect_answers": ["Jalen Hurts", "Lamar Jackson", "Christian McCaffrey"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which city hosted the 2025 NFL Draft?",
+      "correct_answer": "Green Bay",
+      "incorrect_answers": ["Las Vegas", "Cleveland", "Chicago"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which two players hinted at a reunion for the 2028 Olympics flag football event?",
+      "correct_answer": "Tyreek Hill and Patrick Mahomes",
+      "incorrect_answers": ["Tom Brady and Rob Gronkowski", "Aaron Rodgers and Davante Adams", "Russell Wilson and DK Metcalf"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who was the first overall pick in the 2025 NFL Draft?",
+      "correct_answer": "Caleb Williams",
+      "incorrect_answers": ["Drake Maye", "Marvin Harrison Jr.", "Jayden Daniels"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which team had the best regular season record in the 2024–25 NFL season?",
+      "correct_answer": "Baltimore Ravens",
+      "incorrect_answers": ["49ers", "Chiefs", "Lions"],
+      "difficulty": "medium"
+    },
+  
+    // Hockey
+    {
+      "question": "Which NHL player won MVP of the 2025 4 Nations Face-Off tournament?",
+      "correct_answer": "Nathan MacKinnon",
+      "incorrect_answers": ["Connor McDavid", "Auston Matthews", "Leon Draisaitl"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which country was runner-up in the 2025 IIHF World Championship?",
+      "correct_answer": "Switzerland",
+      "incorrect_answers": ["Canada", "Sweden", "Finland"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who won the Hart Trophy for MVP in the 2024–25 NHL season?",
+      "correct_answer": "Connor McDavid",
+      "incorrect_answers": ["Nathan MacKinnon", "David Pastrnak", "Sidney Crosby"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which team won the 2025 Stanley Cup?",
+      "correct_answer": "Florida Panthers",
+      "incorrect_answers": ["Colorado Avalanche", "Toronto Maple Leafs", "Vegas Golden Knights"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which goalie won the Vezina Trophy in 2025?",
+      "correct_answer": "Igor Shesterkin",
+      "incorrect_answers": ["Juuse Saros", "Connor Hellebuyck", "Ilya Sorokin"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which OHL player is projected No. 1 in the 2025 NHL Draft?",
+      "correct_answer": "Michael Misa",
+      "incorrect_answers": ["Connor Bedard", "Shane Wright", "Adam Fantilli"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which team finished with the most points in the 2024–25 NHL regular season?",
+      "correct_answer": "Boston Bruins",
+      "incorrect_answers": ["Colorado Avalanche", "Florida Panthers", "Toronto Maple Leafs"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who won the Art Ross Trophy in 2025?",
+      "correct_answer": "Connor McDavid",
+      "incorrect_answers": ["Nikita Kucherov", "David Pastrnak", "Leon Draisaitl"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which defenseman won the Norris Trophy in 2025?",
+      "correct_answer": "Cale Makar",
+      "incorrect_answers": ["Adam Fox", "Roman Josi", "Victor Hedman"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which country hosted the 2025 IIHF World Championship?",
+      "correct_answer": "Czech Republic",
+      "incorrect_answers": ["Finland", "Canada", "Germany"],
+      "difficulty": "medium"
+    },
+  
+    // Baseball
+    {
+      "question": "Which pitcher debuted for the Dodgers in the 2025 Tokyo Series?",
+      "correct_answer": "Roki Sasaki",
+      "incorrect_answers": ["Shohei Ohtani", "Yu Darvish", "Masahiro Tanaka"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which teams played the 2025 MLB Tokyo Series?",
+      "correct_answer": "Dodgers and Cubs",
+      "incorrect_answers": ["Yankees and Red Sox", "Astros and Rangers", "Giants and Mariners"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which player won the 2025 AL MVP?",
+      "correct_answer": "Aaron Judge",
+      "incorrect_answers": ["Shohei Ohtani", "Julio Rodríguez", "Corey Seager"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who won the 2025 World Series?",
+      "correct_answer": "Texas Rangers",
+      "incorrect_answers": ["Atlanta Braves", "Houston Astros", "Los Angeles Dodgers"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who led MLB in home runs in the 2025 season?",
+      "correct_answer": "Pete Alonso",
+      "incorrect_answers": ["Aaron Judge", "Shohei Ohtani", "Yordan Alvarez"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who won the 2025 NL Cy Young Award?",
+      "correct_answer": "Spencer Strider",
+      "incorrect_answers": ["Zac Gallen", "Blake Snell", "Max Fried"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which stadium hosted the 2025 MLB All-Star Game?",
+      "correct_answer": "Truist Park",
+      "incorrect_answers": ["Dodger Stadium", "Wrigley Field", "Fenway Park"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who managed the National League All-Star team in 2025?",
+      "correct_answer": "Brian Snitker",
+      "incorrect_answers": ["Dave Roberts", "Dusty Baker", "Craig Counsell"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which player hit for the cycle in April 2025?",
+      "correct_answer": "Elly De La Cruz",
+      "incorrect_answers": ["Ronald Acuña Jr.", "Mookie Betts", "Francisco Lindor"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which team had the worst record in the 2025 MLB season?",
+      "correct_answer": "Oakland Athletics",
+      "incorrect_answers": ["Kansas City Royals", "Miami Marlins", "Colorado Rockies"],
+      "difficulty": "medium"
+    },
+  
   {
     question: "Which country won the FIFA World Cup in 2022?",
     correct_answer: "Argentina",
