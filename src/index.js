@@ -374,7 +374,7 @@ const questions = [
   // New Easy Questions
   {
     question: "What is the color of a standard soccer ball?",
-    correct_answer: "White and Black",
+    correct_answer: "Black and White",
     incorrect_answers: ["Red and Blue", "Green and Yellow", "Orange and Black"],
     difficulty: "easy"
   },
@@ -385,46 +385,101 @@ const questions = [
     difficulty: "easy"
   },
   {
+    question: "What is the main piece of equipment used in football?",
+    correct_answer: "Football",
+    incorrect_answers: ["Ball", "Puck", "Bat"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which sport uses a 'penalty kick' as a scoring method?",
+    correct_answer: "Soccer",
+    incorrect_answers: ["Hockey", "Basketball", "Baseball"],
+    difficulty: "easy"
+  },
+  {
+    question: "What is the main surface of a hockey rink?",
+    correct_answer: "Ice",
+    incorrect_answers: ["Grass", "Wood", "Concrete"],
+    difficulty: "easy"
+  },
+  {
+    question: "How many players are on a soccer team?",
+    correct_answer: "11",
+    incorrect_answers: ["10", "12", "9"],
+    difficulty: "easy"
+  },
+  {
     question: "What is the main piece of equipment used in baseball?",
     correct_answer: "Bat",
     incorrect_answers: ["Stick", "Racket", "Club"],
     difficulty: "easy"
   },
   {
-    question: "Which sport uses a 'field goal' as a scoring method?",
-    correct_answer: "Football",
-    incorrect_answers: ["Soccer", "Basketball", "Baseball"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the shape of a hockey rink?",
-    correct_answer: "Rectangle",
-    incorrect_answers: ["Circle", "Square", "Oval"],
-    difficulty: "easy"
-  },
-  {
-    question: "How many players are on a soccer field at once?",
-    correct_answer: "22",
-    incorrect_answers: ["20", "24", "18"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the main color of a standard football?",
-    correct_answer: "Brown",
-    incorrect_answers: ["White", "Black", "Orange"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which sport uses a 'free throw' as a scoring method?",
+    question: "Which sport uses a 'three-pointer' as a scoring method?",
     correct_answer: "Basketball",
-    incorrect_answers: ["Football", "Soccer", "Baseball"],
+    incorrect_answers: ["Football", "Hockey", "Baseball"],
     difficulty: "easy"
   },
   {
-    question: "What is the main piece of equipment used in hockey?",
-    correct_answer: "Stick",
-    incorrect_answers: ["Bat", "Racket", "Club"],
+    question: "What is the main surface of a basketball court?",
+    correct_answer: "Wood",
+    incorrect_answers: ["Grass", "Ice", "Dirt"],
     difficulty: "easy"
+  },
+  {
+    question: "How many periods are in a standard hockey game?",
+    correct_answer: "3",
+    incorrect_answers: ["2", "4", "5"],
+    difficulty: "easy"
+  },
+  // New Medium Questions
+  {
+    question: "Which team has won the most NBA championships?",
+    correct_answer: "Boston Celtics",
+    incorrect_answers: ["Los Angeles Lakers", "Chicago Bulls", "Golden State Warriors"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who is the all-time leading scorer in NBA history?",
+    correct_answer: "LeBron James",
+    incorrect_answers: ["Michael Jordan", "Kareem Abdul-Jabbar", "Kobe Bryant"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which country has won the most Olympic gold medals in soccer?",
+    correct_answer: "Hungary",
+    incorrect_answers: ["Brazil", "Argentina", "Germany"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who holds the record for most goals scored in a single NHL season?",
+    correct_answer: "Wayne Gretzky",
+    incorrect_answers: ["Mario Lemieux", "Alex Ovechkin", "Sidney Crosby"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team has won the most World Series titles?",
+    correct_answer: "New York Yankees",
+    incorrect_answers: ["St. Louis Cardinals", "Boston Red Sox", "Los Angeles Dodgers"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who is the all-time leading scorer in NHL history?",
+    correct_answer: "Wayne Gretzky",
+    incorrect_answers: ["Jaromir Jagr", "Mark Messier", "Gordie Howe"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which team has won the most UEFA Champions League titles?",
+    correct_answer: "Real Madrid",
+    incorrect_answers: ["Barcelona", "Bayern Munich", "AC Milan"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who holds the record for most touchdown passes in NFL history?",
+    correct_answer: "Tom Brady",
+    incorrect_answers: ["Peyton Manning", "Drew Brees", "Brett Favre"],
+    difficulty: "medium"
   },
   {
     question: "Which player has won the most NBA MVP awards?",
@@ -433,57 +488,9 @@ const questions = [
     difficulty: "medium"
   },
   {
-    question: "What is the name of the soccer tournament held every four years in Europe?",
-    correct_answer: "UEFA European Championship",
-    incorrect_answers: ["Copa America", "African Cup of Nations", "Asian Cup"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which baseball team has won the most World Series titles?",
-    correct_answer: "New York Yankees",
-    incorrect_answers: ["Boston Red Sox", "St. Louis Cardinals", "Los Angeles Dodgers"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who holds the record for most goals scored in a single World Cup tournament?",
-    correct_answer: "Just Fontaine",
-    incorrect_answers: ["Pele", "Maradona", "Ronaldo"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which NBA team has won the most championships?",
-    correct_answer: "Boston Celtics",
-    incorrect_answers: ["Los Angeles Lakers", "Chicago Bulls", "Golden State Warriors"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the name of the NFL's most valuable player award?",
-    correct_answer: "Most Valuable Player Award",
-    incorrect_answers: ["Heisman Trophy", "Lombardi Trophy", "Walter Payton Award"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which hockey player has scored the most goals in NHL history?",
-    correct_answer: "Wayne Gretzky",
-    incorrect_answers: ["Gordie Howe", "Mario Lemieux", "Jaromir Jagr"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the name of the soccer tournament held every four years in South America?",
-    correct_answer: "Copa America",
-    incorrect_answers: ["UEFA European Championship", "African Cup of Nations", "Asian Cup"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which baseball player has won the most World Series rings?",
-    correct_answer: "Yogi Berra",
-    incorrect_answers: ["Babe Ruth", "Mickey Mantle", "Joe DiMaggio"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the name of the NBA's most valuable player award?",
-    correct_answer: "Maurice Podoloff Trophy",
-    incorrect_answers: ["Larry O'Brien Trophy", "Bill Russell Trophy", "Magic Johnson Trophy"],
+    question: "Who holds the record for most home runs in a single MLB season?",
+    correct_answer: "Barry Bonds",
+    incorrect_answers: ["Mark McGwire", "Sammy Sosa", "Babe Ruth"],
     difficulty: "medium"
   },
   // New Hard Questions
@@ -494,57 +501,57 @@ const questions = [
     difficulty: "hard"
   },
   {
-    question: "What is the exact circumference of a standard soccer ball in inches?",
-    correct_answer: "27-28",
-    incorrect_answers: ["25-26", "28-29", "26-27"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact height of a standard baseball mound in inches?",
-    correct_answer: "10",
-    incorrect_answers: ["8", "12", "9"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact width of a standard basketball court in feet?",
-    correct_answer: "50",
-    incorrect_answers: ["48", "52", "49"],
+    question: "What is the exact circumference of a standard NBA basketball in inches?",
+    correct_answer: "29.5",
+    incorrect_answers: ["28.5", "30.5", "27.5"],
     difficulty: "hard"
   },
   {
     question: "What is the exact length of a standard hockey stick in inches?",
     correct_answer: "60-63",
-    incorrect_answers: ["58-61", "62-65", "59-62"],
+    incorrect_answers: ["58-60", "63-65", "55-58"],
     difficulty: "hard"
   },
   {
-    question: "What is the exact weight of a standard basketball in ounces?",
-    correct_answer: "20-22",
-    incorrect_answers: ["18-20", "22-24", "19-21"],
+    question: "What is the exact pressure of a standard soccer ball in PSI?",
+    correct_answer: "8.5-15.6",
+    incorrect_answers: ["7.5-14.6", "9.5-16.6", "6.5-13.6"],
     difficulty: "hard"
   },
   {
-    question: "What is the exact diameter of a standard baseball in inches?",
+    question: "What is the exact distance from home plate to the center field wall in Yankee Stadium?",
+    correct_answer: "408 feet",
+    incorrect_answers: ["400 feet", "415 feet", "420 feet"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact width of a standard NHL goal in feet?",
+    correct_answer: "6",
+    incorrect_answers: ["5.5", "6.5", "7"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact height of a standard NFL goal post in feet?",
+    correct_answer: "35",
+    incorrect_answers: ["30", "40", "45"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact weight of a standard NHL puck in ounces?",
+    correct_answer: "6",
+    incorrect_answers: ["5", "7", "8"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact diameter of a standard MLB baseball in inches?",
     correct_answer: "2.86-2.94",
-    incorrect_answers: ["2.84-2.92", "2.88-2.96", "2.85-2.93"],
+    incorrect_answers: ["2.76-2.84", "2.96-3.04", "2.66-2.74"],
     difficulty: "hard"
   },
   {
-    question: "What is the exact height of a standard soccer goal in feet?",
-    correct_answer: "8",
-    incorrect_answers: ["7", "9", "7.5"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact width of a standard football field in yards?",
-    correct_answer: "53.33",
-    incorrect_answers: ["52.33", "54.33", "51.33"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact thickness of a standard hockey puck in inches?",
-    correct_answer: "1",
-    incorrect_answers: ["0.75", "1.25", "0.875"],
+    question: "What is the exact length of a standard FIFA soccer field in meters?",
+    correct_answer: "100-130",
+    incorrect_answers: ["90-120", "110-140", "80-110"],
     difficulty: "hard"
   },
   // 2024-2025 Sports Questions
@@ -868,6 +875,189 @@ const questions = [
     question: "What was the exact score of the 2024 NBA Three-Point Contest final round?",
     correct_answer: "26",
     incorrect_answers: ["24", "28", "25"],
+    difficulty: "hard"
+  },
+  // New Easy Questions (2024)
+  {
+    question: "What is the main color of a standard soccer ball?",
+    correct_answer: "Black and White",
+    incorrect_answers: ["Red and Blue", "Green and Yellow", "Orange and Black"],
+    difficulty: "easy"
+  },
+  {
+    question: "How many quarters are in a standard basketball game?",
+    correct_answer: "4",
+    incorrect_answers: ["2", "3", "5"],
+    difficulty: "easy"
+  },
+  {
+    question: "What is the main piece of equipment used in baseball?",
+    correct_answer: "Bat",
+    incorrect_answers: ["Stick", "Racket", "Club"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which sport uses a 'field goal' as a scoring method?",
+    correct_answer: "Football",
+    incorrect_answers: ["Soccer", "Basketball", "Baseball"],
+    difficulty: "easy"
+  },
+  {
+    question: "What is the shape of a hockey rink?",
+    correct_answer: "Rectangle",
+    incorrect_answers: ["Circle", "Square", "Oval"],
+    difficulty: "easy"
+  },
+  {
+    question: "How many players are on a soccer field at once?",
+    correct_answer: "22",
+    incorrect_answers: ["20", "24", "18"],
+    difficulty: "easy"
+  },
+  {
+    question: "What is the main color of a standard football?",
+    correct_answer: "Brown",
+    incorrect_answers: ["White", "Black", "Orange"],
+    difficulty: "easy"
+  },
+  {
+    question: "Which sport uses a 'free throw' as a scoring method?",
+    correct_answer: "Basketball",
+    incorrect_answers: ["Football", "Soccer", "Baseball"],
+    difficulty: "easy"
+  },
+  {
+    question: "What is the main piece of equipment used in hockey?",
+    correct_answer: "Stick",
+    incorrect_answers: ["Bat", "Racket", "Club"],
+    difficulty: "easy"
+  },
+  {
+    question: "How many bases are there in baseball?",
+    correct_answer: "4",
+    incorrect_answers: ["3", "5", "6"],
+    difficulty: "easy"
+  },
+  // New Medium Questions
+  {
+    question: "Which player has won the most NBA MVP awards?",
+    correct_answer: "Kareem Abdul-Jabbar",
+    incorrect_answers: ["Michael Jordan", "LeBron James", "Bill Russell"],
+    difficulty: "medium"
+  },
+  {
+    question: "What is the name of the soccer tournament held every four years in Europe?",
+    correct_answer: "UEFA European Championship",
+    incorrect_answers: ["Copa America", "African Cup of Nations", "Asian Cup"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which baseball team has won the most World Series titles?",
+    correct_answer: "New York Yankees",
+    incorrect_answers: ["Boston Red Sox", "St. Louis Cardinals", "Los Angeles Dodgers"],
+    difficulty: "medium"
+  },
+  {
+    question: "Who holds the record for most goals scored in a single World Cup tournament?",
+    correct_answer: "Just Fontaine",
+    incorrect_answers: ["Pele", "Maradona", "Ronaldo"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which NBA team has won the most championships?",
+    correct_answer: "Boston Celtics",
+    incorrect_answers: ["Los Angeles Lakers", "Chicago Bulls", "Golden State Warriors"],
+    difficulty: "medium"
+  },
+  {
+    question: "What is the name of the NFL's most valuable player award?",
+    correct_answer: "Most Valuable Player Award",
+    incorrect_answers: ["Heisman Trophy", "Lombardi Trophy", "Walter Payton Award"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which hockey player has scored the most goals in NHL history?",
+    correct_answer: "Wayne Gretzky",
+    incorrect_answers: ["Gordie Howe", "Mario Lemieux", "Jaromir Jagr"],
+    difficulty: "medium"
+  },
+  {
+    question: "What is the name of the soccer tournament held every four years in South America?",
+    correct_answer: "Copa America",
+    incorrect_answers: ["UEFA European Championship", "African Cup of Nations", "Asian Cup"],
+    difficulty: "medium"
+  },
+  {
+    question: "Which baseball player has won the most World Series rings?",
+    correct_answer: "Yogi Berra",
+    incorrect_answers: ["Babe Ruth", "Mickey Mantle", "Joe DiMaggio"],
+    difficulty: "medium"
+  },
+  {
+    question: "What is the name of the NBA's most valuable player award?",
+    correct_answer: "Maurice Podoloff Trophy",
+    incorrect_answers: ["Larry O'Brien Trophy", "Bill Russell Trophy", "Magic Johnson Trophy"],
+    difficulty: "medium"
+  },
+  // New Hard Questions
+  {
+    question: "What is the exact weight of a standard NFL football in ounces?",
+    correct_answer: "14-15",
+    incorrect_answers: ["12-13", "15-16", "13-14"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact circumference of a standard soccer ball in inches?",
+    correct_answer: "27-28",
+    incorrect_answers: ["25-26", "28-29", "26-27"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact height of a standard baseball mound in inches?",
+    correct_answer: "10",
+    incorrect_answers: ["8", "12", "9"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact width of a standard basketball court in feet?",
+    correct_answer: "50",
+    incorrect_answers: ["48", "52", "49"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact length of a standard hockey stick in inches?",
+    correct_answer: "60-63",
+    incorrect_answers: ["58-61", "62-65", "59-62"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact weight of a standard basketball in ounces?",
+    correct_answer: "20-22",
+    incorrect_answers: ["18-20", "22-24", "19-21"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact diameter of a standard baseball in inches?",
+    correct_answer: "2.86-2.94",
+    incorrect_answers: ["2.84-2.92", "2.88-2.96", "2.85-2.93"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact height of a standard soccer goal in feet?",
+    correct_answer: "8",
+    incorrect_answers: ["7", "9", "7.5"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact width of a standard football field in yards?",
+    correct_answer: "53.33",
+    incorrect_answers: ["52.33", "54.33", "51.33"],
+    difficulty: "hard"
+  },
+  {
+    question: "What is the exact thickness of a standard hockey puck in inches?",
+    correct_answer: "1",
+    incorrect_answers: ["0.75", "1.25", "0.875"],
     difficulty: "hard"
   }
 ];
