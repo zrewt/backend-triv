@@ -1158,12 +1158,6 @@ const questions = [
     difficulty: "easy"
   },
   {
-    question: "How many players are on a soccer field at once?",
-    correct_answer: "22",
-    incorrect_answers: ["20", "24", "18"],
-    difficulty: "easy"
-  },
-  {
     question: "What is the main color of a standard football?",
     correct_answer: "Brown",
     incorrect_answers: ["White", "Black", "Orange"],
