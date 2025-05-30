@@ -10,6 +10,8 @@ app.use(express.json());
 // All quiz questions data with difficulty levels
 const questions = [
   
+    // easy soccer questions
+ 
     {
       "question": "Which country has won the most FIFA World Cups?",
       "correct_answer": "Brazil",
@@ -52,6 +54,9 @@ const questions = [
       "difficulty": "easy",
       "sport": "soccer"
     },
+
+    // easy football questions
+
     {
       "question": "How many points is a touchdown worth?",
       "correct_answer": "6",
@@ -94,6 +99,9 @@ const questions = [
       "difficulty": "easy",
       "sport": "football"
     },
+
+    // easy hockey questions
+
     {
       "question": "What is the object called that players hit in ice hockey?",
       "correct_answer": "Puck",
@@ -136,6 +144,9 @@ const questions = [
       "difficulty": "easy",
       "sport": "hockey"
     },
+
+    // easy baseball questions
+
     {
       "question": "How many bases are there on a baseball field?",
       "correct_answer": "4",
@@ -178,6 +189,9 @@ const questions = [
       "difficulty": "easy",
       "sport": "baseball"
     },
+
+    // easy basketball questions
+
     {
       "question": "How many points is a shot made from beyond the three-point line worth?",
       "correct_answer": "3",
@@ -219,8 +233,222 @@ const questions = [
       "incorrect_answers": ["Double play", "Slam dunk", "Alley-oop"],
       "difficulty": "easy",
       "sport": "basketball"
+    },
+
+    // medium soccer questions
+
+    {
+      "question": "Which country won the first ever FIFA World Cup in 1930?",
+      "correct_answer": "Uruguay",
+      "incorrect_answers": ["Brazil", "Italy", "Argentina"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who is known as the 'King of Football'?",
+      "correct_answer": "Pelé",
+      "incorrect_answers": ["Diego Maradona", "Lionel Messi", "Cristiano Ronaldo"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which player has won the most FIFA Ballon d’Or awards?",
+      "correct_answer": "Lionel Messi",
+      "incorrect_answers": ["Cristiano Ronaldo", "Michel Platini", "Johan Cruyff"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which team is known as the 'Red Devils'?",
+      "correct_answer": "Manchester United",
+      "incorrect_answers": ["Liverpool", "Arsenal", "Chelsea"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who scored the 'Hand of God' goal in the 1986 World Cup?",
+      "correct_answer": "Diego Maradona",
+      "incorrect_answers": ["Pelé", "Zinedine Zidane", "Ronaldinho"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country has won the most World Cups?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": ["Germany", "Italy", "Argentina"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "What year was the Premier League founded?",
+      "correct_answer": "1992",
+      "incorrect_answers": ["1988", "1990", "1994"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who holds the record for the most goals in a single Premier League season?",
+      "correct_answer": "Mohamed Salah",
+      "incorrect_answers": ["Alan Shearer", "Cristiano Ronaldo", "Harry Kane"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which nation won the Euro 2020 tournament?",
+      "correct_answer": "Italy",
+      "incorrect_answers": ["England", "France", "Spain"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "What is the maximum number of substitutions allowed in a standard FIFA match?",
+      "correct_answer": "Three",
+      "incorrect_answers": ["Four", "Five", "Six"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who scored the fastest goal in World Cup history?",
+      "correct_answer": "Hakan Sükür",
+      "incorrect_answers": ["Cristiano Ronaldo", "Pelé", "Kylian Mbappé"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club has won the most UEFA Champions League titles?",
+      "correct_answer": "Real Madrid",
+      "incorrect_answers": ["AC Milan", "Liverpool", "Bayern Munich"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "What is the name of the award given to the top scorer in a World Cup tournament?",
+      "correct_answer": "The Golden Boot",
+      "incorrect_answers": ["The Golden Ball", "The Silver Boot", "The Top Scorer Award"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "In what year was the first European Championship held?",
+      "correct_answer": "1960",
+      "incorrect_answers": ["1956", "1964", "1968"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who is the only player to win three European Golden Shoes?",
+      "correct_answer": "Lionel Messi",
+      "incorrect_answers": ["Cristiano Ronaldo", "Thierry Henry", "Luis Suárez"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which team won the first ever Premier League title?",
+      "correct_answer": "Manchester United",
+      "incorrect_answers": ["Arsenal", "Chelsea", "Blackburn Rovers"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country is known as the 'Azzurri'?",
+      "correct_answer": "Italy",
+      "incorrect_answers": ["France", "Spain", "Portugal"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who is the youngest player to ever play in a FIFA World Cup?",
+      "correct_answer": "Norman Whiteside",
+      "incorrect_answers": ["Pele", "Kylian Mbappé", "Samuel Eto'o"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "What is the name of the stadium where FC Barcelona plays?",
+      "correct_answer": "Camp Nou",
+      "incorrect_answers": ["Santiago Bernabéu", "Old Trafford", "Allianz Arena"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who holds the record for the most international goals in soccer history?",
+      "correct_answer": "Cristiano Ronaldo",
+      "incorrect_answers": ["Ali Daei", "Lionel Messi", "Pelé"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which player holds the record for the most Premier League appearances?",
+      "correct_answer": "Gareth Barry",
+      "incorrect_answers": ["Ryan Giggs", "Frank Lampard", "Steven Gerrard"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who scored the first goal in Premier League history?",
+      "correct_answer": "Brian Deane",
+      "incorrect_answers": ["Alan Shearer", "Eric Cantona", "Mark Hughes"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "What is the highest number of points achieved by a team in a single Premier League season?",
+      "correct_answer": "100 points by Manchester City",
+      "incorrect_answers": ["98 points by Liverpool", "95 points by Chelsea", "93 points by Arsenal"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who is the all-time top scorer in the Premier League?",
+      "correct_answer": "Alan Shearer",
+      "incorrect_answers": ["Wayne Rooney", "Thierry Henry", "Harry Kane"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club won the Premier League title in the 2015-2016 season, defying odds of 5000-1?",
+      "correct_answer": "Leicester City",
+      "incorrect_answers": ["Tottenham Hotspur", "Arsenal", "Manchester City"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who was the first manager to win the Premier League with two different clubs?",
+      "correct_answer": "José Mourinho",
+      "incorrect_answers": ["Pep Guardiola", "Carlo Ancelotti", "Arsène Wenger"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which goalkeeper has the most clean sheets in Premier League history?",
+      "correct_answer": "Petr Čech",
+      "incorrect_answers": ["David De Gea", "Edwin van der Sar", "Peter Schmeichel"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "What was the highest-scoring match in Premier League history?",
+      "correct_answer": "Portsmouth vs. Reading (7-4) in 2007",
+      "incorrect_answers": ["Manchester United vs. Arsenal (8-2)", "Tottenham vs. Wigan (9-1)", "Liverpool vs. Newcastle (4-3)"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who was the first non-European manager to win the Premier League?",
+      "correct_answer": "Manuel Pellegrini",
+      "incorrect_answers": ["Arsène Wenger", "José Mourinho", "Rafael Benítez"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which player won the Premier League Golden Boot in his debut season in 2019-2020?",
+      "correct_answer": "Pierre-Emerick Aubameyang",
+      "incorrect_answers": ["Mohamed Salah", "Jamie Vardy", "Sadio Mané"],
+      "difficulty": "medium",
+      "sport": "soccer"
     }
-       
+    
+    // medium baseball questions
       
 ];
 
