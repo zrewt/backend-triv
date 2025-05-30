@@ -194,7 +194,188 @@ const questions = [
       "correct_answer": "Bat",
       "incorrect_answers": ["Stick", "Club", "Paddle"],
       "difficulty": "easy"
-    }  
+    } ,
+      {
+        "question": "Which NBA team drafted Kobe Bryant before he was traded to the Lakers?",
+        "correct_answer": "Charlotte Hornets",
+        "incorrect_answers": ["Miami Heat", "Phoenix Suns", "Atlanta Hawks"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which NFL quarterback holds the record for most career passing touchdowns?",
+        "correct_answer": "Tom Brady",
+        "incorrect_answers": ["Peyton Manning", "Drew Brees", "Aaron Rodgers"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Who won the Ballon d'Or in 2023?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": ["Erling Haaland", "Kylian Mbappé", "Robert Lewandowski"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which MLB pitcher threw a perfect game in 2012?",
+        "correct_answer": "Felix Hernandez",
+        "incorrect_answers": ["Clayton Kershaw", "Justin Verlander", "Max Scherzer"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which NHL team won the most Stanley Cups in the 20th century?",
+        "correct_answer": "Montreal Canadiens",
+        "incorrect_answers": ["Toronto Maple Leafs", "Boston Bruins", "New York Rangers"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which NBA player scored 81 points in a single game?",
+        "correct_answer": "Kobe Bryant",
+        "incorrect_answers": ["Michael Jordan", "LeBron James", "Kevin Durant"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which country won the FIFA World Cup in 2018?",
+        "correct_answer": "France",
+        "incorrect_answers": ["Croatia", "Germany", "Brazil"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "How many players are on the ice for one team during even-strength hockey?",
+        "correct_answer": "6",
+        "incorrect_answers": ["5", "7", "4"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which MLB team has the most World Series titles?",
+        "correct_answer": "New York Yankees",
+        "incorrect_answers": ["Boston Red Sox", "St. Louis Cardinals", "Los Angeles Dodgers"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Who won the NBA Finals MVP in 2022?",
+        "correct_answer": "Stephen Curry",
+        "incorrect_answers": ["Jayson Tatum", "Giannis Antetokounmpo", "Jimmy Butler"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which soccer player is known for the 'Hand of God' goal?",
+        "correct_answer": "Diego Maradona",
+        "incorrect_answers": ["Pelé", "Lionel Messi", "Cristiano Ronaldo"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which position in baseball is number 6 in the scoring system?",
+        "correct_answer": "Shortstop",
+        "incorrect_answers": ["Second baseman", "Third baseman", "Left fielder"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which team lost four straight Super Bowls from 1990 to 1993?",
+        "correct_answer": "Buffalo Bills",
+        "incorrect_answers": ["Minnesota Vikings", "New York Giants", "Cincinnati Bengals"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which country has won the most Olympic gold medals in men's ice hockey?",
+        "correct_answer": "Canada",
+        "incorrect_answers": ["Russia", "USA", "Sweden"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "What was Michael Jordan's jersey number when he briefly returned in 1995?",
+        "correct_answer": "45",
+        "incorrect_answers": ["23", "33", "32"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Who is the all-time leader in rushing yards in the NFL?",
+        "correct_answer": "Emmitt Smith",
+        "incorrect_answers": ["Walter Payton", "Barry Sanders", "Adrian Peterson"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which team won the 2022 FIFA World Cup?",
+        "correct_answer": "Argentina",
+        "incorrect_answers": ["France", "Brazil", "Germany"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Who holds the MLB record for most career hits?",
+        "correct_answer": "Pete Rose",
+        "incorrect_answers": ["Ty Cobb", "Derek Jeter", "Ichiro Suzuki"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which hockey player has won the most Hart Trophies (MVP)?",
+        "correct_answer": "Wayne Gretzky",
+        "incorrect_answers": ["Mario Lemieux", "Sidney Crosby", "Mark Messier"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Who was the first overall pick in the 2003 NBA Draft?",
+        "correct_answer": "LeBron James",
+        "incorrect_answers": ["Carmelo Anthony", "Dwyane Wade", "Chris Bosh"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "What soccer team plays at Old Trafford?",
+        "correct_answer": "Manchester United",
+        "incorrect_answers": ["Chelsea", "Liverpool", "Arsenal"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which MLB stadium is known as 'The Green Monster'?",
+        "correct_answer": "Fenway Park",
+        "incorrect_answers": ["Wrigley Field", "Yankee Stadium", "Dodger Stadium"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which NHL team joined the league in 2021?",
+        "correct_answer": "Seattle Kraken",
+        "incorrect_answers": ["Vegas Golden Knights", "Columbus Blue Jackets", "Nashville Predators"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Who won the Heisman Trophy in 2023?",
+        "correct_answer": "Jayden Daniels",
+        "incorrect_answers": ["Caleb Williams", "Bo Nix", "Marvin Harrison Jr."],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which NBA team has the nickname 'The Splash Brothers'?",
+        "correct_answer": "Golden State Warriors",
+        "incorrect_answers": ["Los Angeles Lakers", "Miami Heat", "Phoenix Suns"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which club has the most UEFA Champions League titles?",
+        "correct_answer": "Real Madrid",
+        "incorrect_answers": ["Barcelona", "Bayern Munich", "AC Milan"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which MLB player broke the single-season home run record in the American League in 2022?",
+        "correct_answer": "Aaron Judge",
+        "incorrect_answers": ["Shohei Ohtani", "Mike Trout", "Bryce Harper"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which country hosted the 2022 FIFA World Cup?",
+        "correct_answer": "Qatar",
+        "incorrect_answers": ["Russia", "USA", "Brazil"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Who scored the 'Golden Goal' for Canada in the 2010 Winter Olympics hockey final?",
+        "correct_answer": "Sidney Crosby",
+        "incorrect_answers": ["Jonathan Toews", "Corey Perry", "Jarome Iginla"],
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which team did the Chicago Bulls beat in the 1996 NBA Finals?",
+        "correct_answer": "Seattle SuperSonics",
+        "incorrect_answers": ["Utah Jazz", "Houston Rockets", "Portland Trail Blazers"],
+        "difficulty": "medium"
+      }
+    
 ];
 
 // Helper function to get random questions by difficulty
