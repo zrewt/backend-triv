@@ -9,1660 +9,192 @@ app.use(express.json());
 
 // All quiz questions data with difficulty levels
 const questions = [
-  // Soccer Questions
-  {
-    question: "What is the name of Manchester United's home stadium?",
-    correct_answer: "Old Trafford",
-    incorrect_answers: ["Anfield", "Emirates Stadium", "Stamford Bridge"],
-    difficulty: "easy"
-  },
-    // Soccer
     {
-      "question": "Which goalkeeper announced her international retirement ahead of UEFA Euro 2025?",
-      "correct_answer": "Mary Earps",
-      "incorrect_answers": ["Hope Solo", "Karen Bardsley", "Sari van Veenendaal"],
-      "difficulty": "medium"
+      "question": "Who has made the most three-pointers in NBA history?",
+      "correct_answer": "Stephen Curry",
+      "incorrect_answers": ["Ray Allen", "Reggie Miller", "James Harden"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which country hosted the UEFA Women's Euro 2025?",
-      "correct_answer": "Switzerland",
-      "incorrect_answers": ["Germany", "England", "France"],
-      "difficulty": "medium"
+      "question": "How many players are on a soccer team on the field?",
+      "correct_answer": "11",
+      "incorrect_answers": ["10", "9", "12"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which team won the 2025 EFL Cup Final?",
-      "correct_answer": "Newcastle United",
-      "incorrect_answers": ["Liverpool", "Manchester City", "Chelsea"],
-      "difficulty": "medium"
+      "question": "Which sport uses a puck?",
+      "correct_answer": "Hockey",
+      "incorrect_answers": ["Baseball", "Basketball", "Soccer"],
+      "difficulty": "easy"
     },
     {
-      "question": "Who scored the winning goal in the 2025 FA Cup Final?",
-      "correct_answer": "Bukayo Saka",
-      "incorrect_answers": ["Erling Haaland", "Marcus Rashford", "Phil Foden"],
-      "difficulty": "medium"
+      "question": "Which MLB team is based in New York?",
+      "correct_answer": "New York Yankees",
+      "incorrect_answers": ["Chicago Cubs", "Los Angeles Dodgers", "Boston Red Sox"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which stadium is set to host the final of the 2025 FIFA Club World Cup?",
-      "correct_answer": "MetLife Stadium",
-      "incorrect_answers": ["Wembley Stadium", "Maracanã", "Camp Nou"],
-      "difficulty": "medium"
+      "question": "How many points is a touchdown worth in American football?",
+      "correct_answer": "6",
+      "incorrect_answers": ["3", "7", "5"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which player won the 2025 Ballon d'Or Féminin?",
-      "correct_answer": "Alexia Putellas",
-      "incorrect_answers": ["Sam Kerr", "Aitana Bonmatí", "Megan Rapinoe"],
-      "difficulty": "medium"
+      "question": "What color card signals a player must leave a soccer game?",
+      "correct_answer": "Red",
+      "incorrect_answers": ["Yellow", "Blue", "Green"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which nation won the 2025 SheBelieves Cup?",
-      "correct_answer": "Japan",
-      "incorrect_answers": ["USA", "England", "Canada"],
-      "difficulty": "medium"
+      "question": "Which basketball team has won the most NBA championships?",
+      "correct_answer": "Boston Celtics",
+      "incorrect_answers": ["Golden State Warriors", "Chicago Bulls", "Miami Heat"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which team was disqualified from the 2025 FIFA Club World Cup?",
-      "correct_answer": "Club León",
-      "incorrect_answers": ["Monterrey", "Al Hilal", "Tigres UANL"],
-      "difficulty": "medium"
+      "question": "Which position throws the ball in baseball?",
+      "correct_answer": "Pitcher",
+      "incorrect_answers": ["Catcher", "First baseman", "Shortstop"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which manager led Newcastle United to a domestic title in 2025?",
-      "correct_answer": "Eddie Howe",
-      "incorrect_answers": ["Pep Guardiola", "Erik ten Hag", "Jürgen Klopp"],
-      "difficulty": "medium"
+      "question": "In what sport would you perform a slam dunk?",
+      "correct_answer": "Basketball",
+      "incorrect_answers": ["Soccer", "Baseball", "Hockey"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which team won the 2025 UEFA Super Cup?",
-      "correct_answer": "Real Madrid",
-      "incorrect_answers": ["Manchester City", "Barcelona", "Inter Milan"],
-      "difficulty": "medium"
-    },
-  
-    // Football
-    {
-      "question": "Which Kansas City Chiefs tight end returned for the 2025 NFL season?",
-      "correct_answer": "Travis Kelce",
-      "incorrect_answers": ["George Kittle", "Zach Ertz", "Rob Gronkowski"],
-      "difficulty": "medium"
+      "question": "Which country is famous for inventing hockey?",
+      "correct_answer": "Canada",
+      "incorrect_answers": ["USA", "Russia", "Sweden"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which quarterback signed with the New York Giants in 2025?",
-      "correct_answer": "Russell Wilson",
-      "incorrect_answers": ["Daniel Jones", "Jameis Winston", "Tyrod Taylor"],
-      "difficulty": "medium"
+      "question": "Which player is known as 'The King' in basketball?",
+      "correct_answer": "LeBron James",
+      "incorrect_answers": ["Michael Jordan", "Kobe Bryant", "Stephen Curry"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which NFL team moved into a new stadium in 2025?",
-      "correct_answer": "Buffalo Bills",
-      "incorrect_answers": ["Las Vegas Raiders", "Miami Dolphins", "Cleveland Browns"],
-      "difficulty": "medium"
+      "question": "Which country has won the most FIFA World Cups?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": ["Germany", "Italy", "Argentina"],
+      "difficulty": "easy"
     },
     {
-      "question": "Who won Super Bowl LIX in 2025?",
-      "correct_answer": "San Francisco 49ers",
-      "incorrect_answers": ["Kansas City Chiefs", "Philadelphia Eagles", "Buffalo Bills"],
-      "difficulty": "medium"
+      "question": "Which baseball team is known for the 'Curse of the Bambino'?",
+      "correct_answer": "Boston Red Sox",
+      "incorrect_answers": ["New York Yankees", "Chicago White Sox", "Los Angeles Angels"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which coach won NFL Coach of the Year for the 2024–25 season?",
-      "correct_answer": "Dan Campbell",
-      "incorrect_answers": ["Kyle Shanahan", "Andy Reid", "Sean McVay"],
-      "difficulty": "medium"
+      "question": "What shape is a soccer ball?",
+      "correct_answer": "Sphere",
+      "incorrect_answers": ["Oval", "Cube", "Cylinder"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which player won the 2025 NFL MVP?",
-      "correct_answer": "Patrick Mahomes",
-      "incorrect_answers": ["Jalen Hurts", "Lamar Jackson", "Christian McCaffrey"],
-      "difficulty": "medium"
+      "question": "Which position usually scores goals in hockey?",
+      "correct_answer": "Forward",
+      "incorrect_answers": ["Goalie", "Defenseman", "Referee"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which city hosted the 2025 NFL Draft?",
-      "correct_answer": "Green Bay",
-      "incorrect_answers": ["Las Vegas", "Cleveland", "Chicago"],
-      "difficulty": "medium"
+      "question": "How many quarters are there in a basketball game?",
+      "correct_answer": "4",
+      "incorrect_answers": ["2", "3", "5"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which two players hinted at a reunion for the 2028 Olympics flag football event?",
-      "correct_answer": "Tyreek Hill and Patrick Mahomes",
-      "incorrect_answers": ["Tom Brady and Rob Gronkowski", "Aaron Rodgers and Davante Adams", "Russell Wilson and DK Metcalf"],
-      "difficulty": "medium"
+      "question": "Which NFL team has the most Super Bowl wins?",
+      "correct_answer": "Pittsburgh Steelers",
+      "incorrect_answers": ["Dallas Cowboys", "San Francisco 49ers", "Green Bay Packers"],
+      "difficulty": "easy"
     },
     {
-      "question": "Who was the first overall pick in the 2025 NFL Draft?",
-      "correct_answer": "Caleb Williams",
-      "incorrect_answers": ["Drake Maye", "Marvin Harrison Jr.", "Jayden Daniels"],
-      "difficulty": "medium"
+      "question": "What is the area called where a batter stands in baseball?",
+      "correct_answer": "Batter's box",
+      "incorrect_answers": ["Pitcher's mound", "Outfield", "Base path"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which team had the best regular season record in the 2024–25 NFL season?",
-      "correct_answer": "Baltimore Ravens",
-      "incorrect_answers": ["49ers", "Chiefs", "Lions"],
-      "difficulty": "medium"
-    },
-  
-    // Hockey
-    {
-      "question": "Which NHL player won MVP of the 2025 4 Nations Face-Off tournament?",
-      "correct_answer": "Nathan MacKinnon",
-      "incorrect_answers": ["Connor McDavid", "Auston Matthews", "Leon Draisaitl"],
-      "difficulty": "medium"
+      "question": "Which basketball player wore number 23 for the Bulls?",
+      "correct_answer": "Michael Jordan",
+      "incorrect_answers": ["Scottie Pippen", "LeBron James", "Dennis Rodman"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which country was runner-up in the 2025 IIHF World Championship?",
-      "correct_answer": "Switzerland",
-      "incorrect_answers": ["Canada", "Sweden", "Finland"],
-      "difficulty": "medium"
+      "question": "What is the name of the trophy awarded to the NHL champion?",
+      "correct_answer": "Stanley Cup",
+      "incorrect_answers": ["World Series", "Super Bowl", "NBA Finals Trophy"],
+      "difficulty": "easy"
     },
     {
-      "question": "Who won the Hart Trophy for MVP in the 2024–25 NHL season?",
-      "correct_answer": "Connor McDavid",
-      "incorrect_answers": ["Nathan MacKinnon", "David Pastrnak", "Sidney Crosby"],
-      "difficulty": "medium"
+      "question": "In soccer, what is it called when a player scores three goals in one game?",
+      "correct_answer": "Hat trick",
+      "incorrect_answers": ["Triple score", "Goal run", "Scoring spree"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which team won the 2025 Stanley Cup?",
-      "correct_answer": "Florida Panthers",
-      "incorrect_answers": ["Colorado Avalanche", "Toronto Maple Leafs", "Vegas Golden Knights"],
-      "difficulty": "medium"
+      "question": "Which MLB player is famous for hitting 762 career home runs?",
+      "correct_answer": "Barry Bonds",
+      "incorrect_answers": ["Babe Ruth", "Hank Aaron", "Alex Rodriguez"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which goalie won the Vezina Trophy in 2025?",
-      "correct_answer": "Igor Shesterkin",
-      "incorrect_answers": ["Juuse Saros", "Connor Hellebuyck", "Ilya Sorokin"],
-      "difficulty": "medium"
+      "question": "What is the name of the line where a hockey face-off takes place?",
+      "correct_answer": "Face-off circle",
+      "incorrect_answers": ["Goal line", "Center line", "Penalty box"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which OHL player is projected No. 1 in the 2025 NHL Draft?",
-      "correct_answer": "Michael Misa",
-      "incorrect_answers": ["Connor Bedard", "Shane Wright", "Adam Fantilli"],
-      "difficulty": "medium"
+      "question": "How many downs does an NFL team have to get 10 yards?",
+      "correct_answer": "4",
+      "incorrect_answers": ["3", "5", "6"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which team finished with the most points in the 2024–25 NHL regular season?",
-      "correct_answer": "Boston Bruins",
-      "incorrect_answers": ["Colorado Avalanche", "Florida Panthers", "Toronto Maple Leafs"],
-      "difficulty": "medium"
+      "question": "What is the maximum number of players allowed on a basketball court per team?",
+      "correct_answer": "5",
+      "incorrect_answers": ["6", "7", "4"],
+      "difficulty": "easy"
     },
     {
-      "question": "Who won the Art Ross Trophy in 2025?",
-      "correct_answer": "Connor McDavid",
-      "incorrect_answers": ["Nikita Kucherov", "David Pastrnak", "Leon Draisaitl"],
-      "difficulty": "medium"
+      "question": "Which country is Lionel Messi from?",
+      "correct_answer": "Argentina",
+      "incorrect_answers": ["Spain", "Brazil", "Portugal"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which defenseman won the Norris Trophy in 2025?",
-      "correct_answer": "Cale Makar",
-      "incorrect_answers": ["Adam Fox", "Roman Josi", "Victor Hedman"],
-      "difficulty": "medium"
+      "question": "Which sport is known for a 'home run'?",
+      "correct_answer": "Baseball",
+      "incorrect_answers": ["Soccer", "Basketball", "Football"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which country hosted the 2025 IIHF World Championship?",
-      "correct_answer": "Czech Republic",
-      "incorrect_answers": ["Finland", "Canada", "Germany"],
-      "difficulty": "medium"
-    },
-  
-    // Baseball
-    {
-      "question": "Which pitcher debuted for the Dodgers in the 2025 Tokyo Series?",
-      "correct_answer": "Roki Sasaki",
-      "incorrect_answers": ["Shohei Ohtani", "Yu Darvish", "Masahiro Tanaka"],
-      "difficulty": "medium"
+      "question": "In which sport do players use skates on ice?",
+      "correct_answer": "Hockey",
+      "incorrect_answers": ["Basketball", "Baseball", "Soccer"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which teams played the 2025 MLB Tokyo Series?",
-      "correct_answer": "Dodgers and Cubs",
-      "incorrect_answers": ["Yankees and Red Sox", "Astros and Rangers", "Giants and Mariners"],
-      "difficulty": "medium"
+      "question": "What is a football field also called?",
+      "correct_answer": "Gridiron",
+      "incorrect_answers": ["Pitch", "Court", "Track"],
+      "difficulty": "easy"
     },
     {
-      "question": "Which player won the 2025 AL MVP?",
-      "correct_answer": "Aaron Judge",
-      "incorrect_answers": ["Shohei Ohtani", "Julio Rodríguez", "Corey Seager"],
-      "difficulty": "medium"
+      "question": "Which athlete is known for wearing jersey number 7 in football?",
+      "correct_answer": "Tom Brady",
+      "incorrect_answers": ["Aaron Rodgers", "Joe Montana", "Lamar Jackson"],
+      "difficulty": "easy"
     },
     {
-      "question": "Who won the 2025 World Series?",
-      "correct_answer": "Texas Rangers",
-      "incorrect_answers": ["Atlanta Braves", "Houston Astros", "Los Angeles Dodgers"],
-      "difficulty": "medium"
-    },
-    {
-      "question": "Who led MLB in home runs in the 2025 season?",
-      "correct_answer": "Pete Alonso",
-      "incorrect_answers": ["Aaron Judge", "Shohei Ohtani", "Yordan Alvarez"],
-      "difficulty": "medium"
-    },
-    {
-      "question": "Who won the 2025 NL Cy Young Award?",
-      "correct_answer": "Spencer Strider",
-      "incorrect_answers": ["Zac Gallen", "Blake Snell", "Max Fried"],
-      "difficulty": "medium"
-    },
-    {
-      "question": "Which stadium hosted the 2025 MLB All-Star Game?",
-      "correct_answer": "Truist Park",
-      "incorrect_answers": ["Dodger Stadium", "Wrigley Field", "Fenway Park"],
-      "difficulty": "medium"
-    },
-    {
-      "question": "Who managed the National League All-Star team in 2025?",
-      "correct_answer": "Brian Snitker",
-      "incorrect_answers": ["Dave Roberts", "Dusty Baker", "Craig Counsell"],
-      "difficulty": "medium"
-    },
-    {
-      "question": "Which player hit for the cycle in April 2025?",
-      "correct_answer": "Elly De La Cruz",
-      "incorrect_answers": ["Ronald Acuña Jr.", "Mookie Betts", "Francisco Lindor"],
-      "difficulty": "medium"
-    },
-    {
-      "question": "Which team had the worst record in the 2025 MLB season?",
-      "correct_answer": "Oakland Athletics",
-      "incorrect_answers": ["Kansas City Royals", "Miami Marlins", "Colorado Rockies"],
-      "difficulty": "medium"
-    },
-  
-  {
-    question: "Which country won the FIFA World Cup in 2022?",
-    correct_answer: "Argentina",
-    incorrect_answers: ["France", "Brazil", "Portugal"],
-    difficulty: "medium"
-  },
-  {
-    question: "How many players are on a soccer team?",
-    correct_answer: "11",
-    incorrect_answers: ["10", "12", "9"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which team has won the most UEFA Champions League titles?",
-    correct_answer: "Real Madrid",
-    incorrect_answers: ["Barcelona", "Bayern Munich", "AC Milan"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who won the Ballon d'Or in 2023?",
-    correct_answer: "Lionel Messi",
-    incorrect_answers: ["Erling Haaland", "Kylian Mbappé", "Kevin De Bruyne"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which country hosted the 2018 FIFA World Cup?",
-    correct_answer: "Russia",
-    incorrect_answers: ["France", "Brazil", "Germany"],
-    difficulty: "medium"
-  },
-  // Basketball Questions
-  {
-    question: "Who won the NBA Championship in 2023?",
-    correct_answer: "Denver Nuggets",
-    incorrect_answers: ["Los Angeles Lakers", "Boston Celtics", "Miami Heat"],
-    difficulty: "medium"
-  },
-  {
-    question: "How many points is a three-pointer worth in basketball?",
-    correct_answer: "3",
-    incorrect_answers: ["2", "4", "1"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which team does LeBron James play for?",
-    correct_answer: "Los Angeles Lakers",
-    incorrect_answers: ["Boston Celtics", "Miami Heat", "Cleveland Cavaliers"],
-    difficulty: "easy"
-  },
-  {
-    question: "Who is the NBA's all-time leading scorer?",
-    correct_answer: "LeBron James",
-    incorrect_answers: ["Michael Jordan", "Kareem Abdul-Jabbar", "Kobe Bryant"],
-    difficulty: "medium"
-  },
-  {
-    question: "How many teams are in the NBA?",
-    correct_answer: "30",
-    incorrect_answers: ["28", "32", "26"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the exact height of a standard basketball hoop in feet?",
-    correct_answer: "10",
-    incorrect_answers: ["9.5", "10.5", "9.75"],
-    difficulty: "hard"
-  },
-  // Baseball Questions
-  {
-    question: "How many innings are in a standard baseball game?",
-    correct_answer: "9",
-    incorrect_answers: ["7", "8", "10"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which team won the World Series in 2023?",
-    correct_answer: "Texas Rangers",
-    incorrect_answers: ["Arizona Diamondbacks", "Houston Astros", "New York Yankees"],
-    difficulty: "medium"
-  },
-  {
-    question: "How many players are on a baseball field at once?",
-    correct_answer: "9",
-    incorrect_answers: ["10", "8", "11"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the distance between bases in Major League Baseball?",
-    correct_answer: "90 feet",
-    incorrect_answers: ["80 feet", "100 feet", "85 feet"],
-    difficulty: "hard"
-  },
-  {
-    question: "Who holds the MLB record for most home runs in a career?",
-    correct_answer: "Barry Bonds",
-    incorrect_answers: ["Babe Ruth", "Hank Aaron", "Alex Rodriguez"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact weight of a standard baseball in ounces?",
-    correct_answer: "5-5.25",
-    incorrect_answers: ["4.75-5", "5.25-5.5", "5.5-5.75"],
-    difficulty: "hard"
-  },
-  // Football Questions
-  {
-    question: "Which team won the Super Bowl in 2024?",
-    correct_answer: "Kansas City Chiefs",
-    incorrect_answers: ["San Francisco 49ers", "Baltimore Ravens", "Detroit Lions"],
-    difficulty: "medium"
-  },
-  {
-    question: "How many points is a touchdown worth in football?",
-    correct_answer: "6",
-    incorrect_answers: ["7", "5", "4"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which team does Patrick Mahomes play for?",
-    correct_answer: "Kansas City Chiefs",
-    incorrect_answers: ["San Francisco 49ers", "Baltimore Ravens", "Detroit Lions"],
-    difficulty: "easy"
-  },
-  {
-    question: "How many Super Bowl rings does Tom Brady have?",
-    correct_answer: "7",
-    incorrect_answers: ["6", "5", "8"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team has won the most Super Bowls?",
-    correct_answer: "New England Patriots",
-    incorrect_answers: ["Pittsburgh Steelers", "Dallas Cowboys", "San Francisco 49ers"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact length of a standard football field in yards?",
-    correct_answer: "120",
-    incorrect_answers: ["100", "110", "130"],
-    difficulty: "hard"
-  },
-  // Hockey Questions
-  {
-    question: "Which team won the Stanley Cup in 2023?",
-    correct_answer: "Vegas Golden Knights",
-    incorrect_answers: ["Florida Panthers", "Boston Bruins", "Toronto Maple Leafs"],
-    difficulty: "medium"
-  },
-  {
-    question: "How many players are on the ice for each team in hockey?",
-    correct_answer: "6",
-    incorrect_answers: ["5", "7", "8"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which player has won the most Stanley Cups?",
-    correct_answer: "Henri Richard",
-    incorrect_answers: ["Wayne Gretzky", "Mario Lemieux", "Gordie Howe"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the name of the NHL's most valuable player award?",
-    correct_answer: "Hart Memorial Trophy",
-    incorrect_answers: ["Vezina Trophy", "Art Ross Trophy", "Calder Trophy"],
-    difficulty: "medium"
-  },
-  {
-    question: "How many periods are in a standard NHL game?",
-    correct_answer: "3",
-    incorrect_answers: ["2", "4", "5"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the exact diameter of a hockey puck in inches?",
-    correct_answer: "3",
-    incorrect_answers: ["2.5", "3.5", "4"],
-    difficulty: "hard"
-  },
-  
-  // Additional Easy Questions
-  {
-    question: "Which country won the most FIFA World Cups?",
-    correct_answer: "Brazil",
-    incorrect_answers: ["Germany", "Italy", "Argentina"],
-    difficulty: "easy"
-  },
-  {
-    question: "How many players are on a basketball court for each team?",
-    correct_answer: "5",
-    incorrect_answers: ["6", "4", "7"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the main color of a standard basketball?",
-    correct_answer: "Orange",
-    incorrect_answers: ["Red", "Yellow", "Brown"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which sport uses a 'touchdown' as a scoring method?",
-    correct_answer: "Football",
-    incorrect_answers: ["Soccer", "Basketball", "Baseball"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the shape of a baseball field?",
-    correct_answer: "Diamond",
-    incorrect_answers: ["Circle", "Square", "Triangle"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which sport uses a 'goal' as a scoring method?",
-    correct_answer: "Soccer",
-    incorrect_answers: ["Basketball", "Baseball", "Football"],
-    difficulty: "easy"
-  },
-  {
-    question: "How many bases are there in baseball?",
-    correct_answer: "4",
-    incorrect_answers: ["3", "5", "6"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the main equipment used in hockey?",
-    correct_answer: "Stick",
-    incorrect_answers: ["Bat", "Racket", "Club"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which sport uses a 'home run' as a scoring method?",
-    correct_answer: "Baseball",
-    incorrect_answers: ["Football", "Basketball", "Soccer"],
-    difficulty: "easy"
-  },
-  // Additional Medium Questions
-  {
-    question: "Who is known as 'The King' in basketball?",
-    correct_answer: "LeBron James",
-    incorrect_answers: ["Michael Jordan", "Kobe Bryant", "Magic Johnson"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which country has won the most Olympic gold medals in basketball?",
-    correct_answer: "United States",
-    incorrect_answers: ["Russia", "Spain", "Argentina"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the name of the trophy awarded to the NHL champions?",
-    correct_answer: "Stanley Cup",
-    incorrect_answers: ["Larry O'Brien Trophy", "Vince Lombardi Trophy", "World Series Trophy"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team has won the most NBA championships?",
-    correct_answer: "Boston Celtics",
-    incorrect_answers: ["Los Angeles Lakers", "Chicago Bulls", "Golden State Warriors"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the name of the NFL's championship game?",
-    correct_answer: "Super Bowl",
-    incorrect_answers: ["World Series", "Stanley Cup Finals", "NBA Finals"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which country has won the most FIFA Women's World Cups?",
-    correct_answer: "United States",
-    incorrect_answers: ["Germany", "Norway", "Japan"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the name of the MLB's championship series?",
-    correct_answer: "World Series",
-    incorrect_answers: ["Super Bowl", "Stanley Cup Finals", "NBA Finals"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team has won the most Super Bowls?",
-    correct_answer: "New England Patriots",
-    incorrect_answers: ["Pittsburgh Steelers", "Dallas Cowboys", "San Francisco 49ers"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the name of the NBA's championship series?",
-    correct_answer: "NBA Finals",
-    incorrect_answers: ["World Series", "Super Bowl", "Stanley Cup Finals"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which country has won the most Olympic gold medals in soccer?",
-    correct_answer: "Hungary",
-    incorrect_answers: ["Brazil", "Argentina", "Germany"],
-    difficulty: "medium"
-  },
-  // Additional Hard Questions
-  {
-    question: "What is the exact weight of an NBA basketball in ounces?",
-    correct_answer: "22",
-    incorrect_answers: ["20", "24", "26"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact length of a standard soccer field in meters?",
-    correct_answer: "100-130",
-    incorrect_answers: ["90-120", "110-140", "80-110"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact diameter of a standard baseball in inches?",
-    correct_answer: "2.86-2.94",
-    incorrect_answers: ["2.76-2.84", "2.96-3.04", "2.66-2.74"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact height of a standard soccer goal in feet?",
-    correct_answer: "8",
-    incorrect_answers: ["7", "9", "10"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact weight of a standard football in ounces?",
-    correct_answer: "14-15",
-    incorrect_answers: ["13-14", "15-16", "12-13"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact length of a standard basketball court in feet?",
-    correct_answer: "94",
-    incorrect_answers: ["84", "104", "74"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact width of a standard hockey rink in feet?",
-    correct_answer: "85",
-    incorrect_answers: ["75", "95", "65"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact weight of a standard soccer ball in ounces?",
-    correct_answer: "14-16",
-    incorrect_answers: ["12-14", "16-18", "10-12"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact length of a standard baseball bat in inches?",
-    correct_answer: "42",
-    incorrect_answers: ["40", "44", "38"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact diameter of a standard basketball hoop in inches?",
-    correct_answer: "18",
-    incorrect_answers: ["16", "20", "22"],
-    difficulty: "hard"
-  },
-  // New Easy Questions
-  {
-    question: "What is the color of a standard soccer ball?",
-    correct_answer: "Black and White",
-    incorrect_answers: ["Red and Blue", "Green and Yellow", "Orange and Black"],
-    difficulty: "easy"
-  },
-  {
-    question: "How many quarters are in a standard basketball game?",
-    correct_answer: "4",
-    incorrect_answers: ["2", "3", "5"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the main piece of equipment used in football?",
-    correct_answer: "Football",
-    incorrect_answers: ["Ball", "Puck", "Bat"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which sport uses a 'penalty kick' as a scoring method?",
-    correct_answer: "Soccer",
-    incorrect_answers: ["Hockey", "Basketball", "Baseball"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the main surface of a hockey rink?",
-    correct_answer: "Ice",
-    incorrect_answers: ["Grass", "Wood", "Concrete"],
-    difficulty: "easy"
-  },
-  {
-    question: "How many players are on a soccer team?",
-    correct_answer: "11",
-    incorrect_answers: ["10", "12", "9"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the main piece of equipment used in baseball?",
-    correct_answer: "Bat",
-    incorrect_answers: ["Stick", "Racket", "Club"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which sport uses a 'three-pointer' as a scoring method?",
-    correct_answer: "Basketball",
-    incorrect_answers: ["Football", "Hockey", "Baseball"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the main surface of a basketball court?",
-    correct_answer: "Wood",
-    incorrect_answers: ["Grass", "Ice", "Dirt"],
-    difficulty: "easy"
-  },
-  {
-    question: "How many periods are in a standard hockey game?",
-    correct_answer: "3",
-    incorrect_answers: ["2", "4", "5"],
-    difficulty: "easy"
-  },
-  // New Medium Questions
-  {
-    question: "Which team has won the most NBA championships?",
-    correct_answer: "Boston Celtics",
-    incorrect_answers: ["Los Angeles Lakers", "Chicago Bulls", "Golden State Warriors"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who is the all-time leading scorer in NBA history?",
-    correct_answer: "LeBron James",
-    incorrect_answers: ["Michael Jordan", "Kareem Abdul-Jabbar", "Kobe Bryant"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which country has won the most Olympic gold medals in soccer?",
-    correct_answer: "Hungary",
-    incorrect_answers: ["Brazil", "Argentina", "Germany"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who holds the record for most goals scored in a single NHL season?",
-    correct_answer: "Wayne Gretzky",
-    incorrect_answers: ["Mario Lemieux", "Alex Ovechkin", "Sidney Crosby"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team has won the most World Series titles?",
-    correct_answer: "New York Yankees",
-    incorrect_answers: ["St. Louis Cardinals", "Boston Red Sox", "Los Angeles Dodgers"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who is the all-time leading scorer in NHL history?",
-    correct_answer: "Wayne Gretzky",
-    incorrect_answers: ["Jaromir Jagr", "Mark Messier", "Gordie Howe"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team has won the most UEFA Champions League titles?",
-    correct_answer: "Real Madrid",
-    incorrect_answers: ["Barcelona", "Bayern Munich", "AC Milan"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who holds the record for most touchdown passes in NFL history?",
-    correct_answer: "Tom Brady",
-    incorrect_answers: ["Peyton Manning", "Drew Brees", "Brett Favre"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which player has won the most NBA MVP awards?",
-    correct_answer: "Kareem Abdul-Jabbar",
-    incorrect_answers: ["Michael Jordan", "LeBron James", "Bill Russell"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who holds the record for most home runs in a single MLB season?",
-    correct_answer: "Barry Bonds",
-    incorrect_answers: ["Mark McGwire", "Sammy Sosa", "Babe Ruth"],
-    difficulty: "medium"
-  },
-  // New Hard Questions
-  {
-    question: "What is the exact weight of a standard NFL football in ounces?",
-    correct_answer: "14-15",
-    incorrect_answers: ["12-13", "15-16", "13-14"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact circumference of a standard NBA basketball in inches?",
-    correct_answer: "29.5",
-    incorrect_answers: ["28.5", "30.5", "27.5"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact length of a standard hockey stick in inches?",
-    correct_answer: "60-63",
-    incorrect_answers: ["58-60", "63-65", "55-58"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact pressure of a standard soccer ball in PSI?",
-    correct_answer: "8.5-15.6",
-    incorrect_answers: ["7.5-14.6", "9.5-16.6", "6.5-13.6"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact distance from home plate to the center field wall in Yankee Stadium?",
-    correct_answer: "408 feet",
-    incorrect_answers: ["400 feet", "415 feet", "420 feet"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact width of a standard NHL goal in feet?",
-    correct_answer: "6",
-    incorrect_answers: ["5.5", "6.5", "7"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact height of a standard NFL goal post in feet?",
-    correct_answer: "35",
-    incorrect_answers: ["30", "40", "45"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact weight of a standard NHL puck in ounces?",
-    correct_answer: "6",
-    incorrect_answers: ["5", "7", "8"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact diameter of a standard MLB baseball in inches?",
-    correct_answer: "2.86-2.94",
-    incorrect_answers: ["2.76-2.84", "2.96-3.04", "2.66-2.74"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact length of a standard FIFA soccer field in meters?",
-    correct_answer: "100-130",
-    incorrect_answers: ["90-120", "110-140", "80-110"],
-    difficulty: "hard"
-  },
-  // 2024-2025 Sports Questions
-  {
-    question: "Which team won Super Bowl LVIII in 2024?",
-    correct_answer: "Kansas City Chiefs",
-    incorrect_answers: ["San Francisco 49ers", "Baltimore Ravens", "Detroit Lions"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who won the 2024 NBA All-Star Game MVP?",
-    correct_answer: "Damian Lillard",
-    incorrect_answers: ["Giannis Antetokounmpo", "LeBron James", "Stephen Curry"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team won the 2024 NHL Winter Classic?",
-    correct_answer: "Seattle Kraken",
-    incorrect_answers: ["Vegas Golden Knights", "Boston Bruins", "Toronto Maple Leafs"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who won the 2024 Australian Open men's singles title?",
-    correct_answer: "Jannik Sinner",
-    incorrect_answers: ["Novak Djokovic", "Daniil Medvedev", "Carlos Alcaraz"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which country will host the 2025 FIFA Club World Cup?",
-    correct_answer: "United States",
-    incorrect_answers: ["Saudi Arabia", "Qatar", "Brazil"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team won the 2024 NBA In-Season Tournament?",
-    correct_answer: "Los Angeles Lakers",
-    incorrect_answers: ["Indiana Pacers", "Milwaukee Bucks", "Boston Celtics"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who won the 2024 NFL MVP award?",
-    correct_answer: "Lamar Jackson",
-    incorrect_answers: ["Patrick Mahomes", "Christian McCaffrey", "Josh Allen"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team won the 2024 NHL Stadium Series game?",
-    correct_answer: "New York Rangers",
-    incorrect_answers: ["New York Islanders", "New Jersey Devils", "Philadelphia Flyers"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who won the 2024 NBA Slam Dunk Contest?",
-    correct_answer: "Mac McClung",
-    incorrect_answers: ["Ja Morant", "Zion Williamson", "Anthony Edwards"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which country will host the 2025 Rugby World Cup?",
-    correct_answer: "Australia",
-    incorrect_answers: ["New Zealand", "South Africa", "England"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who won the 2024 NBA Three-Point Contest?",
-    correct_answer: "Damian Lillard",
-    incorrect_answers: ["Stephen Curry", "Buddy Hield", "Tyrese Haliburton"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team won the 2024 NHL All-Star Game?",
-    correct_answer: "Team Matthews",
-    incorrect_answers: ["Team McDavid", "Team MacKinnon", "Team Hughes"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who won the 2024 NFL Offensive Player of the Year?",
-    correct_answer: "Christian McCaffrey",
-    incorrect_answers: ["Tyreek Hill", "CeeDee Lamb", "Travis Kelce"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which country will host the 2025 Cricket World Cup?",
-    correct_answer: "India",
-    incorrect_answers: ["Australia", "England", "South Africa"],
-    difficulty: "medium"
-  },
-  // 2025 March Madness Questions
-  {
-    question: "Which city will host the 2025 NCAA Men's Basketball Final Four?",
-    correct_answer: "San Antonio",
-    incorrect_answers: ["Indianapolis", "Houston", "Dallas"],
-    difficulty: "medium"
-  },
-  {
-    question: "How many teams will participate in the 2025 NCAA Men's Basketball Tournament?",
-    correct_answer: "68",
-    incorrect_answers: ["64", "72", "76"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which conference will host the 2025 NCAA Men's Basketball Selection Sunday?",
-    correct_answer: "CBS",
-    incorrect_answers: ["ESPN", "FOX", "NBC"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the official name of the 2025 NCAA Men's Basketball Championship trophy?",
-    correct_answer: "The NCAA Championship Trophy",
-    incorrect_answers: ["The March Madness Trophy", "The Final Four Trophy", "The Basketball Championship Trophy"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which venue will host the 2025 NCAA Men's Basketball Championship game?",
-    correct_answer: "Alamodome",
-    incorrect_answers: ["AT&T Stadium", "NRG Stadium", "American Airlines Center"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the official start date of the 2025 NCAA Men's Basketball Tournament?",
-    correct_answer: "March 18, 2025",
-    incorrect_answers: ["March 15, 2025", "March 20, 2025", "March 16, 2025"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which network will broadcast the 2025 NCAA Men's Basketball Championship game?",
-    correct_answer: "CBS",
-    incorrect_answers: ["ESPN", "FOX", "NBC"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the official name of the 2025 NCAA Men's Basketball Tournament?",
-    correct_answer: "NCAA Division I Men's Basketball Tournament",
-    incorrect_answers: ["March Madness Championship", "NCAA Basketball Finals", "College Basketball Championship"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which city will host the 2025 NCAA Men's Basketball Selection Sunday?",
-    correct_answer: "New York City",
-    incorrect_answers: ["Indianapolis", "Chicago", "Los Angeles"],
-    difficulty: "medium"
-  },
-  // New Easy Questions (2024)
-  {
-    question: "Which team won the 2024 Super Bowl?",
-    correct_answer: "Kansas City Chiefs",
-    incorrect_answers: ["San Francisco 49ers", "Baltimore Ravens", "Detroit Lions"],
-    difficulty: "easy"
-  },
-  {
-    question: "Who won the 2024 NBA All-Star Game MVP?",
-    correct_answer: "Damian Lillard",
-    incorrect_answers: ["LeBron James", "Stephen Curry", "Giannis Antetokounmpo"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which team won the 2024 NHL Winter Classic?",
-    correct_answer: "Seattle Kraken",
-    incorrect_answers: ["Vegas Golden Knights", "Boston Bruins", "Toronto Maple Leafs"],
-    difficulty: "easy"
-  },
-  {
-    question: "Who won the 2024 Australian Open men's singles?",
-    correct_answer: "Jannik Sinner",
-    incorrect_answers: ["Novak Djokovic", "Daniil Medvedev", "Carlos Alcaraz"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which team won the 2024 NBA In-Season Tournament?",
-    correct_answer: "Los Angeles Lakers",
-    incorrect_answers: ["Indiana Pacers", "Milwaukee Bucks", "Boston Celtics"],
-    difficulty: "easy"
-  },
-  {
-    question: "Who won the 2024 NFL MVP?",
-    correct_answer: "Lamar Jackson",
-    incorrect_answers: ["Patrick Mahomes", "Christian McCaffrey", "Josh Allen"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which team won the 2024 NHL Stadium Series?",
-    correct_answer: "New York Rangers",
-    incorrect_answers: ["New York Islanders", "New Jersey Devils", "Philadelphia Flyers"],
-    difficulty: "easy"
-  },
-  {
-    question: "Who won the 2024 NBA Slam Dunk Contest?",
-    correct_answer: "Mac McClung",
-    incorrect_answers: ["Ja Morant", "Zion Williamson", "Anthony Edwards"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which country will host the 2025 FIFA Club World Cup?",
-    correct_answer: "United States",
-    incorrect_answers: ["Saudi Arabia", "Qatar", "Brazil"],
-    difficulty: "easy"
-  },
-  {
-    question: "Who won the 2024 NBA Three-Point Contest?",
-    correct_answer: "Damian Lillard",
-    incorrect_answers: ["Stephen Curry", "Buddy Hield", "Tyrese Haliburton"],
-    difficulty: "easy"
-  },
-  // New Medium Questions (2024-2025)
-  {
-    question: "Which player won the 2024 NFL Offensive Player of the Year?",
-    correct_answer: "Christian McCaffrey",
-    incorrect_answers: ["Tyreek Hill", "CeeDee Lamb", "Travis Kelce"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team won the 2024 NHL All-Star Game?",
-    correct_answer: "Team Matthews",
-    incorrect_answers: ["Team McDavid", "Team MacKinnon", "Team Hughes"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who won the 2024 NFL Defensive Player of the Year?",
-    correct_answer: "Myles Garrett",
-    incorrect_answers: ["Micah Parsons", "T.J. Watt", "Nick Bosa"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team won the 2024 NBA Rising Stars Challenge?",
-    correct_answer: "Team Jalen",
-    incorrect_answers: ["Team Pau", "Team Detlef", "Team Tamika"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who won the 2024 NFL Comeback Player of the Year?",
-    correct_answer: "Joe Flacco",
-    incorrect_answers: ["Damar Hamlin", "Baker Mayfield", "Tua Tagovailoa"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team won the 2024 NHL Stadium Series?",
-    correct_answer: "New York Rangers",
-    incorrect_answers: ["New York Islanders", "New Jersey Devils", "Philadelphia Flyers"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who won the 2024 NFL Offensive Rookie of the Year?",
-    correct_answer: "C.J. Stroud",
-    incorrect_answers: ["Puka Nacua", "Bijan Robinson", "Jahmyr Gibbs"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team won the 2024 NBA Skills Challenge?",
-    correct_answer: "Team Pacers",
-    incorrect_answers: ["Team All-Stars", "Team Top Picks", "Team Rising Stars"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who won the 2024 NFL Defensive Rookie of the Year?",
-    correct_answer: "Will Anderson Jr.",
-    incorrect_answers: ["Jalen Carter", "Devon Witherspoon", "Kobie Turner"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team won the 2024 NHL Winter Classic?",
-    correct_answer: "Seattle Kraken",
-    incorrect_answers: ["Vegas Golden Knights", "Boston Bruins", "Toronto Maple Leafs"],
-    difficulty: "medium"
-  },
-  // New Hard Questions (2024-2025)
-  {
-    question: "What was the exact attendance at Super Bowl LVIII in 2024?",
-    correct_answer: "61,629",
-    incorrect_answers: ["62,417", "60,742", "63,400"],
-    difficulty: "hard"
-  },
-  {
-    question: "What was the exact score of the 2024 NBA All-Star Game?",
-    correct_answer: "211-186",
-    incorrect_answers: ["205-178", "198-182", "215-190"],
-    difficulty: "hard"
-  },
-  {
-    question: "What was the exact temperature at the 2024 NHL Winter Classic?",
-    correct_answer: "32°F",
-    incorrect_answers: ["28°F", "35°F", "30°F"],
-    difficulty: "hard"
-  },
-  {
-    question: "What was the exact duration of the 2024 Australian Open men's final in minutes?",
-    correct_answer: "208",
-    incorrect_answers: ["195", "215", "225"],
-    difficulty: "hard"
-  },
-  {
-    question: "What was the exact attendance at the 2024 NBA In-Season Tournament final?",
-    correct_answer: "19,021",
-    incorrect_answers: ["18,997", "19,156", "18,842"],
-    difficulty: "hard"
-  },
-  {
-    question: "What was the exact number of votes received by the 2024 NFL MVP winner?",
-    correct_answer: "45",
-    incorrect_answers: ["42", "48", "39"],
-    difficulty: "hard"
-  },
-  {
-    question: "What was the exact attendance at the 2024 NHL Stadium Series game?",
-    correct_answer: "82,000",
-    incorrect_answers: ["79,690", "84,500", "81,200"],
-    difficulty: "hard"
-  },
-  {
-    question: "What was the exact score of the 2024 NBA Slam Dunk Contest final round?",
-    correct_answer: "98.8",
-    incorrect_answers: ["97.5", "99.2", "96.8"],
-    difficulty: "hard"
-  },
-  {
-    question: "What was the exact number of teams that will participate in the 2025 FIFA Club World Cup?",
-    correct_answer: "32",
-    incorrect_answers: ["24", "28", "36"],
-    difficulty: "hard"
-  },
-  {
-    question: "What was the exact score of the 2024 NBA Three-Point Contest final round?",
-    correct_answer: "26",
-    incorrect_answers: ["24", "28", "25"],
-    difficulty: "hard"
-  },
-  // New Easy Questions (2024)
-  {
-    question: "What is the main color of a standard soccer ball?",
-    correct_answer: "Black and White",
-    incorrect_answers: ["Red and Blue", "Green and Yellow", "Orange and Black"],
-    difficulty: "easy"
-  },
-  {
-    question: "How many quarters are in a standard basketball game?",
-    correct_answer: "4",
-    incorrect_answers: ["2", "3", "5"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the main piece of equipment used in baseball?",
-    correct_answer: "Bat",
-    incorrect_answers: ["Stick", "Racket", "Club"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which sport uses a 'field goal' as a scoring method?",
-    correct_answer: "Football",
-    incorrect_answers: ["Soccer", "Basketball", "Baseball"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the shape of a hockey rink?",
-    correct_answer: "Rectangle",
-    incorrect_answers: ["Circle", "Square", "Oval"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the main color of a standard football?",
-    correct_answer: "Brown",
-    incorrect_answers: ["White", "Black", "Orange"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which sport uses a 'free throw' as a scoring method?",
-    correct_answer: "Basketball",
-    incorrect_answers: ["Football", "Soccer", "Baseball"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the main piece of equipment used in hockey?",
-    correct_answer: "Stick",
-    incorrect_answers: ["Bat", "Racket", "Club"],
-    difficulty: "easy"
-  },
-  {
-    question: "How many bases are there in baseball?",
-    correct_answer: "4",
-    incorrect_answers: ["3", "5", "6"],
-    difficulty: "easy"
-  },
-  // New Medium Questions
-  {
-    question: "Which player has won the most NBA MVP awards?",
-    correct_answer: "Kareem Abdul-Jabbar",
-    incorrect_answers: ["Michael Jordan", "LeBron James", "Bill Russell"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the name of the soccer tournament held every four years in Europe?",
-    correct_answer: "UEFA European Championship",
-    incorrect_answers: ["Copa America", "African Cup of Nations", "Asian Cup"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which baseball team has won the most World Series titles?",
-    correct_answer: "New York Yankees",
-    incorrect_answers: ["Boston Red Sox", "St. Louis Cardinals", "Los Angeles Dodgers"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who holds the record for most goals scored in a single World Cup tournament?",
-    correct_answer: "Just Fontaine",
-    incorrect_answers: ["Pele", "Maradona", "Ronaldo"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which NBA team has won the most championships?",
-    correct_answer: "Boston Celtics",
-    incorrect_answers: ["Los Angeles Lakers", "Chicago Bulls", "Golden State Warriors"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the name of the NFL's most valuable player award?",
-    correct_answer: "Most Valuable Player Award",
-    incorrect_answers: ["Heisman Trophy", "Lombardi Trophy", "Walter Payton Award"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which hockey player has scored the most goals in NHL history?",
-    correct_answer: "Wayne Gretzky",
-    incorrect_answers: ["Gordie Howe", "Mario Lemieux", "Jaromir Jagr"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the name of the soccer tournament held every four years in South America?",
-    correct_answer: "Copa America",
-    incorrect_answers: ["UEFA European Championship", "African Cup of Nations", "Asian Cup"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which baseball player has won the most World Series rings?",
-    correct_answer: "Yogi Berra",
-    incorrect_answers: ["Babe Ruth", "Mickey Mantle", "Joe DiMaggio"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the name of the NBA's most valuable player award?",
-    correct_answer: "Maurice Podoloff Trophy",
-    incorrect_answers: ["Larry O'Brien Trophy", "Bill Russell Trophy", "Magic Johnson Trophy"],
-    difficulty: "medium"
-  },
-  // New Hard Questions
-  {
-    question: "What is the exact weight of a standard NFL football in ounces?",
-    correct_answer: "14-15",
-    incorrect_answers: ["12-13", "15-16", "13-14"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact circumference of a standard soccer ball in inches?",
-    correct_answer: "27-28",
-    incorrect_answers: ["25-26", "28-29", "26-27"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact height of a standard baseball mound in inches?",
-    correct_answer: "10",
-    incorrect_answers: ["8", "12", "9"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact width of a standard basketball court in feet?",
-    correct_answer: "50",
-    incorrect_answers: ["48", "52", "49"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact length of a standard hockey stick in inches?",
-    correct_answer: "60-63",
-    incorrect_answers: ["58-61", "62-65", "59-62"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact weight of a standard basketball in ounces?",
-    correct_answer: "20-22",
-    incorrect_answers: ["18-20", "22-24", "19-21"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact diameter of a standard baseball in inches?",
-    correct_answer: "2.86-2.94",
-    incorrect_answers: ["2.84-2.92", "2.88-2.96", "2.85-2.93"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact height of a standard soccer goal in feet?",
-    correct_answer: "8",
-    incorrect_answers: ["7", "9", "7.5"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact width of a standard football field in yards?",
-    correct_answer: "53.33",
-    incorrect_answers: ["52.33", "54.33", "51.33"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact thickness of a standard hockey puck in inches?",
-    correct_answer: "1",
-    incorrect_answers: ["0.75", "1.25", "0.875"],
-    difficulty: "hard"
-  },
-  // Additional Easy Questions
-  {
-    question: "What is the main surface of a basketball court?",
-    correct_answer: "Wood",
-    incorrect_answers: ["Grass", "Ice", "Dirt"],
-    difficulty: "easy"
-  },
-  {
-    question: "How many players are on a baseball field for each team?",
-    correct_answer: "9",
-    incorrect_answers: ["10", "8", "11"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which sport uses a 'penalty kick' as a scoring method?",
-    correct_answer: "Soccer",
-    incorrect_answers: ["Hockey", "Basketball", "Baseball"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the main surface of a hockey rink?",
-    correct_answer: "Ice",
-    incorrect_answers: ["Grass", "Wood", "Concrete"],
-    difficulty: "easy"
-  },
-  {
-    question: "How many periods are in a standard hockey game?",
-    correct_answer: "3",
-    incorrect_answers: ["2", "4", "5"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which sport uses a 'three-pointer' as a scoring method?",
-    correct_answer: "Basketball",
-    incorrect_answers: ["Football", "Hockey", "Baseball"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the main piece of equipment used in football?",
-    correct_answer: "Football",
-    incorrect_answers: ["Ball", "Puck", "Bat"],
-    difficulty: "easy"
-  },
-  {
-    question: "What is the main surface of a baseball field?",
-    correct_answer: "Grass",
-    incorrect_answers: ["Wood", "Ice", "Concrete"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which sport uses a 'power play' as a game situation?",
-    correct_answer: "Hockey",
-    incorrect_answers: ["Football", "Basketball", "Baseball"],
-    difficulty: "easy"
-  },
-  // Additional Medium Questions
-  {
-    question: "Who holds the record for most goals scored in a single NHL season?",
-    correct_answer: "Wayne Gretzky",
-    incorrect_answers: ["Mario Lemieux", "Alex Ovechkin", "Sidney Crosby"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team has won the most World Series titles?",
-    correct_answer: "New York Yankees",
-    incorrect_answers: ["St. Louis Cardinals", "Boston Red Sox", "Los Angeles Dodgers"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who is the all-time leading scorer in NHL history?",
-    correct_answer: "Wayne Gretzky",
-    incorrect_answers: ["Jaromir Jagr", "Mark Messier", "Gordie Howe"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team has won the most UEFA Champions League titles?",
-    correct_answer: "Real Madrid",
-    incorrect_answers: ["Barcelona", "Bayern Munich", "AC Milan"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who holds the record for most touchdown passes in NFL history?",
-    correct_answer: "Tom Brady",
-    incorrect_answers: ["Peyton Manning", "Drew Brees", "Brett Favre"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which player has won the most NBA MVP awards?",
-    correct_answer: "Kareem Abdul-Jabbar",
-    incorrect_answers: ["Michael Jordan", "LeBron James", "Bill Russell"],
-    difficulty: "medium"
-  },
-  {
-    question: "Who holds the record for most home runs in a single MLB season?",
-    correct_answer: "Barry Bonds",
-    incorrect_answers: ["Mark McGwire", "Sammy Sosa", "Babe Ruth"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which country has won the most Olympic gold medals in basketball?",
-    correct_answer: "United States",
-    incorrect_answers: ["Russia", "Spain", "Argentina"],
-    difficulty: "medium"
-  },
-  {
-    question: "What is the name of the trophy awarded to the NHL champions?",
-    correct_answer: "Stanley Cup",
-    incorrect_answers: ["Larry O'Brien Trophy", "Vince Lombardi Trophy", "World Series Trophy"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team has won the most NBA championships?",
-    correct_answer: "Boston Celtics",
-    incorrect_answers: ["Los Angeles Lakers", "Chicago Bulls", "Golden State Warriors"],
-    difficulty: "medium"
-  },
-  // Additional Hard Questions
-  {
-    question: "What is the exact circumference of a standard NBA basketball in inches?",
-    correct_answer: "29.5",
-    incorrect_answers: ["28.5", "30.5", "27.5"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact pressure of a standard soccer ball in PSI?",
-    correct_answer: "8.5-15.6",
-    incorrect_answers: ["7.5-14.6", "9.5-16.6", "6.5-13.6"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact distance from home plate to the center field wall in Yankee Stadium?",
-    correct_answer: "408 feet",
-    incorrect_answers: ["400 feet", "415 feet", "420 feet"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact width of a standard NHL goal in feet?",
-    correct_answer: "6",
-    incorrect_answers: ["5.5", "6.5", "7"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact height of a standard NFL goal post in feet?",
-    correct_answer: "35",
-    incorrect_answers: ["30", "40", "45"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact weight of a standard NHL puck in ounces?",
-    correct_answer: "6",
-    incorrect_answers: ["5", "7", "8"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact diameter of a standard MLB baseball in inches?",
-    correct_answer: "2.86-2.94",
-    incorrect_answers: ["2.76-2.84", "2.96-3.04", "2.66-2.74"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact length of a standard FIFA soccer field in meters?",
-    correct_answer: "100-130",
-    incorrect_answers: ["90-120", "110-140", "80-110"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact height of a standard basketball hoop in feet?",
-    correct_answer: "10",
-    incorrect_answers: ["9.5", "10.5", "9.75"],
-    difficulty: "hard"
-  },
-  {
-    question: "What is the exact distance between bases in Major League Baseball?",
-    correct_answer: "90 feet",
-    incorrect_answers: ["80 feet", "100 feet", "85 feet"],
-    difficulty: "hard"
-  },
-  // 2025-2026 Future Events Questions
-  {
-    question: "Which team was disqualified from the 2025 FIFA Club World Cup due to ownership rule breaches?",
-    correct_answer: "Club León",
-    incorrect_answers: ["Al Hilal", "Monterrey", "Tigres UANL"],
-    difficulty: "hard"
-  },
-  {
-    question: "Which country made its first-ever semifinal appearance in the 2025 IIHF World Championship?",
-    correct_answer: "Denmark",
-    incorrect_answers: ["Latvia", "Germany", "Slovakia"],
-    difficulty: "hard"
-  },
-  {
-    question: "Which NHL player was the scoring leader in the 2025 IIHF World Championship?",
-    correct_answer: "David Pastrňák",
-    incorrect_answers: ["Connor McDavid", "Patrick Kane", "Leon Draisaitl"],
-    difficulty: "hard"
-  },
-  {
-    question: "Which goalkeeper was named MVP of the 2025 IIHF World Championship?",
-    correct_answer: "Leonardo Genoni",
-    incorrect_answers: ["John Gibson", "Henrik Lundqvist", "Carey Price"],
-    difficulty: "hard"
-  },
-  {
-    question: "Which country hosted the 2025 UEFA Women's Euro tournament?",
-    correct_answer: "Switzerland",
-    incorrect_answers: ["Germany", "England", "France"],
-    difficulty: "hard"
-  },
-  {
-    question: "Which city hosted the 2025 Canada Summer Games?",
-    correct_answer: "St. John's, Newfoundland and Labrador",
-    incorrect_answers: ["Toronto", "Vancouver", "Calgary"],
-    difficulty: "hard"
-  },
-  {
-    question: "Which stadium hosted the opening match of the 2025 CONCACAF Gold Cup?",
-    correct_answer: "SoFi Stadium",
-    incorrect_answers: ["NRG Stadium", "MetLife Stadium", "Rose Bowl"],
-    difficulty: "hard"
-  },
-  {
-    question: "Which team did Nebraska face in the first round of the 2025 NCAA baseball tournament?",
-    correct_answer: "Oklahoma",
-    incorrect_answers: ["Texas", "Arkansas", "LSU"],
-    difficulty: "hard"
-  },
-  {
-    question: "Which two countries co-hosted the 2025 IIHF World Championship?",
-    correct_answer: "Sweden and Denmark",
-    incorrect_answers: ["Finland and Norway", "Germany and Austria", "Czech Republic and Slovakia"],
-    difficulty: "hard"
-  },
-  {
-    question: "Which NHL team is set to host the 2026 Winter Classic at LoanDepot Park?",
-    correct_answer: "Florida Panthers",
-    incorrect_answers: ["Tampa Bay Lightning", "Dallas Stars", "Arizona Coyotes"],
-    difficulty: "hard"
-  },
-  // 2025 Future Events and Announcements Questions
-  {
-    question: "Which goalkeeper announced her international retirement ahead of UEFA Euro 2025?",
-    correct_answer: "Mary Earps",
-    incorrect_answers: ["Hope Solo", "Karen Bardsley", "Sari van Veenendaal"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which Kansas City Chiefs tight end confirmed his return for at least one more NFL season in 2025?",
-    correct_answer: "Travis Kelce",
-    incorrect_answers: ["George Kittle", "Zach Ertz", "Rob Gronkowski"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which two NFL stars hinted at a potential reunion for the 2028 Olympics?",
-    correct_answer: "Tyreek Hill and Patrick Mahomes",
-    incorrect_answers: ["Tom Brady and Rob Gronkowski", "Aaron Rodgers and Davante Adams", "Russell Wilson and DK Metcalf"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which Ontario Hockey League (OHL) player is projected as the likely No. 1 overall pick in the 2025 NHL Draft?",
-    correct_answer: "Michael Misa",
-    incorrect_answers: ["Connor Bedard", "Shane Wright", "Adam Fantilli"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which country is the two-time defending champion entering the 2025 FIBA AfroBasket?",
-    correct_answer: "Tunisia",
-    incorrect_answers: ["Nigeria", "Angola", "Senegal"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which stadium is set to host the final of the 2025 FIFA Club World Cup?",
-    correct_answer: "MetLife Stadium",
-    incorrect_answers: ["Wembley Stadium", "Maracanã Stadium", "Camp Nou"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which NHL player was named MVP of the 2025 4 Nations Face-Off tournament?",
-    correct_answer: "Nathan MacKinnon",
-    incorrect_answers: ["Connor McDavid", "Auston Matthews", "Leon Draisaitl"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which country was the runner-up in the 2025 IIHF World Championship?",
-    correct_answer: "Switzerland",
-    incorrect_answers: ["Canada", "Sweden", "Finland"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which team did Newcastle United defeat in the 2025 EFL Cup Final?",
-    correct_answer: "Liverpool",
-    incorrect_answers: ["Manchester United", "Chelsea", "Arsenal"],
-    difficulty: "medium"
-  },
-  {
-    question: "Which WNBA player launched her custom Nike shoe line in 2025?",
-    correct_answer: "A'ja Wilson",
-    incorrect_answers: ["Breanna Stewart", "Candace Parker", "Elena Delle Donne"],
-    difficulty: "medium"
-  },
-  // 2025 Easy Questions
-  {
-    question: "Which team won the 2025 EFL Cup Final, securing their first domestic trophy since 1955?",
-    correct_answer: "Newcastle United",
-    incorrect_answers: ["Liverpool", "Manchester City", "Chelsea"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which country hosted the 2025 IIHF World Championship?",
-    correct_answer: "Sweden and Denmark",
-    incorrect_answers: ["Canada", "USA", "Finland"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which MLB teams participated in the 2025 Tokyo Series?",
-    correct_answer: "Los Angeles Dodgers and Chicago Cubs",
-    incorrect_answers: ["New York Yankees and Boston Red Sox", "San Francisco Giants and Seattle Mariners", "Houston Astros and Texas Rangers"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which country is set to host the 2025 FIBA AfroBasket tournament?",
-    correct_answer: "Angola",
-    incorrect_answers: ["Nigeria", "Egypt", "South Africa"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which NFL quarterback is expected to start for the New York Giants in the 2025 season?",
-    correct_answer: "Russell Wilson",
-    incorrect_answers: ["Daniel Jones", "Jaxson Dart", "Eli Manning"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which country won the 2025 SheBelieves Cup, marking their first title in the tournament?",
-    correct_answer: "Japan",
-    incorrect_answers: ["USA", "England", "Canada"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which NHL team won the 2025 IIHF World Championship?",
-    correct_answer: "United States",
-    incorrect_answers: ["Canada", "Sweden", "Russia"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which WNBA team debuted in the 2025 season?",
-    correct_answer: "Golden State Valkyries",
-    incorrect_answers: ["Las Vegas Aces", "New York Liberty", "Chicago Sky"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which MLB pitcher made his debut with the Dodgers during the 2025 Tokyo Series?",
-    correct_answer: "Roki Sasaki",
-    incorrect_answers: ["Shohei Ohtani", "Yu Darvish", "Masahiro Tanaka"],
-    difficulty: "easy"
-  },
-  {
-    question: "Which country won the 2025 IIHF World Championship, securing their first gold since 1960?",
-    correct_answer: "United States",
-    incorrect_answers: ["Canada", "Switzerland", "Sweden"],
-    difficulty: "easy"
-  }
+      "question": "What is used to hit a baseball?",
+      "correct_answer": "Bat",
+      "incorrect_answers": ["Stick", "Club", "Paddle"],
+      "difficulty": "easy"
+    }  
 ];
 
 // Helper function to get random questions by difficulty
