@@ -756,6 +756,186 @@ const questions = [
           "difficulty": "hard"
         },
         {
+          "question": "Who was the first player in NBA history to record a 60-point triple-double?",
+          "correct_answer": "Luka Dončić",
+          "incorrect_answers": ["James Harden", "Russell Westbrook", "Kobe Bryant"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NFL player has the most career sacks since the stat became official in 1982?",
+          "correct_answer": "Bruce Smith",
+          "incorrect_answers": ["Reggie White", "Kevin Greene", "Michael Strahan"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which country won the first ever FIFA World Cup in 1930?",
+          "correct_answer": "Uruguay",
+          "incorrect_answers": ["Brazil", "Germany", "Argentina"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who is the only MLB player to have a 40–40 season (40 HRs and 40 stolen bases) twice?",
+          "correct_answer": "Nobody",
+          "incorrect_answers": ["Barry Bonds", "Alex Rodriguez", "Jose Canseco"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which hockey player holds the record for most career points in the Stanley Cup Playoffs?",
+          "correct_answer": "Wayne Gretzky",
+          "incorrect_answers": ["Mark Messier", "Jaromir Jagr", "Sidney Crosby"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who was the first soccer player to win 5 Ballon d'Or awards?",
+          "correct_answer": "Lionel Messi",
+          "incorrect_answers": ["Cristiano Ronaldo", "Michel Platini", "Zinedine Zidane"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which pitcher holds the record for most career no-hitters in MLB?",
+          "correct_answer": "Nolan Ryan",
+          "incorrect_answers": ["Sandy Koufax", "Randy Johnson", "Roger Clemens"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NBA player has the most career triple-doubles?",
+          "correct_answer": "Russell Westbrook",
+          "incorrect_answers": ["Oscar Robertson", "LeBron James", "Magic Johnson"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who was the youngest NHL player to reach 1,000 career points?",
+          "correct_answer": "Wayne Gretzky",
+          "incorrect_answers": ["Mario Lemieux", "Sidney Crosby", "Connor McDavid"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which national soccer team has appeared in the most FIFA World Cup finals?",
+          "correct_answer": "Germany",
+          "incorrect_answers": ["Brazil", "Italy", "Argentina"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who was the first player in NFL history to rush for over 2,000 yards in a single season?",
+          "correct_answer": "O.J. Simpson",
+          "incorrect_answers": ["Eric Dickerson", "Barry Sanders", "Adrian Peterson"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which MLB team lost the most games in a single season?",
+          "correct_answer": "New York Mets (1962)",
+          "incorrect_answers": ["Detroit Tigers (2003)", "Philadelphia Phillies (1941)", "Baltimore Orioles (2018)"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NBA player had the longest suspension for an on-court incident?",
+          "correct_answer": "Ron Artest",
+          "incorrect_answers": ["Draymond Green", "Dennis Rodman", "Latrell Sprewell"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which football team was the first to win six Super Bowls?",
+          "correct_answer": "Pittsburgh Steelers",
+          "incorrect_answers": ["New England Patriots", "San Francisco 49ers", "Dallas Cowboys"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which soccer club has the most UEFA Champions League titles?",
+          "correct_answer": "Real Madrid",
+          "incorrect_answers": ["AC Milan", "Liverpool", "Barcelona"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NHL goalie has the most wins in league history?",
+          "correct_answer": "Martin Brodeur",
+          "incorrect_answers": ["Patrick Roy", "Marc-André Fleury", "Dominik Hasek"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which player won the NBA Defensive Player of the Year award 4 times?",
+          "correct_answer": "Ben Wallace",
+          "incorrect_answers": ["Dennis Rodman", "Dwight Howard", "Dikembe Mutombo"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who is the only MLB player to hit a walk-off home run to win Game 7 of a World Series?",
+          "correct_answer": "Bill Mazeroski",
+          "incorrect_answers": ["Joe Carter", "Kirk Gibson", "Reggie Jackson"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which country has won the most Olympic gold medals in hockey?",
+          "correct_answer": "Canada",
+          "incorrect_answers": ["Soviet Union", "USA", "Sweden"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NBA player averaged a triple-double for a full season more than once?",
+          "correct_answer": "Russell Westbrook",
+          "incorrect_answers": ["Oscar Robertson", "Nikola Jokic", "James Harden"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NFL team had a perfect season including the playoffs?",
+          "correct_answer": "Miami Dolphins (1972)",
+          "incorrect_answers": ["New England Patriots (2007)", "Pittsburgh Steelers (1978)", "San Francisco 49ers (1984)"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who was the first African-American head coach to win a Super Bowl?",
+          "correct_answer": "Tony Dungy",
+          "incorrect_answers": ["Lovie Smith", "Herm Edwards", "Dennis Green"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which soccer player has the most goals in a single UEFA Champions League season?",
+          "correct_answer": "Cristiano Ronaldo",
+          "incorrect_answers": ["Lionel Messi", "Robert Lewandowski", "Karim Benzema"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which MLB team was the first to integrate with a Black player?",
+          "correct_answer": "Brooklyn Dodgers",
+          "incorrect_answers": ["New York Yankees", "Boston Red Sox", "Chicago Cubs"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which goalie won the most Vezina Trophies in NHL history?",
+          "correct_answer": "Jacques Plante",
+          "incorrect_answers": ["Patrick Roy", "Dominik Hasek", "Martin Brodeur"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who is the only NBA player to win MVP, Finals MVP, and All-Star MVP in the same season?",
+          "correct_answer": "Michael Jordan",
+          "incorrect_answers": ["Shaquille O'Neal", "LeBron James", "Stephen Curry"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NFL player won the most Super Bowl MVP awards?",
+          "correct_answer": "Tom Brady",
+          "incorrect_answers": ["Joe Montana", "Terry Bradshaw", "Roger Staubach"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which MLB team was the last to win their first World Series?",
+          "correct_answer": "Texas Rangers",
+          "incorrect_answers": ["Arizona Diamondbacks", "San Diego Padres", "Seattle Mariners"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which country hosted the first ever Olympic hockey tournament?",
+          "correct_answer": "Belgium",
+          "incorrect_answers": ["Canada", "Switzerland", "USA"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which football player had the longest touchdown run in Super Bowl history?",
+          "correct_answer": "Willie Parker",
+          "incorrect_answers": ["Terrell Davis", "Emmitt Smith", "James White"],
+          "difficulty": "hard"
+        },    
+        {
           "question": "Which country was the first to win the FIFA World Cup twice?",
           "correct_answer": "Italy",
           "incorrect_answers": ["Brazil", "Germany", "Uruguay"],
