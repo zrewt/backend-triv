@@ -374,7 +374,187 @@ const questions = [
         "correct_answer": "Seattle SuperSonics",
         "incorrect_answers": ["Utah Jazz", "Houston Rockets", "Portland Trail Blazers"],
         "difficulty": "medium"
-      }
+      },
+        {
+          "question": "Who was the first player in NBA history to record a triple-double without missing a shot or free throw?",
+          "correct_answer": "Nikola Jokic",
+          "incorrect_answers": ["Wilt Chamberlain", "LeBron James", "Chris Paul"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which country was the first to win the FIFA World Cup twice?",
+          "correct_answer": "Italy",
+          "incorrect_answers": ["Brazil", "Germany", "Uruguay"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who holds the record for most stolen bases in a single MLB season?",
+          "correct_answer": "Rickey Henderson",
+          "incorrect_answers": ["Lou Brock", "Vince Coleman", "Ty Cobb"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NHL goalie has the most career wins in the regular season?",
+          "correct_answer": "Martin Brodeur",
+          "incorrect_answers": ["Patrick Roy", "Marc-André Fleury", "Dominik Hasek"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NFL team was the first to go a full regular season undefeated and win the Super Bowl?",
+          "correct_answer": "Miami Dolphins",
+          "incorrect_answers": ["New England Patriots", "San Francisco 49ers", "Dallas Cowboys"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "What team did Lionel Messi score his first professional goal against?",
+          "correct_answer": "Albacete",
+          "incorrect_answers": ["Getafe", "Real Madrid", "Espanyol"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who was the first NBA player to score 70 points in a game in the 21st century?",
+          "correct_answer": "Devin Booker",
+          "incorrect_answers": ["Kobe Bryant", "Stephen Curry", "Kevin Durant"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which MLB team did Nolan Ryan throw his 7th no-hitter against?",
+          "correct_answer": "Toronto Blue Jays",
+          "incorrect_answers": ["Baltimore Orioles", "Boston Red Sox", "Detroit Tigers"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which player scored the fastest hat trick in Premier League history?",
+          "correct_answer": "Sadio Mané",
+          "incorrect_answers": ["Cristiano Ronaldo", "Thierry Henry", "Mohamed Salah"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which hockey team won the first Stanley Cup in 1917?",
+          "correct_answer": "Seattle Metropolitans",
+          "incorrect_answers": ["Toronto Arenas", "Montreal Canadiens", "Ottawa Senators"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "What year was the NBA founded?",
+          "correct_answer": "1946",
+          "incorrect_answers": ["1949", "1950", "1939"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who was the first overall pick in the 1984 NBA Draft?",
+          "correct_answer": "Hakeem Olajuwon",
+          "incorrect_answers": ["Michael Jordan", "Charles Barkley", "Sam Bowie"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NFL player holds the record for most career fumbles?",
+          "correct_answer": "Brett Favre",
+          "incorrect_answers": ["Eli Manning", "Tony Romo", "Michael Vick"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which baseball stadium has the deepest center field in MLB history?",
+          "correct_answer": "Polo Grounds",
+          "incorrect_answers": ["Yankee Stadium", "Fenway Park", "Tiger Stadium"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who was the top scorer of the 2014 FIFA World Cup?",
+          "correct_answer": "James Rodríguez",
+          "incorrect_answers": ["Lionel Messi", "Thomas Müller", "Neymar"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NHL player holds the record for most goals in a single season?",
+          "correct_answer": "Wayne Gretzky",
+          "incorrect_answers": ["Brett Hull", "Mario Lemieux", "Alex Ovechkin"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who was the first African American coach to win a Super Bowl?",
+          "correct_answer": "Tony Dungy",
+          "incorrect_answers": ["Mike Tomlin", "Dennis Green", "Lovie Smith"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which club won the UEFA Champions League in 2004?",
+          "correct_answer": "Porto",
+          "incorrect_answers": ["AC Milan", "Real Madrid", "Chelsea"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "What baseball player was nicknamed 'The Say Hey Kid'?",
+          "correct_answer": "Willie Mays",
+          "incorrect_answers": ["Hank Aaron", "Jackie Robinson", "Joe DiMaggio"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NHL player scored the most goals in a single playoff run?",
+          "correct_answer": "Reggie Leach",
+          "incorrect_answers": ["Wayne Gretzky", "Mario Lemieux", "Jaromir Jagr"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which soccer team has the most UEFA Europa League titles?",
+          "correct_answer": "Sevilla FC",
+          "incorrect_answers": ["Inter Milan", "Liverpool", "Juventus"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who is the only player to win NBA MVP, Coach of the Year, and Executive of the Year?",
+          "correct_answer": "Larry Bird",
+          "incorrect_answers": ["Phil Jackson", "Pat Riley", "Michael Jordan"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who was the first player to reach 600 home runs in MLB history?",
+          "correct_answer": "Babe Ruth",
+          "incorrect_answers": ["Hank Aaron", "Willie Mays", "Barry Bonds"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which team did the USA beat in the 'Miracle on Ice' in the 1980 Winter Olympics?",
+          "correct_answer": "Soviet Union",
+          "incorrect_answers": ["Canada", "Sweden", "Czechoslovakia"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who is the only player in NBA history to average a triple-double in four different seasons?",
+          "correct_answer": "Russell Westbrook",
+          "incorrect_answers": ["Oscar Robertson", "Magic Johnson", "Jason Kidd"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which team did Cristiano Ronaldo debut against in the Premier League?",
+          "correct_answer": "Bolton Wanderers",
+          "incorrect_answers": ["Chelsea", "Arsenal", "Leeds United"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who was the first designated hitter in MLB history?",
+          "correct_answer": "Ron Blomberg",
+          "incorrect_answers": ["David Ortiz", "Reggie Jackson", "Harold Baines"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who holds the record for most receiving yards in a single NFL season?",
+          "correct_answer": "Calvin Johnson",
+          "incorrect_answers": ["Jerry Rice", "Cooper Kupp", "Randy Moss"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which goalkeeper has the most clean sheets in Premier League history?",
+          "correct_answer": "Petr Čech",
+          "incorrect_answers": ["David de Gea", "Edwin van der Sar", "Alisson Becker"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which baseball team was the last to integrate African American players?",
+          "correct_answer": "Boston Red Sox",
+          "incorrect_answers": ["Philadelphia Phillies", "St. Louis Cardinals", "New York Yankees"],
+          "difficulty": "hard"
+        }      
     
 ];
 
