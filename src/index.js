@@ -93,7 +93,7 @@ const questions = [
       "sport": "football"
     },
     {
-      "question": "What is it called when a player drops the ball after having possession?",
+      "question": "What is it called when a player drops the ball after having possession in football?",
       "correct_answer": "Fumble",
       "incorrect_answers": ["Interception", "Sack", "Punt"],
       "difficulty": "easy",
