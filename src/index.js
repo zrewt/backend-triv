@@ -1108,7 +1108,187 @@ const questions = [
           "correct_answer": "Boston Red Sox",
           "incorrect_answers": ["Philadelphia Phillies", "St. Louis Cardinals", "New York Yankees"],
           "difficulty": "hard"
-        }      
+        },
+        {
+          "question": "Who is the only MLB player to hit two grand slams in a single inning?",
+          "correct_answer": "Fernando Tatis",
+          "incorrect_answers": ["Alex Rodriguez", "Albert Belle", "Albert Pujols"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which MLB player holds the record for the most career triples?",
+          "correct_answer": "Sam Crawford",
+          "incorrect_answers": ["Honus Wagner", "Ty Cobb", "Lou Brock"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NFL team has their logo located on only one side of their helmets?",
+          "correct_answer": "Pittsburgh Steelers",
+          "incorrect_answers": ["Dallas Cowboys", "New England Patriots", "Green Bay Packers"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which team in the 1980s won the Super Bowl by the biggest margin?",
+          "correct_answer": "Chicago Bears",
+          "incorrect_answers": ["San Francisco 49ers", "Washington Redskins", "New York Giants"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Where did Maurice Greene set his 9.79 seconds for the 100m in 1999?",
+          "correct_answer": "Athens",
+          "incorrect_answers": ["Sydney", "Seoul", "Rome"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who kicked a record-breaking punt of 98 yards against the Denver Broncos in 1969?",
+          "correct_answer": "Steve O'Neal",
+          "incorrect_answers": ["Ray Guy", "Shane Lechler", "Sam Koch"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which American was the youngest Olympic medalist when she won in Helsinki in 1952?",
+          "correct_answer": "Barbara Jones",
+          "incorrect_answers": ["Wilma Rudolph", "Mary Lou Retton", "Nadia Comăneci"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who was Jermaine O'Neal playing against when he made his NBA debut in 1996?",
+          "correct_answer": "Denver Nuggets",
+          "incorrect_answers": ["Chicago Bulls", "Los Angeles Lakers", "New York Knicks"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who won baseball's first World Series of the 1950s?",
+          "correct_answer": "New York Yankees",
+          "incorrect_answers": ["Brooklyn Dodgers", "Cleveland Indians", "Philadelphia Phillies"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who was the first athlete to play in both a Super Bowl and a World Series?",
+          "correct_answer": "Deion Sanders",
+          "incorrect_answers": ["Bo Jackson", "Brian Jordan", "Drew Henson"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which sport was the first to be televised live?",
+          "correct_answer": "Baseball",
+          "incorrect_answers": ["Boxing", "Football", "Tennis"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which MLB player holds the record for the most career home runs in a single season?",
+          "correct_answer": "Barry Bonds",
+          "incorrect_answers": ["Mark McGwire", "Sammy Sosa", "Babe Ruth"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which soccer club has the most UEFA Champions League titles?",
+          "correct_answer": "Real Madrid",
+          "incorrect_answers": ["AC Milan", "Liverpool", "Barcelona"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NHL goalie has the most wins in league history?",
+          "correct_answer": "Martin Brodeur",
+          "incorrect_answers": ["Patrick Roy", "Marc-André Fleury", "Dominik Hasek"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NBA player won Defensive Player of the Year four times?",
+          "correct_answer": "Ben Wallace",
+          "incorrect_answers": ["Dennis Rodman", "Dwight Howard", "Dikembe Mutombo"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who is the only MLB player to hit a walk-off home run to win Game 7 of a World Series?",
+          "correct_answer": "Bill Mazeroski",
+          "incorrect_answers": ["Joe Carter", "Kirk Gibson", "Reggie Jackson"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which country has won the most Olympic gold medals in ice hockey?",
+          "correct_answer": "Canada",
+          "incorrect_answers": ["Soviet Union", "USA", "Sweden"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NBA player averaged a triple-double for a full season more than once?",
+          "correct_answer": "Russell Westbrook",
+          "incorrect_answers": ["Oscar Robertson", "Nikola Jokic", "James Harden"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NFL team had a perfect season including the playoffs?",
+          "correct_answer": "Miami Dolphins (1972)",
+          "incorrect_answers": ["New England Patriots (2007)", "Pittsburgh Steelers (1978)", "San Francisco 49ers (1984)"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who was the first African-American head coach to win a Super Bowl?",
+          "correct_answer": "Tony Dungy",
+          "incorrect_answers": ["Lovie Smith", "Herm Edwards", "Dennis Green"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which soccer player has the most goals in a single UEFA Champions League season?",
+          "correct_answer": "Cristiano Ronaldo",
+          "incorrect_answers": ["Lionel Messi", "Robert Lewandowski", "Karim Benzema"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which MLB team was the first to integrate with a Black player?",
+          "correct_answer": "Brooklyn Dodgers",
+          "incorrect_answers": ["New York Yankees", "Boston Red Sox", "Chicago Cubs"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which goalie won the most Vezina Trophies in NHL history?",
+          "correct_answer": "Jacques Plante",
+          "incorrect_answers": ["Patrick Roy", "Dominik Hasek", "Martin Brodeur"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Who is the only NBA player to win MVP, Finals MVP, and All-Star MVP in the same season?",
+          "correct_answer": "Michael Jordan",
+          "incorrect_answers": ["Shaquille O'Neal", "LeBron James", "Stephen Curry"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NFL player won the most Super Bowl MVP awards?",
+          "correct_answer": "Tom Brady",
+          "incorrect_answers": ["Joe Montana", "Terry Bradshaw", "Roger Staubach"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which MLB team was the last to win their first World Series?",
+          "correct_answer": "Texas Rangers",
+          "incorrect_answers": ["Arizona Diamondbacks", "San Diego Padres", "Seattle Mariners"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which country hosted the first ever Olympic hockey tournament?",
+          "correct_answer": "Belgium",
+          "incorrect_answers": ["Canada", "Switzerland", "USA"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which football player had the longest touchdown run in Super Bowl history?",
+          "correct_answer": "Willie Parker",
+          "incorrect_answers": ["Terrell Davis", "Emmitt Smith", "James White"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which NFL team lost the first Super Bowl in 1970?",
+          "correct_answer": "Minnesota Vikings",
+          "incorrect_answers": ["Kansas City Chiefs", "Baltimore Colts", "Dallas Cowboys"],
+          "difficulty": "hard"
+        },
+        {
+          "question": "Which basketball player scored the most points in a single NBA game?",
+          "correct_answer": "Wilt Chamberlain",
+          "incorrect_answers": ["Kobe Bryant", "Michael Jordan", "David Robinson"],
+          "difficulty": "hard"
+        }            
       
 ];
 
