@@ -194,7 +194,195 @@ const questions = [
       "correct_answer": "Bat",
       "incorrect_answers": ["Stick", "Club", "Paddle"],
       "difficulty": "easy"
-    } ,
+    },
+  
+      {
+        "question": "Which country is known as the birthplace of hockey?",
+        "correct_answer": "Canada",
+        "incorrect_answers": ["USA", "Russia", "Sweden"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the championship game in the NFL?",
+        "correct_answer": "Super Bowl",
+        "incorrect_answers": ["World Series", "Stanley Cup", "NBA Finals"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "How many players are on a soccer team on the field?",
+        "correct_answer": "11",
+        "incorrect_answers": ["10", "12", "9"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which NBA team is based in Toronto?",
+        "correct_answer": "Toronto Raptors",
+        "incorrect_answers": ["Toronto Huskies", "Toronto Bulls", "Toronto Kings"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the term for three goals scored by one player in a soccer match?",
+        "correct_answer": "Hat-trick",
+        "incorrect_answers": ["Triple play", "Slam dunk", "Touchdown"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which sport uses a puck?",
+        "correct_answer": "Hockey",
+        "incorrect_answers": ["Soccer", "Basketball", "Baseball"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which baseball team is based in New York?",
+        "correct_answer": "New York Yankees",
+        "incorrect_answers": ["Chicago Cubs", "Los Angeles Dodgers", "Boston Red Sox"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "In basketball, how many points is a free throw worth?",
+        "correct_answer": "1",
+        "incorrect_answers": ["2", "3", "0"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "What color card means a player is sent off in soccer?",
+        "correct_answer": "Red",
+        "incorrect_answers": ["Yellow", "Green", "Blue"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which NHL team plays home games at Scotiabank Arena?",
+        "correct_answer": "Toronto Maple Leafs",
+        "incorrect_answers": ["Montreal Canadiens", "Ottawa Senators", "Vancouver Canucks"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the term for a home run with the bases loaded?",
+        "correct_answer": "Grand Slam",
+        "incorrect_answers": ["Triple Play", "Double Play", "Walk-off"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which basketball player is known as 'King James'?",
+        "correct_answer": "LeBron James",
+        "incorrect_answers": ["Michael Jordan", "Kobe Bryant", "Stephen Curry"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "In football, how many points is a touchdown worth?",
+        "correct_answer": "6",
+        "incorrect_answers": ["3", "7", "2"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which country won the FIFA World Cup in 2018?",
+        "correct_answer": "France",
+        "incorrect_answers": ["Croatia", "Brazil", "Germany"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the trophy awarded to the NHL champion?",
+        "correct_answer": "Stanley Cup",
+        "incorrect_answers": ["Grey Cup", "World Cup", "Super Bowl"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which NBA team has a logo featuring a bear?",
+        "correct_answer": "Memphis Grizzlies",
+        "incorrect_answers": ["Chicago Bulls", "Minnesota Timberwolves", "Boston Celtics"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "In baseball, how many strikes result in an out?",
+        "correct_answer": "3",
+        "incorrect_answers": ["2", "4", "5"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which soccer player is known for wearing the number 10 jersey for Argentina?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": ["Diego Maradona", "Cristiano Ronaldo", "Neymar"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the area where a hockey goalie stands?",
+        "correct_answer": "Crease",
+        "incorrect_answers": ["Zone", "Box", "Circle"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which NFL team is based in Dallas?",
+        "correct_answer": "Dallas Cowboys",
+        "incorrect_answers": ["Houston Texans", "New York Giants", "Philadelphia Eagles"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "In basketball, what is it called when a player scores by jumping and slamming the ball into the basket?",
+        "correct_answer": "Dunk",
+        "incorrect_answers": ["Layup", "Three-pointer", "Free throw"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which country is famous for its passion for soccer and has won five World Cups?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": ["Germany", "Italy", "Argentina"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the term for a score in hockey?",
+        "correct_answer": "Goal",
+        "incorrect_answers": ["Touchdown", "Run", "Basket"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which baseball position is located between second and third base?",
+        "correct_answer": "Shortstop",
+        "incorrect_answers": ["First baseman", "Catcher", "Left fielder"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which NBA team is known as 'The Heat'?",
+        "correct_answer": "Miami Heat",
+        "incorrect_answers": ["Phoenix Suns", "Chicago Bulls", "Los Angeles Lakers"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "In football, what is the term for a kick after a touchdown worth one point?",
+        "correct_answer": "Extra point",
+        "incorrect_answers": ["Field goal", "Safety", "Two-point conversion"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which soccer club is based in Barcelona?",
+        "correct_answer": "FC Barcelona",
+        "incorrect_answers": ["Real Madrid", "Atletico Madrid", "Valencia CF"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the championship series in Major League Baseball?",
+        "correct_answer": "World Series",
+        "incorrect_answers": ["Super Bowl", "Stanley Cup", "NBA Finals"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which NHL team is based in Montreal?",
+        "correct_answer": "Montreal Canadiens",
+        "incorrect_answers": ["Toronto Maple Leafs", "Ottawa Senators", "Vancouver Canucks"],
+        "difficulty": "easy"
+      },
+      {
+        "question": "In basketball, how many points is a shot made from beyond the three-point line worth?",
+        "correct_answer": "3",
+        "incorrect_answers": ["2", "1", "4"],
+        "difficulty": "easy"
+      },
+    
+
+
+    // Medium questions
+
+
+
       {
         "question": "Which NBA team drafted Kobe Bryant before he was traded to the Lakers?",
         "correct_answer": "Charlotte Hornets",
@@ -375,6 +563,192 @@ const questions = [
         "incorrect_answers": ["Utah Jazz", "Houston Rockets", "Portland Trail Blazers"],
         "difficulty": "medium"
       },
+      {
+      "question": "Who won the FIFA Best Men's Player award in 2022?",
+      "correct_answer": "Lionel Messi",
+      "incorrect_answers": ["Kylian Mbappé", "Karim Benzema", "Robert Lewandowski"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which NFL quarterback won the 2023 MVP award?",
+      "correct_answer": "Lamar Jackson",
+      "incorrect_answers": ["Patrick Mahomes", "Jalen Hurts", "Joe Burrow"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which MLB team has the most World Series titles?",
+      "correct_answer": "New York Yankees",
+      "incorrect_answers": ["Boston Red Sox", "Los Angeles Dodgers", "St. Louis Cardinals"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "What team did Wayne Gretzky play for when he scored his 894th career NHL goal?",
+      "correct_answer": "New York Rangers",
+      "incorrect_answers": ["Edmonton Oilers", "Los Angeles Kings", "St. Louis Blues"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who led the NBA in points per game during the 2023–24 season?",
+      "correct_answer": "Luka Dončić",
+      "incorrect_answers": ["Joel Embiid", "Stephen Curry", "Jayson Tatum"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which country hosted the 2023 Women's World Cup?",
+      "correct_answer": "Australia and New Zealand",
+      "incorrect_answers": ["France", "Japan", "Canada"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who holds the record for most career interceptions thrown in the NFL?",
+      "correct_answer": "Brett Favre",
+      "incorrect_answers": ["Peyton Manning", "Eli Manning", "Ben Roethlisberger"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which player broke the NBA all-time scoring record in 2023?",
+      "correct_answer": "LeBron James",
+      "incorrect_answers": ["Kareem Abdul-Jabbar", "Kevin Durant", "Karl Malone"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who won the 2023 Stanley Cup?",
+      "correct_answer": "Vegas Golden Knights",
+      "incorrect_answers": ["Florida Panthers", "Colorado Avalanche", "Tampa Bay Lightning"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which baseball player won the 2023 AL MVP?",
+      "correct_answer": "Shohei Ohtani",
+      "incorrect_answers": ["Aaron Judge", "Yordan Alvarez", "Corey Seager"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who managed Argentina to World Cup victory in 2022?",
+      "correct_answer": "Lionel Scaloni",
+      "incorrect_answers": ["Marcelo Bielsa", "Gerardo Martino", "Cesar Menotti"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which NFL team drafted Patrick Mahomes?",
+      "correct_answer": "Kansas City Chiefs",
+      "incorrect_answers": ["Houston Texans", "Chicago Bears", "San Francisco 49ers"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which MLB player is known for his 'home run trot' and massive power at-bats?",
+      "correct_answer": "Aaron Judge",
+      "incorrect_answers": ["Bryce Harper", "Juan Soto", "Mike Trout"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "What position does Connor McDavid play in hockey?",
+      "correct_answer": "Center",
+      "incorrect_answers": ["Defense", "Winger", "Goalie"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which team won the NBA Finals in 2022?",
+      "correct_answer": "Golden State Warriors",
+      "incorrect_answers": ["Boston Celtics", "Milwaukee Bucks", "Miami Heat"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who is the all-time leader in assists in NBA history?",
+      "correct_answer": "John Stockton",
+      "incorrect_answers": ["Magic Johnson", "Steve Nash", "Chris Paul"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which team won the FIFA Club World Cup in 2023?",
+      "correct_answer": "Manchester City",
+      "incorrect_answers": ["Real Madrid", "Flamengo", "Chelsea"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which NFL player holds the record for most career receiving touchdowns?",
+      "correct_answer": "Jerry Rice",
+      "incorrect_answers": ["Randy Moss", "Terrell Owens", "Larry Fitzgerald"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who was the 2023 NBA Rookie of the Year?",
+      "correct_answer": "Paolo Banchero",
+      "incorrect_answers": ["Jabari Smith Jr.", "Keegan Murray", "Jalen Williams"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which country won the 2023 CONCACAF Gold Cup?",
+      "correct_answer": "Mexico",
+      "incorrect_answers": ["USA", "Canada", "Costa Rica"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who hit the most home runs in the 2023 MLB season?",
+      "correct_answer": "Matt Olson",
+      "incorrect_answers": ["Shohei Ohtani", "Pete Alonso", "Aaron Judge"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which NHL team moved to Utah in 2024?",
+      "correct_answer": "Arizona Coyotes",
+      "incorrect_answers": ["Columbus Blue Jackets", "Calgary Flames", "San Jose Sharks"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which NBA player became the all-time leader in three-pointers made?",
+      "correct_answer": "Stephen Curry",
+      "incorrect_answers": ["Ray Allen", "James Harden", "Reggie Miller"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which football player was known as 'Megatron'?",
+      "correct_answer": "Calvin Johnson",
+      "incorrect_answers": ["Julio Jones", "Dez Bryant", "Odell Beckham Jr."],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which soccer player has the most international goals?",
+      "correct_answer": "Cristiano Ronaldo",
+      "incorrect_answers": ["Lionel Messi", "Ali Daei", "Neymar"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which MLB team won the 2023 World Series?",
+      "correct_answer": "Texas Rangers",
+      "incorrect_answers": ["Houston Astros", "Philadelphia Phillies", "Arizona Diamondbacks"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which NFL stadium is known as 'Lambeau Field'?",
+      "correct_answer": "Green Bay Packers",
+      "incorrect_answers": ["Chicago Bears", "Buffalo Bills", "Minnesota Vikings"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which country hosted the 2022 FIFA World Cup?",
+      "correct_answer": "Qatar",
+      "incorrect_answers": ["Russia", "Brazil", "Germany"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which NBA player won Finals MVP in 2023?",
+      "correct_answer": "Nikola Jokic",
+      "incorrect_answers": ["Jimmy Butler", "Jamal Murray", "Giannis Antetokounmpo"],
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which NHL team has the most Stanley Cup wins?",
+      "correct_answer": "Montreal Canadiens",
+      "incorrect_answers": ["Toronto Maple Leafs", "Detroit Red Wings", "Boston Bruins"],
+      "difficulty": "medium"
+    },
+
+
+      // Hard questions
+
+
+
         {
           "question": "Who was the first player in NBA history to record a triple-double without missing a shot or free throw?",
           "correct_answer": "Nikola Jokic",
@@ -555,7 +929,7 @@ const questions = [
           "incorrect_answers": ["Philadelphia Phillies", "St. Louis Cardinals", "New York Yankees"],
           "difficulty": "hard"
         }      
-    
+      
 ];
 
 // Helper function to get random questions by difficulty
