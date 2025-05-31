@@ -1293,6 +1293,1072 @@ const questions = [
       "sport": "football"
     },
     
+    // hard questions
+
+    // hard soccer questions
+
+    {
+      "question": "Who is the only player to win the UEFA Champions League with three different clubs?",
+      "correct_answer": "Clarence Seedorf",
+      "incorrect_answers": ["Cristiano Ronaldo", "Zlatan Ibrahimović", "David Beckham"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country has appeared in the most FIFA World Cup finals without ever winning?",
+      "correct_answer": "Netherlands",
+      "incorrect_answers": ["Croatia", "Hungary", "Sweden"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who was the top scorer of the 1998 FIFA World Cup?",
+      "correct_answer": "Davor Šuker",
+      "incorrect_answers": ["Ronaldo", "Zinedine Zidane", "Gabriel Batistuta"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which African country was the first to reach the quarterfinals of the World Cup?",
+      "correct_answer": "Cameroon",
+      "incorrect_answers": ["Senegal", "Nigeria", "Ghana"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club won the first-ever UEFA Champions League (under that name) in 1993?",
+      "correct_answer": "Marseille",
+      "incorrect_answers": ["AC Milan", "Barcelona", "Ajax"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who scored the 'Hand of God' goal?",
+      "correct_answer": "Diego Maradona",
+      "incorrect_answers": ["Pelé", "Lionel Messi", "Zico"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which manager has won the most UEFA Champions League titles?",
+      "correct_answer": "Carlo Ancelotti",
+      "incorrect_answers": ["Zinedine Zidane", "Pep Guardiola", "Bob Paisley"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country won the first ever European Championship (Euro) in 1960?",
+      "correct_answer": "Soviet Union",
+      "incorrect_answers": ["Yugoslavia", "West Germany", "France"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "What was the first club Lionel Messi scored against in the Champions League?",
+      "correct_answer": "Panathinaikos",
+      "incorrect_answers": ["Chelsea", "Arsenal", "AC Milan"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country has the most Copa América titles?",
+      "correct_answer": "Uruguay",
+      "incorrect_answers": ["Brazil", "Argentina", "Chile"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who was the first goalkeeper to win the Ballon d'Or?",
+      "correct_answer": "Lev Yashin",
+      "incorrect_answers": ["Gianluigi Buffon", "Iker Casillas", "Dino Zoff"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which team eliminated Brazil from the 2010 FIFA World Cup?",
+      "correct_answer": "Netherlands",
+      "incorrect_answers": ["Germany", "Spain", "Argentina"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which English club was banned from European competition for five years after the Heysel disaster?",
+      "correct_answer": "Liverpool",
+      "incorrect_answers": ["Manchester United", "Leeds United", "Arsenal"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which player scored in every round of the 2001/02 UEFA Champions League?",
+      "correct_answer": "Ruud van Nistelrooy",
+      "incorrect_answers": ["Raúl", "Zidane", "Hernán Crespo"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country has won the most FIFA U-20 World Cups?",
+      "correct_answer": "Argentina",
+      "incorrect_answers": ["Brazil", "Nigeria", "Portugal"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who was the first African player to win the Ballon d'Or?",
+      "correct_answer": "George Weah",
+      "incorrect_answers": ["Didier Drogba", "Samuel Eto'o", "Abedi Pele"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which German club has won the second most Bundesliga titles after Bayern Munich?",
+      "correct_answer": "Borussia Dortmund",
+      "incorrect_answers": ["Hamburg", "Werder Bremen", "Schalke 04"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "What year did Italy last win the World Cup?",
+      "correct_answer": "2006",
+      "incorrect_answers": ["1994", "1982", "2010"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which stadium hosted the 2002 World Cup Final?",
+      "correct_answer": "International Stadium Yokohama",
+      "incorrect_answers": ["Seoul World Cup Stadium", "Tokyo National Stadium", "Osaka Nagai Stadium"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who is the youngest player to score in a World Cup match?",
+      "correct_answer": "Pelé",
+      "incorrect_answers": ["Kylian Mbappé", "Lionel Messi", "Michael Owen"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club won the treble in the 1998–99 season?",
+      "correct_answer": "Manchester United",
+      "incorrect_answers": ["Barcelona", "AC Milan", "Inter Milan"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who is the all-time top scorer in the Africa Cup of Nations?",
+      "correct_answer": "Samuel Eto'o",
+      "incorrect_answers": ["Didier Drogba", "Hossam Hassan", "Roger Milla"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club has won the most UEFA Europa League titles?",
+      "correct_answer": "Sevilla",
+      "incorrect_answers": ["Inter Milan", "Juventus", "Liverpool"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who scored the winning goal in the 2014 World Cup Final?",
+      "correct_answer": "Mario Götze",
+      "incorrect_answers": ["Thomas Müller", "Miroslav Klose", "Mesut Özil"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which Brazilian club did Neymar play for before moving to Europe?",
+      "correct_answer": "Santos",
+      "incorrect_answers": ["Flamengo", "Palmeiras", "Corinthians"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who was the manager of Spain during their 2010 World Cup victory?",
+      "correct_answer": "Vicente del Bosque",
+      "incorrect_answers": ["Luis Aragonés", "Julen Lopetegui", "Luis Enrique"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club has the most Ligue 1 titles?",
+      "correct_answer": "Saint-Étienne",
+      "incorrect_answers": ["Paris Saint-Germain", "Marseille", "Lyon"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country hosted the 1986 FIFA World Cup?",
+      "correct_answer": "Mexico",
+      "incorrect_answers": ["Italy", "Argentina", "Spain"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "What is the nickname of the South Korean national football team?",
+      "correct_answer": "Taegeuk Warriors",
+      "incorrect_answers": ["Samurai Blue", "Dragons", "Red Demons"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who scored the most goals in the 2022 FIFA World Cup?",
+      "correct_answer": "Kylian Mbappé",
+      "incorrect_answers": ["Lionel Messi", "Olivier Giroud", "Richarlison"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+
+    // hard baseball questions
+
+    {
+      "question": "Who holds the MLB record for most career sacrifice hits?",
+      "correct_answer": "Eddie Collins",
+      "incorrect_answers": ["Ty Cobb", "Babe Ruth", "Pete Rose"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which pitcher threw the only perfect game in a World Series?",
+      "correct_answer": "Don Larsen",
+      "incorrect_answers": ["Sandy Koufax", "Roy Halladay", "Cy Young"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB player holds the record for most career hits without ever making an All-Star team?",
+      "correct_answer": "Damion Easley",
+      "incorrect_answers": ["Placido Polanco", "Julio Franco", "Rafael Palmeiro"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the first African American manager in Major League Baseball?",
+      "correct_answer": "Frank Robinson",
+      "incorrect_answers": ["Dusty Baker", "Willie Mays", "Jackie Robinson"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team drafted Tom Brady in the 2000 MLB Draft?",
+      "correct_answer": "Montreal Expos",
+      "incorrect_answers": ["Detroit Tigers", "Boston Red Sox", "San Francisco Giants"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the first player to hit 50 home runs and steal 50 bases in a single season across their career?",
+      "correct_answer": "Barry Bonds",
+      "incorrect_answers": ["Willie Mays", "Alex Rodriguez", "Ken Griffey Jr."],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What year was the designated hitter rule introduced in the American League?",
+      "correct_answer": "1973",
+      "incorrect_answers": ["1975", "1971", "1980"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB team was the last to integrate racially?",
+      "correct_answer": "Boston Red Sox",
+      "incorrect_answers": ["New York Yankees", "Philadelphia Phillies", "Cincinnati Reds"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who is the only player to win an MVP award in both the American and National Leagues?",
+      "correct_answer": "Frank Robinson",
+      "incorrect_answers": ["Barry Bonds", "Alex Rodriguez", "Albert Pujols"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which pitcher has the most career strikeouts in MLB history?",
+      "correct_answer": "Nolan Ryan",
+      "incorrect_answers": ["Randy Johnson", "Roger Clemens", "Greg Maddux"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who holds the MLB record for most grand slams in a career?",
+      "correct_answer": "Alex Rodriguez",
+      "incorrect_answers": ["Manny Ramirez", "Lou Gehrig", "Barry Bonds"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the youngest player to hit 500 career home runs?",
+      "correct_answer": "Alex Rodriguez",
+      "incorrect_answers": ["Ken Griffey Jr.", "Jimmie Foxx", "Mickey Mantle"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who is the only pitcher in MLB history to win a Cy Young Award in four different decades?",
+      "correct_answer": "Nolan Ryan",
+      "incorrect_answers": ["Tom Seaver", "Roger Clemens", "Greg Maddux"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB stadium has the deepest center field?",
+      "correct_answer": "Coors Field",
+      "incorrect_answers": ["Oracle Park", "Comerica Park", "Minute Maid Park"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player hit a home run in his first MLB at-bat and also in his final MLB at-bat?",
+      "correct_answer": "Paul Konerko",
+      "incorrect_answers": ["David Ortiz", "Ted Williams", "Albert Pujols"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB player has the most career postseason home runs?",
+      "correct_answer": "Manny Ramirez",
+      "incorrect_answers": ["Derek Jeter", "David Ortiz", "Jose Altuve"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the first MLB player to have his number retired?",
+      "correct_answer": "Lou Gehrig",
+      "incorrect_answers": ["Babe Ruth", "Ty Cobb", "Joe DiMaggio"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player was famously traded for himself in MLB?",
+      "correct_answer": "Harry Chiti",
+      "incorrect_answers": ["David Cone", "Bobby Bonilla", "Dick Allen"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player has the most career walks in MLB history?",
+      "correct_answer": "Barry Bonds",
+      "incorrect_answers": ["Babe Ruth", "Ted Williams", "Rickey Henderson"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team won the most games in a single regular MLB season?",
+      "correct_answer": "Seattle Mariners",
+      "incorrect_answers": ["New York Yankees", "Chicago Cubs", "Oakland Athletics"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the longest hitting streak in MLB history?",
+      "correct_answer": "56 games",
+      "incorrect_answers": ["44 games", "41 games", "52 games"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team has the most World Series losses?",
+      "correct_answer": "New York Yankees",
+      "incorrect_answers": ["Boston Red Sox", "Los Angeles Dodgers", "Chicago Cubs"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player has hit the most leadoff home runs in MLB history?",
+      "correct_answer": "Rickey Henderson",
+      "incorrect_answers": ["Ichiro Suzuki", "Craig Biggio", "Alfonso Soriano"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB pitcher threw a no-hitter on LSD?",
+      "correct_answer": "Dock Ellis",
+      "incorrect_answers": ["Vida Blue", "Ferguson Jenkins", "Dwight Gooden"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player was the first to reach 3,000 hits and 500 home runs?",
+      "correct_answer": "Willie Mays",
+      "incorrect_answers": ["Hank Aaron", "Rafael Palmeiro", "Alex Rodriguez"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the last pitcher to throw a perfect game in the MLB (as of 2025)?",
+      "correct_answer": "Félix Hernández",
+      "incorrect_answers": ["Matt Cain", "Roy Halladay", "Dallas Braden"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player hit four home runs in a single game most recently?",
+      "correct_answer": "J.D. Martinez",
+      "incorrect_answers": ["Josh Hamilton", "Shawn Green", "Scooter Gennett"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the maximum number of batters a pitcher can face in a 9-inning perfect game?",
+      "correct_answer": "27",
+      "incorrect_answers": ["26", "28", "25"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team holds the longest losing streak in MLB history?",
+      "correct_answer": "Louisville Colonels",
+      "incorrect_answers": ["Philadelphia Phillies", "Cleveland Spiders", "Baltimore Orioles"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the first relief pitcher inducted into the Hall of Fame?",
+      "correct_answer": "Hoyt Wilhelm",
+      "incorrect_answers": ["Rollie Fingers", "Goose Gossage", "Dennis Eckersley"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    
+    // hard basketball questions
+
+    {
+      "question": "Who was the first player in NBA history to record a quadruple-double?",
+      "correct_answer": "Nate Thurmond",
+      "incorrect_answers": ["Hakeem Olajuwon", "David Robinson", "Wilt Chamberlain"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player holds the record for most technical fouls in NBA history?",
+      "correct_answer": "Rasheed Wallace",
+      "incorrect_answers": ["Dennis Rodman", "Draymond Green", "Charles Barkley"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team drafted Kobe Bryant in 1996 before trading him to the Lakers?",
+      "correct_answer": "Charlotte Hornets",
+      "incorrect_answers": ["New Jersey Nets", "Philadelphia 76ers", "Boston Celtics"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who is the only player in NBA history to win MVP, Finals MVP, and All-Star MVP in the same season?",
+      "correct_answer": "Shaquille O'Neal",
+      "incorrect_answers": ["Michael Jordan", "LeBron James", "Tim Duncan"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player recorded the only 20-20-20 game (points, rebounds, assists) in NBA history?",
+      "correct_answer": "Wilt Chamberlain",
+      "incorrect_answers": ["Russell Westbrook", "Oscar Robertson", "Magic Johnson"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which coach has the most losses in NBA history?",
+      "correct_answer": "Lenny Wilkens",
+      "incorrect_answers": ["Don Nelson", "Rick Adelman", "Jerry Sloan"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team was the first to win back-to-back NBA championships?",
+      "correct_answer": "Minneapolis Lakers",
+      "incorrect_answers": ["Boston Celtics", "Chicago Bulls", "New York Knicks"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who holds the record for most points in a single NBA quarter?",
+      "correct_answer": "Klay Thompson",
+      "incorrect_answers": ["Kobe Bryant", "Devin Booker", "Stephen Curry"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA player once scored 100 points in a single game?",
+      "correct_answer": "Wilt Chamberlain",
+      "incorrect_answers": ["Kobe Bryant", "Michael Jordan", "Elgin Baylor"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who was the youngest NBA player to reach 10,000 career points?",
+      "correct_answer": "LeBron James",
+      "incorrect_answers": ["Kevin Durant", "Kobe Bryant", "Michael Jordan"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA player had a signature move known as the 'Sky Hook'?",
+      "correct_answer": "Kareem Abdul-Jabbar",
+      "incorrect_answers": ["Hakeem Olajuwon", "Tim Duncan", "Shaquille O'Neal"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who was the first foreign-born player to win the NBA MVP award?",
+      "correct_answer": "Hakeem Olajuwon",
+      "incorrect_answers": ["Dirk Nowitzki", "Giannis Antetokounmpo", "Steve Nash"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "What team did Shaquille O'Neal finish his NBA career with?",
+      "correct_answer": "Boston Celtics",
+      "incorrect_answers": ["Miami Heat", "Phoenix Suns", "Cleveland Cavaliers"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who holds the record for most career personal fouls in the NBA?",
+      "correct_answer": "Kareem Abdul-Jabbar",
+      "incorrect_answers": ["Karl Malone", "Hakeem Olajuwon", "Charles Oakley"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA team was the last to integrate and have a Black player on its roster?",
+      "correct_answer": "Boston Celtics",
+      "incorrect_answers": ["New York Knicks", "Chicago Bulls", "Washington Wizards"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player holds the record for most missed field goals in NBA history?",
+      "correct_answer": "Kobe Bryant",
+      "incorrect_answers": ["Allen Iverson", "Michael Jordan", "Karl Malone"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who was the first high school player to be drafted number one overall in the NBA?",
+      "correct_answer": "Kwame Brown",
+      "incorrect_answers": ["LeBron James", "Kevin Garnett", "Dwight Howard"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team holds the NBA record for most wins in a single season?",
+      "correct_answer": "Golden State Warriors",
+      "incorrect_answers": ["Chicago Bulls", "Boston Celtics", "San Antonio Spurs"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who has the most career turnovers in NBA history?",
+      "correct_answer": "LeBron James",
+      "incorrect_answers": ["Karl Malone", "Kobe Bryant", "Russell Westbrook"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who was the shortest player to ever play in an NBA game?",
+      "correct_answer": "Muggsy Bogues",
+      "incorrect_answers": ["Spud Webb", "Nate Robinson", "Earl Boykins"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player has the highest career playoff scoring average?",
+      "correct_answer": "Michael Jordan",
+      "incorrect_answers": ["LeBron James", "Kevin Durant", "Allen Iverson"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team has the longest playoff drought in NBA history?",
+      "correct_answer": "Sacramento Kings",
+      "incorrect_answers": ["Los Angeles Clippers", "Minnesota Timberwolves", "Charlotte Hornets"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA player was nicknamed 'The Answer'?",
+      "correct_answer": "Allen Iverson",
+      "incorrect_answers": ["Ray Allen", "Tracy McGrady", "Baron Davis"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player has the most career triple-doubles in NBA history?",
+      "correct_answer": "Russell Westbrook",
+      "incorrect_answers": ["Oscar Robertson", "Magic Johnson", "Nikola Jokic"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who is the only player to record a triple-double without missing a shot or free throw?",
+      "correct_answer": "Nikola Jokic",
+      "incorrect_answers": ["Wilt Chamberlain", "Chris Paul", "LeBron James"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team did Michael Jordan score his career-high 69 points against?",
+      "correct_answer": "Cleveland Cavaliers",
+      "incorrect_answers": ["Detroit Pistons", "New York Knicks", "Miami Heat"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which coach has the most NBA championships?",
+      "correct_answer": "Phil Jackson",
+      "incorrect_answers": ["Red Auerbach", "Pat Riley", "Gregg Popovich"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team did Dirk Nowitzki play his entire career for?",
+      "correct_answer": "Dallas Mavericks",
+      "incorrect_answers": ["San Antonio Spurs", "Houston Rockets", "Phoenix Suns"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who is the tallest player in NBA history?",
+      "correct_answer": "Gheorghe Mureșan",
+      "incorrect_answers": ["Manute Bol", "Shawn Bradley", "Yao Ming"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA player legally changed his name to World B. Free?",
+      "correct_answer": "Lloyd Free",
+      "incorrect_answers": ["Ron Artest", "Metta Sandiford-Artest", "Stephen Jackson"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+
+    // hard football questions
+
+    {
+      "question": "Who is the only player to win the Heisman Trophy twice?",
+      "correct_answer": "Archie Griffin",
+      "incorrect_answers": ["Tim Tebow", "Barry Sanders", "Bo Jackson"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team has the most losses in Super Bowl history?",
+      "correct_answer": "New England Patriots",
+      "incorrect_answers": ["Denver Broncos", "Buffalo Bills", "Minnesota Vikings"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who was the first African American quarterback to start in a Super Bowl?",
+      "correct_answer": "Doug Williams",
+      "incorrect_answers": ["Warren Moon", "Randall Cunningham", "Steve McNair"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team drafted Eli Manning first overall in 2004 before trading him?",
+      "correct_answer": "San Diego Chargers",
+      "incorrect_answers": ["New York Giants", "Indianapolis Colts", "Dallas Cowboys"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which running back holds the record for most rushing yards in a single NFL season?",
+      "correct_answer": "Eric Dickerson",
+      "incorrect_answers": ["Adrian Peterson", "Barry Sanders", "OJ Simpson"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL player has the most career interceptions?",
+      "correct_answer": "Paul Krause",
+      "incorrect_answers": ["Ed Reed", "Rod Woodson", "Deion Sanders"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which team won the first AFL-NFL World Championship Game (now Super Bowl I)?",
+      "correct_answer": "Green Bay Packers",
+      "incorrect_answers": ["Kansas City Chiefs", "Chicago Bears", "Baltimore Colts"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who holds the record for the longest field goal in NFL history?",
+      "correct_answer": "Justin Tucker",
+      "incorrect_answers": ["Matt Prater", "Adam Vinatieri", "Tom Dempsey"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which coach has the most career wins in NFL history?",
+      "correct_answer": "Don Shula",
+      "incorrect_answers": ["Bill Belichick", "George Halas", "Tom Landry"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which Super Bowl had the biggest point differential?",
+      "correct_answer": "Super Bowl XXIV",
+      "incorrect_answers": ["Super Bowl XLVIII", "Super Bowl XX", "Super Bowl I"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL player returned a fumble 98 yards for a touchdown in Super Bowl XXXVII?",
+      "correct_answer": "Dwight Smith",
+      "incorrect_answers": ["Dexter Jackson", "John Lynch", "Ronde Barber"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team has gone the longest without making a Super Bowl appearance?",
+      "correct_answer": "Cleveland Browns",
+      "incorrect_answers": ["Detroit Lions", "Jacksonville Jaguars", "Houston Texans"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who was the first overall pick in the 2007 NFL Draft?",
+      "correct_answer": "JaMarcus Russell",
+      "incorrect_answers": ["Calvin Johnson", "Joe Thomas", "Adrian Peterson"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which player holds the NFL record for most sacks in a single season?",
+      "correct_answer": "Michael Strahan",
+      "incorrect_answers": ["T.J. Watt", "Reggie White", "Jared Allen"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team was originally called the Titans of New York?",
+      "correct_answer": "New York Jets",
+      "incorrect_answers": ["New York Giants", "Tennessee Titans", "Buffalo Bills"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who was the MVP of Super Bowl XXXV?",
+      "correct_answer": "Ray Lewis",
+      "incorrect_answers": ["Trent Dilfer", "Jamal Lewis", "Shannon Sharpe"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL player was known as 'The Nigerian Nightmare'?",
+      "correct_answer": "Christian Okoye",
+      "incorrect_answers": ["Emmitt Smith", "Bo Jackson", "Marshall Faulk"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which team has the longest winning streak in NFL history (including playoffs)?",
+      "correct_answer": "New England Patriots",
+      "incorrect_answers": ["Pittsburgh Steelers", "San Francisco 49ers", "Dallas Cowboys"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "What year did the NFL and AFL officially merge?",
+      "correct_answer": "1970",
+      "incorrect_answers": ["1966", "1969", "1972"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which player won NFL MVP and Super Bowl MVP in the same season in 1999?",
+      "correct_answer": "Kurt Warner",
+      "incorrect_answers": ["Marshall Faulk", "Tom Brady", "Peyton Manning"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which defensive player was selected number one overall in the 1988 NFL Draft?",
+      "correct_answer": "Aundray Bruce",
+      "incorrect_answers": ["Bruce Smith", "Cornelius Bennett", "Derrick Thomas"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL player has the most career playoff touchdown passes?",
+      "correct_answer": "Tom Brady",
+      "incorrect_answers": ["Peyton Manning", "Joe Montana", "Brett Favre"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team drafted Jerry Rice?",
+      "correct_answer": "San Francisco 49ers",
+      "incorrect_answers": ["Dallas Cowboys", "Oakland Raiders", "Denver Broncos"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which quarterback holds the record for most rushing touchdowns in a single season?",
+      "correct_answer": "Cam Newton",
+      "incorrect_answers": ["Lamar Jackson", "Steve Young", "Michael Vick"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who was the MVP of the first Super Bowl?",
+      "correct_answer": "Bart Starr",
+      "incorrect_answers": ["Joe Namath", "Len Dawson", "Ray Nitschke"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which team did Brett Favre end his career with?",
+      "correct_answer": "Minnesota Vikings",
+      "incorrect_answers": ["Green Bay Packers", "New York Jets", "Atlanta Falcons"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who was the first wide receiver to be named Super Bowl MVP?",
+      "correct_answer": "Lynn Swann",
+      "incorrect_answers": ["Jerry Rice", "Fred Biletnikoff", "Hines Ward"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL player was known as 'Prime Time'?",
+      "correct_answer": "Deion Sanders",
+      "incorrect_answers": ["Bo Jackson", "Reggie Bush", "Ray Lewis"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who was the first pick in the 1983 NFL Draft?",
+      "correct_answer": "John Elway",
+      "incorrect_answers": ["Dan Marino", "Jim Kelly", "Eric Dickerson"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which city hosted the coldest Super Bowl ever played outdoors?",
+      "correct_answer": "East Rutherford",
+      "incorrect_answers": ["Green Bay", "Minneapolis", "Chicago"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+
+    // hard hockey questions
+
+    {
+      "question": "Who was the first NHL player to score 50 goals in 50 games?",
+      "correct_answer": "Maurice Richard",
+      "incorrect_answers": ["Wayne Gretzky", "Bobby Hull", "Gordie Howe"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which goaltender has the most career NHL wins?",
+      "correct_answer": "Martin Brodeur",
+      "incorrect_answers": ["Patrick Roy", "Marc-André Fleury", "Dominik Hasek"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team won the first Stanley Cup after the NHL was formed?",
+      "correct_answer": "Toronto Arenas",
+      "incorrect_answers": ["Montreal Canadiens", "Ottawa Senators", "Boston Bruins"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who holds the record for most career playoff points in the NHL?",
+      "correct_answer": "Wayne Gretzky",
+      "incorrect_answers": ["Mark Messier", "Jaromir Jagr", "Mario Lemieux"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team was originally known as the Quebec Nordiques?",
+      "correct_answer": "Colorado Avalanche",
+      "incorrect_answers": ["Arizona Coyotes", "Carolina Hurricanes", "Calgary Flames"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the first American-born player to score 500 goals in the NHL?",
+      "correct_answer": "Joe Mullen",
+      "incorrect_answers": ["Brett Hull", "Mike Modano", "Keith Tkachuk"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL defenseman has the most career points?",
+      "correct_answer": "Ray Bourque",
+      "incorrect_answers": ["Paul Coffey", "Nicklas Lidström", "Al MacInnis"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "In which year did the NHL introduce the salary cap?",
+      "correct_answer": "2005",
+      "incorrect_answers": ["2004", "2006", "2007"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team did Wayne Gretzky score his 802nd career goal against?",
+      "correct_answer": "Vancouver Canucks",
+      "incorrect_answers": ["Los Angeles Kings", "Calgary Flames", "Detroit Red Wings"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "What was the last Canadian team to win the Stanley Cup?",
+      "correct_answer": "Montreal Canadiens",
+      "incorrect_answers": ["Calgary Flames", "Ottawa Senators", "Edmonton Oilers"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the first NHL player to score 100 points in a season?",
+      "correct_answer": "Phil Esposito",
+      "incorrect_answers": ["Wayne Gretzky", "Bobby Orr", "Gordie Howe"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the NHL commissioner before Gary Bettman?",
+      "correct_answer": "Gil Stein",
+      "incorrect_answers": ["John Ziegler", "Clarence Campbell", "Frank Calder"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which player has the most penalty minutes in NHL history?",
+      "correct_answer": "Dave 'Tiger' Williams",
+      "incorrect_answers": ["Tie Domi", "Marty McSorley", "Chris Nilan"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the last player in the NHL to play without a helmet?",
+      "correct_answer": "Craig MacTavish",
+      "incorrect_answers": ["Doug Gilmour", "Mark Messier", "Ron Francis"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team has won the most Stanley Cups?",
+      "correct_answer": "Montreal Canadiens",
+      "incorrect_answers": ["Toronto Maple Leafs", "Detroit Red Wings", "Boston Bruins"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the first player to win the Hart Trophy as league MVP more than six times?",
+      "correct_answer": "Wayne Gretzky",
+      "incorrect_answers": ["Gordie Howe", "Mario Lemieux", "Bobby Orr"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the first European-trained player inducted into the Hockey Hall of Fame?",
+      "correct_answer": "Vladislav Tretiak",
+      "incorrect_answers": ["Jaromir Jagr", "Börje Salming", "Jari Kurri"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which goalie was credited with scoring a goal in the NHL first?",
+      "correct_answer": "Billy Smith",
+      "incorrect_answers": ["Ron Hextall", "Martin Brodeur", "Patrick Roy"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team drafted Jaromir Jagr in 1990?",
+      "correct_answer": "Pittsburgh Penguins",
+      "incorrect_answers": ["Philadelphia Flyers", "Washington Capitals", "Boston Bruins"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which player has the most career overtime goals in NHL history?",
+      "correct_answer": "Alex Ovechkin",
+      "incorrect_answers": ["Sidney Crosby", "Jaromir Jagr", "Patrick Kane"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team was involved in the longest game in NHL history?",
+      "correct_answer": "Detroit Red Wings",
+      "incorrect_answers": ["Montreal Canadiens", "Toronto Maple Leafs", "Chicago Blackhawks"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the first goalie to wear a mask in an NHL game?",
+      "correct_answer": "Jacques Plante",
+      "incorrect_answers": ["Terry Sawchuk", "Glenn Hall", "Ken Dryden"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "What year was the original NHL Winter Classic held?",
+      "correct_answer": "2008",
+      "incorrect_answers": ["2006", "2009", "2007"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which country has produced the most NHL players?",
+      "correct_answer": "Canada",
+      "incorrect_answers": ["USA", "Russia", "Sweden"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the first captain of the Vegas Golden Knights?",
+      "correct_answer": "Mark Stone",
+      "incorrect_answers": ["Shea Theodore", "Jonathan Marchessault", "Deryk Engelland"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team drafted Eric Lindros before he was traded to Philadelphia?",
+      "correct_answer": "Quebec Nordiques",
+      "incorrect_answers": ["Toronto Maple Leafs", "New York Rangers", "Winnipeg Jets"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the first player to win the Conn Smythe Trophy as a member of the losing team?",
+      "correct_answer": "Roger Crozier",
+      "incorrect_answers": ["Ron Hextall", "Jean-Sebastien Giguere", "Glenn Hall"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL player was known as 'The Finnish Flash'?",
+      "correct_answer": "Teemu Selanne",
+      "incorrect_answers": ["Jari Kurri", "Saku Koivu", "Patrik Laine"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team won the first NHL Presidents’ Trophy?",
+      "correct_answer": "Edmonton Oilers",
+      "incorrect_answers": ["Boston Bruins", "Calgary Flames", "Montreal Canadiens"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is the minimum number of games required to win a best-of-seven NHL playoff series?",
+      "correct_answer": "4",
+      "incorrect_answers": ["5", "3", "2"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    }
     
     
 ];
