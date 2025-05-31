@@ -265,6 +265,216 @@ const questions = [
         "difficulty": "easy",
         "sport": "soccer"
       },
+      {
+        "question": "Which country won the first FIFA World Cup in 1930?",
+        "correct_answer": "Uruguay",
+        "incorrect_answers": ["Brazil", "Germany", "Argentina"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Who is known as the 'King of Football'?",
+        "correct_answer": "Pelé",
+        "incorrect_answers": ["Diego Maradona", "Lionel Messi", "Cristiano Ronaldo"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which player has won the most FIFA Ballon d’Or awards?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": ["Cristiano Ronaldo", "Zinedine Zidane", "Ronaldinho"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which team is known as the 'Red Devils'?",
+        "correct_answer": "Manchester United",
+        "incorrect_answers": ["Liverpool", "Arsenal", "Chelsea"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country won the FIFA 2014 World Cup in Brazil?",
+        "correct_answer": "Germany",
+        "incorrect_answers": ["Argentina", "Brazil", "Spain"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which player opened a museum in Portugal in 2014 to display his trophies?",
+        "correct_answer": "Cristiano Ronaldo",
+        "incorrect_answers": ["Luis Figo", "Eusébio", "Deco"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is awarded if a goalkeeper holds the ball for more than 6 seconds?",
+        "correct_answer": "An indirect free kick",
+        "incorrect_answers": ["A penalty kick", "A corner kick", "A goal kick"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which Premier League club is nicknamed 'The Gunners'?",
+        "correct_answer": "Arsenal",
+        "incorrect_answers": ["Chelsea", "Tottenham Hotspur", "Manchester City"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What determines who starts with the ball in a soccer match?",
+        "correct_answer": "A coin flip",
+        "incorrect_answers": ["Team ranking", "Home team advantage", "Referee's decision"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country hosted the 2022 FIFA World Cup?",
+        "correct_answer": "Qatar",
+        "incorrect_answers": ["Russia", "USA", "Japan"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which soccer star had his own H&M underwear line?",
+        "correct_answer": "David Beckham",
+        "incorrect_answers": ["Cristiano Ronaldo", "Neymar", "Zlatan Ibrahimović"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which player received the Golden Ball award in the 2014 World Cup?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": ["Thomas Müller", "James Rodríguez", "Arjen Robben"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which soccer player has the most followers on Instagram as of 2023?",
+        "correct_answer": "Cristiano Ronaldo",
+        "incorrect_answers": ["Lionel Messi", "Neymar", "Kylian Mbappé"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What are the two lines that run the length of the field called?",
+        "correct_answer": "Touch lines",
+        "incorrect_answers": ["Goal lines", "Penalty lines", "Halfway lines"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Who scored five goals in a single World Cup match for Russia?",
+        "correct_answer": "Oleg Salenko",
+        "incorrect_answers": ["Andrey Arshavin", "Dmitri Alenichev", "Roman Pavlyuchenko"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which two countries allegedly went to war partially over a soccer match?",
+        "correct_answer": "El Salvador and Honduras",
+        "incorrect_answers": ["Argentina and Brazil", "Germany and Netherlands", "Iran and Iraq"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Who won the first two FIFA Women's World Player of the Year Awards?",
+        "correct_answer": "Mia Hamm",
+        "incorrect_answers": ["Abby Wambach", "Marta", "Birgit Prinz"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "In which stadium did the U.S. Women's National Team win their fourth Olympic gold medal in 2012?",
+        "correct_answer": "Wembley Stadium",
+        "incorrect_answers": ["Old Trafford", "Stamford Bridge", "Emirates Stadium"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which legendary soccer player wrote the autobiography 'My Life in Football'?",
+        "correct_answer": "Kevin Keegan",
+        "incorrect_answers": ["David Beckham", "Steven Gerrard", "Frank Lampard"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which soccer player wrote the Jamie Johnson football novels for kids?",
+        "correct_answer": "Dan Freedman",
+        "incorrect_answers": ["Michael Owen", "Gary Lineker", "Alan Shearer"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Who coached the U.S. Women's National Team to victory in the 2015 FIFA Women's World Cup?",
+        "correct_answer": "Jill Ellis",
+        "incorrect_answers": ["Pia Sundhage", "April Heinrichs", "Tony DiCicco"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which U.S. Men's National Team goalkeeper set a tournament record with 15 saves in a match against Belgium in the 2014 FIFA World Cup?",
+        "correct_answer": "Tim Howard",
+        "incorrect_answers": ["Brad Guzan", "Kasey Keller", "Brad Friedel"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which famous soccer player retired from international play after the 2014 FIFA World Cup, playing his final match against Ecuador?",
+        "correct_answer": "Landon Donovan",
+        "incorrect_answers": ["Clint Dempsey", "Michael Bradley", "Jozy Altidore"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which ancient game resembling modern soccer was played in China?",
+        "correct_answer": "Cuju",
+        "incorrect_answers": ["Kemari", "Episkyros", "Harpastum"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "When was the Cambridge Rules, influential in the development of association football, first drawn up?",
+        "correct_answer": "1848",
+        "incorrect_answers": ["1836", "1859", "1872"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "During which year was the first official international football match played?",
+        "correct_answer": "1872",
+        "incorrect_answers": ["1857", "1890", "1902"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which is the oldest football competition in the world?",
+        "correct_answer": "FA Cup",
+        "incorrect_answers": ["Copa Libertadores", "FIFA World Cup", "UEFA Champions League"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Where is the headquarters of FIFA located?",
+        "correct_answer": "Zurich, Switzerland",
+        "incorrect_answers": ["Paris, France", "London, England", "Berlin, Germany"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country’s women’s national team has won the most FIFA Women’s World Cup titles?",
+        "correct_answer": "United States",
+        "incorrect_answers": ["Germany", "Japan", "Brazil"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the name of the award given to the top goalscorer in the FIFA World Cup?",
+        "correct_answer": "The Golden Boot",
+        "incorrect_answers": ["The Golden Ball", "The Silver Boot", "The Bronze Boot"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
     
 
     // easy football questions
