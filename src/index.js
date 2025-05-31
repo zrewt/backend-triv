@@ -311,48 +311,426 @@ const questions = [
       "difficulty": "easy",
       "sport": "football"
     },
+    {
+      "question": "What is the name of the trophy awarded to the Super Bowl winner?",
+      "correct_answer": "Vince Lombardi Trophy",
+      "incorrect_answers": ["Heisman Trophy", "Stanley Cup", "Commissioner's Trophy"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team is known for having a star logo on their helmet?",
+      "correct_answer": "Dallas Cowboys",
+      "incorrect_answers": ["New England Patriots", "New York Giants", "Green Bay Packers"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the term for when the quarterback is tackled behind the line of scrimmage?",
+      "correct_answer": "Sack",
+      "incorrect_answers": ["Interception", "Fumble", "Safety"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team is based in Miami?",
+      "correct_answer": "Dolphins",
+      "incorrect_answers": ["Buccaneers", "Jaguars", "Panthers"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the maximum number of players allowed on the field per team during play?",
+      "correct_answer": "11",
+      "incorrect_answers": ["10", "12", "9"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which position is primarily responsible for catching passes?",
+      "correct_answer": "Wide Receiver",
+      "incorrect_answers": ["Linebacker", "Running Back", "Defensive End"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the term for a kick after a touchdown worth one point?",
+      "correct_answer": "Extra Point",
+      "incorrect_answers": ["Field Goal", "Safety", "Two-Point Conversion"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team is known as 'The Steel Curtain'?",
+      "correct_answer": "Pittsburgh Steelers",
+      "incorrect_answers": ["Chicago Bears", "Detroit Lions", "Cleveland Browns"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the name of the NFL team based in Seattle?",
+      "correct_answer": "Seahawks",
+      "incorrect_answers": ["Eagles", "Falcons", "Ravens"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which player is known for the 'Immaculate Reception'?",
+      "correct_answer": "Franco Harris",
+      "incorrect_answers": ["Terry Bradshaw", "Lynn Swann", "John Stallworth"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the term for a defensive player catching a pass intended for the offense?",
+      "correct_answer": "Interception",
+      "incorrect_answers": ["Fumble", "Sack", "Touchback"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team has a lightning bolt on their helmet?",
+      "correct_answer": "Los Angeles Chargers",
+      "incorrect_answers": ["Tennessee Titans", "Buffalo Bills", "Indianapolis Colts"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the name of the NFL team based in Denver?",
+      "correct_answer": "Broncos",
+      "incorrect_answers": ["Cowboys", "Texans", "Chiefs"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which position snaps the ball to the quarterback?",
+      "correct_answer": "Center",
+      "incorrect_answers": ["Guard", "Tackle", "Linebacker"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the term for a kick that is not returned and results in the ball being placed at the 25-yard line?",
+      "correct_answer": "Touchback",
+      "incorrect_answers": ["Fair Catch", "Punt", "Onside Kick"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team is known for the 'Lambeau Leap'?",
+      "correct_answer": "Green Bay Packers",
+      "incorrect_answers": ["Minnesota Vikings", "Chicago Bears", "Detroit Lions"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the term for a defensive player tackling the quarterback behind the line of scrimmage?",
+      "correct_answer": "Sack",
+      "incorrect_answers": ["Interception", "Fumble", "Safety"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team is based in Atlanta?",
+      "correct_answer": "Falcons",
+      "incorrect_answers": ["Panthers", "Saints", "Buccaneers"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the term for a score worth three points?",
+      "correct_answer": "Field Goal",
+      "incorrect_answers": ["Touchdown", "Safety", "Extra Point"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team is known as 'Big Blue'?",
+      "correct_answer": "New York Giants",
+      "incorrect_answers": ["New York Jets", "Buffalo Bills", "Dallas Cowboys"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the term for when the offense fails to advance 10 yards in four downs?",
+      "correct_answer": "Turnover on Downs",
+      "incorrect_answers": ["Fumble", "Interception", "Safety"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team is based in Arizona?",
+      "correct_answer": "Cardinals",
+      "incorrect_answers": ["Raiders", "Rams", "Chargers"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the term for a play where the quarterback hands the ball to a running back?",
+      "correct_answer": "Rushing Play",
+      "incorrect_answers": ["Passing Play", "Punt", "Kickoff"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team has a pirate ship in their stadium?",
+      "correct_answer": "Tampa Bay Buccaneers",
+      "incorrect_answers": ["Las Vegas Raiders", "New Orleans Saints", "Miami Dolphins"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the term for a kick that attempts to regain possession immediately after scoring?",
+      "correct_answer": "Onside Kick",
+      "incorrect_answers": ["Punt", "Fair Catch", "Touchback"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team is based in Baltimore?",
+      "correct_answer": "Ravens",
+      "incorrect_answers": ["Colts", "Redskins", "Eagles"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the term for a defensive player tackling the ball carrier in their own end zone?",
+      "correct_answer": "Safety",
+      "incorrect_answers": ["Touchdown", "Sack", "Interception"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team is known for the 'Who Dat' chant?",
+      "correct_answer": "New Orleans Saints",
+      "incorrect_answers": ["Atlanta Falcons", "Carolina Panthers", "Tampa Bay Buccaneers"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the term for a pass caught by the offense?",
+      "correct_answer": "Completion",
+      "incorrect_answers": ["Interception", "Fumble", "Sack"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team is based in Cincinnati?",
+      "correct_answer": "Bengals",
+      "incorrect_answers": ["Browns", "Steelers", "Colts"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
 
     // easy hockey questions
 
     {
-      "question": "What is the object called that players hit in ice hockey?",
-      "correct_answer": "Puck",
-      "incorrect_answers": ["Ball", "Disc", "Ring"],
+      "question": "What trophy is awarded to the NHL champion?",
+      "correct_answer": "Stanley Cup",
+      "incorrect_answers": ["Grey Cup", "World Cup", "Memorial Cup"],
       "difficulty": "easy",
       "sport": "hockey"
     },
     {
-      "question": "How many periods are there in a standard ice hockey game?",
+      "question": "What is the name of the professional ice hockey league in North America?",
+      "correct_answer": "NHL",
+      "incorrect_answers": ["MLB", "NFL", "NBA"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team is based in Toronto?",
+      "correct_answer": "Maple Leafs",
+      "incorrect_answers": ["Canadiens", "Senators", "Oilers"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "How many players are on the ice for one team in standard play (not including the goalie)?",
+      "correct_answer": "5",
+      "incorrect_answers": ["6", "4", "3"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What do you call a score in hockey?",
+      "correct_answer": "Goal",
+      "incorrect_answers": ["Touchdown", "Run", "Basket"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team has a penguin as its mascot?",
+      "correct_answer": "Pittsburgh Penguins",
+      "incorrect_answers": ["Chicago Blackhawks", "Boston Bruins", "Buffalo Sabres"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What surface is a hockey game played on?",
+      "correct_answer": "Ice",
+      "incorrect_answers": ["Grass", "Wood", "Concrete"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which country has produced the most NHL players?",
+      "correct_answer": "Canada",
+      "incorrect_answers": ["USA", "Russia", "Sweden"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What piece of equipment is used to hit the puck?",
+      "correct_answer": "Hockey stick",
+      "incorrect_answers": ["Bat", "Racket", "Club"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is the object players try to shoot into the net?",
+      "correct_answer": "Puck",
+      "incorrect_answers": ["Ball", "Disk", "Coin"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team is based in Chicago?",
+      "correct_answer": "Blackhawks",
+      "incorrect_answers": ["Kings", "Rangers", "Capitals"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who guards the goal in hockey?",
+      "correct_answer": "Goalie",
+      "incorrect_answers": ["Defender", "Catcher", "Striker"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What happens when a team has more players on the ice due to a penalty?",
+      "correct_answer": "Power play",
+      "incorrect_answers": ["Offside", "Face-off", "Timeout"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team is based in New York and wears blue?",
+      "correct_answer": "Rangers",
+      "incorrect_answers": ["Islanders", "Devils", "Bruins"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is the penalty for fighting in hockey called?",
+      "correct_answer": "Major penalty",
+      "incorrect_answers": ["Minor penalty", "Offside", "Icing"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is it called when a player shoots the puck into the net three times in one game?",
+      "correct_answer": "Hat trick",
+      "incorrect_answers": ["Triple score", "Goal trio", "Net trick"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team is based in Boston?",
+      "correct_answer": "Bruins",
+      "incorrect_answers": ["Flyers", "Devils", "Lightning"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What do fans traditionally throw on the ice after a hat trick?",
+      "correct_answer": "Hats",
+      "incorrect_answers": ["Gloves", "Pucks", "Scarves"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team is based in Las Vegas?",
+      "correct_answer": "Golden Knights",
+      "incorrect_answers": ["Sharks", "Kings", "Avalanche"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is it called when the puck crosses the two blue lines without touching anyone?",
+      "correct_answer": "Icing",
+      "incorrect_answers": ["Offside", "Clearing", "Dumping"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team plays in Montreal?",
+      "correct_answer": "Canadiens",
+      "incorrect_answers": ["Senators", "Flames", "Jets"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What do the letters NHL stand for?",
+      "correct_answer": "National Hockey League",
+      "incorrect_answers": ["National Hockey Lads", "North Hockey League", "New Hockey League"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "How many periods are in a hockey game?",
       "correct_answer": "3",
       "incorrect_answers": ["2", "4", "5"],
       "difficulty": "easy",
       "sport": "hockey"
     },
     {
-      "question": "What is it called when a player scores three goals in a single hockey game?",
-      "correct_answer": "Hat trick",
-      "incorrect_answers": ["Triple play", "Three-pointer", "Grand slam"],
+      "question": "What is it called when a game is tied and goes beyond regular time?",
+      "correct_answer": "Overtime",
+      "incorrect_answers": ["Shootout", "Extra period", "Replay"],
       "difficulty": "easy",
       "sport": "hockey"
     },
     {
-      "question": "Which position is responsible for preventing the puck from entering the net?",
-      "correct_answer": "Goalie",
-      "incorrect_answers": ["Forward", "Defenseman", "Center"],
+      "question": "Which city is home to the NHL team named the Flyers?",
+      "correct_answer": "Philadelphia",
+      "incorrect_answers": ["Buffalo", "Pittsburgh", "Detroit"],
       "difficulty": "easy",
       "sport": "hockey"
     },
     {
-      "question": "What is the name of the trophy awarded to the NHL champion?",
-      "correct_answer": "Stanley Cup",
-      "incorrect_answers": ["Lombardi Trophy", "World Series Trophy", "Larry O'Brien Trophy"],
+      "question": "Who wears the 'C' on their jersey in hockey?",
+      "correct_answer": "Captain",
+      "incorrect_answers": ["Coach", "Center", "Catcher"],
       "difficulty": "easy",
       "sport": "hockey"
     },
     {
-      "question": "Which country is known as the birthplace of ice hockey?",
-      "correct_answer": "Canada",
-      "incorrect_answers": ["USA", "Russia", "Sweden"],
+      "question": "What’s the name of the blue painted area in front of the goal?",
+      "correct_answer": "Goal crease",
+      "incorrect_answers": ["Goal zone", "Net area", "Shot zone"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is the name of the NHL team in Vancouver?",
+      "correct_answer": "Canucks",
+      "incorrect_answers": ["Oilers", "Flames", "Jets"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team is based in Detroit?",
+      "correct_answer": "Red Wings",
+      "incorrect_answers": ["Maple Leafs", "Sabres", "Panthers"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team has a logo of a winged wheel?",
+      "correct_answer": "Detroit Red Wings",
+      "incorrect_answers": ["Chicago Blackhawks", "St. Louis Blues", "New Jersey Devils"],
       "difficulty": "easy",
       "sport": "hockey"
     },
@@ -369,35 +747,203 @@ const questions = [
     {
       "question": "What is it called when a batter hits the ball out of the park in fair territory?",
       "correct_answer": "Home run",
-      "incorrect_answers": ["Triple", "Double", "Single"],
+      "incorrect_answers": ["Triple", "Double", "Base hit"],
       "difficulty": "easy",
       "sport": "baseball"
     },
     {
-      "question": "How many players are on the field for one team during a baseball game?",
+      "question": "Which city is home to the Yankees?",
+      "correct_answer": "New York",
+      "incorrect_answers": ["Boston", "Chicago", "Los Angeles"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the area called where pitchers warm up?",
+      "correct_answer": "Bullpen",
+      "incorrect_answers": ["Dugout", "On-deck circle", "Outfield"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What do you call a player who hits the ball and runs all the way to third base?",
+      "correct_answer": "Triple",
+      "incorrect_answers": ["Double", "Single", "Home run"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which league do the Boston Red Sox play in?",
+      "correct_answer": "American League",
+      "incorrect_answers": ["National League", "Pacific League", "Atlantic League"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who wears the chest protector, mask, and shin guards?",
+      "correct_answer": "Catcher",
+      "incorrect_answers": ["Pitcher", "Shortstop", "Umpire"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the term for three outs in a row by a pitcher?",
+      "correct_answer": "Strikeout the side",
+      "incorrect_answers": ["Triple play", "Clean inning", "Flyout"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team is based in Chicago and wears blue and white?",
+      "correct_answer": "Chicago Cubs",
+      "incorrect_answers": ["White Sox", "Brewers", "Cardinals"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the small area in front of home plate called?",
+      "correct_answer": "Batter's box",
+      "incorrect_answers": ["On-deck circle", "Bullpen", "Outfield"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team plays at Dodger Stadium?",
+      "correct_answer": "Los Angeles Dodgers",
+      "incorrect_answers": ["Angels", "Giants", "Padres"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is it called when a pitcher throws four balls?",
+      "correct_answer": "Walk",
+      "incorrect_answers": ["Strikeout", "Foul", "Hit-by-pitch"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "How many players are on the field for one team during play?",
       "correct_answer": "9",
       "incorrect_answers": ["8", "10", "11"],
       "difficulty": "easy",
       "sport": "baseball"
     },
     {
-      "question": "What is the term for a pitch that the batter swings at and misses?",
-      "correct_answer": "Strike",
-      "incorrect_answers": ["Ball", "Foul", "Hit"],
+      "question": "What does RBI stand for?",
+      "correct_answer": "Runs Batted In",
+      "incorrect_answers": ["Run Base Interval", "Runners Batting In", "Return Before Inning"],
       "difficulty": "easy",
       "sport": "baseball"
     },
     {
-      "question": "Which position stands behind home plate and catches pitches?",
-      "correct_answer": "Catcher",
-      "incorrect_answers": ["Pitcher", "Shortstop", "First baseman"],
+      "question": "What color is typically used for the baseball stitching?",
+      "correct_answer": "Red",
+      "incorrect_answers": ["Blue", "Black", "Green"],
       "difficulty": "easy",
       "sport": "baseball"
     },
     {
-      "question": "What is the term for when a batter hits the ball and reaches second base safely?",
-      "correct_answer": "Double",
-      "incorrect_answers": ["Single", "Triple", "Home run"],
+      "question": "Which team is based in Atlanta?",
+      "correct_answer": "Braves",
+      "incorrect_answers": ["Marlins", "Nationals", "Rays"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who hits after the leadoff batter?",
+      "correct_answer": "Second batter",
+      "incorrect_answers": ["Cleanup", "Pitcher", "Catcher"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the term for a score in baseball?",
+      "correct_answer": "Run",
+      "incorrect_answers": ["Goal", "Point", "Hit"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which position plays between second and third base?",
+      "correct_answer": "Shortstop",
+      "incorrect_answers": ["First baseman", "Catcher", "Right fielder"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What happens when a ball is hit and caught without touching the ground?",
+      "correct_answer": "Out",
+      "incorrect_answers": ["Strike", "Walk", "Safe"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player usually pitches the ball?",
+      "correct_answer": "Pitcher",
+      "incorrect_answers": ["Catcher", "First baseman", "Shortstop"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which part of the bat do players try to hit with?",
+      "correct_answer": "Sweet spot",
+      "incorrect_answers": ["Handle", "End cap", "Grip"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "How many innings are in a standard professional baseball game?",
+      "correct_answer": "9",
+      "incorrect_answers": ["7", "10", "12"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player is known for hitting 762 home runs?",
+      "correct_answer": "Barry Bonds",
+      "incorrect_answers": ["Hank Aaron", "Babe Ruth", "Alex Rodriguez"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team is known as the 'Bronx Bombers'?",
+      "correct_answer": "New York Yankees",
+      "incorrect_answers": ["Mets", "Red Sox", "Dodgers"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which league is the St. Louis Cardinals part of?",
+      "correct_answer": "National League",
+      "incorrect_answers": ["American League", "Central League", "Atlantic League"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is it called when a batter strikes out three times in one game?",
+      "correct_answer": "Hat trick",
+      "incorrect_answers": ["Triple play", "Cycle", "No-hitter"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What shape is the baseball field?",
+      "correct_answer": "Diamond",
+      "incorrect_answers": ["Square", "Circle", "Triangle"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What do you call a pitch that is hit but lands outside the lines?",
+      "correct_answer": "Foul ball",
+      "incorrect_answers": ["Wild pitch", "Error", "Out"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What do fans call it when a batter hits for a single, double, triple, and home run in one game?",
+      "correct_answer": "Cycle",
+      "incorrect_answers": ["Hat trick", "Sweep", "Grand Slam"],
       "difficulty": "easy",
       "sport": "baseball"
     },
@@ -405,44 +951,212 @@ const questions = [
     // easy basketball questions
 
     {
-      "question": "How many points is a shot made from beyond the three-point line worth?",
-      "correct_answer": "3",
-      "incorrect_answers": ["1", "2", "4"],
+      "question": "Who has made the most three-pointers in NBA history?",
+      "correct_answer": "Stephen Curry",
+      "incorrect_answers": ["Ray Allen", "Reggie Miller", "James Harden"],
       "difficulty": "easy",
       "sport": "basketball"
     },
     {
-      "question": "What is the term for when a player grabs the ball after a missed shot?",
-      "correct_answer": "Rebound",
-      "incorrect_answers": ["Steal", "Assist", "Block"],
+      "question": "Which team is based in Los Angeles and wears purple and gold?",
+      "correct_answer": "Los Angeles Lakers",
+      "incorrect_answers": ["Clippers", "Warriors", "Kings"],
       "difficulty": "easy",
       "sport": "basketball"
     },
     {
-      "question": "How many players are on the court for one team during a basketball game?",
+      "question": "How many players are on the court for each team in basketball?",
       "correct_answer": "5",
-      "incorrect_answers": ["4", "6", "7"],
+      "incorrect_answers": ["6", "4", "7"],
       "difficulty": "easy",
       "sport": "basketball"
     },
     {
-      "question": "What is it called when a player dribbles the ball, stops, and then starts dribbling again?",
-      "correct_answer": "Double dribble",
-      "incorrect_answers": ["Traveling", "Carrying", "Pivoting"],
+      "question": "What is the term for when a player scores, gets a rebound, and assist 10+ times each in one game?",
+      "correct_answer": "Triple-double",
+      "incorrect_answers": ["Hat trick", "Double play", "Quad-double"],
       "difficulty": "easy",
       "sport": "basketball"
     },
     {
-      "question": "Which player is known as 'King James'?",
+      "question": "Which NBA team plays in Chicago?",
+      "correct_answer": "Bulls",
+      "incorrect_answers": ["Celtics", "Nets", "Heat"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is the line called that gives 3 points if a basket is made beyond it?",
+      "correct_answer": "Three-point line",
+      "incorrect_answers": ["Free-throw line", "Paint", "Baseline"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player is often nicknamed 'King James'?",
       "correct_answer": "LeBron James",
-      "incorrect_answers": ["Michael Jordan", "Kobe Bryant", "Kevin Durant"],
+      "incorrect_answers": ["Kevin Durant", "Michael Jordan", "Kobe Bryant"],
       "difficulty": "easy",
       "sport": "basketball"
     },
     {
-      "question": "What is the term for a shot made while being fouled, with the opportunity for an extra free throw?",
-      "correct_answer": "And-one",
-      "incorrect_answers": ["Double play", "Slam dunk", "Alley-oop"],
+      "question": "What city are the Golden State Warriors based in?",
+      "correct_answer": "San Francisco",
+      "incorrect_answers": ["Los Angeles", "Seattle", "Portland"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is a shot made from the free-throw line worth?",
+      "correct_answer": "1 point",
+      "incorrect_answers": ["2 points", "3 points", "It varies"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team does Giannis Antetokounmpo play for?",
+      "correct_answer": "Milwaukee Bucks",
+      "incorrect_answers": ["Lakers", "Heat", "Raptors"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player wore the number 23 for the Chicago Bulls?",
+      "correct_answer": "Michael Jordan",
+      "incorrect_answers": ["Scottie Pippen", "LeBron James", "Dennis Rodman"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is it called when a player jumps and slams the ball into the hoop?",
+      "correct_answer": "Dunk",
+      "incorrect_answers": ["Layup", "Alley-oop", "Block"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA team is based in Miami?",
+      "correct_answer": "Heat",
+      "incorrect_answers": ["Magic", "Hornets", "Nets"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which former player is known for saying 'Practice?' in an interview rant?",
+      "correct_answer": "Allen Iverson",
+      "incorrect_answers": ["Shaquille O'Neal", "Kobe Bryant", "Kevin Garnett"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "How many quarters are in an NBA game?",
+      "correct_answer": "4",
+      "incorrect_answers": ["2", "3", "5"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA player was known as 'The Black Mamba'?",
+      "correct_answer": "Kobe Bryant",
+      "incorrect_answers": ["LeBron James", "Michael Jordan", "Dwyane Wade"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is it called when a player misses and grabs their own rebound?",
+      "correct_answer": "Offensive rebound",
+      "incorrect_answers": ["Defensive rebound", "Second shot", "Self-pass"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA team has a leprechaun in its logo?",
+      "correct_answer": "Boston Celtics",
+      "incorrect_answers": ["New York Knicks", "Toronto Raptors", "Philadelphia 76ers"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team plays in Madison Square Garden?",
+      "correct_answer": "New York Knicks",
+      "incorrect_answers": ["Brooklyn Nets", "Boston Celtics", "Chicago Bulls"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What color is typically used for a basketball?",
+      "correct_answer": "Orange",
+      "incorrect_answers": ["Brown", "Black", "Red"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who is known for the 'Sky Hook' shot?",
+      "correct_answer": "Kareem Abdul-Jabbar",
+      "incorrect_answers": ["Shaquille O'Neal", "Hakeem Olajuwon", "Tim Duncan"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player is known for breaking backboards with dunks?",
+      "correct_answer": "Shaquille O'Neal",
+      "incorrect_answers": ["Kobe Bryant", "Dwight Howard", "Zion Williamson"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player won the NBA dunk contest in 2016?",
+      "correct_answer": "Zach LaVine",
+      "incorrect_answers": ["Aaron Gordon", "Vince Carter", "Blake Griffin"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is the restricted area under the hoop called?",
+      "correct_answer": "Paint",
+      "incorrect_answers": ["Key", "Circle", "Block zone"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is a violation for taking too many steps without dribbling?",
+      "correct_answer": "Traveling",
+      "incorrect_answers": ["Double dribble", "Carrying", "Jump ball"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who is known for wearing number 30 on the Warriors?",
+      "correct_answer": "Stephen Curry",
+      "incorrect_answers": ["Klay Thompson", "Draymond Green", "Jordan Poole"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which country did Luka Dončić come from?",
+      "correct_answer": "Slovenia",
+      "incorrect_answers": ["Serbia", "Croatia", "Lithuania"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA team has a bear mascot named 'Grizz'?",
+      "correct_answer": "Memphis Grizzlies",
+      "incorrect_answers": ["Minnesota Timberwolves", "Utah Jazz", "Denver Nuggets"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA team used to be based in Seattle?",
+      "correct_answer": "SuperSonics",
+      "incorrect_answers": ["Trail Blazers", "Jazz", "Kings"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is a shot made while jumping and releasing at the peak called?",
+      "correct_answer": "Jump shot",
+      "incorrect_answers": ["Layup", "Fadeaway", "Hook"],
       "difficulty": "easy",
       "sport": "basketball"
     },
