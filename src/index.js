@@ -54,6 +54,218 @@ const questions = [
       "difficulty": "easy",
       "sport": "soccer"
     },
+    
+      {
+        "question": "How many players are on the field for each team in a standard soccer match?",
+        "correct_answer": "11",
+        "incorrect_answers": ["10", "12", "9"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the term for when a player scores three goals in a single game?",
+        "correct_answer": "Hat-trick",
+        "incorrect_answers": ["Triple play", "Goalie trick", "Three-pointer"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country has won the most FIFA World Cups?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": ["Germany", "Italy", "Argentina"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the name of the international soccer tournament held every four years?",
+        "correct_answer": "FIFA World Cup",
+        "incorrect_answers": ["UEFA Champions League", "Copa America", "Gold Cup"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which part of the body is a soccer player not allowed to use to touch the ball, except the goalkeeper?",
+        "correct_answer": "Hands",
+        "incorrect_answers": ["Head", "Chest", "Feet"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What color card does a referee show to a player who must leave the field for misconduct?",
+        "correct_answer": "Red",
+        "incorrect_answers": ["Yellow", "Blue", "Green"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the term for the area where the goalkeeper can use their hands?",
+        "correct_answer": "Penalty area",
+        "incorrect_answers": ["Center circle", "Midfield", "Corner arc"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country hosted the 2018 FIFA World Cup?",
+        "correct_answer": "Russia",
+        "incorrect_answers": ["Brazil", "Germany", "South Africa"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the term for restarting play when the ball goes out over the sideline?",
+        "correct_answer": "Throw-in",
+        "incorrect_answers": ["Corner kick", "Goal kick", "Penalty kick"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which player is known as 'The King of Football'?",
+        "correct_answer": "Pelé",
+        "incorrect_answers": ["Maradona", "Messi", "Ronaldo"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the name of the English soccer league's top division?",
+        "correct_answer": "Premier League",
+        "incorrect_answers": ["Championship", "League One", "La Liga"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country is known as 'The Three Lions' in soccer?",
+        "correct_answer": "England",
+        "incorrect_answers": ["France", "Germany", "Italy"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the maximum number of substitutions allowed per team in a standard FIFA match?",
+        "correct_answer": "5",
+        "incorrect_answers": ["3", "4", "6"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which position is responsible for defending the goal?",
+        "correct_answer": "Goalkeeper",
+        "incorrect_answers": ["Striker", "Midfielder", "Defender"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is awarded when a player is fouled inside the opponent's penalty area?",
+        "correct_answer": "Penalty kick",
+        "incorrect_answers": ["Corner kick", "Free kick", "Throw-in"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country won the 2014 FIFA World Cup?",
+        "correct_answer": "Germany",
+        "incorrect_answers": ["Argentina", "Brazil", "Spain"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the term for a match that ends with both teams having the same score?",
+        "correct_answer": "Draw",
+        "incorrect_answers": ["Win", "Loss", "Overtime"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which player is famous for the 'Hand of God' goal?",
+        "correct_answer": "Diego Maradona",
+        "incorrect_answers": ["Pelé", "Lionel Messi", "Cristiano Ronaldo"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the name of the European club competition for top teams?",
+        "correct_answer": "UEFA Champions League",
+        "incorrect_answers": ["Europa League", "Premier League", "La Liga"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country is known as 'La Albiceleste'?",
+        "correct_answer": "Argentina",
+        "incorrect_answers": ["Brazil", "Spain", "Italy"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the term for a kick taken from the corner of the field?",
+        "correct_answer": "Corner kick",
+        "incorrect_answers": ["Free kick", "Penalty kick", "Throw-in"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which player has won the most Ballon d'Or awards?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": ["Cristiano Ronaldo", "Pelé", "Zinedine Zidane"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the term for the start or restart of play from the center circle?",
+        "correct_answer": "Kick-off",
+        "incorrect_answers": ["Throw-in", "Goal kick", "Corner kick"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country is known for the 'Samba' style of soccer?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": ["Spain", "Argentina", "Italy"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the name of the soccer position that primarily scores goals?",
+        "correct_answer": "Striker",
+        "incorrect_answers": ["Goalkeeper", "Defender", "Midfielder"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country hosted the 2010 FIFA World Cup?",
+        "correct_answer": "South Africa",
+        "incorrect_answers": ["Brazil", "Germany", "Russia"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the term for when the ball crosses the goal line between the goalposts?",
+        "correct_answer": "Goal",
+        "incorrect_answers": ["Offside", "Corner", "Throw-in"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country is known as 'Les Bleus' in soccer?",
+        "correct_answer": "France",
+        "incorrect_answers": ["Italy", "Germany", "Spain"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the term for a pass that leads directly to a goal?",
+        "correct_answer": "Assist",
+        "incorrect_answers": ["Cross", "Dribble", "Tackle"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which player is known for the 'Bicycle Kick' goal?",
+        "correct_answer": "Cristiano Ronaldo",
+        "incorrect_answers": ["Lionel Messi", "Pelé", "Neymar"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+    
 
     // easy football questions
 
