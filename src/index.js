@@ -102,15 +102,7 @@ const questions = [
       "incorrect_answers": ["Head", "Chest", "Feet"],
       "difficulty": "easy",
       "sport": "soccer"
-    },
-    {
-      "question": "What is the term for a game that ends with both teams having the same score?",
-      "correct_answer": "Draw",
-      "incorrect_answers": ["Win", "Loss", "Overtime"],
-      "difficulty": "easy",
-      "sport": "soccer"
-    },
-    
+    },   
       {
         "question": "How many players are on the field for each team in a standard soccer match?",
         "correct_answer": "11",
@@ -325,20 +317,6 @@ const questions = [
         "question": "Which country won the first FIFA World Cup in 1930?",
         "correct_answer": "Uruguay",
         "incorrect_answers": ["Brazil", "Germany", "Argentina"],
-        "difficulty": "easy",
-        "sport": "soccer"
-      },
-      {
-        "question": "Who is known as the 'King of Football'?",
-        "correct_answer": "Pelé",
-        "incorrect_answers": ["Diego Maradona", "Lionel Messi", "Cristiano Ronaldo"],
-        "difficulty": "easy",
-        "sport": "soccer"
-      },
-      {
-        "question": "Which player has won the most FIFA Ballon d’Or awards?",
-        "correct_answer": "Lionel Messi",
-        "incorrect_answers": ["Cristiano Ronaldo", "Zinedine Zidane", "Ronaldinho"],
         "difficulty": "easy",
         "sport": "soccer"
       },
