@@ -2351,6 +2351,76 @@ const questions = [
       "difficulty": "medium",
       "sport": "football"
     },
+      {
+        "question": "Which team has appeared in four Super Bowls but never held a lead?",
+        "correct_answer": "Minnesota Vikings",
+        "incorrect_answers": ["Buffalo Bills", "Cincinnati Bengals", "Atlanta Falcons"],
+        "difficulty": "medium",
+        "sport": "football"
+      },
+      {
+        "question": "Who was the first wide receiver to win Super Bowl MVP?",
+        "correct_answer": "Lynn Swann",
+        "incorrect_answers": ["Jerry Rice", "Julian Edelman", "Hines Ward"],
+        "difficulty": "medium",
+        "sport": "football"
+      },
+      {
+        "question": "Which Super Bowl had the first halftime show featuring a pop star?",
+        "correct_answer": "Super Bowl XXV",
+        "incorrect_answers": ["Super Bowl XX", "Super Bowl XXX", "Super Bowl XL"],
+        "difficulty": "medium",
+        "sport": "football"
+      },
+      {
+        "question": "Which team recorded the first shutout in Super Bowl history?",
+        "correct_answer": "No team has ever recorded a shutout in Super Bowl history.",
+        "incorrect_answers": ["Baltimore Ravens", "Chicago Bears", "New York Giants"],
+        "difficulty": "medium",
+        "sport": "football"
+      },
+      {
+        "question": "Which player has the most career Super Bowl touchdowns?",
+        "correct_answer": "Jerry Rice",
+        "incorrect_answers": ["Rob Gronkowski", "Emmitt Smith", "Franco Harris"],
+        "difficulty": "medium",
+        "sport": "football"
+      },
+      {
+        "question": "Which city hosted the first Super Bowl played indoors?",
+        "correct_answer": "New Orleans",
+        "incorrect_answers": ["Detroit", "Houston", "Atlanta"],
+        "difficulty": "medium",
+        "sport": "football"
+      },
+      {
+        "question": "Which Super Bowl had the smallest attendance?",
+        "correct_answer": "Super Bowl LV",
+        "incorrect_answers": ["Super Bowl I", "Super Bowl XX", "Super Bowl XL"],
+        "difficulty": "medium",
+        "sport": "football"
+      },
+      {
+        "question": "Who was the first player to win consecutive Super Bowl MVPs?",
+        "correct_answer": "Bart Starr",
+        "incorrect_answers": ["Terry Bradshaw", "Joe Montana", "Tom Brady"],
+        "difficulty": "medium",
+        "sport": "football"
+      },
+      {
+        "question": "Which team scored the fewest points in a Super Bowl game?",
+        "correct_answer": "Miami Dolphins",
+        "incorrect_answers": ["Los Angeles Rams", "New York Giants", "Baltimore Ravens"],
+        "difficulty": "medium",
+        "sport": "football"
+      },
+      {
+        "question": "Which player has played in the most Super Bowls?",
+        "correct_answer": "Tom Brady",
+        "incorrect_answers": ["Jerry Rice", "Peyton Manning", "Ben Roethlisberger"],
+        "difficulty": "medium",
+        "sport": "football"
+      },    
     {
       "question": "Which team won the Super Bowl in 2022?",
       "correct_answer": "Los Angeles Rams",
@@ -3275,6 +3345,78 @@ const questions = [
       "difficulty": "hard",
       "sport": "football"
     },
+    
+      {
+        "question": "Who is the only player to win Super Bowl MVP despite his team losing the game?",
+        "correct_answer": "Chuck Howley",
+        "incorrect_answers": ["Tom Brady", "Joe Montana", "Peyton Manning"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which Super Bowl had the first halftime show featuring a pop star?",
+        "correct_answer": "Super Bowl XXV",
+        "incorrect_answers": ["Super Bowl XX", "Super Bowl XXX", "Super Bowl XL"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which team recorded the first shutout in Super Bowl history?",
+        "correct_answer": "No team has ever recorded a shutout in Super Bowl history.",
+        "incorrect_answers": ["Baltimore Ravens", "Chicago Bears", "New York Giants"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which player has the most career Super Bowl touchdowns?",
+        "correct_answer": "Jerry Rice",
+        "incorrect_answers": ["Rob Gronkowski", "Emmitt Smith", "Franco Harris"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which city hosted the first Super Bowl played indoors?",
+        "correct_answer": "New Orleans",
+        "incorrect_answers": ["Detroit", "Houston", "Atlanta"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which Super Bowl had the smallest attendance?",
+        "correct_answer": "Super Bowl LV",
+        "incorrect_answers": ["Super Bowl I", "Super Bowl XX", "Super Bowl XL"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Who was the first player to win consecutive Super Bowl MVPs?",
+        "correct_answer": "Bart Starr",
+        "incorrect_answers": ["Terry Bradshaw", "Joe Montana", "Tom Brady"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which team scored the fewest points in a Super Bowl game?",
+        "correct_answer": "Miami Dolphins",
+        "incorrect_answers": ["Los Angeles Rams", "New York Giants", "Baltimore Ravens"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which player has played in the most Super Bowls?",
+        "correct_answer": "Tom Brady",
+        "incorrect_answers": ["Jerry Rice", "Peyton Manning", "Ben Roethlisberger"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Who performed the national anthem at Super Bowl 50?",
+        "correct_answer": "Lady Gaga",
+        "incorrect_answers": ["Beyoncé", "Alicia Keys", "Whitney Houston"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+    
     {
       "question": "Which NFL team has the most losses in Super Bowl history?",
       "correct_answer": "New England Patriots",
