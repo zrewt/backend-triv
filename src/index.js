@@ -20,6 +20,62 @@ const questions = [
       "sport": "soccer"
     },
     {
+      "question": "Which player scored the most goals in a single UEFA Champions League season?",
+      "correct_answer": "Cristiano Ronaldo",
+      "incorrect_answers": ["Lionel Messi", "Robert Lewandowski", "Ruud van Nistelrooy"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which team won the UEFA Champions League in 2020?",
+      "correct_answer": "Bayern Munich",
+      "incorrect_answers": ["Paris Saint-Germain", "Liverpool", "Manchester City"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who scored the fastest goal in UEFA Champions League history?",
+      "correct_answer": "Roy Makaay",
+      "incorrect_answers": ["Paolo Maldini", "Gareth Bale", "Alexandre Pato"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club won the UEFA Champions League in their debut season?",
+      "correct_answer": "Nottingham Forest",
+      "incorrect_answers": ["Aston Villa", "Marseille", "Chelsea"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which team made a 6–1 comeback vs PSG in 2017?",
+      "correct_answer": "FC Barcelona",
+      "incorrect_answers": ["Real Madrid", "Manchester United", "Bayern Munich"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which English team was the first to win the Champions League?",
+      "correct_answer": "Manchester United",
+      "incorrect_answers": ["Liverpool", "Nottingham Forest", "Chelsea"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country has had the most different Champions League finalists?",
+      "correct_answer": "England",
+      "incorrect_answers": ["Germany", "Italy", "Spain"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which goalkeeper has made the most Champions League appearances?",
+      "correct_answer": "Iker Casillas",
+      "incorrect_answers": ["Manuel Neuer", "Gianluigi Buffon", "Petr Čech"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
       "question": "What is the term for when a player scores three goals in a single game?",
       "correct_answer": "Hat trick",
       "incorrect_answers": ["Triple play", "Three-pointer", "Grand slam"],
@@ -1381,6 +1437,76 @@ const questions = [
       "sport": "soccer"
     },
     {
+      "question": "Which club has lost the most UEFA Champions League finals?",
+      "correct_answer": "Juventus",
+      "incorrect_answers": ["Bayern Munich", "AC Milan", "Benfica"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which player won the Champions League with Ajax, Real Madrid, and AC Milan?",
+      "correct_answer": "Clarence Seedorf",
+      "incorrect_answers": ["Cristiano Ronaldo", "Samuel Eto'o", "Zlatan Ibrahimović"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who scored the winning goal in the 1999 Champions League final?",
+      "correct_answer": "Ole Gunnar Solskjær",
+      "incorrect_answers": ["Teddy Sheringham", "David Beckham", "Ryan Giggs"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club appeared in the most finals without winning the title?",
+      "correct_answer": "Valencia",
+      "incorrect_answers": ["Arsenal", "Stade de Reims", "Bayer Leverkusen"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who has scored the most goals in Champions League finals?",
+      "correct_answer": "Alfredo Di Stéfano",
+      "incorrect_answers": ["Cristiano Ronaldo", "Lionel Messi", "Raúl"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which team scored the most goals in a single Champions League season?",
+      "correct_answer": "Barcelona",
+      "incorrect_answers": ["Real Madrid", "Liverpool", "Bayern Munich"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which player has the most assists in Champions League history?",
+      "correct_answer": "Lionel Messi",
+      "incorrect_answers": ["Cristiano Ronaldo", "Xavi", "Iniesta"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club won the 2012 UEFA Champions League?",
+      "correct_answer": "Chelsea",
+      "incorrect_answers": ["Bayern Munich", "Manchester United", "Real Madrid"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "What stadium is known as the 'Theatre of Dreams'?",
+      "correct_answer": "Old Trafford",
+      "incorrect_answers": ["Santiago Bernabéu", "Camp Nou", "Allianz Arena"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which team defeated Barcelona 8–2 in 2020?",
+      "correct_answer": "Bayern Munich",
+      "incorrect_answers": ["Liverpool", "Real Madrid", "Manchester City"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },    
+    {
       "question": "Who is known as the 'King of Football'?",
       "correct_answer": "Pelé",
       "incorrect_answers": ["Diego Maradona", "Lionel Messi", "Cristiano Ronaldo"],
@@ -2440,6 +2566,76 @@ const questions = [
       "difficulty": "hard",
       "sport": "soccer"
     },
+    {
+      "question": "Which club has won more Champions League titles than their own domestic league titles?",
+      "correct_answer": "Nottingham Forest",
+      "incorrect_answers": ["Aston Villa", "Hamburger SV", "Steaua Bucharest"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which player holds the record for most minutes played in UCL history?",
+      "correct_answer": "Iker Casillas",
+      "incorrect_answers": ["Cristiano Ronaldo", "Xavi", "Paolo Maldini"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country has had the most different teams play in the Champions League?",
+      "correct_answer": "Germany",
+      "incorrect_answers": ["England", "Spain", "Italy"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who managed Porto to Champions League victory in 2004?",
+      "correct_answer": "José Mourinho",
+      "incorrect_answers": ["Rafa Benitez", "Carlo Ancelotti", "Louis van Gaal"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which player scored a hat-trick in the fastest time in UCL history?",
+      "correct_answer": "Bafétimbi Gomis",
+      "incorrect_answers": ["Cristiano Ronaldo", "Raheem Sterling", "Robert Lewandowski"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which team won the Champions League with the youngest starting XI in a final?",
+      "correct_answer": "Ajax (1995)",
+      "incorrect_answers": ["Manchester United (1999)", "Barcelona (2006)", "Porto (2004)"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who is the youngest scorer in Champions League history?",
+      "correct_answer": "Ansu Fati",
+      "incorrect_answers": ["Cesc Fàbregas", "Bojan Krkić", "Martin Ødegaard"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club won the first edition of the European Cup?",
+      "correct_answer": "Real Madrid",
+      "incorrect_answers": ["Benfica", "AC Milan", "Reims"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which referee has officiated the most UCL finals?",
+      "correct_answer": "Pierluigi Collina",
+      "incorrect_answers": ["Howard Webb", "Mark Clattenburg", "Felix Brych"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "What is the highest-scoring UCL match of all time?",
+      "correct_answer": "Borussia Dortmund 8–4 Legia Warsaw",
+      "incorrect_answers": ["Barcelona 7–1 Bayer Leverkusen", "Bayern 7–2 Tottenham", "Real Madrid 6–3 Anderlecht"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },    
     {
       "question": "Which country has appeared in the most FIFA World Cup finals without ever winning?",
       "correct_answer": "Netherlands",
