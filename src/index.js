@@ -76,13 +76,6 @@ const questions = [
       "sport": "soccer"
     },
     {
-      "question": "What is the term for when a player scores three goals in a single game?",
-      "correct_answer": "Hat trick",
-      "incorrect_answers": ["Triple play", "Three-pointer", "Grand slam"],
-      "difficulty": "easy",
-      "sport": "soccer"
-    },
-    {
       "question": "How many players are on the field for one team during a standard soccer match?",
       "correct_answer": "11",
       "incorrect_answers": ["9", "10", "12"],
@@ -104,23 +97,9 @@ const questions = [
       "sport": "soccer"
     },   
       {
-        "question": "How many players are on the field for each team in a standard soccer match?",
-        "correct_answer": "11",
-        "incorrect_answers": ["10", "12", "9"],
-        "difficulty": "easy",
-        "sport": "soccer"
-      },
-      {
         "question": "What is the term for when a player scores three goals in a single game?",
         "correct_answer": "Hat-trick",
         "incorrect_answers": ["Triple play", "Goalie trick", "Three-pointer"],
-        "difficulty": "easy",
-        "sport": "soccer"
-      },
-      {
-        "question": "Which country has won the most FIFA World Cups?",
-        "correct_answer": "Brazil",
-        "incorrect_answers": ["Germany", "Italy", "Argentina"],
         "difficulty": "easy",
         "sport": "soccer"
       },
@@ -142,13 +121,6 @@ const questions = [
         "question": "What color card does a referee show to a player who must leave the field for misconduct?",
         "correct_answer": "Red",
         "incorrect_answers": ["Yellow", "Blue", "Green"],
-        "difficulty": "easy",
-        "sport": "soccer"
-      },
-      {
-        "question": "What is the term for the area where the goalkeeper can use their hands?",
-        "correct_answer": "Penalty area",
-        "incorrect_answers": ["Center circle", "Midfield", "Corner arc"],
         "difficulty": "easy",
         "sport": "soccer"
       },
@@ -324,13 +296,6 @@ const questions = [
         "question": "Which team is known as the 'Red Devils'?",
         "correct_answer": "Manchester United",
         "incorrect_answers": ["Liverpool", "Arsenal", "Chelsea"],
-        "difficulty": "easy",
-        "sport": "soccer"
-      },
-      {
-        "question": "Which country won the FIFA 2014 World Cup in Brazil?",
-        "correct_answer": "Germany",
-        "incorrect_answers": ["Argentina", "Brazil", "Spain"],
         "difficulty": "easy",
         "sport": "soccer"
       },
