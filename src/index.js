@@ -741,6 +741,62 @@ const questions = [
       "sport": "hockey"
     },
     {
+      "question": "Which team won the Stanley Cup in 2024?",
+      "correct_answer": "Vegas Golden Knights",
+      "incorrect_answers": ["Florida Panthers", "Colorado Avalanche", "Edmonton Oilers"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "How many teams compete for the Stanley Cup in the NHL playoffs?",
+      "correct_answer": "16",
+      "incorrect_answers": ["12", "8", "20"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which player has the most career Stanley Cup wins?",
+      "correct_answer": "Henri Richard",
+      "incorrect_answers": ["Wayne Gretzky", "Jean Béliveau", "Maurice Richard"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team is based in Toronto?",
+      "correct_answer": "Maple Leafs",
+      "incorrect_answers": ["Canucks", "Oilers", "Senators"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "In what month is the Stanley Cup usually awarded?",
+      "correct_answer": "June",
+      "incorrect_answers": ["March", "September", "December"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is engraved on the Stanley Cup?",
+      "correct_answer": "Names of the winning team members",
+      "incorrect_answers": ["Score of the final game", "Year only", "Team logo"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team plays home games at Madison Square Garden?",
+      "correct_answer": "New York Rangers",
+      "incorrect_answers": ["Islanders", "Devils", "Flyers"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What country has won the most Stanley Cups by teams?",
+      "correct_answer": "Canada",
+      "incorrect_answers": ["USA", "Russia", "Sweden"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
       "question": "What is the name of the professional ice hockey league in North America?",
       "correct_answer": "NHL",
       "incorrect_answers": ["MLB", "NFL", "NBA"],
@@ -748,7 +804,6 @@ const questions = [
       "sport": "hockey"
     },
     {
-      "question": "Which NHL team is based in Toronto?",
       "correct_answer": "Maple Leafs",
       "incorrect_answers": ["Canadiens", "Senators", "Oilers"],
       "difficulty": "easy",
@@ -1464,7 +1519,6 @@ const questions = [
       "sport": "soccer"
     },
     {
-      "question": "Which team is known as the 'Red Devils'?",
       "correct_answer": "Manchester United",
       "incorrect_answers": ["Liverpool", "Arsenal", "Chelsea"],
       "difficulty": "medium",
@@ -2088,6 +2142,76 @@ const questions = [
       "difficulty": "medium",
       "sport": "hockey"
     },
+      {
+        "question": "Who won the Conn Smythe Trophy in the 2023 Stanley Cup Finals?",
+        "correct_answer": "Jonathan Marchessault",
+        "incorrect_answers": ["Jack Eichel", "Sergei Bobrovsky", "Matthew Tkachuk"],
+        "difficulty": "medium",
+        "sport": "hockey"
+      },
+      {
+        "question": "Which team completed a reverse sweep in the 2010 playoffs?",
+        "correct_answer": "Philadelphia Flyers",
+        "incorrect_answers": ["Boston Bruins", "Chicago Blackhawks", "Pittsburgh Penguins"],
+        "difficulty": "medium",
+        "sport": "hockey"
+      },
+      {
+        "question": "Who was the first American team to win the Stanley Cup?",
+        "correct_answer": "Seattle Metropolitans",
+        "incorrect_answers": ["Boston Bruins", "New York Rangers", "Chicago Blackhawks"],
+        "difficulty": "medium",
+        "sport": "hockey"
+      },
+      {
+        "question": "What is the name of the NHL playoff MVP award?",
+        "correct_answer": "Conn Smythe Trophy",
+        "incorrect_answers": ["Hart Memorial Trophy", "Vezina Trophy", "Art Ross Trophy"],
+        "difficulty": "medium",
+        "sport": "hockey"
+      },
+      {
+        "question": "Which team won the 2019 Stanley Cup Final?",
+        "correct_answer": "St. Louis Blues",
+        "incorrect_answers": ["Boston Bruins", "Tampa Bay Lightning", "San Jose Sharks"],
+        "difficulty": "medium",
+        "sport": "hockey"
+      },
+      {
+        "question": "Who scored the series-winning goal in overtime of the 2010 Stanley Cup Final?",
+        "correct_answer": "Patrick Kane",
+        "incorrect_answers": ["Jonathan Toews", "Duncan Keith", "Marian Hossa"],
+        "difficulty": "medium",
+        "sport": "hockey"
+      },
+      {
+        "question": "What is the fewest number of games required to win the Stanley Cup?",
+        "correct_answer": "16",
+        "incorrect_answers": ["12", "14", "18"],
+        "difficulty": "medium",
+        "sport": "hockey"
+      },
+      {
+        "question": "Which goalie had the longest shutout streak in a single postseason?",
+        "correct_answer": "Jean-Sebastien Giguere",
+        "incorrect_answers": ["Martin Brodeur", "Patrick Roy", "Dominik Hasek"],
+        "difficulty": "medium",
+        "sport": "hockey"
+      },
+      {
+        "question": "Which team lost the Stanley Cup Finals four years in a row from 1980 to 1983?",
+        "correct_answer": "Philadelphia Flyers",
+        "incorrect_answers": ["Buffalo Sabres", "Minnesota North Stars", "Vancouver Canucks"],
+        "difficulty": "medium",
+        "sport": "hockey"
+      },
+      {
+        "question": "Which team did Wayne Gretzky never win a Stanley Cup with?",
+        "correct_answer": "Los Angeles Kings",
+        "incorrect_answers": ["Edmonton Oilers", "None", "Calgary Flames"],
+        "difficulty": "medium",
+        "sport": "hockey"
+      },   
     {
       "question": "Who holds the NHL record for most career goals?",
       "correct_answer": "Alex Ovechkin",
@@ -3297,56 +3421,48 @@ const questions = [
         "sport": "football"
       },
       {
-        "question": "Which Super Bowl had the first halftime show featuring a pop star?",
         "correct_answer": "Super Bowl XXV",
         "incorrect_answers": ["Super Bowl XX", "Super Bowl XXX", "Super Bowl XL"],
         "difficulty": "hard",
         "sport": "football"
       },
       {
-        "question": "Which team recorded the first shutout in Super Bowl history?",
         "correct_answer": "No team has ever recorded a shutout in Super Bowl history.",
         "incorrect_answers": ["Baltimore Ravens", "Chicago Bears", "New York Giants"],
         "difficulty": "hard",
         "sport": "football"
       },
       {
-        "question": "Which player has the most career Super Bowl touchdowns?",
         "correct_answer": "Jerry Rice",
         "incorrect_answers": ["Rob Gronkowski", "Emmitt Smith", "Franco Harris"],
         "difficulty": "hard",
         "sport": "football"
       },
       {
-        "question": "Which city hosted the first Super Bowl played indoors?",
         "correct_answer": "New Orleans",
         "incorrect_answers": ["Detroit", "Houston", "Atlanta"],
         "difficulty": "hard",
         "sport": "football"
       },
       {
-        "question": "Which Super Bowl had the smallest attendance?",
         "correct_answer": "Super Bowl LV",
         "incorrect_answers": ["Super Bowl I", "Super Bowl XX", "Super Bowl XL"],
         "difficulty": "hard",
         "sport": "football"
       },
       {
-        "question": "Who was the first player to win consecutive Super Bowl MVPs?",
         "correct_answer": "Bart Starr",
         "incorrect_answers": ["Terry Bradshaw", "Joe Montana", "Tom Brady"],
         "difficulty": "hard",
         "sport": "football"
       },
       {
-        "question": "Which team scored the fewest points in a Super Bowl game?",
         "correct_answer": "Miami Dolphins",
         "incorrect_answers": ["Los Angeles Rams", "New York Giants", "Baltimore Ravens"],
         "difficulty": "hard",
         "sport": "football"
       },
       {
-        "question": "Which player has played in the most Super Bowls?",
         "correct_answer": "Tom Brady",
         "incorrect_answers": ["Jerry Rice", "Peyton Manning", "Ben Roethlisberger"],
         "difficulty": "hard",
@@ -3567,9 +3683,78 @@ const questions = [
     // hard hockey questions
 
     {
-      "question": "Who was the first NHL player to score 50 goals in 50 games?",
       "correct_answer": "Maurice Richard",
       "incorrect_answers": ["Wayne Gretzky", "Bobby Hull", "Gordie Howe"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who is the only player to win the Stanley Cup as captain of two different teams?",
+      "correct_answer": "Mark Messier",
+      "incorrect_answers": ["Wayne Gretzky", "Ray Bourque", "Joe Sakic"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team won the Stanley Cup in 1942 after being down 0-3 in the Finals?",
+      "correct_answer": "Toronto Maple Leafs",
+      "incorrect_answers": ["Boston Bruins", "Detroit Red Wings", "Chicago Blackhawks"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which goalie was the first to score a goal in the Stanley Cup Playoffs?",
+      "correct_answer": "Ron Hextall",
+      "incorrect_answers": ["Martin Brodeur", "Patrick Roy", "Tom Barrasso"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team has appeared in the most Stanley Cup Finals without a win?",
+      "correct_answer": "Vancouver Canucks",
+      "incorrect_answers": ["Buffalo Sabres", "San Jose Sharks", "Ottawa Senators"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "In what year was the Stanley Cup not awarded due to a lockout?",
+      "correct_answer": "2005",
+      "incorrect_answers": ["1995", "2013", "2020"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team ended a 54-year Stanley Cup drought in 1994?",
+      "correct_answer": "New York Rangers",
+      "incorrect_answers": ["Toronto Maple Leafs", "Chicago Blackhawks", "Los Angeles Kings"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which player scored the Cup-clinching goal in triple OT in 1996?",
+      "correct_answer": "Uwe Krupp",
+      "incorrect_answers": ["Joe Sakic", "Peter Forsberg", "Claude Lemieux"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team was the last to win the Stanley Cup before the 2005 lockout?",
+      "correct_answer": "Tampa Bay Lightning",
+      "incorrect_answers": ["Calgary Flames", "New Jersey Devils", "Detroit Red Wings"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the first European captain to win the Stanley Cup?",
+      "correct_answer": "Nicklas Lidstrom",
+      "incorrect_answers": ["Jaromir Jagr", "Teemu Selanne", "Zdeno Chara"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which arena has hosted the most Stanley Cup Finals games?",
+      "correct_answer": "Montreal Forum",
+      "incorrect_answers": ["Madison Square Garden", "Boston Garden", "United Center"],
       "difficulty": "hard",
       "sport": "hockey"
     },
@@ -3665,7 +3850,6 @@ const questions = [
       "sport": "hockey"
     },
     {
-      "question": "Which NHL team has won the most Stanley Cups?",
       "correct_answer": "Montreal Canadiens",
       "incorrect_answers": ["Toronto Maple Leafs", "Detroit Red Wings", "Boston Bruins"],
       "difficulty": "hard",
@@ -3728,7 +3912,6 @@ const questions = [
       "sport": "hockey"
     },
     {
-      "question": "Which country has produced the most NHL players?",
       "correct_answer": "Canada",
       "incorrect_answers": ["USA", "Russia", "Sweden"],
       "difficulty": "hard",
