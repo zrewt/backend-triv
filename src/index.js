@@ -20,6 +20,76 @@ const questions = [
       "sport": "soccer"
     },
     {
+      "question": "What is the name of the field where soccer is played?",
+      "correct_answer": "Pitch",
+      "incorrect_answers": ["Court", "Rink", "Diamond"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which player is known for the famous goal celebration 'Siu'?",
+      "correct_answer": "Cristiano Ronaldo",
+      "incorrect_answers": ["Neymar", "Kylian Mbappé", "Erling Haaland"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "How long is a standard professional soccer match?",
+      "correct_answer": "90 minutes",
+      "incorrect_answers": ["60 minutes", "80 minutes", "100 minutes"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "What is the name of the world governing body of soccer?",
+      "correct_answer": "FIFA",
+      "incorrect_answers": ["UEFA", "NBA", "NHL"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country does Neymar represent?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": ["Spain", "Portugal", "Argentina"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "How many goals is a hat trick?",
+      "correct_answer": "3",
+      "incorrect_answers": ["2", "4", "5"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country is famous for the nickname 'La Roja'?",
+      "correct_answer": "Spain",
+      "incorrect_answers": ["Chile", "Mexico", "Italy"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "What footwear is worn during soccer matches?",
+      "correct_answer": "Cleats",
+      "incorrect_answers": ["Sneakers", "Boots", "Slippers"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which famous Argentine played for both Barcelona and PSG?",
+      "correct_answer": "Lionel Messi",
+      "incorrect_answers": ["Sergio Aguero", "Carlos Tevez", "Di Maria"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "How many points is a win worth in a soccer league table?",
+      "correct_answer": "3",
+      "incorrect_answers": ["2", "4", "1"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },    
+    {
       "question": "Which player scored the most goals in a single UEFA Champions League season?",
       "correct_answer": "Cristiano Ronaldo",
       "incorrect_answers": ["Lionel Messi", "Robert Lewandowski", "Ruud van Nistelrooy"],
@@ -1435,6 +1505,76 @@ const questions = [
       "sport": "soccer"
     },
     {
+      "question": "Which soccer team is known as 'The Gunners'?",
+      "correct_answer": "Arsenal",
+      "incorrect_answers": ["Chelsea", "Manchester United", "Tottenham"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who won the FIFA Women's World Cup in 2019?",
+      "correct_answer": "USA",
+      "incorrect_answers": ["Netherlands", "Germany", "Japan"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country has the most Ballon d'Or winners?",
+      "correct_answer": "Argentina",
+      "incorrect_answers": ["France", "Germany", "Brazil"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which team won the Premier League in the 2022–23 season?",
+      "correct_answer": "Manchester City",
+      "incorrect_answers": ["Liverpool", "Arsenal", "Chelsea"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who scored the winning goal in the 2014 FIFA World Cup Final?",
+      "correct_answer": "Mario Götze",
+      "incorrect_answers": ["Thomas Müller", "Miroslav Klose", "Toni Kroos"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which player wore the number 10 shirt for France in the 1998 World Cup?",
+      "correct_answer": "Zinedine Zidane",
+      "incorrect_answers": ["Thierry Henry", "Didier Deschamps", "Patrick Vieira"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which national team is known as the 'Three Lions'?",
+      "correct_answer": "England",
+      "incorrect_answers": ["Scotland", "Wales", "Germany"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which African nation won the Africa Cup of Nations in 2021?",
+      "correct_answer": "Senegal",
+      "incorrect_answers": ["Egypt", "Cameroon", "Algeria"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which player won the 2022 FIFA World Cup Golden Ball?",
+      "correct_answer": "Lionel Messi",
+      "incorrect_answers": ["Kylian Mbappé", "Luka Modric", "Julian Alvarez"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country did Luka Modric lead to a World Cup final?",
+      "correct_answer": "Croatia",
+      "incorrect_answers": ["Serbia", "Bosnia", "Slovenia"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },    
+    {
       "question": "Which club has lost the most UEFA Champions League finals?",
       "correct_answer": "Juventus",
       "incorrect_answers": ["Bayern Munich", "AC Milan", "Benfica"],
@@ -2703,6 +2843,76 @@ const questions = [
       "difficulty": "hard",
       "sport": "soccer"
     },
+    {
+      "question": "Which club won the first ever UEFA Champions League in 1992–93?",
+      "correct_answer": "Marseille",
+      "incorrect_answers": ["AC Milan", "Barcelona", "Real Madrid"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who was the top scorer in the UEFA Champions League 2020–21 season?",
+      "correct_answer": "Erling Haaland",
+      "incorrect_answers": ["Robert Lewandowski", "Karim Benzema", "Kylian Mbappé"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which nation did Ferenc Puskás represent internationally?",
+      "correct_answer": "Hungary",
+      "incorrect_answers": ["Poland", "Austria", "Czech Republic"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who managed Greece when they won Euro 2004?",
+      "correct_answer": "Otto Rehhagel",
+      "incorrect_answers": ["Fernando Santos", "Luis Aragones", "Marcello Lippi"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country hosted the 1962 FIFA World Cup?",
+      "correct_answer": "Chile",
+      "incorrect_answers": ["Brazil", "Italy", "Mexico"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "What year did the back-pass rule come into effect?",
+      "correct_answer": "1992",
+      "incorrect_answers": ["1986", "1994", "2000"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which goalkeeper scored a goal from open play in the Premier League for Stoke City?",
+      "correct_answer": "Asmir Begović",
+      "incorrect_answers": ["David de Gea", "Joe Hart", "Petr Čech"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country won the FIFA Confederations Cup in 2017?",
+      "correct_answer": "Germany",
+      "incorrect_answers": ["Portugal", "Chile", "Brazil"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club has the most UEFA Europa League titles?",
+      "correct_answer": "Sevilla",
+      "incorrect_answers": ["Inter Milan", "Liverpool", "Atletico Madrid"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who was the first African player to win the Ballon d'Or?",
+      "correct_answer": "George Weah",
+      "incorrect_answers": ["Samuel Eto'o", "Didier Drogba", "Abedi Pele"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },    
     {
       "question": "Which club has won more Champions League titles than their own domestic league titles?",
       "correct_answer": "Nottingham Forest",
