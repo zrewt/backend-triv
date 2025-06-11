@@ -556,6 +556,55 @@ const questions = [
       "sport": "football"
     },
     {
+      "question": "Which NFL team has a lightning bolt as its logo?",
+      "correct_answer": "Los Angeles Chargers",
+      "incorrect_answers": ["New York Jets", "Dallas Cowboys", "Seattle Seahawks"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "How many teams make the NFL playoffs each year?",
+      "correct_answer": "14",
+      "incorrect_answers": ["12", "16", "10"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL player is known for the 'Gronk Spike'?",
+      "correct_answer": "Rob Gronkowski",
+      "incorrect_answers": ["Tom Brady", "Travis Kelce", "George Kittle"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What color is the penalty flag in the NFL?",
+      "correct_answer": "Yellow",
+      "incorrect_answers": ["Red", "White", "Blue"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "How many yards is a football field (excluding end zones)?",
+      "correct_answer": "100",
+      "incorrect_answers": ["110", "90", "80"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which city do the Dallas Cowboys play in?",
+      "correct_answer": "Arlington",
+      "incorrect_answers": ["Dallas", "Houston", "San Antonio"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team has a star on its helmet?",
+      "correct_answer": "Dallas Cowboys",
+      "incorrect_answers": ["Patriots", "Giants", "Eagles"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
       "question": "What is the name of the championship game of the NFL?",
       "correct_answer": "Super Bowl",
       "incorrect_answers": ["World Series", "Stanley Cup", "NBA Finals"],
@@ -2558,6 +2607,76 @@ const questions = [
       "difficulty": "medium",
       "sport": "football"
     },
+    {
+      "question": "Which player was the first overall pick in the 2024 NFL Draft?",
+      "correct_answer": "Caleb Williams",
+      "incorrect_answers": ["Drake Maye", "Jayden Daniels", "Bo Nix"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which coach led the Steelers to four Super Bowl wins?",
+      "correct_answer": "Chuck Noll",
+      "incorrect_answers": ["Bill Cowher", "Mike Tomlin", "Don Shula"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL player famously wore jersey number 18 for the Colts?",
+      "correct_answer": "Peyton Manning",
+      "incorrect_answers": ["Andrew Luck", "Johnny Unitas", "Tom Brady"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which team did the New England Patriots defeat in Super Bowl LIII?",
+      "correct_answer": "Los Angeles Rams",
+      "incorrect_answers": ["Atlanta Falcons", "Philadelphia Eagles", "Seattle Seahawks"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What college did Patrick Mahomes attend?",
+      "correct_answer": "Texas Tech",
+      "incorrect_answers": ["Texas A&M", "Oklahoma", "LSU"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Who was the MVP of Super Bowl LV?",
+      "correct_answer": "Tom Brady",
+      "incorrect_answers": ["Patrick Mahomes", "Rob Gronkowski", "Leonard Fournette"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which team drafted J.J. Watt in 2011?",
+      "correct_answer": "Houston Texans",
+      "incorrect_answers": ["Green Bay Packers", "Pittsburgh Steelers", "Arizona Cardinals"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which team has the most Super Bowl appearances?",
+      "correct_answer": "New England Patriots",
+      "incorrect_answers": ["Pittsburgh Steelers", "San Francisco 49ers", "Dallas Cowboys"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What is the name of the NFL's championship trophy?",
+      "correct_answer": "Vince Lombardi Trophy",
+      "incorrect_answers": ["George Halas Trophy", "Heisman Trophy", "Walter Payton Trophy"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What is the maximum number of players on the field per team during a play?",
+      "correct_answer": "11",
+      "incorrect_answers": ["10", "12", "9"],
+      "difficulty": "medium",
+      "sport": "football"
+    },    
       {
         "question": "Which team has appeared in four Super Bowls but never held a lead?",
         "correct_answer": "Minnesota Vikings",
@@ -2906,7 +3025,7 @@ const questions = [
       "difficulty": "hard",
       "sport": "soccer"
     },
-    {
+    { 
       "question": "Who was the first African player to win the Ballon d'Or?",
       "correct_answer": "George Weah",
       "incorrect_answers": ["Samuel Eto'o", "Didier Drogba", "Abedi Pele"],
@@ -3622,6 +3741,76 @@ const questions = [
       "difficulty": "hard",
       "sport": "football"
     },
+    {
+      "question": "Which player holds the record for the most career receiving yards in the NFL?",
+      "correct_answer": "Jerry Rice",
+      "incorrect_answers": ["Randy Moss", "Terrell Owens", "Larry Fitzgerald"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who was the quarterback for the Miami Dolphins during their 1972 perfect season?",
+      "correct_answer": "Bob Griese",
+      "incorrect_answers": ["Dan Marino", "Earl Morrall", "Ken Stabler"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which team won the first Super Bowl ever played?",
+      "correct_answer": "Green Bay Packers",
+      "incorrect_answers": ["Kansas City Chiefs", "Chicago Bears", "New York Jets"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which head coach has the most total wins in NFL history?",
+      "correct_answer": "Don Shula",
+      "incorrect_answers": ["Bill Belichick", "George Halas", "Tom Landry"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who holds the record for most sacks in a single NFL season?",
+      "correct_answer": "Michael Strahan",
+      "incorrect_answers": ["T.J. Watt", "Reggie White", "DeMarcus Ware"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which kicker holds the record for the longest field goal in NFL history?",
+      "correct_answer": "Justin Tucker",
+      "incorrect_answers": ["Adam Vinatieri", "Sebastian Janikowski", "Matt Prater"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who was the first African American quarterback to win a Super Bowl?",
+      "correct_answer": "Doug Williams",
+      "incorrect_answers": ["Warren Moon", "Randall Cunningham", "Steve McNair"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which team holds the longest playoff drought in NFL history?",
+      "correct_answer": "Cleveland Browns",
+      "incorrect_answers": ["Detroit Lions", "New York Jets", "Arizona Cardinals"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "What was the name of the league that merged with the NFL in 1970?",
+      "correct_answer": "AFL",
+      "incorrect_answers": ["USFL", "XFL", "CFL"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team had the nickname 'The Greatest Show on Turf'?",
+      "correct_answer": "St. Louis Rams",
+      "incorrect_answers": ["Indianapolis Colts", "New Orleans Saints", "San Diego Chargers"],
+      "difficulty": "hard",
+      "sport": "football"
+    },    
     
       {
         "question": "Who is the only player to win Super Bowl MVP despite his team losing the game?",
