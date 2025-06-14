@@ -2643,13 +2643,6 @@ const questions = [
       "sport": "football"
     },
     {
-      "question": "Who was the MVP of Super Bowl LV?",
-      "correct_answer": "Tom Brady",
-      "incorrect_answers": ["Patrick Mahomes", "Rob Gronkowski", "Leonard Fournette"],
-      "difficulty": "medium",
-      "sport": "football"
-    },
-    {
       "question": "Which team drafted J.J. Watt in 2011?",
       "correct_answer": "Houston Texans",
       "incorrect_answers": ["Green Bay Packers", "Pittsburgh Steelers", "Arizona Cardinals"],
@@ -2821,13 +2814,6 @@ const questions = [
       "question": "Who was the #1 overall pick in the 2020 NFL Draft?",
       "correct_answer": "Joe Burrow",
       "incorrect_answers": ["Tua Tagovailoa", "Chase Young", "Justin Herbert"],
-      "difficulty": "medium",
-      "sport": "football"
-    },
-    {
-      "question": "Which team has the most Super Bowl appearances?",
-      "correct_answer": "New England Patriots",
-      "incorrect_answers": ["Pittsburgh Steelers", "Dallas Cowboys", "San Francisco 49ers"],
       "difficulty": "medium",
       "sport": "football"
     },
