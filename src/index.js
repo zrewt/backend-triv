@@ -20,6 +20,76 @@ const questions = [
       "sport": "soccer"
     },
     {
+      "question": "What country hosts the Copa América tournament most frequently?",
+      "correct_answer": "Argentina",
+      "incorrect_answers": ["Brazil", "Chile", "Uruguay"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "What color card means a player is sent off in soccer?",
+      "correct_answer": "Red",
+      "incorrect_answers": ["Yellow", "Blue", "Green"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "How many players are on the field for one team in a standard soccer match?",
+      "correct_answer": "11",
+      "incorrect_answers": ["10", "12", "9"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "What is the name of the soccer position that guards the goal?",
+      "correct_answer": "Goalkeeper",
+      "incorrect_answers": ["Striker", "Defender", "Midfielder"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country is famous for its samba style of soccer?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": ["Spain", "Italy", "Germany"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which shape is a standard soccer ball?",
+      "correct_answer": "Sphere",
+      "incorrect_answers": ["Cube", "Oval", "Cone"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "What part of the body can’t be used to touch the ball by field players?",
+      "correct_answer": "Hands",
+      "incorrect_answers": ["Feet", "Head", "Chest"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "What is it called when a player scores three goals in a game?",
+      "correct_answer": "Hat-trick",
+      "incorrect_answers": ["Triple play", "Treble", "Trick shot"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "What does FIFA stand for?",
+      "correct_answer": "Fédération Internationale de Football Association",
+      "incorrect_answers": ["Federal International Football Alliance", "Football International Federation Association", "Federation of International Football Agents"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which part of the field does a kickoff start from?",
+      "correct_answer": "Center circle",
+      "incorrect_answers": ["Penalty box", "Corner arc", "Sideline"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },    
+    {
       "question": "What is the name of the field where soccer is played?",
       "correct_answer": "Pitch",
       "incorrect_answers": ["Court", "Rink", "Diamond"],
@@ -142,13 +212,6 @@ const questions = [
       "question": "Which goalkeeper has made the most Champions League appearances?",
       "correct_answer": "Iker Casillas",
       "incorrect_answers": ["Manuel Neuer", "Gianluigi Buffon", "Petr Čech"],
-      "difficulty": "easy",
-      "sport": "soccer"
-    },
-    {
-      "question": "How many players are on the field for one team during a standard soccer match?",
-      "correct_answer": "11",
-      "incorrect_answers": ["9", "10", "12"],
       "difficulty": "easy",
       "sport": "soccer"
     },
@@ -556,6 +619,76 @@ const questions = [
       "sport": "football"
     },
     {
+      "question": "How many points is a touchdown worth?",
+      "correct_answer": "6",
+      "incorrect_answers": ["3", "7", "5"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team is based in Green Bay?",
+      "correct_answer": "Packers",
+      "incorrect_answers": ["Bears", "Vikings", "Lions"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What position throws the football?",
+      "correct_answer": "Quarterback",
+      "incorrect_answers": ["Running back", "Tight end", "Linebacker"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which day of the week is most associated with NFL games?",
+      "correct_answer": "Sunday",
+      "incorrect_answers": ["Friday", "Tuesday", "Saturday"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which team has a star on its helmet?",
+      "correct_answer": "Dallas Cowboys",
+      "incorrect_answers": ["New York Giants", "New England Patriots", "Chicago Bears"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which city do the 49ers play in?",
+      "correct_answer": "San Francisco",
+      "incorrect_answers": ["Los Angeles", "Seattle", "Denver"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "How many teams are in the NFL?",
+      "correct_answer": "32",
+      "incorrect_answers": ["30", "28", "34"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the name of the NFL championship game?",
+      "correct_answer": "Super Bowl",
+      "incorrect_answers": ["World Series", "Final Four", "Bowl Championship"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which team is known for the 'Terrible Towel'?",
+      "correct_answer": "Pittsburgh Steelers",
+      "incorrect_answers": ["Ravens", "Browns", "Bengals"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team plays in Miami?",
+      "correct_answer": "Dolphins",
+      "incorrect_answers": ["Buccaneers", "Jaguars", "Panthers"],
+      "difficulty": "easy",
+      "sport": "football"
+    },    
+    {
       "question": "Which team plays their home games at Lambeau Field?",
       "correct_answer": "Green Bay Packers",
       "incorrect_answers": ["Chicago Bears", "Minnesota Vikings", "Detroit Lions"],
@@ -930,6 +1063,76 @@ const questions = [
       "sport": "hockey"
     },
     {
+      "question": "How many players are on the ice per team during regular play in hockey?",
+      "correct_answer": "6",
+      "incorrect_answers": ["5", "7", "4"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team is based in Toronto?",
+      "correct_answer": "Maple Leafs",
+      "incorrect_answers": ["Canadiens", "Flames", "Senators"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is the name of the trophy awarded to the NHL champion?",
+      "correct_answer": "Stanley Cup",
+      "incorrect_answers": ["Presidents' Trophy", "Hart Trophy", "Memorial Cup"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which position is responsible for guarding the net?",
+      "correct_answer": "Goalie",
+      "incorrect_answers": ["Winger", "Defenseman", "Center"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is used to play hockey on the ice?",
+      "correct_answer": "Puck",
+      "incorrect_answers": ["Ball", "Disk", "Coin"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team is known as the 'Habs'?",
+      "correct_answer": "Montreal Canadiens",
+      "incorrect_answers": ["Vancouver Canucks", "Ottawa Senators", "Toronto Maple Leafs"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team is based in New York and has a blue, red, and white color scheme?",
+      "correct_answer": "Rangers",
+      "incorrect_answers": ["Islanders", "Devils", "Capitals"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team plays home games in Las Vegas?",
+      "correct_answer": "Golden Knights",
+      "incorrect_answers": ["Coyotes", "Kings", "Ducks"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which country is known as the birthplace of ice hockey?",
+      "correct_answer": "Canada",
+      "incorrect_answers": ["USA", "Russia", "Sweden"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What color is the goalie's crease in hockey?",
+      "correct_answer": "Blue",
+      "incorrect_answers": ["Red", "White", "Green"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },    
+    {
       "question": "Which trophy is awarded to the NHL champion?",
       "correct_answer": "Stanley Cup",
       "incorrect_answers": ["Presidents' Trophy", "Hart Trophy", "Art Ross Trophy"],
@@ -1268,6 +1471,76 @@ const questions = [
       "sport": "baseball"
     },
     {
+      "question": "How many bases are on a baseball field?",
+      "correct_answer": "4",
+      "incorrect_answers": ["3", "5", "6"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is it called when a batter hits the ball out of the park in fair territory?",
+      "correct_answer": "Home run",
+      "incorrect_answers": ["Triple", "Foul ball", "Strike"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What position does the player on the mound play?",
+      "correct_answer": "Pitcher",
+      "incorrect_answers": ["Catcher", "Shortstop", "First baseman"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team is known as the 'Yanks'?",
+      "correct_answer": "New York Yankees",
+      "incorrect_answers": ["Chicago Cubs", "Boston Red Sox", "Los Angeles Dodgers"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the maximum number of strikes before a batter is out?",
+      "correct_answer": "3",
+      "incorrect_answers": ["2", "4", "5"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which league does the Boston Red Sox play in?",
+      "correct_answer": "American League",
+      "incorrect_answers": ["National League", "Minor League", "Triple-A League"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "How many innings are in a regulation MLB game?",
+      "correct_answer": "9",
+      "incorrect_answers": ["7", "8", "10"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What do you call it when a batter reaches all four bases on a hit?",
+      "correct_answer": "Home run",
+      "incorrect_answers": ["Double", "Triple", "Bunt"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the area called where pitchers warm up?",
+      "correct_answer": "Bullpen",
+      "incorrect_answers": ["Dugout", "Outfield", "Infield"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What team plays at Wrigley Field?",
+      "correct_answer": "Chicago Cubs",
+      "incorrect_answers": ["Chicago White Sox", "New York Mets", "Cleveland Guardians"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },    
+    {
       "question": "How many strikes equal an out in baseball?",
       "correct_answer": "3",
       "incorrect_answers": ["4", "2", "5"],
@@ -1551,6 +1824,76 @@ const questions = [
       "sport": "basketball"
     },
     {
+      "question": "How many points is a free throw worth in basketball?",
+      "correct_answer": "1",
+      "incorrect_answers": ["2", "3", "0"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team is based in Chicago in the NBA?",
+      "correct_answer": "Chicago Bulls",
+      "incorrect_answers": ["Lakers", "Heat", "Celtics"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is the regulation height of a basketball hoop?",
+      "correct_answer": "10 feet",
+      "incorrect_answers": ["9 feet", "11 feet", "12 feet"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player is known as 'King James'?",
+      "correct_answer": "LeBron James",
+      "incorrect_answers": ["Stephen Curry", "Kevin Durant", "Kobe Bryant"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is the name of the league in women’s professional basketball in the USA?",
+      "correct_answer": "WNBA",
+      "incorrect_answers": ["NBAW", "WBL", "USWL"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team plays at Madison Square Garden?",
+      "correct_answer": "New York Knicks",
+      "incorrect_answers": ["Brooklyn Nets", "Boston Celtics", "Chicago Bulls"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which position usually brings the ball up the court?",
+      "correct_answer": "Point guard",
+      "incorrect_answers": ["Center", "Power forward", "Shooting guard"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA team has a purple and gold color scheme?",
+      "correct_answer": "Los Angeles Lakers",
+      "incorrect_answers": ["Phoenix Suns", "Golden State Warriors", "Utah Jazz"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "How many quarters are in an NBA game?",
+      "correct_answer": "4",
+      "incorrect_answers": ["2", "3", "5"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which basketball player starred in the movie 'Space Jam'?",
+      "correct_answer": "Michael Jordan",
+      "incorrect_answers": ["LeBron James", "Kobe Bryant", "Shaquille O'Neal"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },    
+    {
       "question": "How many players from one team are on the basketball court at a time?",
       "correct_answer": "5",
       "incorrect_answers": ["4", "6", "7"],
@@ -1833,6 +2176,76 @@ const questions = [
       "difficulty": "medium",
       "sport": "soccer"
     },
+    {
+      "question": "Which English Premier League team is nicknamed the 'Reds'?",
+      "correct_answer": "Liverpool",
+      "incorrect_answers": ["Arsenal", "Chelsea", "Everton"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "What is the term for the defensive tactic where all players stay behind the ball?",
+      "correct_answer": "Parking the bus",
+      "incorrect_answers": ["Offside trap", "Zonal marking", "Man-to-man"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who won the UEFA European Championship in 2016?",
+      "correct_answer": "Portugal",
+      "incorrect_answers": ["France", "Germany", "Italy"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which soccer player is known for the 'Hand of God' goal?",
+      "correct_answer": "Diego Maradona",
+      "incorrect_answers": ["Pelé", "Zidane", "Ronaldo"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club does Robert Lewandowski currently play for (as of 2025)?",
+      "correct_answer": "Barcelona",
+      "incorrect_answers": ["Bayern Munich", "Real Madrid", "Manchester United"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "What is the name of the top-tier league in Italian soccer?",
+      "correct_answer": "Serie A",
+      "incorrect_answers": ["La Liga", "Bundesliga", "Ligue 1"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which team won the FIFA Women’s World Cup in 2019?",
+      "correct_answer": "United States",
+      "incorrect_answers": ["Netherlands", "Germany", "England"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which African country hosted the 2010 FIFA World Cup?",
+      "correct_answer": "South Africa",
+      "incorrect_answers": ["Nigeria", "Egypt", "Morocco"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who is Real Madrid’s all-time leading goal scorer?",
+      "correct_answer": "Cristiano Ronaldo",
+      "incorrect_answers": ["Karim Benzema", "Raúl", "Zidane"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which stadium is home to Manchester United?",
+      "correct_answer": "Old Trafford",
+      "incorrect_answers": ["Etihad Stadium", "Anfield", "Stamford Bridge"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },    
     {
       "question": "Which soccer team is known as 'The Gunners'?",
       "correct_answer": "Arsenal",
@@ -2186,6 +2599,76 @@ const questions = [
       "sport": "basketball"
     },
     {
+      "question": "Which team drafted Dirk Nowitzki before trading him to the Mavericks?",
+      "correct_answer": "Milwaukee Bucks",
+      "incorrect_answers": ["Phoenix Suns", "Boston Celtics", "Atlanta Hawks"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who was the first NBA player to score 100 points in a single game?",
+      "correct_answer": "Wilt Chamberlain",
+      "incorrect_answers": ["Kareem Abdul-Jabbar", "Bill Russell", "Oscar Robertson"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which university did Kevin Durant attend for one year?",
+      "correct_answer": "Texas",
+      "incorrect_answers": ["Duke", "North Carolina", "Kentucky"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player won the 2022 NBA MVP?",
+      "correct_answer": "Nikola Jokic",
+      "incorrect_answers": ["Joel Embiid", "Giannis Antetokounmpo", "Stephen Curry"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which coach has won the most NBA titles?",
+      "correct_answer": "Phil Jackson",
+      "incorrect_answers": ["Gregg Popovich", "Red Auerbach", "Pat Riley"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "What year did the Toronto Raptors win their first NBA Championship?",
+      "correct_answer": "2019",
+      "incorrect_answers": ["2020", "2018", "2017"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA team was formerly known as the Seattle SuperSonics?",
+      "correct_answer": "Oklahoma City Thunder",
+      "incorrect_answers": ["Sacramento Kings", "Memphis Grizzlies", "New Orleans Pelicans"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player holds the record for most rebounds in an NBA game?",
+      "correct_answer": "Wilt Chamberlain",
+      "incorrect_answers": ["Dennis Rodman", "Shaquille O'Neal", "Bill Russell"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "What team did Allen Iverson play the majority of his career with?",
+      "correct_answer": "Philadelphia 76ers",
+      "incorrect_answers": ["Denver Nuggets", "Detroit Pistons", "Boston Celtics"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player was nicknamed 'The Big Fundamental'?",
+      "correct_answer": "Tim Duncan",
+      "incorrect_answers": ["Shaquille O'Neal", "Karl Malone", "David Robinson"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },    
+    {
       "question": "Who won the 2023 NBA Championship?",
       "correct_answer": "Denver Nuggets",
       "incorrect_answers": ["Miami Heat", "Golden State Warriors", "Boston Celtics"],
@@ -2469,6 +2952,76 @@ const questions = [
       "sport": "baseball"
     },
     {
+      "question": "Which team did Babe Ruth start his MLB career with?",
+      "correct_answer": "Boston Red Sox",
+      "incorrect_answers": ["New York Yankees", "Chicago Cubs", "St. Louis Cardinals"],
+      "difficulty": "medium",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who holds the MLB record for most career hits?",
+      "correct_answer": "Pete Rose",
+      "incorrect_answers": ["Derek Jeter", "Hank Aaron", "Ichiro Suzuki"],
+      "difficulty": "medium",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which pitcher has the most career strikeouts in MLB history?",
+      "correct_answer": "Nolan Ryan",
+      "incorrect_answers": ["Randy Johnson", "Roger Clemens", "Greg Maddux"],
+      "difficulty": "medium",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB team has won the most World Series titles?",
+      "correct_answer": "New York Yankees",
+      "incorrect_answers": ["St. Louis Cardinals", "Boston Red Sox", "San Francisco Giants"],
+      "difficulty": "medium",
+      "sport": "baseball"
+    },
+    {
+      "question": "What year was the designated hitter rule introduced in the American League?",
+      "correct_answer": "1973",
+      "incorrect_answers": ["1969", "1975", "1980"],
+      "difficulty": "medium",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the term for a play where two outs are made in one continuous action?",
+      "correct_answer": "Double play",
+      "incorrect_answers": ["Triple play", "Pop fly", "Lineout"],
+      "difficulty": "medium",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team won the 2021 World Series?",
+      "correct_answer": "Atlanta Braves",
+      "incorrect_answers": ["Houston Astros", "Los Angeles Dodgers", "Tampa Bay Rays"],
+      "difficulty": "medium",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the first MLB player to have his number retired?",
+      "correct_answer": "Lou Gehrig",
+      "incorrect_answers": ["Babe Ruth", "Jackie Robinson", "Ty Cobb"],
+      "difficulty": "medium",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the minimum number of pitches required to complete a perfect game?",
+      "correct_answer": "27",
+      "incorrect_answers": ["28", "30", "25"],
+      "difficulty": "medium",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which stadium has a 'Green Monster' in left field?",
+      "correct_answer": "Fenway Park",
+      "incorrect_answers": ["Dodger Stadium", "Yankee Stadium", "Oracle Park"],
+      "difficulty": "medium",
+      "sport": "baseball"
+    },    
+    {
       "question": "Which player holds the MLB record for most career home runs?",
       "correct_answer": "Barry Bonds",
       "incorrect_answers": ["Hank Aaron", "Babe Ruth", "Alex Rodriguez"],
@@ -2751,6 +3304,76 @@ const questions = [
       "difficulty": "medium",
       "sport": "hockey"
     },
+    {
+      "question": "Which player scored the most goals in a single NHL season?",
+      "correct_answer": "Wayne Gretzky",
+      "incorrect_answers": ["Brett Hull", "Mario Lemieux", "Alex Ovechkin"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team won the Stanley Cup in 2020?",
+      "correct_answer": "Tampa Bay Lightning",
+      "incorrect_answers": ["Boston Bruins", "Dallas Stars", "Colorado Avalanche"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which player won the NHL MVP in 2021?",
+      "correct_answer": "Connor McDavid",
+      "incorrect_answers": ["Auston Matthews", "Nathan MacKinnon", "Leon Draisaitl"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team has the most Stanley Cup wins?",
+      "correct_answer": "Montreal Canadiens",
+      "incorrect_answers": ["Toronto Maple Leafs", "Boston Bruins", "Chicago Blackhawks"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which player was known as 'Mr. Hockey'?",
+      "correct_answer": "Gordie Howe",
+      "incorrect_answers": ["Wayne Gretzky", "Bobby Orr", "Mark Messier"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is the name of the arena the Pittsburgh Penguins play in?",
+      "correct_answer": "PPG Paints Arena",
+      "incorrect_answers": ["United Center", "Rogers Arena", "Scotiabank Arena"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team relocated to become the Arizona Coyotes?",
+      "correct_answer": "Winnipeg Jets",
+      "incorrect_answers": ["Hartford Whalers", "Minnesota North Stars", "Quebec Nordiques"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is the minimum number of players a team can have on the ice due to penalties?",
+      "correct_answer": "3",
+      "incorrect_answers": ["2", "4", "5"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who is the NHL’s all-time leader in penalty minutes?",
+      "correct_answer": "Tiger Williams",
+      "incorrect_answers": ["Rob Ray", "Tie Domi", "Marty McSorley"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "What year was the NHL founded?",
+      "correct_answer": "1917",
+      "incorrect_answers": ["1905", "1920", "1932"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },    
     {
       "question": "Which player holds the NHL record for most goals in a single season?",
       "correct_answer": "Wayne Gretzky",
@@ -3097,6 +3720,76 @@ const questions = [
       "difficulty": "medium",
       "sport": "football"
     },
+    {
+      "question": "Who was the #1 overall pick in the 2020 NFL Draft?",
+      "correct_answer": "Joe Burrow",
+      "incorrect_answers": ["Justin Herbert", "Tua Tagovailoa", "Chase Young"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team is known as the 'Dirty Birds'?",
+      "correct_answer": "Atlanta Falcons",
+      "incorrect_answers": ["Ravens", "Raiders", "Cardinals"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What team has won the most Super Bowls?",
+      "correct_answer": "New England Patriots",
+      "incorrect_answers": ["Cowboys", "Steelers", "49ers"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which quarterback led the Eagles to a Super Bowl LII victory?",
+      "correct_answer": "Nick Foles",
+      "incorrect_answers": ["Carson Wentz", "Jalen Hurts", "Michael Vick"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What team drafted Patrick Mahomes?",
+      "correct_answer": "Kansas City Chiefs",
+      "incorrect_answers": ["Buffalo Bills", "Houston Texans", "New York Jets"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which running back famously wore number 34 for the Chicago Bears?",
+      "correct_answer": "Walter Payton",
+      "incorrect_answers": ["Gale Sayers", "Barry Sanders", "Bo Jackson"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which team plays their home games at Lambeau Field?",
+      "correct_answer": "Green Bay Packers",
+      "incorrect_answers": ["Vikings", "Browns", "Seahawks"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "How long is an NFL field (not including end zones)?",
+      "correct_answer": "100 yards",
+      "incorrect_answers": ["110 yards", "90 yards", "120 yards"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which coach led the Patriots to 6 Super Bowl titles?",
+      "correct_answer": "Bill Belichick",
+      "incorrect_answers": ["Andy Reid", "Sean Payton", "Mike Tomlin"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What is the maximum number of points you can score on a single NFL play?",
+      "correct_answer": "8",
+      "incorrect_answers": ["7", "6", "9"],
+      "difficulty": "medium",
+      "sport": "football"
+    },    
     {
       "question": "Who was the first player to rush for over 2,000 yards in a single NFL season?",
       "correct_answer": "O.J. Simpson",
@@ -3509,6 +4202,76 @@ const questions = [
       "sport": "soccer"
     },
     {
+      "question": "Which country won the first ever FIFA World Cup in 1930?",
+      "correct_answer": "Uruguay",
+      "incorrect_answers": ["Brazil", "Argentina", "Italy"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which goalkeeper has the most clean sheets in Premier League history?",
+      "correct_answer": "Petr Čech",
+      "incorrect_answers": ["David De Gea", "Edwin van der Sar", "Alisson"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club has won the most UEFA Europa League titles?",
+      "correct_answer": "Sevilla",
+      "incorrect_answers": ["Juventus", "Liverpool", "Inter Milan"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which player holds the record for most assists in a single Premier League season?",
+      "correct_answer": "Kevin De Bruyne",
+      "incorrect_answers": ["Thierry Henry", "Frank Lampard", "Steven Gerrard"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which nation has reached the most World Cup finals without winning?",
+      "correct_answer": "Netherlands",
+      "incorrect_answers": ["Croatia", "Hungary", "Sweden"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "In what year did the Champions League adopt its current name?",
+      "correct_answer": "1992",
+      "incorrect_answers": ["1995", "1990", "1988"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club was banned from European competition for financial irregularities in 2020 (later overturned)?",
+      "correct_answer": "Manchester City",
+      "incorrect_answers": ["PSG", "Juventus", "Barcelona"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who was the captain of Italy's 2006 World Cup-winning team?",
+      "correct_answer": "Fabio Cannavaro",
+      "incorrect_answers": ["Francesco Totti", "Gianluigi Buffon", "Gennaro Gattuso"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club did Zinedine Zidane play for before joining Real Madrid?",
+      "correct_answer": "Juventus",
+      "incorrect_answers": ["Bordeaux", "Marseille", "Monaco"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which African player has scored the most goals in Premier League history?",
+      "correct_answer": "Mohamed Salah",
+      "incorrect_answers": ["Didier Drogba", "Sadio Mané", "Yakubu"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },    
+    {
       "question": "Which club won the first ever UEFA Champions League in 1992–93?",
       "correct_answer": "Marseille",
       "incorrect_answers": ["AC Milan", "Barcelona", "Real Madrid"],
@@ -3862,6 +4625,76 @@ const questions = [
       "sport": "baseball"
     },
     {
+      "question": "Which player hit 4 home runs in a single MLB game in 2002?",
+      "correct_answer": "Shawn Green",
+      "incorrect_answers": ["Barry Bonds", "Sammy Sosa", "Albert Pujols"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the first African-American to play in Major League Baseball?",
+      "correct_answer": "Jackie Robinson",
+      "incorrect_answers": ["Satchel Paige", "Hank Aaron", "Willie Mays"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which pitcher threw a perfect game in the 1956 World Series?",
+      "correct_answer": "Don Larsen",
+      "incorrect_answers": ["Whitey Ford", "Sandy Koufax", "Bob Gibson"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What player hit 73 home runs in a single season?",
+      "correct_answer": "Barry Bonds",
+      "incorrect_answers": ["Mark McGwire", "Sammy Sosa", "Alex Rodriguez"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team did the Montreal Expos become?",
+      "correct_answer": "Washington Nationals",
+      "incorrect_answers": ["Toronto Blue Jays", "Tampa Bay Rays", "Miami Marlins"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "How many World Series titles have the St. Louis Cardinals won?",
+      "correct_answer": "11",
+      "incorrect_answers": ["9", "13", "10"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What year was the MLB All-Star Game first played?",
+      "correct_answer": "1933",
+      "incorrect_answers": ["1925", "1941", "1950"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was known as 'The Big Unit'?",
+      "correct_answer": "Randy Johnson",
+      "incorrect_answers": ["Roger Clemens", "Pedro Martinez", "Greg Maddux"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB player won 7 MVP awards during his career?",
+      "correct_answer": "Barry Bonds",
+      "incorrect_answers": ["Willie Mays", "Mike Trout", "Alex Rodriguez"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the first player to reach 600 home runs in the MLB?",
+      "correct_answer": "Babe Ruth",
+      "incorrect_answers": ["Hank Aaron", "Willie Mays", "Barry Bonds"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },    
+    {
       "question": "Who was the first African-American to play in Major League Baseball?",
       "correct_answer": "Jackie Robinson",
       "incorrect_answers": ["Satchel Paige", "Hank Aaron", "Larry Doby"],
@@ -4145,6 +4978,76 @@ const questions = [
       "sport": "basketball"
     },
     {
+      "question": "Which player has the highest career free throw percentage in NBA history?",
+      "correct_answer": "Stephen Curry",
+      "incorrect_answers": ["Steve Nash", "Mark Price", "Rick Barry"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who was the first overall pick in the 2003 NBA Draft?",
+      "correct_answer": "LeBron James",
+      "incorrect_answers": ["Carmelo Anthony", "Chris Bosh", "Dwyane Wade"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA player was also a licensed pilot and died in a helicopter crash?",
+      "correct_answer": "Kobe Bryant",
+      "incorrect_answers": ["Michael Jordan", "LeBron James", "Vince Carter"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is the fewest points scored by a team in a single NBA game?",
+      "correct_answer": "49",
+      "incorrect_answers": ["51", "53", "47"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player recorded the first triple-double in NBA history?",
+      "correct_answer": "Andy Phillip",
+      "incorrect_answers": ["Oscar Robertson", "Magic Johnson", "Bob Cousy"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who is the all-time leader in blocked shots in the NBA?",
+      "correct_answer": "Hakeem Olajuwon",
+      "incorrect_answers": ["Dikembe Mutombo", "Shaquille O'Neal", "Tim Duncan"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who was the first international player to be drafted first overall?",
+      "correct_answer": "Yao Ming",
+      "incorrect_answers": ["Dirk Nowitzki", "Manu Ginóbili", "Pau Gasol"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team holds the record for the longest winning streak in NBA history?",
+      "correct_answer": "Los Angeles Lakers",
+      "incorrect_answers": ["Golden State Warriors", "Chicago Bulls", "Miami Heat"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who was the first player to be unanimously voted NBA MVP?",
+      "correct_answer": "Stephen Curry",
+      "incorrect_answers": ["Michael Jordan", "LeBron James", "Shaquille O'Neal"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },
+    {
+      "question": "What year was the three-point line introduced in the NBA?",
+      "correct_answer": "1979",
+      "incorrect_answers": ["1980", "1975", "1981"],
+      "difficulty": "hard",
+      "sport": "basketball"
+    },    
+    {
       "question": "Who was the first NBA player to score 100 points in a single game?",
       "correct_answer": "Wilt Chamberlain",
       "incorrect_answers": ["Michael Jordan", "Kobe Bryant", "Karl Malone"],
@@ -4427,6 +5330,76 @@ const questions = [
       "difficulty": "hard",
       "sport": "football"
     },
+    {
+      "question": "Which team lost four straight Super Bowls in the 1990s?",
+      "correct_answer": "Buffalo Bills",
+      "incorrect_answers": ["Minnesota Vikings", "Cincinnati Bengals", "Philadelphia Eagles"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which player holds the record for most career rushing yards?",
+      "correct_answer": "Emmitt Smith",
+      "incorrect_answers": ["Walter Payton", "Barry Sanders", "Adrian Peterson"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who was the first player to pass for 5,000 yards in a single season?",
+      "correct_answer": "Dan Marino",
+      "incorrect_answers": ["Tom Brady", "Drew Brees", "Peyton Manning"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "What team was originally known as the Boston Patriots?",
+      "correct_answer": "New England Patriots",
+      "incorrect_answers": ["New York Jets", "Buffalo Bills", "Washington Commanders"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who is the only player to win NFL MVP and Super Bowl MVP in the same season twice?",
+      "correct_answer": "Joe Montana",
+      "incorrect_answers": ["Tom Brady", "Peyton Manning", "Terry Bradshaw"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which team did the LA Rams defeat in Super Bowl LVI?",
+      "correct_answer": "Cincinnati Bengals",
+      "incorrect_answers": ["Kansas City Chiefs", "San Francisco 49ers", "Buffalo Bills"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "What year was the NFL founded?",
+      "correct_answer": "1920",
+      "incorrect_answers": ["1925", "1932", "1918"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which quarterback was famously drafted by the Colts but refused to play for them?",
+      "correct_answer": "John Elway",
+      "incorrect_answers": ["Peyton Manning", "Eli Manning", "Steve Young"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which player returned the opening kickoff of Super Bowl XLI for a touchdown?",
+      "correct_answer": "Devin Hester",
+      "incorrect_answers": ["Reggie Bush", "Ted Ginn Jr.", "Desmond Howard"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who was the first African American quarterback to win a Super Bowl?",
+      "correct_answer": "Doug Williams",
+      "incorrect_answers": ["Warren Moon", "Steve McNair", "Patrick Mahomes"],
+      "difficulty": "hard",
+      "sport": "football"
+    },    
     {
       "question": "Which player holds the record for the most career receiving yards in the NFL?",
       "correct_answer": "Jerry Rice",
@@ -4773,6 +5746,76 @@ const questions = [
       "difficulty": "hard",
       "sport": "hockey"
     },
+    {
+      "question": "Who was the first player to score 50 goals in 50 games?",
+      "correct_answer": "Maurice Richard",
+      "incorrect_answers": ["Wayne Gretzky", "Bobby Hull", "Phil Esposito"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which goalie has the most career NHL wins?",
+      "correct_answer": "Martin Brodeur",
+      "incorrect_answers": ["Patrick Roy", "Marc-André Fleury", "Henrik Lundqvist"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team was the first to win the Stanley Cup after a full-season lockout?",
+      "correct_answer": "Carolina Hurricanes",
+      "incorrect_answers": ["Pittsburgh Penguins", "Detroit Red Wings", "Chicago Blackhawks"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL defenseman had the most career points?",
+      "correct_answer": "Ray Bourque",
+      "incorrect_answers": ["Paul Coffey", "Nicklas Lidstrom", "Al MacInnis"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "What team did Wayne Gretzky finish his NHL career with?",
+      "correct_answer": "New York Rangers",
+      "incorrect_answers": ["Los Angeles Kings", "St. Louis Blues", "Edmonton Oilers"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL player once scored 10 points in a single game?",
+      "correct_answer": "Darryl Sittler",
+      "incorrect_answers": ["Wayne Gretzky", "Mario Lemieux", "Jaromir Jagr"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "What year did the NHL introduce the salary cap?",
+      "correct_answer": "2005",
+      "incorrect_answers": ["1999", "2003", "2010"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team drafted Eric Lindros first overall, only to have him refuse to play for them?",
+      "correct_answer": "Quebec Nordiques",
+      "incorrect_answers": ["Philadelphia Flyers", "Ottawa Senators", "Hartford Whalers"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who is the only player to captain two different teams to Stanley Cup wins?",
+      "correct_answer": "Mark Messier",
+      "incorrect_answers": ["Wayne Gretzky", "Chris Pronger", "Zdeno Chara"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team did the NHL add as its 32nd franchise in 2021?",
+      "correct_answer": "Seattle Kraken",
+      "incorrect_answers": ["Vegas Golden Knights", "Quebec Nordiques", "Kansas City Scouts"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },    
     {
       "question": "Who scored the 'Golden Goal' for Canada in the 2010 Winter Olympics?",
       "correct_answer": "Sidney Crosby",
