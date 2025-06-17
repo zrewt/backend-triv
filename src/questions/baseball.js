@@ -1,0 +1,999 @@
+const baseballQuestions = [
+     // easy baseball
+
+     {
+      "question": "How many bases are there on a baseball field?",
+      "correct_answer": "4",
+      "incorrect_answers": ["3", "5", "6"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is it called when a batter hits the ball out of the park in fair territory?",
+      "correct_answer": "Home run",
+      "incorrect_answers": ["Triple", "Foul ball", "Strike"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What position does the player on the mound play?",
+      "correct_answer": "Pitcher",
+      "incorrect_answers": ["Catcher", "Shortstop", "First baseman"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team is known as the 'Yanks'?",
+      "correct_answer": "New York Yankees",
+      "incorrect_answers": ["Chicago Cubs", "Boston Red Sox", "Los Angeles Dodgers"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the maximum number of strikes before a batter is out?",
+      "correct_answer": "3",
+      "incorrect_answers": ["2", "4", "5"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which league does the Boston Red Sox play in?",
+      "correct_answer": "American League",
+      "incorrect_answers": ["National League", "Minor League", "Triple-A League"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "How many innings are in a regulation MLB game?",
+      "correct_answer": "9",
+      "incorrect_answers": ["7", "8", "10"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What do you call it when a batter reaches all four bases on a hit?",
+      "correct_answer": "Home run",
+      "incorrect_answers": ["Double", "Triple", "Bunt"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What team plays at Wrigley Field?",
+      "correct_answer": "Chicago Cubs",
+      "incorrect_answers": ["Chicago White Sox", "New York Mets", "Cleveland Guardians"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },    
+    {
+      "question": "How many strikes equal an out in baseball?",
+      "correct_answer": "3",
+      "incorrect_answers": ["4", "2", "5"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "How many bases are on a baseball field?",
+      "correct_answer": "4",
+      "incorrect_answers": ["3", "5", "6"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team is based in New York?",
+      "correct_answer": "Yankees",
+      "incorrect_answers": ["Dodgers", "Red Sox", "Cubs"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What do you call it when a batter hits the ball out of the park?",
+      "correct_answer": "Home run",
+      "incorrect_answers": ["Fly ball", "Triple", "Line drive"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the name of the championship series in Major League Baseball?",
+      "correct_answer": "World Series",
+      "incorrect_answers": ["Super Bowl", "Final Four", "Stanley Cup"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What position wears the most protective gear?",
+      "correct_answer": "Catcher",
+      "incorrect_answers": ["Pitcher", "First baseman", "Shortstop"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What’s the maximum number of outs per half-inning?",
+      "correct_answer": "3",
+      "incorrect_answers": ["2", "4", "5"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB team plays at Fenway Park?",
+      "correct_answer": "Boston Red Sox",
+      "incorrect_answers": ["New York Yankees", "Chicago Cubs", "Los Angeles Angels"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is it called when a pitcher throws all strikes in an inning?",
+      "correct_answer": "Immaculate inning",
+      "incorrect_answers": ["Clean inning", "Strike zone", "Shutout"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the term for a batter hitting safely in 56 straight games?",
+      "correct_answer": "Hitting streak",
+      "incorrect_answers": ["Grand slam", "Cycle", "Batting average"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },    
+    {
+      "question": "Which city is home to the Yankees?",
+      "correct_answer": "New York",
+      "incorrect_answers": ["Boston", "Chicago", "Los Angeles"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the area called where pitchers warm up?",
+      "correct_answer": "Bullpen",
+      "incorrect_answers": ["Dugout", "On-deck circle", "Outfield"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What do you call a player who hits the ball and runs all the way to third base?",
+      "correct_answer": "Triple",
+      "incorrect_answers": ["Double", "Single", "Home run"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which league do the Boston Red Sox play in?",
+      "correct_answer": "American League",
+      "incorrect_answers": ["National League", "Pacific League", "Atlantic League"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who wears the chest protector, mask, and shin guards?",
+      "correct_answer": "Catcher",
+      "incorrect_answers": ["Pitcher", "Shortstop", "Umpire"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the term for three outs in a row by a pitcher?",
+      "correct_answer": "Strikeout the side",
+      "incorrect_answers": ["Triple play", "Clean inning", "Flyout"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team is based in Chicago and wears blue and white?",
+      "correct_answer": "Chicago Cubs",
+      "incorrect_answers": ["White Sox", "Brewers", "Cardinals"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the small area in front of home plate called?",
+      "correct_answer": "Batter's box",
+      "incorrect_answers": ["On-deck circle", "Bullpen", "Outfield"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team plays at Dodger Stadium?",
+      "correct_answer": "Los Angeles Dodgers",
+      "incorrect_answers": ["Angels", "Giants", "Padres"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is it called when a pitcher throws four balls?",
+      "correct_answer": "Walk",
+      "incorrect_answers": ["Strikeout", "Foul", "Hit-by-pitch"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "How many players are on the field for one team during play?",
+      "correct_answer": "9",
+      "incorrect_answers": ["8", "10", "11"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What does RBI stand for?",
+      "correct_answer": "Runs Batted In",
+      "incorrect_answers": ["Run Base Interval", "Runners Batting In", "Return Before Inning"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What color is typically used for the baseball stitching?",
+      "correct_answer": "Red",
+      "incorrect_answers": ["Blue", "Black", "Green"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team is based in Atlanta?",
+      "correct_answer": "Braves",
+      "incorrect_answers": ["Marlins", "Nationals", "Rays"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who hits after the leadoff batter?",
+      "correct_answer": "Second batter",
+      "incorrect_answers": ["Cleanup", "Pitcher", "Catcher"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the term for a score in baseball?",
+      "correct_answer": "Run",
+      "incorrect_answers": ["Goal", "Point", "Hit"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which position plays between second and third base?",
+      "correct_answer": "Shortstop",
+      "incorrect_answers": ["First baseman", "Catcher", "Right fielder"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What happens when a ball is hit and caught without touching the ground?",
+      "correct_answer": "Out",
+      "incorrect_answers": ["Strike", "Walk", "Safe"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player usually pitches the ball?",
+      "correct_answer": "Pitcher",
+      "incorrect_answers": ["Catcher", "First baseman", "Shortstop"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which part of the bat do players try to hit with?",
+      "correct_answer": "Sweet spot",
+      "incorrect_answers": ["Handle", "End cap", "Grip"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "How many innings are in a standard professional baseball game?",
+      "correct_answer": "9",
+      "incorrect_answers": ["7", "10", "12"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player is known for hitting 762 home runs?",
+      "correct_answer": "Barry Bonds",
+      "incorrect_answers": ["Hank Aaron", "Babe Ruth", "Alex Rodriguez"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team is known as the 'Bronx Bombers'?",
+      "correct_answer": "New York Yankees",
+      "incorrect_answers": ["Mets", "Red Sox", "Dodgers"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which league is the St. Louis Cardinals part of?",
+      "correct_answer": "National League",
+      "incorrect_answers": ["American League", "Central League", "Atlantic League"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is it called when a batter strikes out three times in one game?",
+      "correct_answer": "Hat trick",
+      "incorrect_answers": ["Triple play", "Cycle", "No-hitter"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What shape is the baseball field?",
+      "correct_answer": "Diamond",
+      "incorrect_answers": ["Square", "Circle", "Triangle"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What do you call a pitch that is hit but lands outside the lines?",
+      "correct_answer": "Foul ball",
+      "incorrect_answers": ["Wild pitch", "Error", "Out"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What do fans call it when a batter hits for a single, double, triple, and home run in one game?",
+      "correct_answer": "Cycle",
+      "incorrect_answers": ["Hat trick", "Sweep", "Grand Slam"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+
+      // medium baseball
+
+      {
+        "question": "Which team did Babe Ruth start his MLB career with?",
+        "correct_answer": "Boston Red Sox",
+        "incorrect_answers": ["New York Yankees", "Chicago Cubs", "St. Louis Cardinals"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Who holds the MLB record for most career hits?",
+        "correct_answer": "Pete Rose",
+        "incorrect_answers": ["Derek Jeter", "Hank Aaron", "Ichiro Suzuki"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which pitcher has the most career strikeouts in MLB history?",
+        "correct_answer": "Nolan Ryan",
+        "incorrect_answers": ["Randy Johnson", "Roger Clemens", "Greg Maddux"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which MLB team has won the most World Series titles?",
+        "correct_answer": "New York Yankees",
+        "incorrect_answers": ["St. Louis Cardinals", "Boston Red Sox", "San Francisco Giants"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What is the term for a play where two outs are made in one continuous action?",
+        "correct_answer": "Double play",
+        "incorrect_answers": ["Triple play", "Pop fly", "Lineout"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which team won the 2021 World Series?",
+        "correct_answer": "Atlanta Braves",
+        "incorrect_answers": ["Houston Astros", "Los Angeles Dodgers", "Tampa Bay Rays"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What is the minimum number of pitches required to complete a perfect game?",
+        "correct_answer": "27",
+        "incorrect_answers": ["28", "30", "25"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which stadium has a 'Green Monster' in left field?",
+        "correct_answer": "Fenway Park",
+        "incorrect_answers": ["Dodger Stadium", "Yankee Stadium", "Oracle Park"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },    
+      {
+        "question": "Which player holds the MLB record for most career home runs?",
+        "correct_answer": "Barry Bonds",
+        "incorrect_answers": ["Hank Aaron", "Babe Ruth", "Alex Rodriguez"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which team won the 2023 World Series?",
+        "correct_answer": "Texas Rangers",
+        "incorrect_answers": ["Houston Astros", "Philadelphia Phillies", "Atlanta Braves"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What is the minimum number of pitches to strike out a batter?",
+        "correct_answer": "3",
+        "incorrect_answers": ["4", "5", "6"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Who was known as 'The Iron Man' of baseball?",
+        "correct_answer": "Cal Ripken Jr.",
+        "incorrect_answers": ["Derek Jeter", "Lou Gehrig", "Pete Rose"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What team is famous for the 'Curse of the Billy Goat'?",
+        "correct_answer": "Chicago Cubs",
+        "incorrect_answers": ["Boston Red Sox", "Cleveland Guardians", "New York Mets"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which player won the 2023 MLB MVP in the American League?",
+        "correct_answer": "Shohei Ohtani",
+        "incorrect_answers": ["Aaron Judge", "Corey Seager", "Jose Altuve"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What’s the distance between the bases on a Major League field?",
+        "correct_answer": "90 feet",
+        "incorrect_answers": ["85 feet", "95 feet", "100 feet"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What term describes four balls thrown by a pitcher?",
+        "correct_answer": "Walk",
+        "incorrect_answers": ["Steal", "Hit by pitch", "Fly out"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What is a 'cycle' in baseball?",
+        "correct_answer": "Single, double, triple, and home run in one game",
+        "incorrect_answers": ["Four home runs", "Three strikeouts", "Two grand slams"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which player had a 56-game hitting streak in 1941?",
+        "correct_answer": "Joe DiMaggio",
+        "incorrect_answers": ["Ted Williams", "Willie Mays", "Stan Musial"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },    
+      {
+        "question": "Who holds the MLB record for most career home runs?",
+        "correct_answer": "Barry Bonds",
+        "incorrect_answers": ["Hank Aaron", "Babe Ruth", "Alex Rodriguez"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which team did Jackie Robinson debut with?",
+        "correct_answer": "Brooklyn Dodgers",
+        "incorrect_answers": ["New York Yankees", "Chicago Cubs", "Boston Red Sox"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which MLB pitcher has the most career strikeouts?",
+        "correct_answer": "Nolan Ryan",
+        "incorrect_answers": ["Randy Johnson", "Roger Clemens", "Greg Maddux"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which team won the 2022 World Series?",
+        "correct_answer": "Houston Astros",
+        "incorrect_answers": ["Philadelphia Phillies", "Atlanta Braves", "Los Angeles Dodgers"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which MLB player is known as 'The Kid'?",
+        "correct_answer": "Ken Griffey Jr.",
+        "incorrect_answers": ["Mike Trout", "Derek Jeter", "Cal Ripken Jr."],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Who was the first player to reach 3,000 career hits?",
+        "correct_answer": "Cap Anson",
+        "incorrect_answers": ["Ty Cobb", "Pete Rose", "Hank Aaron"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which MLB team plays at Wrigley Field?",
+        "correct_answer": "Chicago Cubs",
+        "incorrect_answers": ["Chicago White Sox", "Milwaukee Brewers", "Cincinnati Reds"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Who won the AL MVP award in 2021?",
+        "correct_answer": "Shohei Ohtani",
+        "incorrect_answers": ["Aaron Judge", "Vladimir Guerrero Jr.", "Mike Trout"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which MLB player had a record 56-game hitting streak?",
+        "correct_answer": "Joe DiMaggio",
+        "incorrect_answers": ["Pete Rose", "Ichiro Suzuki", "Cal Ripken Jr."],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which team drafted Derek Jeter?",
+        "correct_answer": "New York Yankees",
+        "incorrect_answers": ["Detroit Tigers", "Boston Red Sox", "Los Angeles Dodgers"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What position did Johnny Bench play?",
+        "correct_answer": "Catcher",
+        "incorrect_answers": ["First Base", "Outfield", "Pitcher"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Who managed the New York Yankees during their late 1990s dynasty?",
+        "correct_answer": "Joe Torre",
+        "incorrect_answers": ["Joe Girardi", "Billy Martin", "Lou Piniella"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which team drafted Bryce Harper?",
+        "correct_answer": "Washington Nationals",
+        "incorrect_answers": ["Philadelphia Phillies", "New York Mets", "San Francisco Giants"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Who was the last MLB player to win the Triple Crown?",
+        "correct_answer": "Miguel Cabrera",
+        "incorrect_answers": ["Mike Trout", "Albert Pujols", "Joey Votto"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What year did MLB introduce the designated hitter rule in the American League?",
+        "correct_answer": "1973",
+        "incorrect_answers": ["1970", "1980", "1965"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which MLB player is known for breaking Babe Ruth's home run record?",
+        "correct_answer": "Hank Aaron",
+        "incorrect_answers": ["Barry Bonds", "Willie Mays", "Alex Rodriguez"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What team did Babe Ruth start his MLB career with?",
+        "correct_answer": "Boston Red Sox",
+        "incorrect_answers": ["New York Yankees", "Baltimore Orioles", "Chicago White Sox"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which player had the most hits in a single MLB season?",
+        "correct_answer": "Ichiro Suzuki",
+        "incorrect_answers": ["Pete Rose", "Ty Cobb", "Tony Gwynn"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Who threw a perfect game in the 1956 World Series?",
+        "correct_answer": "Don Larsen",
+        "incorrect_answers": ["Whitey Ford", "Sandy Koufax", "Bob Gibson"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which team has the oldest stadium in Major League Baseball?",
+        "correct_answer": "Boston Red Sox",
+        "incorrect_answers": ["Chicago Cubs", "Los Angeles Dodgers", "New York Yankees"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which team did Mark McGwire play for when he hit 70 home runs in a season?",
+        "correct_answer": "St. Louis Cardinals",
+        "incorrect_answers": ["Oakland Athletics", "Chicago Cubs", "Los Angeles Dodgers"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Who is the all-time leader in stolen bases?",
+        "correct_answer": "Rickey Henderson",
+        "incorrect_answers": ["Lou Brock", "Tim Raines", "Maury Wills"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What year did the Chicago Cubs break their 108-year championship drought?",
+        "correct_answer": "2016",
+        "incorrect_answers": ["2015", "2017", "2014"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which pitcher won the most Cy Young Awards?",
+        "correct_answer": "Roger Clemens",
+        "incorrect_answers": ["Randy Johnson", "Greg Maddux", "Tom Seaver"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Who hit the famous 'Shot Heard 'Round the World' in 1951?",
+        "correct_answer": "Bobby Thomson",
+        "incorrect_answers": ["Willie Mays", "Joe DiMaggio", "Duke Snider"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which player holds the record for most career RBIs?",
+        "correct_answer": "Hank Aaron",
+        "incorrect_answers": ["Babe Ruth", "Barry Bonds", "Alex Rodriguez"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Who was the first unanimous Hall of Fame inductee?",
+        "correct_answer": "Mariano Rivera",
+        "incorrect_answers": ["Derek Jeter", "Ken Griffey Jr.", "Nolan Ryan"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which stadium is home to the San Francisco Giants?",
+        "correct_answer": "Oracle Park",
+        "incorrect_answers": ["Dodger Stadium", "Petco Park", "T-Mobile Park"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Who was the manager of the Boston Red Sox during their 2004 World Series win?",
+        "correct_answer": "Terry Francona",
+        "incorrect_answers": ["Joe Torre", "Tony La Russa", "Dusty Baker"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+
+       // hard baseball
+
+    {
+      "question": "Who holds the MLB record for most career sacrifice hits?",
+      "correct_answer": "Eddie Collins",
+      "incorrect_answers": ["Ty Cobb", "Babe Ruth", "Pete Rose"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player hit 4 home runs in a single MLB game in 2002?",
+      "correct_answer": "Shawn Green",
+      "incorrect_answers": ["Barry Bonds", "Sammy Sosa", "Albert Pujols"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the first African-American to play in Major League Baseball?",
+      "correct_answer": "Jackie Robinson",
+      "incorrect_answers": ["Satchel Paige", "Hank Aaron", "Willie Mays"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What player hit 73 home runs in a single season?",
+      "correct_answer": "Barry Bonds",
+      "incorrect_answers": ["Mark McGwire", "Sammy Sosa", "Alex Rodriguez"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team did the Montreal Expos become?",
+      "correct_answer": "Washington Nationals",
+      "incorrect_answers": ["Toronto Blue Jays", "Tampa Bay Rays", "Miami Marlins"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "How many World Series titles have the St. Louis Cardinals won?",
+      "correct_answer": "11",
+      "incorrect_answers": ["9", "13", "10"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What year was the MLB All-Star Game first played?",
+      "correct_answer": "1933",
+      "incorrect_answers": ["1925", "1941", "1950"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was known as 'The Big Unit'?",
+      "correct_answer": "Randy Johnson",
+      "incorrect_answers": ["Roger Clemens", "Pedro Martinez", "Greg Maddux"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB player won 7 MVP awards during his career?",
+      "correct_answer": "Barry Bonds",
+      "incorrect_answers": ["Willie Mays", "Mike Trout", "Alex Rodriguez"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the first player to reach 600 home runs in the MLB?",
+      "correct_answer": "Babe Ruth",
+      "incorrect_answers": ["Hank Aaron", "Willie Mays", "Barry Bonds"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },    
+    {
+      "question": "Which pitcher threw a perfect game in the 1956 World Series?",
+      "correct_answer": "Don Larsen",
+      "incorrect_answers": ["Whitey Ford", "Sandy Koufax", "Bob Gibson"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the first MLB player to hit 700 home runs?",
+      "correct_answer": "Babe Ruth",
+      "incorrect_answers": ["Hank Aaron", "Barry Bonds", "Willie Mays"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team has the most World Series titles?",
+      "correct_answer": "New York Yankees",
+      "incorrect_answers": ["Los Angeles Dodgers", "Boston Red Sox", "St. Louis Cardinals"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the youngest MLB player to hit 500 home runs?",
+      "correct_answer": "Alex Rodriguez",
+      "incorrect_answers": ["Ken Griffey Jr.", "Albert Pujols", "Jimmie Foxx"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What year was Major League Baseball founded?",
+      "correct_answer": "1869",
+      "incorrect_answers": ["1876", "1889", "1901"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who is the only player to hit a walk-off home run to win the World Series?",
+      "correct_answer": "Bill Mazeroski",
+      "incorrect_answers": ["Kirk Gibson", "David Ortiz", "Joe Carter"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which stadium has the 'Green Monster'?",
+      "correct_answer": "Fenway Park",
+      "incorrect_answers": ["Wrigley Field", "Dodger Stadium", "Yankee Stadium"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who holds the MLB record for most stolen bases in a career?",
+      "correct_answer": "Rickey Henderson",
+      "incorrect_answers": ["Lou Brock", "Ty Cobb", "Billy Hamilton"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which pitcher has the most career strikeouts?",
+      "correct_answer": "Nolan Ryan",
+      "incorrect_answers": ["Randy Johnson", "Roger Clemens", "Tom Seaver"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },    
+    {
+      "question": "Which pitcher threw the only perfect game in a World Series?",
+      "correct_answer": "Don Larsen",
+      "incorrect_answers": ["Sandy Koufax", "Roy Halladay", "Cy Young"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB player holds the record for most career hits without ever making an All-Star team?",
+      "correct_answer": "Damion Easley",
+      "incorrect_answers": ["Placido Polanco", "Julio Franco", "Rafael Palmeiro"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the first African American manager in Major League Baseball?",
+      "correct_answer": "Frank Robinson",
+      "incorrect_answers": ["Dusty Baker", "Willie Mays", "Jackie Robinson"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team drafted Tom Brady in the 2000 MLB Draft?",
+      "correct_answer": "Montreal Expos",
+      "incorrect_answers": ["Detroit Tigers", "Boston Red Sox", "San Francisco Giants"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the first player to hit 50 home runs and steal 50 bases in a single season across their career?",
+      "correct_answer": "Barry Bonds",
+      "incorrect_answers": ["Willie Mays", "Alex Rodriguez", "Ken Griffey Jr."],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What year was the designated hitter rule introduced in the American League?",
+      "correct_answer": "1973",
+      "incorrect_answers": ["1975", "1971", "1980"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB team was the last to integrate racially?",
+      "correct_answer": "Boston Red Sox",
+      "incorrect_answers": ["New York Yankees", "Philadelphia Phillies", "Cincinnati Reds"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who is the only player to win an MVP award in both the American and National Leagues?",
+      "correct_answer": "Frank Robinson",
+      "incorrect_answers": ["Barry Bonds", "Alex Rodriguez", "Albert Pujols"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who holds the MLB record for most grand slams in a career?",
+      "correct_answer": "Alex Rodriguez",
+      "incorrect_answers": ["Manny Ramirez", "Lou Gehrig", "Barry Bonds"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the youngest player to hit 500 career home runs?",
+      "correct_answer": "Alex Rodriguez",
+      "incorrect_answers": ["Ken Griffey Jr.", "Jimmie Foxx", "Mickey Mantle"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who is the only pitcher in MLB history to win a Cy Young Award in four different decades?",
+      "correct_answer": "Nolan Ryan",
+      "incorrect_answers": ["Tom Seaver", "Roger Clemens", "Greg Maddux"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB stadium has the deepest center field?",
+      "correct_answer": "Coors Field",
+      "incorrect_answers": ["Oracle Park", "Comerica Park", "Minute Maid Park"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player hit a home run in his first MLB at-bat and also in his final MLB at-bat?",
+      "correct_answer": "Paul Konerko",
+      "incorrect_answers": ["David Ortiz", "Ted Williams", "Albert Pujols"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB player has the most career postseason home runs?",
+      "correct_answer": "Manny Ramirez",
+      "incorrect_answers": ["Derek Jeter", "David Ortiz", "Jose Altuve"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the first MLB player to have his number retired?",
+      "correct_answer": "Lou Gehrig",
+      "incorrect_answers": ["Babe Ruth", "Ty Cobb", "Joe DiMaggio"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player was famously traded for himself in MLB?",
+      "correct_answer": "Harry Chiti",
+      "incorrect_answers": ["David Cone", "Bobby Bonilla", "Dick Allen"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player has the most career walks in MLB history?",
+      "correct_answer": "Barry Bonds",
+      "incorrect_answers": ["Babe Ruth", "Ted Williams", "Rickey Henderson"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team won the most games in a single regular MLB season?",
+      "correct_answer": "Seattle Mariners",
+      "incorrect_answers": ["New York Yankees", "Chicago Cubs", "Oakland Athletics"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the longest hitting streak in MLB history?",
+      "correct_answer": "56 games",
+      "incorrect_answers": ["44 games", "41 games", "52 games"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team has the most World Series losses?",
+      "correct_answer": "New York Yankees",
+      "incorrect_answers": ["Boston Red Sox", "Los Angeles Dodgers", "Chicago Cubs"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player has hit the most leadoff home runs in MLB history?",
+      "correct_answer": "Rickey Henderson",
+      "incorrect_answers": ["Ichiro Suzuki", "Craig Biggio", "Alfonso Soriano"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB pitcher threw a no-hitter on LSD?",
+      "correct_answer": "Dock Ellis",
+      "incorrect_answers": ["Vida Blue", "Ferguson Jenkins", "Dwight Gooden"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player was the first to reach 3,000 hits and 500 home runs?",
+      "correct_answer": "Willie Mays",
+      "incorrect_answers": ["Hank Aaron", "Rafael Palmeiro", "Alex Rodriguez"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the last pitcher to throw a perfect game in the MLB (as of 2025)?",
+      "correct_answer": "Félix Hernández",
+      "incorrect_answers": ["Matt Cain", "Roy Halladay", "Dallas Braden"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player hit four home runs in a single game most recently?",
+      "correct_answer": "J.D. Martinez",
+      "incorrect_answers": ["Josh Hamilton", "Shawn Green", "Scooter Gennett"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the maximum number of batters a pitcher can face in a 9-inning perfect game?",
+      "correct_answer": "27",
+      "incorrect_answers": ["26", "28", "25"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team holds the longest losing streak in MLB history?",
+      "correct_answer": "Louisville Colonels",
+      "incorrect_answers": ["Philadelphia Phillies", "Cleveland Spiders", "Baltimore Orioles"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the first relief pitcher inducted into the Hall of Fame?",
+      "correct_answer": "Hoyt Wilhelm",
+      "incorrect_answers": ["Rollie Fingers", "Goose Gossage", "Dennis Eckersley"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+];
+
+module.exports = baseballQuestions; 
