@@ -1793,13 +1793,6 @@ const questions = [
       "sport": "basketball"
     },
     {
-      "question": "How many quarters are in an NBA game?",
-      "correct_answer": "4",
-      "incorrect_answers": ["2", "3", "5"],
-      "difficulty": "easy",
-      "sport": "basketball"
-    },
-    {
       "question": "Which basketball player starred in the movie 'Space Jam'?",
       "correct_answer": "Michael Jordan",
       "incorrect_answers": ["LeBron James", "Kobe Bryant", "Shaquille O'Neal"],
@@ -2078,15 +2071,6 @@ const questions = [
       "incorrect_answers": ["Layup", "Fadeaway", "Hook"],
       "difficulty": "easy",
       "sport": "basketball"
-    },
-
-
-    {
-      "question": "Which country won the first ever FIFA World Cup in 1930?",
-      "correct_answer": "Uruguay",
-      "incorrect_answers": ["Brazil", "Italy", "Argentina"],
-      "difficulty": "medium",
-      "sport": "soccer"
     },
     {
       "question": "Which English Premier League team is nicknamed the 'Reds'?",
@@ -2685,13 +2669,6 @@ const questions = [
       "sport": "basketball"
     },
     {
-      "question": "Who was the shortest player in NBA history?",
-      "correct_answer": "Muggsy Bogues",
-      "incorrect_answers": ["Spud Webb", "Nate Robinson", "Earl Boykins"],
-      "difficulty": "medium",
-      "sport": "basketball"
-    },
-    {
       "question": "Which NBA player was known as 'The Mailman'?",
       "correct_answer": "Karl Malone",
       "incorrect_answers": ["Charles Barkley", "Shaquille O'Neal", "Dennis Rodman"],
@@ -2852,15 +2829,6 @@ const questions = [
       "difficulty": "medium",
       "sport": "basketball"
     },
-
-
-    {
-      "question": "Which MLB team has won the most World Series titles?",
-      "correct_answer": "New York Yankees",
-      "incorrect_answers": ["Boston Red Sox", "Los Angeles Dodgers", "St. Louis Cardinals"],
-      "difficulty": "medium",
-      "sport": "baseball"
-    },
     {
       "question": "Which team did Babe Ruth start his MLB career with?",
       "correct_answer": "Boston Red Sox",
@@ -2890,13 +2858,6 @@ const questions = [
       "sport": "baseball"
     },
     {
-      "question": "What year was the designated hitter rule introduced in the American League?",
-      "correct_answer": "1973",
-      "incorrect_answers": ["1969", "1975", "1980"],
-      "difficulty": "medium",
-      "sport": "baseball"
-    },
-    {
       "question": "What is the term for a play where two outs are made in one continuous action?",
       "correct_answer": "Double play",
       "incorrect_answers": ["Triple play", "Pop fly", "Lineout"],
@@ -2907,13 +2868,6 @@ const questions = [
       "question": "Which team won the 2021 World Series?",
       "correct_answer": "Atlanta Braves",
       "incorrect_answers": ["Houston Astros", "Los Angeles Dodgers", "Tampa Bay Rays"],
-      "difficulty": "medium",
-      "sport": "baseball"
-    },
-    {
-      "question": "Who was the first MLB player to have his number retired?",
-      "correct_answer": "Lou Gehrig",
-      "incorrect_answers": ["Babe Ruth", "Jackie Robinson", "Ty Cobb"],
       "difficulty": "medium",
       "sport": "baseball"
     },
@@ -4093,13 +4047,6 @@ const questions = [
       "sport": "soccer"
     },
     {
-      "question": "Which goalkeeper has the most clean sheets in Premier League history?",
-      "correct_answer": "Petr Čech",
-      "incorrect_answers": ["David De Gea", "Edwin van der Sar", "Alisson"],
-      "difficulty": "hard",
-      "sport": "soccer"
-    },
-    {
       "question": "Which club has won the most UEFA Europa League titles?",
       "correct_answer": "Sevilla",
       "incorrect_answers": ["Juventus", "Liverpool", "Inter Milan"],
@@ -4676,13 +4623,6 @@ const questions = [
       "sport": "baseball"
     },
     {
-      "question": "Which pitcher has the most career strikeouts in MLB history?",
-      "correct_answer": "Nolan Ryan",
-      "incorrect_answers": ["Randy Johnson", "Roger Clemens", "Greg Maddux"],
-      "difficulty": "hard",
-      "sport": "baseball"
-    },
-    {
       "question": "Who holds the MLB record for most grand slams in a career?",
       "correct_answer": "Alex Rodriguez",
       "incorrect_answers": ["Manny Ramirez", "Lou Gehrig", "Barry Bonds"],
@@ -4900,13 +4840,6 @@ const questions = [
       "difficulty": "hard",
       "sport": "basketball"
     },    
-    {
-      "question": "Who was the first NBA player to score 100 points in a single game?",
-      "correct_answer": "Wilt Chamberlain",
-      "incorrect_answers": ["Michael Jordan", "Kobe Bryant", "Karl Malone"],
-      "difficulty": "hard",
-      "sport": "basketball"
-    },
     {
       "question": "Which team drafted Dirk Nowitzki in 1998?",
       "correct_answer": "Milwaukee Bucks",
@@ -5664,13 +5597,6 @@ const questions = [
       "question": "Which NHL player has the most penalty minutes of all time?",
       "correct_answer": "Dave 'Tiger' Williams",
       "incorrect_answers": ["Bob Probert", "Chris Pronger", "Tie Domi"],
-      "difficulty": "hard",
-      "sport": "hockey"
-    },
-    {
-      "question": "What year was the NHL founded?",
-      "correct_answer": "1917",
-      "incorrect_answers": ["1905", "1923", "1930"],
       "difficulty": "hard",
       "sport": "hockey"
     },
