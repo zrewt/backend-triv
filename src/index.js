@@ -665,12 +665,68 @@ const questions = [
       // easy football
     
     {
-      "question": "How many points is a touchdown worth?",
-      "correct_answer": "6",
-      "incorrect_answers": ["3", "7", "5"],
+      "question": "Which team won the Super Bowl in 2024?",
+      "correct_answer": "Kansas City Chiefs",
+      "incorrect_answers": ["Philadelphia Eagles", "San Francisco 49ers", "Buffalo Bills"],
       "difficulty": "easy",
       "sport": "football"
     },
+    {
+      "question": "What is the name of the trophy awarded to the Super Bowl winner?",
+      "correct_answer": "Lombardi Trophy",
+      "incorrect_answers": ["Heisman Trophy", "MVP Trophy", "Gridiron Cup"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "How many points is a touchdown worth?",
+      "correct_answer": "6",
+      "incorrect_answers": ["7", "3", "1"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "How many teams are there in the NFL?",
+      "correct_answer": "32",
+      "incorrect_answers": ["30", "28", "34"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which city is home to the Packers?",
+      "correct_answer": "Green Bay",
+      "incorrect_answers": ["Chicago", "Detroit", "Cleveland"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the term for when the ball is kicked through the uprights?",
+      "correct_answer": "Field Goal",
+      "incorrect_answers": ["Touchdown", "Extra Point", "Punt"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Who is the NFL’s all-time passing touchdown leader?",
+      "correct_answer": "Tom Brady",
+      "incorrect_answers": ["Drew Brees", "Peyton Manning", "Aaron Rodgers"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What team has a star on its helmet?",
+      "correct_answer": "Dallas Cowboys",
+      "incorrect_answers": ["New England Patriots", "Houston Texans", "New York Giants"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Who usually catches passes in football?",
+      "correct_answer": "Wide Receiver",
+      "incorrect_answers": ["Defensive Tackle", "Linebacker", "Kicker"],
+      "difficulty": "easy",
+      "sport": "football"
+    },    
     {
       "question": "Which NFL team is based in Green Bay?",
       "correct_answer": "Packers",
@@ -833,13 +889,6 @@ const questions = [
       "sport": "football"
     },
     {
-      "question": "How many teams are there in the NFL?",
-      "correct_answer": "32",
-      "incorrect_answers": ["30", "31", "33"],
-      "difficulty": "easy",
-      "sport": "football"
-    },
-    {
       "question": "What is the term for when the defense catches a pass intended for the offense?",
       "correct_answer": "Interception",
       "incorrect_answers": ["Fumble", "Sack", "Touchback"],
@@ -857,13 +906,6 @@ const questions = [
       "question": "What is it called when a player drops the ball after having possession in football?",
       "correct_answer": "Fumble",
       "incorrect_answers": ["Interception", "Sack", "Punt"],
-      "difficulty": "easy",
-      "sport": "football"
-    },
-    {
-      "question": "What is the name of the trophy awarded to the Super Bowl winner?",
-      "correct_answer": "Vince Lombardi Trophy",
-      "incorrect_answers": ["Heisman Trophy", "Stanley Cup", "Commissioner's Trophy"],
       "difficulty": "easy",
       "sport": "football"
     },
@@ -1074,12 +1116,68 @@ const questions = [
     // easy hockey
 
     {
-      "question": "What trophy is awarded to the NHL champion?",
-      "correct_answer": "Stanley Cup",
-      "incorrect_answers": ["Grey Cup", "World Cup", "Memorial Cup"],
+      "question": "How many players are on the ice per team during even strength?",
+      "correct_answer": "5",
+      "incorrect_answers": ["6", "4", "3"],
       "difficulty": "easy",
       "sport": "hockey"
     },
+    {
+      "question": "Which country is known as the birthplace of ice hockey?",
+      "correct_answer": "Canada",
+      "incorrect_answers": ["USA", "Russia", "Sweden"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What trophy is awarded to the NHL champion?",
+      "correct_answer": "Stanley Cup",
+      "incorrect_answers": ["Grey Cup", "Calder Cup", "Presidents' Trophy"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What piece of equipment do goalies wear on their hands?",
+      "correct_answer": "Glove and blocker",
+      "incorrect_answers": ["Pads and helmet", "Stick and visor", "Chest and skates"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What NHL team plays at Madison Square Garden?",
+      "correct_answer": "New York Rangers",
+      "incorrect_answers": ["Islanders", "Devils", "Flyers"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is the name of Toronto’s NHL team?",
+      "correct_answer": "Maple Leafs",
+      "incorrect_answers": ["Canadiens", "Jets", "Senators"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team is based in Chicago?",
+      "correct_answer": "Blackhawks",
+      "incorrect_answers": ["Blues", "Red Wings", "Penguins"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team has a shark as its mascot?",
+      "correct_answer": "San Jose Sharks",
+      "incorrect_answers": ["Florida Panthers", "Seattle Kraken", "Vancouver Canucks"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which position typically takes face-offs?",
+      "correct_answer": "Center",
+      "incorrect_answers": ["Winger", "Defenseman", "Goalie"],
+      "difficulty": "easy",
+      "sport": "hockey"
+    },    
     {
       "question": "How many players are on the ice per team during regular play in hockey?",
       "correct_answer": "6",
@@ -1126,13 +1224,6 @@ const questions = [
       "question": "Which NHL team plays home games in Las Vegas?",
       "correct_answer": "Golden Knights",
       "incorrect_answers": ["Coyotes", "Kings", "Ducks"],
-      "difficulty": "easy",
-      "sport": "hockey"
-    },
-    {
-      "question": "Which country is known as the birthplace of ice hockey?",
-      "correct_answer": "Canada",
-      "incorrect_answers": ["USA", "Russia", "Sweden"],
       "difficulty": "easy",
       "sport": "hockey"
     },
@@ -1314,13 +1405,6 @@ const questions = [
       "question": "What is the object players try to shoot into the net?",
       "correct_answer": "Puck",
       "incorrect_answers": ["Ball", "Disk", "Coin"],
-      "difficulty": "easy",
-      "sport": "hockey"
-    },
-    {
-      "question": "Which NHL team is based in Chicago?",
-      "correct_answer": "Blackhawks",
-      "incorrect_answers": ["Kings", "Rangers", "Capitals"],
       "difficulty": "easy",
       "sport": "hockey"
     },
@@ -3297,6 +3381,76 @@ const questions = [
       "sport": "hockey"
     },
     {
+      "question": "Which player won the Hart Trophy in 2023?",
+      "correct_answer": "Connor McDavid",
+      "incorrect_answers": ["Auston Matthews", "David Pastrnak", "Sidney Crosby"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "What NHL team joined the league in 2021?",
+      "correct_answer": "Seattle Kraken",
+      "incorrect_answers": ["Vegas Golden Knights", "Atlanta Thrashers", "Quebec Nordiques"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team has the most Stanley Cup championships?",
+      "correct_answer": "Montreal Canadiens",
+      "incorrect_answers": ["Toronto Maple Leafs", "Boston Bruins", "Chicago Blackhawks"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the first player to score 100 points in a season?",
+      "correct_answer": "Phil Esposito",
+      "incorrect_answers": ["Wayne Gretzky", "Mario Lemieux", "Bobby Orr"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team did Wayne Gretzky finish his NHL career with?",
+      "correct_answer": "New York Rangers",
+      "incorrect_answers": ["Los Angeles Kings", "Edmonton Oilers", "St. Louis Blues"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is the name of the NHL video review system?",
+      "correct_answer": "Coach’s Challenge",
+      "incorrect_answers": ["Ref Cam", "Video Review", "Goal Review Protocol"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team moved to become the Arizona Coyotes?",
+      "correct_answer": "Winnipeg Jets",
+      "incorrect_answers": ["Quebec Nordiques", "Hartford Whalers", "Atlanta Thrashers"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who is known for the 'Michigan goal' move in hockey?",
+      "correct_answer": "Mike Legg",
+      "incorrect_answers": ["Trevor Zegras", "Connor Bedard", "Sidney Crosby"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which goalie had the most wins in NHL history?",
+      "correct_answer": "Martin Brodeur",
+      "incorrect_answers": ["Patrick Roy", "Marc-André Fleury", "Dominik Hasek"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "What year did the NHL introduce the shootout?",
+      "correct_answer": "2005",
+      "incorrect_answers": ["1999", "2003", "2007"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },    
+    {
       "question": "Which player scored the most goals in a single NHL season?",
       "correct_answer": "Wayne Gretzky",
       "incorrect_answers": ["Brett Hull", "Mario Lemieux", "Alex Ovechkin"],
@@ -3612,13 +3766,6 @@ const questions = [
       "sport": "hockey"
     },
     {
-      "question": "Who was the first NHL player to score 50 goals in 50 games?",
-      "correct_answer": "Maurice Richard",
-      "incorrect_answers": ["Wayne Gretzky", "Brett Hull", "Mike Bossy"],
-      "difficulty": "medium",
-      "sport": "hockey"
-    },
-    {
       "question": "Which NHL team plays at Madison Square Garden?",
       "correct_answer": "New York Rangers",
       "incorrect_answers": ["New York Islanders", "New Jersey Devils", "Buffalo Sabres"],
@@ -3705,6 +3852,69 @@ const questions = [
       "difficulty": "medium",
       "sport": "football"
     },
+    {
+      "question": "Which NFL team went undefeated in the regular season in 2007?",
+      "correct_answer": "New England Patriots",
+      "incorrect_answers": ["Miami Dolphins", "Seattle Seahawks", "Pittsburgh Steelers"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Who won NFL MVP in 2023?",
+      "correct_answer": "Lamar Jackson",
+      "incorrect_answers": ["Jalen Hurts", "Patrick Mahomes", "Josh Allen"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which team is nicknamed the 'Steel Curtain'?",
+      "correct_answer": "Pittsburgh Steelers",
+      "incorrect_answers": ["Denver Broncos", "Cleveland Browns", "Chicago Bears"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What college did Joe Burrow play for when he won the Heisman?",
+      "correct_answer": "LSU",
+      "incorrect_answers": ["Ohio State", "Alabama", "Clemson"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which player caught the 'Helmet Catch' in Super Bowl XLII?",
+      "correct_answer": "David Tyree",
+      "incorrect_answers": ["Victor Cruz", "Plaxico Burress", "Steve Smith"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which team relocated to Las Vegas in 2020?",
+      "correct_answer": "Raiders",
+      "incorrect_answers": ["Chargers", "Rams", "Cardinals"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Who was known as 'Beast Mode' in the NFL?",
+      "correct_answer": "Marshawn Lynch",
+      "incorrect_answers": ["Adrian Peterson", "Ezekiel Elliott", "Derrick Henry"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Who holds the record for most receiving yards in a single season?",
+      "correct_answer": "Calvin Johnson",
+      "incorrect_answers": ["Jerry Rice", "Randy Moss", "Cooper Kupp"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which team won the first Super Bowl?",
+      "correct_answer": "Green Bay Packers",
+      "incorrect_answers": ["New York Jets", "Dallas Cowboys", "Kansas City Chiefs"],
+      "difficulty": "medium",
+      "sport": "football"
+    },    
     {
       "question": "Which NFL team is known as the 'Dirty Birds'?",
       "correct_answer": "Atlanta Falcons",
@@ -5309,6 +5519,62 @@ const questions = [
       "sport": "football"
     },
     {
+      "question": "Which NFL team lost four consecutive Super Bowls in the 1990s?",
+      "correct_answer": "Buffalo Bills",
+      "incorrect_answers": ["Minnesota Vikings", "Denver Broncos", "Philadelphia Eagles"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who was the first African-American quarterback to win a Super Bowl?",
+      "correct_answer": "Doug Williams",
+      "incorrect_answers": ["Warren Moon", "Russell Wilson", "Steve McNair"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which player had a 99-yard touchdown run in 2018?",
+      "correct_answer": "Derrick Henry",
+      "incorrect_answers": ["Saquon Barkley", "Nick Chubb", "Ezekiel Elliott"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who was the quarterback for the 1985 Chicago Bears?",
+      "correct_answer": "Jim McMahon",
+      "incorrect_answers": ["Steve Fuller", "Mike Tomczak", "Doug Flutie"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "What team did Peyton Manning defeat in his final Super Bowl?",
+      "correct_answer": "Carolina Panthers",
+      "incorrect_answers": ["Seattle Seahawks", "New England Patriots", "San Francisco 49ers"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Which wide receiver was famous for the 'immaculate reception'?",
+      "correct_answer": "Franco Harris",
+      "incorrect_answers": ["Lynn Swann", "John Stallworth", "Hines Ward"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who coached the 1972 Dolphins to a perfect season?",
+      "correct_answer": "Don Shula",
+      "incorrect_answers": ["Bill Walsh", "Tom Landry", "Chuck Noll"],
+      "difficulty": "hard",
+      "sport": "football"
+    },
+    {
+      "question": "Who led the NFL in rushing yards in the 2020 season?",
+      "correct_answer": "Derrick Henry",
+      "incorrect_answers": ["Dalvin Cook", "Nick Chubb", "Josh Jacobs"],
+      "difficulty": "hard",
+      "sport": "football"
+    },    
+    {
       "question": "Which team lost four straight Super Bowls in the 1990s?",
       "correct_answer": "Buffalo Bills",
       "incorrect_answers": ["Minnesota Vikings", "Cincinnati Bengals", "Philadelphia Eagles"],
@@ -5711,6 +5977,76 @@ const questions = [
       "sport": "hockey"
     },
     {
+      "question": "Who was the first NHL player to score 50 goals in 50 games?",
+      "correct_answer": "Maurice Richard",
+      "incorrect_answers": ["Wayne Gretzky", "Mario Lemieux", "Gordie Howe"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is the only team to go undefeated in the playoffs?",
+      "correct_answer": "None — no team has done it",
+      "incorrect_answers": ["Montreal Canadiens", "Edmonton Oilers", "New York Islanders"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL defenseman has the most career points?",
+      "correct_answer": "Ray Bourque",
+      "incorrect_answers": ["Paul Coffey", "Nicklas Lidstrom", "Chris Chelios"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the first European-trained captain to win the Stanley Cup?",
+      "correct_answer": "Nicklas Lidstrom",
+      "incorrect_answers": ["Teemu Selanne", "Jaromir Jagr", "Mats Sundin"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team drafted Eric Lindros but he refused to play for them?",
+      "correct_answer": "Quebec Nordiques",
+      "incorrect_answers": ["Philadelphia Flyers", "New York Rangers", "Toronto Maple Leafs"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who holds the record for most penalty minutes in NHL history?",
+      "correct_answer": "Tiger Williams",
+      "incorrect_answers": ["Marty McSorley", "Rob Ray", "Bob Probert"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who scored the 'Golden Goal' in the 2010 Olympics?",
+      "correct_answer": "Sidney Crosby",
+      "incorrect_answers": ["Jonathan Toews", "Jarome Iginla", "Corey Perry"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which goalie was nicknamed 'The Dominator'?",
+      "correct_answer": "Dominik Hasek",
+      "incorrect_answers": ["Martin Brodeur", "Ed Belfour", "Curtis Joseph"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "What year did the NHL have its first lockout season?",
+      "correct_answer": "1994",
+      "incorrect_answers": ["1990", "2000", "2004"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the youngest captain in NHL history at the time of appointment?",
+      "correct_answer": "Connor McDavid",
+      "incorrect_answers": ["Sidney Crosby", "Gabriel Landeskog", "Steve Yzerman"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },    
+    {
       "question": "Who was the first player to score 50 goals in 50 games?",
       "correct_answer": "Maurice Richard",
       "incorrect_answers": ["Wayne Gretzky", "Bobby Hull", "Phil Esposito"],
@@ -5830,13 +6166,6 @@ const questions = [
       "difficulty": "hard",
       "sport": "hockey"
     },
-    {
-      "question": "Which team did Wayne Gretzky finish his NHL career with?",
-      "correct_answer": "New York Rangers",
-      "incorrect_answers": ["Los Angeles Kings", "St. Louis Blues", "Edmonton Oilers"],
-      "difficulty": "hard",
-      "sport": "hockey"
-    },    
     {
       "question": "Who was the MVP of Super Bowl XLVIII?",
       "correct_answer": "Malcolm Smith",
@@ -6009,13 +6338,6 @@ const questions = [
       "question": "Who was the first American-born player to score 500 goals in the NHL?",
       "correct_answer": "Joe Mullen",
       "incorrect_answers": ["Brett Hull", "Mike Modano", "Keith Tkachuk"],
-      "difficulty": "hard",
-      "sport": "hockey"
-    },
-    {
-      "question": "Which NHL defenseman has the most career points?",
-      "correct_answer": "Ray Bourque",
-      "incorrect_answers": ["Paul Coffey", "Nicklas Lidström", "Al MacInnis"],
       "difficulty": "hard",
       "sport": "hockey"
     },
