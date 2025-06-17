@@ -7,6 +7,8 @@ app.use(cors());
 app.use(express.json());
 
 const questions = [
+
+  // easy soccer
  
     {
       "question": "Which country has won the most FIFA World Cups?",
@@ -15,6 +17,76 @@ const questions = [
       "difficulty": "easy",
       "sport": "soccer"
     },
+    {
+      "question": "Which country hosted the 2022 FIFA World Cup?",
+      "correct_answer": "Qatar",
+      "incorrect_answers": ["Russia", "Brazil", "Germany"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "What color card does a referee show to send a player off the field?",
+      "correct_answer": "Red",
+      "incorrect_answers": ["Yellow", "Blue", "Green"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "How many players does each team start with on the field?",
+      "correct_answer": "11",
+      "incorrect_answers": ["10", "12", "9"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "What part of the body can a soccer player not use (except the goalkeeper)?",
+      "correct_answer": "Hands",
+      "incorrect_answers": ["Head", "Feet", "Chest"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which soccer player is nicknamed 'The Atomic Flea'?",
+      "correct_answer": "Lionel Messi",
+      "incorrect_answers": ["Cristiano Ronaldo", "Neymar", "Luka Modrić"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which team won the FIFA Women’s World Cup in 2019?",
+      "correct_answer": "United States",
+      "incorrect_answers": ["Germany", "Japan", "England"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which soccer team plays at Old Trafford?",
+      "correct_answer": "Manchester United",
+      "incorrect_answers": ["Liverpool", "Chelsea", "Manchester City"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "What is the name of the international soccer tournament held every 4 years?",
+      "correct_answer": "FIFA World Cup",
+      "incorrect_answers": ["UEFA Champions League", "Copa America", "AFCON"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country is famous for its yellow soccer jersey?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": ["Italy", "Spain", "France"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },
+    {
+      "question": "How long is a standard professional soccer match?",
+      "correct_answer": "90 minutes",
+      "incorrect_answers": ["80 minutes", "100 minutes", "70 minutes"],
+      "difficulty": "easy",
+      "sport": "soccer"
+    },    
     {
       "question": "What country hosts the Copa América tournament most frequently?",
       "correct_answer": "Argentina",
@@ -96,13 +168,6 @@ const questions = [
       "question": "Which player is known for the famous goal celebration 'Siu'?",
       "correct_answer": "Cristiano Ronaldo",
       "incorrect_answers": ["Neymar", "Kylian Mbappé", "Erling Haaland"],
-      "difficulty": "easy",
-      "sport": "soccer"
-    },
-    {
-      "question": "How long is a standard professional soccer match?",
-      "correct_answer": "90 minutes",
-      "incorrect_answers": ["60 minutes", "80 minutes", "100 minutes"],
       "difficulty": "easy",
       "sport": "soccer"
     },
@@ -457,13 +522,6 @@ const questions = [
         "sport": "soccer"
       },
       {
-        "question": "Which country hosted the 2022 FIFA World Cup?",
-        "correct_answer": "Qatar",
-        "incorrect_answers": ["Russia", "USA", "Japan"],
-        "difficulty": "easy",
-        "sport": "soccer"
-      },
-      {
         "question": "Which soccer star had his own H&M underwear line?",
         "correct_answer": "David Beckham",
         "incorrect_answers": ["Cristiano Ronaldo", "Neymar", "Zlatan Ibrahimović"],
@@ -603,6 +661,8 @@ const questions = [
         "difficulty": "easy",
         "sport": "soccer"
       },
+
+      // easy football
     
     {
       "question": "How many points is a touchdown worth?",
@@ -1011,6 +1071,7 @@ const questions = [
       "sport": "football"
     },
 
+    // easy hockey
 
     {
       "question": "What trophy is awarded to the NHL champion?",
@@ -1397,6 +1458,7 @@ const questions = [
       "sport": "hockey"
     },
 
+    // easy baseball
 
     {
       "question": "How many bases are there on a baseball field?",
@@ -1728,6 +1790,7 @@ const questions = [
       "sport": "baseball"
     },
 
+    // easy basketball
 
     {
       "question": "Who has made the most three-pointers in NBA history?",
@@ -2072,6 +2135,10 @@ const questions = [
       "difficulty": "easy",
       "sport": "basketball"
     },
+
+    // medium soccer
+
+
     {
       "question": "Which English Premier League team is nicknamed the 'Reds'?",
       "correct_answer": "Liverpool",
@@ -2101,6 +2168,76 @@ const questions = [
       "sport": "soccer"
     },
     {
+      "question": "Which nation won the Euro 2016 tournament?",
+      "correct_answer": "Portugal",
+      "incorrect_answers": ["France", "Germany", "Spain"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who won the Ballon d'Or in 2023?",
+      "correct_answer": "Lionel Messi",
+      "incorrect_answers": ["Erling Haaland", "Kylian Mbappé", "Kevin De Bruyne"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which African country reached the semifinals of the 2022 World Cup?",
+      "correct_answer": "Morocco",
+      "incorrect_answers": ["Senegal", "Cameroon", "Nigeria"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "What club did Jude Bellingham join in 2023?",
+      "correct_answer": "Real Madrid",
+      "incorrect_answers": ["Manchester United", "Liverpool", "Bayern Munich"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who is the all-time top scorer in the UEFA Champions League?",
+      "correct_answer": "Cristiano Ronaldo",
+      "incorrect_answers": ["Lionel Messi", "Robert Lewandowski", "Karim Benzema"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "What club has won the most Premier League titles?",
+      "correct_answer": "Manchester United",
+      "incorrect_answers": ["Chelsea", "Liverpool", "Manchester City"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which goalkeeper won the Golden Glove at the 2022 World Cup?",
+      "correct_answer": "Emiliano Martínez",
+      "incorrect_answers": ["Hugo Lloris", "Dominik Livaković", "Yassine Bounou"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club did Lionel Messi first play for professionally?",
+      "correct_answer": "Barcelona",
+      "incorrect_answers": ["PSG", "Newell's Old Boys", "Inter Miami"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "In what year did the first official FIFA World Cup take place?",
+      "correct_answer": "1930",
+      "incorrect_answers": ["1920", "1940", "1934"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country won the Copa America in 2021?",
+      "correct_answer": "Argentina",
+      "incorrect_answers": ["Brazil", "Uruguay", "Chile"],
+      "difficulty": "medium",
+      "sport": "soccer"
+    },    
+    {
       "question": "Which club does Robert Lewandowski currently play for (as of 2025)?",
       "correct_answer": "Barcelona",
       "incorrect_answers": ["Bayern Munich", "Real Madrid", "Manchester United"],
@@ -2111,13 +2248,6 @@ const questions = [
       "question": "What is the name of the top-tier league in Italian soccer?",
       "correct_answer": "Serie A",
       "incorrect_answers": ["La Liga", "Bundesliga", "Ligue 1"],
-      "difficulty": "medium",
-      "sport": "soccer"
-    },
-    {
-      "question": "Which team won the FIFA Women’s World Cup in 2019?",
-      "correct_answer": "United States",
-      "incorrect_answers": ["Netherlands", "Germany", "England"],
       "difficulty": "medium",
       "sport": "soccer"
     },
@@ -2345,13 +2475,6 @@ const questions = [
       "sport": "soccer"
     },
     {
-      "question": "Who scored the fastest goal in World Cup history?",
-      "correct_answer": "Hakan Sükür",
-      "incorrect_answers": ["Cristiano Ronaldo", "Pelé", "Kylian Mbappé"],
-      "difficulty": "medium",
-      "sport": "soccer"
-    },
-    {
       "question": "Which club has won the most UEFA Champions League titles?",
       "correct_answer": "Real Madrid",
       "incorrect_answers": ["AC Milan", "Liverpool", "Bayern Munich"],
@@ -2485,6 +2608,7 @@ const questions = [
       "sport": "soccer"
     },
     
+    // medium baskeball
       
     {
       "question": "Which NBA team has won the most championships?",
@@ -2829,6 +2953,10 @@ const questions = [
       "difficulty": "medium",
       "sport": "basketball"
     },
+
+
+    // medium baseball
+
     {
       "question": "Which team did Babe Ruth start his MLB career with?",
       "correct_answer": "Boston Red Sox",
@@ -3159,6 +3287,7 @@ const questions = [
       "sport": "baseball"
     },
 
+    // medium hockey
 
     {
       "question": "Which NHL team has won the most Stanley Cups?",
@@ -3567,6 +3696,7 @@ const questions = [
       "sport": "hockey"
     },
 
+    // medium football
 
     {
       "question": "Which NFL quarterback has the most career passing touchdowns?",
@@ -4030,6 +4160,8 @@ const questions = [
       "difficulty": "medium",
       "sport": "football"
     },
+
+    // hard soccer
     
 
     {
@@ -4039,6 +4171,69 @@ const questions = [
       "difficulty": "hard",
       "sport": "soccer"
     },
+    {
+      "question": "Who scored the fastest goal in World Cup history?",
+      "correct_answer": "Hakan Şükür",
+      "incorrect_answers": ["Cristiano Ronaldo", "Tim Cahill", "Diego Maradona"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which country has participated in every FIFA World Cup since its inception?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": ["Germany", "Italy", "Argentina"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who was the top scorer in the 2014 FIFA World Cup?",
+      "correct_answer": "James Rodríguez",
+      "incorrect_answers": ["Lionel Messi", "Thomas Müller", "Neymar"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which manager has won the UEFA Champions League with two different clubs?",
+      "correct_answer": "Carlo Ancelotti",
+      "incorrect_answers": ["Pep Guardiola", "Zinedine Zidane", "José Mourinho"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "What team did Diego Maradona coach at the 2010 FIFA World Cup?",
+      "correct_answer": "Argentina",
+      "incorrect_answers": ["Mexico", "Uruguay", "Spain"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which club won the first-ever UEFA Champions League (formerly European Cup)?",
+      "correct_answer": "Real Madrid",
+      "incorrect_answers": ["AC Milan", "Benfica", "Ajax"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who scored the winning goal in the 2010 FIFA World Cup Final?",
+      "correct_answer": "Andrés Iniesta",
+      "incorrect_answers": ["David Villa", "Xavi", "Robin van Persie"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Which nation won the 1982 FIFA World Cup?",
+      "correct_answer": "Italy",
+      "incorrect_answers": ["West Germany", "Argentina", "Brazil"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },
+    {
+      "question": "Who is the youngest player to score in a FIFA World Cup match?",
+      "correct_answer": "Pelé",
+      "incorrect_answers": ["Kylian Mbappé", "Michael Owen", "Lionel Messi"],
+      "difficulty": "hard",
+      "sport": "soccer"
+    },    
     {
       "question": "Which country won the first ever FIFA World Cup in 1930?",
       "correct_answer": "Uruguay",
@@ -4432,6 +4627,7 @@ const questions = [
       "sport": "soccer"
     },
 
+    // hard baseball
 
     {
       "question": "Who holds the MLB record for most career sacrifice hits?",
@@ -4762,6 +4958,9 @@ const questions = [
       "difficulty": "hard",
       "sport": "baseball"
     },
+
+
+    // hard baskeball
 
     {
       "question": "Who was the first player in NBA history to record a quadruple-double?",
@@ -5100,6 +5299,7 @@ const questions = [
       "sport": "basketball"
     },
 
+    // hard football
 
     {
       "question": "Who is the only player to win the Heisman Trophy twice?",
@@ -5502,6 +5702,7 @@ const questions = [
       "sport": "football"
     },
 
+    // hard hockey
 
     {
       "correct_answer": "Maurice Richard",
