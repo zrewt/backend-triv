@@ -3,14 +3,10 @@ const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 3001;
 
-// Middleware
 app.use(cors());
 app.use(express.json());
 
-// All quiz questions data with difficulty levels
 const questions = [
-  
-    // easy soccer questions
  
     {
       "question": "Which country has won the most FIFA World Cups?",
@@ -608,16 +604,6 @@ const questions = [
         "sport": "soccer"
       },
     
-
-    // easy football questions
-
-    {
-      "question": "How many points is a touchdown worth?",
-      "correct_answer": "6",
-      "incorrect_answers": ["3", "7", "1"],
-      "difficulty": "easy",
-      "sport": "football"
-    },
     {
       "question": "How many points is a touchdown worth?",
       "correct_answer": "6",
@@ -668,13 +654,6 @@ const questions = [
       "sport": "football"
     },
     {
-      "question": "What is the name of the NFL championship game?",
-      "correct_answer": "Super Bowl",
-      "incorrect_answers": ["World Series", "Final Four", "Bowl Championship"],
-      "difficulty": "easy",
-      "sport": "football"
-    },
-    {
       "question": "Which team is known for the 'Terrible Towel'?",
       "correct_answer": "Pittsburgh Steelers",
       "incorrect_answers": ["Ravens", "Browns", "Bengals"],
@@ -710,23 +689,9 @@ const questions = [
       "sport": "football"
     },
     {
-      "question": "How many points is a touchdown worth?",
-      "correct_answer": "6",
-      "incorrect_answers": ["3", "7", "1"],
-      "difficulty": "easy",
-      "sport": "football"
-    },
-    {
       "question": "Which city is home to the NFL team the Ravens?",
       "correct_answer": "Baltimore",
       "incorrect_answers": ["Cleveland", "Pittsburgh", "Cincinnati"],
-      "difficulty": "easy",
-      "sport": "football"
-    },
-    {
-      "question": "What color is the penalty flag in the NFL?",
-      "correct_answer": "Yellow",
-      "incorrect_answers": ["Red", "Blue", "Green"],
       "difficulty": "easy",
       "sport": "football"
     },
@@ -797,13 +762,6 @@ const questions = [
       "question": "Which city do the Dallas Cowboys play in?",
       "correct_answer": "Arlington",
       "incorrect_answers": ["Dallas", "Houston", "San Antonio"],
-      "difficulty": "easy",
-      "sport": "football"
-    },
-    {
-      "question": "Which NFL team has a star on its helmet?",
-      "correct_answer": "Dallas Cowboys",
-      "incorrect_answers": ["Patriots", "Giants", "Eagles"],
       "difficulty": "easy",
       "sport": "football"
     },
@@ -1053,7 +1011,6 @@ const questions = [
       "sport": "football"
     },
 
-    // easy hockey questions
 
     {
       "question": "What trophy is awarded to the NHL champion?",
@@ -1066,13 +1023,6 @@ const questions = [
       "question": "How many players are on the ice per team during regular play in hockey?",
       "correct_answer": "6",
       "incorrect_answers": ["5", "7", "4"],
-      "difficulty": "easy",
-      "sport": "hockey"
-    },
-    {
-      "question": "Which NHL team is based in Toronto?",
-      "correct_answer": "Maple Leafs",
-      "incorrect_answers": ["Canadiens", "Flames", "Senators"],
       "difficulty": "easy",
       "sport": "hockey"
     },
@@ -1168,13 +1118,6 @@ const questions = [
       "sport": "hockey"
     },
     {
-      "question": "Which NHL team plays home games at Madison Square Garden?",
-      "correct_answer": "New York Rangers",
-      "incorrect_answers": ["New York Islanders", "New Jersey Devils", "Buffalo Sabres"],
-      "difficulty": "easy",
-      "sport": "hockey"
-    },
-    {
       "question": "What is the surface of a hockey rink made of?",
       "correct_answer": "Ice",
       "incorrect_answers": ["Plastic", "Concrete", "Wood"],
@@ -1220,13 +1163,6 @@ const questions = [
       "question": "Which player has the most career Stanley Cup wins?",
       "correct_answer": "Henri Richard",
       "incorrect_answers": ["Wayne Gretzky", "Jean Béliveau", "Maurice Richard"],
-      "difficulty": "easy",
-      "sport": "hockey"
-    },
-    {
-      "question": "Which NHL team is based in Toronto?",
-      "correct_answer": "Maple Leafs",
-      "incorrect_answers": ["Canucks", "Oilers", "Senators"],
       "difficulty": "easy",
       "sport": "hockey"
     },
@@ -1461,17 +1397,9 @@ const questions = [
       "sport": "hockey"
     },
 
-    // easy baseball questions
 
     {
       "question": "How many bases are there on a baseball field?",
-      "correct_answer": "4",
-      "incorrect_answers": ["3", "5", "6"],
-      "difficulty": "easy",
-      "sport": "baseball"
-    },
-    {
-      "question": "How many bases are on a baseball field?",
       "correct_answer": "4",
       "incorrect_answers": ["3", "5", "6"],
       "difficulty": "easy",
@@ -1523,13 +1451,6 @@ const questions = [
       "question": "What do you call it when a batter reaches all four bases on a hit?",
       "correct_answer": "Home run",
       "incorrect_answers": ["Double", "Triple", "Bunt"],
-      "difficulty": "easy",
-      "sport": "baseball"
-    },
-    {
-      "question": "What is the area called where pitchers warm up?",
-      "correct_answer": "Bullpen",
-      "incorrect_answers": ["Dugout", "Outfield", "Infield"],
       "difficulty": "easy",
       "sport": "baseball"
     },
@@ -1610,13 +1531,6 @@ const questions = [
       "difficulty": "easy",
       "sport": "baseball"
     },    
-    {
-      "question": "What is it called when a batter hits the ball out of the park in fair territory?",
-      "correct_answer": "Home run",
-      "incorrect_answers": ["Triple", "Double", "Base hit"],
-      "difficulty": "easy",
-      "sport": "baseball"
-    },
     {
       "question": "Which city is home to the Yankees?",
       "correct_answer": "New York",
@@ -1814,7 +1728,6 @@ const questions = [
       "sport": "baseball"
     },
 
-    // easy basketball questions
 
     {
       "question": "Who has made the most three-pointers in NBA history?",
@@ -2167,7 +2080,6 @@ const questions = [
       "sport": "basketball"
     },
 
-    // medium soccer questions
 
     {
       "question": "Which country won the first ever FIFA World Cup in 1930?",
@@ -2589,7 +2501,6 @@ const questions = [
       "sport": "soccer"
     },
     
-    // medium basketball questions
       
     {
       "question": "Which NBA team has won the most championships?",
@@ -2942,7 +2853,6 @@ const questions = [
       "sport": "basketball"
     },
 
-    // medium baseball questions 
 
     {
       "question": "Which MLB team has won the most World Series titles?",
@@ -3295,7 +3205,6 @@ const questions = [
       "sport": "baseball"
     },
 
-    // medium hockey questions
 
     {
       "question": "Which NHL team has won the most Stanley Cups?",
@@ -3427,13 +3336,6 @@ const questions = [
       "question": "What is the name of the trophy awarded to the NHL’s best defenseman?",
       "correct_answer": "Norris Trophy",
       "incorrect_answers": ["Selke Trophy", "Hart Trophy", "Vezina Trophy"],
-      "difficulty": "medium",
-      "sport": "hockey"
-    },
-    {
-      "question": "Who was the first NHL player to score 50 goals in 50 games?",
-      "correct_answer": "Maurice Richard",
-      "incorrect_answers": ["Bobby Hull", "Gordie Howe", "Wayne Gretzky"],
       "difficulty": "medium",
       "sport": "hockey"
     },
@@ -3711,19 +3613,11 @@ const questions = [
       "sport": "hockey"
     },
 
-    // medium football questions
 
     {
       "question": "Which NFL quarterback has the most career passing touchdowns?",
       "correct_answer": "Tom Brady",
       "incorrect_answers": ["Peyton Manning", "Drew Brees", "Brett Favre"],
-      "difficulty": "medium",
-      "sport": "football"
-    },
-    {
-      "question": "Who was the #1 overall pick in the 2020 NFL Draft?",
-      "correct_answer": "Joe Burrow",
-      "incorrect_answers": ["Justin Herbert", "Tua Tagovailoa", "Chase Young"],
       "difficulty": "medium",
       "sport": "football"
     },
@@ -3759,13 +3653,6 @@ const questions = [
       "question": "Which running back famously wore number 34 for the Chicago Bears?",
       "correct_answer": "Walter Payton",
       "incorrect_answers": ["Gale Sayers", "Barry Sanders", "Bo Jackson"],
-      "difficulty": "medium",
-      "sport": "football"
-    },
-    {
-      "question": "Which team plays their home games at Lambeau Field?",
-      "correct_answer": "Green Bay Packers",
-      "incorrect_answers": ["Vikings", "Browns", "Seahawks"],
       "difficulty": "medium",
       "sport": "football"
     },
@@ -4190,9 +4077,6 @@ const questions = [
       "sport": "football"
     },
     
-    // hard questions
-
-    // hard soccer questions
 
     {
       "question": "Who is the only player to win the UEFA Champions League with three different clubs?",
@@ -4334,13 +4218,6 @@ const questions = [
       "difficulty": "hard",
       "sport": "soccer"
     },
-    { 
-      "question": "Who was the first African player to win the Ballon d'Or?",
-      "correct_answer": "George Weah",
-      "incorrect_answers": ["Samuel Eto'o", "Didier Drogba", "Abedi Pele"],
-      "difficulty": "hard",
-      "sport": "soccer"
-    },    
     {
       "question": "Which club has won more Champions League titles than their own domestic league titles?",
       "correct_answer": "Nottingham Forest",
@@ -4559,13 +4436,6 @@ const questions = [
       "sport": "soccer"
     },
     {
-      "question": "Which club has won the most UEFA Europa League titles?",
-      "correct_answer": "Sevilla",
-      "incorrect_answers": ["Inter Milan", "Juventus", "Liverpool"],
-      "difficulty": "hard",
-      "sport": "soccer"
-    },
-    {
       "question": "Who scored the winning goal in the 2014 World Cup Final?",
       "correct_answer": "Mario Götze",
       "incorrect_answers": ["Thomas Müller", "Miroslav Klose", "Mesut Özil"],
@@ -4615,7 +4485,6 @@ const questions = [
       "sport": "soccer"
     },
 
-    // hard baseball questions
 
     {
       "question": "Who holds the MLB record for most career sacrifice hits?",
@@ -4635,13 +4504,6 @@ const questions = [
       "question": "Who was the first African-American to play in Major League Baseball?",
       "correct_answer": "Jackie Robinson",
       "incorrect_answers": ["Satchel Paige", "Hank Aaron", "Willie Mays"],
-      "difficulty": "hard",
-      "sport": "baseball"
-    },
-    {
-      "question": "Which pitcher threw a perfect game in the 1956 World Series?",
-      "correct_answer": "Don Larsen",
-      "incorrect_answers": ["Whitey Ford", "Sandy Koufax", "Bob Gibson"],
       "difficulty": "hard",
       "sport": "baseball"
     },
@@ -4694,13 +4556,6 @@ const questions = [
       "difficulty": "hard",
       "sport": "baseball"
     },    
-    {
-      "question": "Who was the first African-American to play in Major League Baseball?",
-      "correct_answer": "Jackie Robinson",
-      "incorrect_answers": ["Satchel Paige", "Hank Aaron", "Larry Doby"],
-      "difficulty": "hard",
-      "sport": "baseball"
-    },
     {
       "question": "Which pitcher threw a perfect game in the 1956 World Series?",
       "correct_answer": "Don Larsen",
@@ -4967,8 +4822,6 @@ const questions = [
       "difficulty": "hard",
       "sport": "baseball"
     },
-    
-    // hard basketball questions
 
     {
       "question": "Who was the first player in NBA history to record a quadruple-double?",
@@ -5100,13 +4953,6 @@ const questions = [
       "question": "Which NBA player was nicknamed 'The Admiral'?",
       "correct_answer": "David Robinson",
       "incorrect_answers": ["Tim Duncan", "Kareem Abdul-Jabbar", "Chris Webber"],
-      "difficulty": "hard",
-      "sport": "basketball"
-    },
-    {
-      "question": "Which coach has the most NBA championships?",
-      "correct_answer": "Phil Jackson",
-      "incorrect_answers": ["Red Auerbach", "Gregg Popovich", "Pat Riley"],
       "difficulty": "hard",
       "sport": "basketball"
     },
@@ -5321,7 +5167,6 @@ const questions = [
       "sport": "basketball"
     },
 
-    // hard football questions
 
     {
       "question": "Who is the only player to win the Heisman Trophy twice?",
@@ -5359,13 +5204,6 @@ const questions = [
       "sport": "football"
     },
     {
-      "question": "Who is the only player to win NFL MVP and Super Bowl MVP in the same season twice?",
-      "correct_answer": "Joe Montana",
-      "incorrect_answers": ["Tom Brady", "Peyton Manning", "Terry Bradshaw"],
-      "difficulty": "hard",
-      "sport": "football"
-    },
-    {
       "question": "Which team did the LA Rams defeat in Super Bowl LVI?",
       "correct_answer": "Cincinnati Bengals",
       "incorrect_answers": ["Kansas City Chiefs", "San Francisco 49ers", "Buffalo Bills"],
@@ -5390,13 +5228,6 @@ const questions = [
       "question": "Which player returned the opening kickoff of Super Bowl XLI for a touchdown?",
       "correct_answer": "Devin Hester",
       "incorrect_answers": ["Reggie Bush", "Ted Ginn Jr.", "Desmond Howard"],
-      "difficulty": "hard",
-      "sport": "football"
-    },
-    {
-      "question": "Who was the first African American quarterback to win a Super Bowl?",
-      "correct_answer": "Doug Williams",
-      "incorrect_answers": ["Warren Moon", "Steve McNair", "Patrick Mahomes"],
       "difficulty": "hard",
       "sport": "football"
     },    
@@ -5738,7 +5569,6 @@ const questions = [
       "sport": "football"
     },
 
-    // hard hockey questions
 
     {
       "correct_answer": "Maurice Richard",
@@ -5865,13 +5695,7 @@ const questions = [
       "difficulty": "hard",
       "sport": "hockey"
     },
-    {
-      "question": "Who was the first NHL player to score 100 points in a season?",
-      "correct_answer": "Phil Esposito",
-      "incorrect_answers": ["Bobby Orr", "Gordie Howe", "Jean Beliveau"],
-      "difficulty": "hard",
-      "sport": "hockey"
-    },
+
     {
       "question": "Which coach has the most wins in NHL history?",
       "correct_answer": "Scotty Bowman",
@@ -6145,13 +5969,6 @@ const questions = [
       "sport": "hockey"
     },
     {
-      "question": "Which team drafted Jaromir Jagr in 1990?",
-      "correct_answer": "Pittsburgh Penguins",
-      "incorrect_answers": ["Philadelphia Flyers", "Washington Capitals", "Boston Bruins"],
-      "difficulty": "hard",
-      "sport": "hockey"
-    },
-    {
       "question": "Which player has the most career overtime goals in NHL history?",
       "correct_answer": "Alex Ovechkin",
       "incorrect_answers": ["Sidney Crosby", "Jaromir Jagr", "Patrick Kane"],
@@ -6231,7 +6048,6 @@ const questions = [
     
 ];
 
-// Helper function to get random questions by difficulty and sport
 const getRandomQuestionsByDifficultyAndSport = (difficulty, sport, count) => {
   let filteredQuestions = questions.filter(q => q.difficulty === difficulty);
   
@@ -6241,7 +6057,6 @@ const getRandomQuestionsByDifficultyAndSport = (difficulty, sport, count) => {
   
   const questionsCopy = [...filteredQuestions];
   
-  // Fisher-Yates shuffle algorithm
   for (let i = questionsCopy.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [questionsCopy[i], questionsCopy[j]] = [questionsCopy[j], questionsCopy[i]];
@@ -6249,7 +6064,6 @@ const getRandomQuestionsByDifficultyAndSport = (difficulty, sport, count) => {
   return questionsCopy.slice(0, count);
 };
 
-// Helper function to get random questions across all difficulties
 const getRandomQuestions = (count) => {
   const questionsCopy = [...questions];
   for (let i = questionsCopy.length - 1; i > 0; i--) {
@@ -6259,7 +6073,7 @@ const getRandomQuestions = (count) => {
   return questionsCopy.slice(0, count);
 };
 
-// Routes
+
 app.get('/api/questions', (req, res) => {
   const count = parseInt(req.query.count) || 5;
   const difficulty = req.query.difficulty;
@@ -6274,12 +6088,9 @@ app.get('/api/questions', (req, res) => {
   }
 });
 
-// Get available difficulties
 app.get('/api/difficulties', (req, res) => {
   res.json(['easy', 'medium', 'hard']);
 });
-
-// Health check endpoint
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok' });
 });
