@@ -9,6 +9,62 @@ const baseballQuestions = [
       "sport": "baseball"
     },
     {
+      "question": "Which team won the 2022 World Series?",
+      "correct_answer": "Houston Astros",
+      "incorrect_answers": ["New York Yankees", "Los Angeles Dodgers", "Atlanta Braves"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What does MLB stand for?",
+      "correct_answer": "Major League Baseball",
+      "incorrect_answers": ["Minor League Baseball", "Major League Batters", "Most Legendary Baseball"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is it called when a batter hits the ball out of the park?",
+      "correct_answer": "Home run",
+      "incorrect_answers": ["Strike", "Bunt", "Curveball"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "How many outs are in an inning (total, both teams)?",
+      "correct_answer": "6",
+      "incorrect_answers": ["3", "4", "9"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the area called where pitchers warm up?",
+      "correct_answer": "Bullpen",
+      "incorrect_answers": ["Dugout", "Outfield", "Box"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What piece of equipment is used to hit the ball?",
+      "correct_answer": "Bat",
+      "incorrect_answers": ["Club", "Stick", "Rod"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What do players wear on their hand to catch the ball?",
+      "correct_answer": "Glove",
+      "incorrect_answers": ["Mitt", "Pad", "Sleeve"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What’s it called when a batter swings and misses?",
+      "correct_answer": "Strike",
+      "incorrect_answers": ["Ball", "Out", "Whiff"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },    
+    {
       "question": "What is it called when a batter hits the ball out of the park in fair territory?",
       "correct_answer": "Home run",
       "incorrect_answers": ["Triple", "Foul ball", "Strike"],
@@ -138,13 +194,6 @@ const baseballQuestions = [
       "question": "Which city is home to the Yankees?",
       "correct_answer": "New York",
       "incorrect_answers": ["Boston", "Chicago", "Los Angeles"],
-      "difficulty": "easy",
-      "sport": "baseball"
-    },
-    {
-      "question": "What is the area called where pitchers warm up?",
-      "correct_answer": "Bullpen",
-      "incorrect_answers": ["Dugout", "On-deck circle", "Outfield"],
       "difficulty": "easy",
       "sport": "baseball"
     },
@@ -341,6 +390,76 @@ const baseballQuestions = [
         "sport": "baseball"
       },
       {
+        "question": "Who holds the MLB record for most home runs in a single season?",
+        "correct_answer": "Barry Bonds",
+        "incorrect_answers": ["Mark McGwire", "Sammy Sosa", "Babe Ruth"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which MLB team has the most World Series titles?",
+        "correct_answer": "New York Yankees",
+        "incorrect_answers": ["Boston Red Sox", "St. Louis Cardinals", "Los Angeles Dodgers"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What is a 'perfect game' in baseball?",
+        "correct_answer": "No batters reach base",
+        "incorrect_answers": ["No hits allowed", "No runs allowed", "All outs by strikeouts"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Who broke MLB’s color barrier in 1947?",
+        "correct_answer": "Jackie Robinson",
+        "incorrect_answers": ["Hank Aaron", "Willie Mays", "Satchel Paige"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which position is number 6 in the scorebook?",
+        "correct_answer": "Shortstop",
+        "incorrect_answers": ["Third base", "Second base", "Catcher"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What team did Shohei Ohtani debut with in MLB?",
+        "correct_answer": "Los Angeles Angels",
+        "incorrect_answers": ["Seattle Mariners", "San Diego Padres", "New York Mets"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which league uses the designated hitter (DH) rule?",
+        "correct_answer": "American League",
+        "incorrect_answers": ["National League", "Both", "Neither"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Who won AL MVP in 2021?",
+        "correct_answer": "Shohei Ohtani",
+        "incorrect_answers": ["Aaron Judge", "Vladimir Guerrero Jr.", "Jose Ramirez"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What is the maximum number of innings in a regular MLB game?",
+        "correct_answer": "9",
+        "incorrect_answers": ["7", "10", "8"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "How many teams are in Major League Baseball?",
+        "correct_answer": "30",
+        "incorrect_answers": ["28", "32", "26"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },      
+      {
         "question": "Who holds the MLB record for most career hits?",
         "correct_answer": "Pete Rose",
         "incorrect_answers": ["Derek Jeter", "Hank Aaron", "Ichiro Suzuki"],
@@ -481,13 +600,6 @@ const baseballQuestions = [
         "sport": "baseball"
       },
       {
-        "question": "Which team won the 2022 World Series?",
-        "correct_answer": "Houston Astros",
-        "incorrect_answers": ["Philadelphia Phillies", "Atlanta Braves", "Los Angeles Dodgers"],
-        "difficulty": "medium",
-        "sport": "baseball"
-      },
-      {
         "question": "Which MLB player is known as 'The Kid'?",
         "correct_answer": "Ken Griffey Jr.",
         "incorrect_answers": ["Mike Trout", "Derek Jeter", "Cal Ripken Jr."],
@@ -614,13 +726,6 @@ const baseballQuestions = [
         "sport": "baseball"
       },
       {
-        "question": "What year did the Chicago Cubs break their 108-year championship drought?",
-        "correct_answer": "2016",
-        "incorrect_answers": ["2015", "2017", "2014"],
-        "difficulty": "medium",
-        "sport": "baseball"
-      },
-      {
         "question": "Which pitcher won the most Cy Young Awards?",
         "correct_answer": "Roger Clemens",
         "incorrect_answers": ["Randy Johnson", "Greg Maddux", "Tom Seaver"],
@@ -672,6 +777,69 @@ const baseballQuestions = [
       "difficulty": "hard",
       "sport": "baseball"
     },
+    {
+      "question": "What pitcher holds the record for most career strikeouts?",
+      "correct_answer": "Nolan Ryan",
+      "incorrect_answers": ["Randy Johnson", "Roger Clemens", "Tom Seaver"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who was the youngest player to reach 500 home runs?",
+      "correct_answer": "Alex Rodriguez",
+      "incorrect_answers": ["Albert Pujols", "Ken Griffey Jr.", "Hank Aaron"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What year did the Chicago Cubs break their 108-year championship drought?",
+      "correct_answer": "2016",
+      "incorrect_answers": ["2015", "2017", "2018"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who hit the most career grand slams in MLB history?",
+      "correct_answer": "Alex Rodriguez",
+      "incorrect_answers": ["Lou Gehrig", "Albert Pujols", "Manny Ramirez"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team drafted Mike Trout?",
+      "correct_answer": "Los Angeles Angels",
+      "incorrect_answers": ["New York Yankees", "Baltimore Orioles", "Oakland A’s"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who threw a no-hitter in the World Series?",
+      "correct_answer": "Don Larsen",
+      "incorrect_answers": ["Roy Halladay", "Randy Johnson", "Sandy Koufax"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What player has the most career hits in MLB history?",
+      "correct_answer": "Pete Rose",
+      "incorrect_answers": ["Ichiro Suzuki", "Derek Jeter", "Hank Aaron"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "How many no-hitters did Nolan Ryan throw?",
+      "correct_answer": "7",
+      "incorrect_answers": ["5", "6", "8"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the minimum number of pitches for an 'immaculate inning'?",
+      "correct_answer": "9",
+      "incorrect_answers": ["6", "12", "8"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },    
     {
       "question": "Which player hit 4 home runs in a single MLB game in 2002?",
       "correct_answer": "Shawn Green",

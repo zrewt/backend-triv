@@ -9,12 +9,68 @@ const basketballQuestions = [
       "sport": "basketball"
     },
     {
-      "question": "How many points is a free throw worth in basketball?",
-      "correct_answer": "1",
-      "incorrect_answers": ["2", "3", "0"],
+      "question": "What does NBA stand for?",
+      "correct_answer": "National Basketball Association",
+      "incorrect_answers": ["National Ball Association", "North Basketball Alliance", "National Basketball Authority"],
       "difficulty": "easy",
       "sport": "basketball"
     },
+    {
+      "question": "How many players from one team are on the court during play?",
+      "correct_answer": "5",
+      "incorrect_answers": ["4", "6", "7"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What team does Stephen Curry play for (as of 2024)?",
+      "correct_answer": "Golden State Warriors",
+      "incorrect_answers": ["Los Angeles Lakers", "Brooklyn Nets", "Miami Heat"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "How many points is a shot made from behind the arc worth?",
+      "correct_answer": "3",
+      "incorrect_answers": ["2", "1", "4"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team has purple and gold as their team colors?",
+      "correct_answer": "Los Angeles Lakers",
+      "incorrect_answers": ["Boston Celtics", "New York Knicks", "Chicago Bulls"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is it called when a player bounces the ball while moving?",
+      "correct_answer": "Dribbling",
+      "incorrect_answers": ["Passing", "Pivoting", "Rolling"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What’s the name of the line players shoot free throws from?",
+      "correct_answer": "Free throw line",
+      "incorrect_answers": ["Three-point line", "Half court", "Baseline"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team is based in Chicago?",
+      "correct_answer": "Bulls",
+      "incorrect_answers": ["Celtics", "Warriors", "Rockets"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What color is the basketball typically in the NBA?",
+      "correct_answer": "Orange",
+      "incorrect_answers": ["Red", "Brown", "Black"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },    
     {
       "question": "Which team is based in Chicago in the NBA?",
       "correct_answer": "Chicago Bulls",
@@ -103,13 +159,6 @@ const basketballQuestions = [
       "question": "Which player wore number 23 for most of his career?",
       "correct_answer": "Michael Jordan",
       "incorrect_answers": ["Shaquille O’Neal", "Tim Duncan", "Kevin Durant"],
-      "difficulty": "easy",
-      "sport": "basketball"
-    },
-    {
-      "question": "What is it called when a player bounces the ball while moving?",
-      "correct_answer": "Dribbling",
-      "incorrect_answers": ["Passing", "Dunking", "Traveling"],
       "difficulty": "easy",
       "sport": "basketball"
     },
@@ -354,6 +403,76 @@ const basketballQuestions = [
       "difficulty": "medium",
       "sport": "basketball"
     },
+    {
+      "question": "Who won the NBA MVP award in 2023?",
+      "correct_answer": "Joel Embiid",
+      "incorrect_answers": ["Nikola Jokic", "Giannis Antetokounmpo", "Luka Doncic"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team drafted Kobe Bryant?",
+      "correct_answer": "Charlotte Hornets",
+      "incorrect_answers": ["Los Angeles Lakers", "Philadelphia 76ers", "Boston Celtics"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is the maximum shot clock time in the NBA?",
+      "correct_answer": "24 seconds",
+      "incorrect_answers": ["30 seconds", "20 seconds", "18 seconds"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA player was nicknamed 'The Greek Freak'?",
+      "correct_answer": "Giannis Antetokounmpo",
+      "incorrect_answers": ["Luka Doncic", "Rudy Gobert", "Nikola Jokic"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "What country is Luka Doncic from?",
+      "correct_answer": "Slovenia",
+      "incorrect_answers": ["Serbia", "Croatia", "Spain"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which franchise has the most NBA championships?",
+      "correct_answer": "Boston Celtics",
+      "incorrect_answers": ["Los Angeles Lakers", "Chicago Bulls", "Golden State Warriors"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "How many personal fouls result in disqualification in the NBA?",
+      "correct_answer": "6",
+      "incorrect_answers": ["5", "7", "8"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is the area under the basket called?",
+      "correct_answer": "Paint",
+      "incorrect_answers": ["Arc", "Backcourt", "Wing"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who is the NBA's all-time leader in assists?",
+      "correct_answer": "John Stockton",
+      "incorrect_answers": ["Chris Paul", "Magic Johnson", "LeBron James"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is it called when a player grabs the ball after a missed shot?",
+      "correct_answer": "Rebound",
+      "incorrect_answers": ["Block", "Steal", "Turnover"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },    
     {
       "question": "Which team drafted Dirk Nowitzki before trading him to the Mavericks?",
       "correct_answer": "Milwaukee Bucks",
@@ -700,6 +819,69 @@ const basketballQuestions = [
         "difficulty": "hard",
         "sport": "basketball"
       },
+      {
+        "question": "Who scored 100 points in a single NBA game?",
+        "correct_answer": "Wilt Chamberlain",
+        "incorrect_answers": ["Michael Jordan", "Kobe Bryant", "LeBron James"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "What year did the NBA introduce the three-point line?",
+        "correct_answer": "1979",
+        "incorrect_answers": ["1984", "1973", "1981"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "What college did Michael Jordan attend?",
+        "correct_answer": "University of North Carolina",
+        "incorrect_answers": ["Duke", "Kentucky", "UCLA"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "What team did Allen Iverson finish his career with?",
+        "correct_answer": "Philadelphia 76ers",
+        "incorrect_answers": ["Denver Nuggets", "Memphis Grizzlies", "Detroit Pistons"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which player holds the record for most points in a single NBA playoff game?",
+        "correct_answer": "Michael Jordan",
+        "incorrect_answers": ["LeBron James", "Kobe Bryant", "Donovan Mitchell"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Who won the Defensive Player of the Year three times in a row in the 1980s?",
+        "correct_answer": "Dennis Rodman",
+        "incorrect_answers": ["Dikembe Mutombo", "Sidney Moncrief", "Dwight Howard"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Who was the #1 overall pick in the 2003 NBA Draft?",
+        "correct_answer": "LeBron James",
+        "incorrect_answers": ["Carmelo Anthony", "Dwyane Wade", "Chris Bosh"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "What NBA team was originally known as the New Jersey Americans?",
+        "correct_answer": "Brooklyn Nets",
+        "incorrect_answers": ["New York Knicks", "Philadelphia 76ers", "Chicago Bulls"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Who was the first player to record a triple-double in an All-Star Game?",
+        "correct_answer": "Michael Jordan",
+        "incorrect_answers": ["Magic Johnson", "Oscar Robertson", "LeBron James"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },      
       {
         "question": "Which player has the highest career free throw percentage in NBA history?",
         "correct_answer": "Stephen Curry",
