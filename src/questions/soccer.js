@@ -664,6 +664,76 @@ const soccerQuestions = [
         "sport": "soccer"
       },
       {
+        "question": "Which team won the UEFA Champions League in 2023?",
+        "correct_answer": "Manchester City",
+        "incorrect_answers": ["Real Madrid", "Inter Milan", "Bayern Munich"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Who is the all-time top scorer for Argentina?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": ["Diego Maradona", "Gabriel Batistuta", "Sergio Agüero"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which African country made it to the World Cup semifinals for the first time in 2022?",
+        "correct_answer": "Morocco",
+        "incorrect_answers": ["Nigeria", "Senegal", "Ghana"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the maximum number of substitutions allowed in most professional matches as of 2023?",
+        "correct_answer": "5",
+        "incorrect_answers": ["3", "6", "4"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which club is nicknamed 'The Blues'?",
+        "correct_answer": "Chelsea",
+        "incorrect_answers": ["Everton", "Manchester City", "Leicester City"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Who won the Ballon d'Or in 2022?",
+        "correct_answer": "Karim Benzema",
+        "incorrect_answers": ["Lionel Messi", "Kylian Mbappé", "Robert Lewandowski"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country won the first ever FIFA World Cup in 1930?",
+        "correct_answer": "Uruguay",
+        "incorrect_answers": ["Brazil", "Italy", "Argentina"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which league is Borussia Dortmund a part of?",
+        "correct_answer": "Bundesliga",
+        "incorrect_answers": ["La Liga", "Serie A", "Premier League"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "How long is a standard soccer match without stoppage time?",
+        "correct_answer": "90 minutes",
+        "incorrect_answers": ["80 minutes", "100 minutes", "60 minutes"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which soccer position is abbreviated as CB?",
+        "correct_answer": "Center Back",
+        "incorrect_answers": ["Central Blocker", "Cross Bench", "Corner Box"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },      
+      {
         "question": "What is the term for the defensive tactic where all players stay behind the ball?",
         "correct_answer": "Parking the bus",
         "incorrect_answers": ["Offside trap", "Zonal marking", "Man-to-man"],
@@ -1137,6 +1207,76 @@ const soccerQuestions = [
         "sport": "soccer"
       },
       {
+        "question": "Which team did Zinedine Zidane headbutt a player against in the 2006 World Cup final?",
+        "correct_answer": "Italy",
+        "incorrect_answers": ["Germany", "Brazil", "England"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Who holds the record for most goals scored in a single World Cup tournament?",
+        "correct_answer": "Just Fontaine",
+        "incorrect_answers": ["Miroslav Klose", "Pelé", "Gerd Müller"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which nation hosted the 1998 FIFA World Cup?",
+        "correct_answer": "France",
+        "incorrect_answers": ["Germany", "USA", "Japan"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which club did Erling Haaland play for before joining Manchester City?",
+        "correct_answer": "Borussia Dortmund",
+        "incorrect_answers": ["RB Leipzig", "Ajax", "Bayern Munich"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Who scored the winning goal in the 2010 World Cup final?",
+        "correct_answer": "Andrés Iniesta",
+        "incorrect_answers": ["David Villa", "Fernando Torres", "Xavi"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which Italian club is nicknamed 'The Old Lady'?",
+        "correct_answer": "Juventus",
+        "incorrect_answers": ["Inter Milan", "AC Milan", "Roma"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which club won the first ever UEFA Champions League?",
+        "correct_answer": "Real Madrid",
+        "incorrect_answers": ["AC Milan", "Benfica", "Manchester United"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Who managed France to their 2018 World Cup victory?",
+        "correct_answer": "Didier Deschamps",
+        "incorrect_answers": ["Zinedine Zidane", "Laurent Blanc", "Arsène Wenger"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which player won the Golden Boot at the 2018 World Cup?",
+        "correct_answer": "Harry Kane",
+        "incorrect_answers": ["Kylian Mbappé", "Romelu Lukaku", "Antoine Griezmann"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the full name of FIFA?",
+        "correct_answer": "Fédération Internationale de Football Association",
+        "incorrect_answers": ["Football International Federation of Associations", "FIFA International Football Association", "Federated International Football Authority"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },      
+      {
         "question": "Who scored the fastest goal in World Cup history?",
         "correct_answer": "Hakan Şükür",
         "incorrect_answers": ["Cristiano Ronaldo", "Tim Cahill", "Diego Maradona"],
@@ -1199,13 +1339,6 @@ const soccerQuestions = [
         "difficulty": "hard",
         "sport": "soccer"
       },    
-      {
-        "question": "Which country won the first ever FIFA World Cup in 1930?",
-        "correct_answer": "Uruguay",
-        "incorrect_answers": ["Brazil", "Argentina", "Italy"],
-        "difficulty": "hard",
-        "sport": "soccer"
-      },
       {
         "question": "Which club has won the most UEFA Europa League titles?",
         "correct_answer": "Sevilla",

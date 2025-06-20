@@ -9,6 +9,69 @@ const hockeyQuestions = [
         "sport": "hockey"
       },
       {
+        "question": "How many players are on the ice per team during even-strength play?",
+        "correct_answer": "6",
+        "incorrect_answers": ["5", "7", "4"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "What piece of equipment does a goalie use to block shots?",
+        "correct_answer": "Glove",
+        "incorrect_answers": ["Stick", "Pad", "Helmet"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "Which team plays their home games at Madison Square Garden?",
+        "correct_answer": "New York Rangers",
+        "incorrect_answers": ["New York Islanders", "Boston Bruins", "Philadelphia Flyers"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "What is it called when one team has more players on the ice than the other due to a penalty?",
+        "correct_answer": "Power Play",
+        "incorrect_answers": ["Icing", "Faceoff", "Offside"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "What is the name of the championship trophy awarded in the NHL?",
+        "correct_answer": "Stanley Cup",
+        "incorrect_answers": ["Grey Cup", "Presidents' Trophy", "Super Cup"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "Which team is based in Toronto?",
+        "correct_answer": "Maple Leafs",
+        "incorrect_answers": ["Senators", "Canucks", "Oilers"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "What do you call a game with no goals allowed by a goalie?",
+        "correct_answer": "Shutout",
+        "incorrect_answers": ["Hat trick", "Penalty kill", "Power play"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "Which country has won the most Olympic gold medals in ice hockey?",
+        "correct_answer": "Canada",
+        "incorrect_answers": ["USA", "Russia", "Sweden"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "What is the surface played on in hockey?",
+        "correct_answer": "Ice",
+        "incorrect_answers": ["Turf", "Grass", "Concrete"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },      
+      {
         "question": "Which country is known as the birthplace of ice hockey?",
         "correct_answer": "Canada",
         "incorrect_answers": ["USA", "Russia", "Sweden"],
@@ -183,13 +246,6 @@ const hockeyQuestions = [
         "difficulty": "easy",
         "sport": "hockey"
       },    
-      {
-        "question": "Which team won the Stanley Cup in 2024?",
-        "correct_answer": "Vegas Golden Knights",
-        "incorrect_answers": ["Florida Panthers", "Colorado Avalanche", "Edmonton Oilers"],
-        "difficulty": "easy",
-        "sport": "hockey"
-      },
       {
         "question": "How many teams compete for the Stanley Cup in the NHL playoffs?",
         "correct_answer": "16",
@@ -437,6 +493,70 @@ const hockeyQuestions = [
       "difficulty": "medium",
       "sport": "hockey"
     },
+    {
+      "question": "Which NHL team joined the league most recently as of 2021?",
+      "correct_answer": "Seattle Kraken",
+      "incorrect_answers": ["Vegas Golden Knights", "Columbus Blue Jackets", "Winnipeg Jets"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who holds the record for most goals in a single NHL season?",
+      "correct_answer": "Wayne Gretzky",
+      "incorrect_answers": ["Mario Lemieux", "Alex Ovechkin", "Brett Hull"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team did Wayne Gretzky start his NHL career with?",
+      "correct_answer": "Edmonton Oilers",
+      "incorrect_answers": ["Los Angeles Kings", "New York Rangers", "St. Louis Blues"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "How many periods are there in a standard NHL game?",
+      "correct_answer": "3",
+      "incorrect_answers": ["2", "4", "5"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is the name of the penalty where a player uses their stick to slow down another player?",
+      "correct_answer": "Hooking",
+      "incorrect_answers": ["Slashing", "Tripping", "Cross-checking"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+
+    {
+      "question": "Who is known as 'The Great One' in hockey?",
+      "correct_answer": "Wayne Gretzky",
+      "incorrect_answers": ["Sidney Crosby", "Bobby Orr", "Mark Messier"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "What does NHL stand for?",
+      "correct_answer": "National Hockey League",
+      "incorrect_answers": ["North Hockey League", "National Hockey Level", "Nations Hockey League"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which goalie has the most career wins in NHL history?",
+      "correct_answer": "Martin Brodeur",
+      "incorrect_answers": ["Patrick Roy", "Dominik Hasek", "Henrik Lundqvist"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL franchise has won the most Stanley Cups?",
+      "correct_answer": "Montreal Canadiens",
+      "incorrect_answers": ["Toronto Maple Leafs", "Detroit Red Wings", "Boston Bruins"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },    
     {
       "question": "Which player won the Hart Trophy in 2023?",
       "correct_answer": "Connor McDavid",
@@ -732,13 +852,6 @@ const hockeyQuestions = [
       "sport": "hockey"
     },
     {
-      "question": "Which goalie has the most career wins in NHL history?",
-      "correct_answer": "Martin Brodeur",
-      "incorrect_answers": ["Patrick Roy", "Marc-Andre Fleury", "Henrik Lundqvist"],
-      "difficulty": "medium",
-      "sport": "hockey"
-    },
-    {
       "question": "Who won the Conn Smythe Trophy in 2020?",
       "correct_answer": "Victor Hedman",
       "incorrect_answers": ["Andrei Vasilevskiy", "Brayden Point", "Nikita Kucherov"],
@@ -756,13 +869,6 @@ const hockeyQuestions = [
       "question": "Who was the first NHL team to win three consecutive Stanley Cups in the modern era?",
       "correct_answer": "New York Islanders",
       "incorrect_answers": ["Edmonton Oilers", "Montreal Canadiens", "Pittsburgh Penguins"],
-      "difficulty": "medium",
-      "sport": "hockey"
-    },
-    {
-      "question": "Which player has the most points in a single NHL season?",
-      "correct_answer": "Wayne Gretzky",
-      "incorrect_answers": ["Mario Lemieux", "Jaromir Jagr", "Connor McDavid"],
       "difficulty": "medium",
       "sport": "hockey"
     },
@@ -908,6 +1014,76 @@ const hockeyQuestions = [
       "difficulty": "hard",
       "sport": "hockey"
     },
+    {
+      "question": "Which player won the Conn Smythe Trophy in 2022?",
+      "correct_answer": "Cale Makar",
+      "incorrect_answers": ["Nathan MacKinnon", "Andrei Vasilevskiy", "Connor McDavid"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team was the first U.S.-based team to win the Stanley Cup?",
+      "correct_answer": "Seattle Metropolitans",
+      "incorrect_answers": ["Boston Bruins", "New York Rangers", "Chicago Blackhawks"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which player scored the 'Golden Goal' for Canada in the 2010 Winter Olympics?",
+      "correct_answer": "Sidney Crosby",
+      "incorrect_answers": ["Jonathan Toews", "Corey Perry", "Joe Thornton"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which player has the most points in a single NHL season?",
+      "correct_answer": "Wayne Gretzky",
+      "incorrect_answers": ["Mario Lemieux", "Jaromir Jagr", "Connor McDavid"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "What year did the NHL adopt the shootout to decide regular season games?",
+      "correct_answer": "2005",
+      "incorrect_answers": ["2000", "1998", "2010"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the first goaltender to score a goal in an NHL game?",
+      "correct_answer": "Billy Smith",
+      "incorrect_answers": ["Ron Hextall", "Patrick Roy", "Martin Brodeur"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which player won back-to-back Hart Trophies in 2021 and 2022?",
+      "correct_answer": "Auston Matthews",
+      "incorrect_answers": ["Connor McDavid", "Leon Draisaitl", "Nathan MacKinnon"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team has gone the longest without winning a Stanley Cup?",
+      "correct_answer": "Toronto Maple Leafs",
+      "incorrect_answers": ["Vancouver Canucks", "Buffalo Sabres", "Arizona Coyotes"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the first captain in Vegas Golden Knights history?",
+      "correct_answer": "Mark Stone",
+      "incorrect_answers": ["Jonathan Marchessault", "Shea Theodore", "Reilly Smith"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which former player owns the Nashville Predators?",
+      "correct_answer": "Predators are owned by a group, not a former player",
+      "incorrect_answers": ["Wayne Gretzky", "Mario Lemieux", "Joe Sakic"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },    
     {
       "question": "Who was the first NHL player to score 50 goals in 50 games?",
       "correct_answer": "Maurice Richard",

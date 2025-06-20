@@ -9,6 +9,62 @@ const baseballQuestions = [
       "sport": "baseball"
     },
     {
+      "question": "How many bases are on a baseball field?",
+      "correct_answer": "4",
+      "incorrect_answers": ["3", "5", "6"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "How many strikes make an out?",
+      "correct_answer": "3",
+      "incorrect_answers": ["2", "4", "5"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What position does the player who throws the ball play?",
+      "correct_answer": "Pitcher",
+      "incorrect_answers": ["Catcher", "Shortstop", "Outfielder"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "How many outs are in one inning for both teams?",
+      "correct_answer": "6",
+      "incorrect_answers": ["3", "9", "4"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team has won the most World Series titles?",
+      "correct_answer": "New York Yankees",
+      "incorrect_answers": ["Los Angeles Dodgers", "Boston Red Sox", "St. Louis Cardinals"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What is the term for a play where the batter safely reaches first base?",
+      "correct_answer": "Single",
+      "incorrect_answers": ["Double", "Triple", "Home run"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "What league is the MLB a part of?",
+      "correct_answer": "Major League Baseball",
+      "incorrect_answers": ["National Baseball League", "United States Baseball League", "American National League"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },
+    {
+      "question": "How many players are on the field for one team at a time?",
+      "correct_answer": "9",
+      "incorrect_answers": ["8", "10", "11"],
+      "difficulty": "easy",
+      "sport": "baseball"
+    },    
+    {
       "question": "Which team won the 2022 World Series?",
       "correct_answer": "Houston Astros",
       "incorrect_answers": ["New York Yankees", "Los Angeles Dodgers", "Atlanta Braves"],
@@ -19,13 +75,6 @@ const baseballQuestions = [
       "question": "What does MLB stand for?",
       "correct_answer": "Major League Baseball",
       "incorrect_answers": ["Minor League Baseball", "Major League Batters", "Most Legendary Baseball"],
-      "difficulty": "easy",
-      "sport": "baseball"
-    },
-    {
-      "question": "What is it called when a batter hits the ball out of the park?",
-      "correct_answer": "Home run",
-      "incorrect_answers": ["Strike", "Bunt", "Curveball"],
       "difficulty": "easy",
       "sport": "baseball"
     },
@@ -124,13 +173,6 @@ const baseballQuestions = [
       "question": "How many strikes equal an out in baseball?",
       "correct_answer": "3",
       "incorrect_answers": ["4", "2", "5"],
-      "difficulty": "easy",
-      "sport": "baseball"
-    },
-    {
-      "question": "How many bases are on a baseball field?",
-      "correct_answer": "4",
-      "incorrect_answers": ["3", "5", "6"],
       "difficulty": "easy",
       "sport": "baseball"
     },
@@ -389,6 +431,69 @@ const baseballQuestions = [
         "difficulty": "medium",
         "sport": "baseball"
       },
+      {
+        "question": "Who broke the MLB single-season home run record in 2001?",
+        "correct_answer": "Barry Bonds",
+        "incorrect_answers": ["Mark McGwire", "Babe Ruth", "Sammy Sosa"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which MLB team was originally known as the Devil Rays?",
+        "correct_answer": "Tampa Bay Rays",
+        "incorrect_answers": ["Miami Marlins", "San Diego Padres", "Arizona Diamondbacks"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What is the name of the Boston Red Sox home stadium?",
+        "correct_answer": "Fenway Park",
+        "incorrect_answers": ["Wrigley Field", "Yankee Stadium", "Citi Field"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which player has the most career RBIs in MLB history?",
+        "correct_answer": "Hank Aaron",
+        "incorrect_answers": ["Barry Bonds", "Babe Ruth", "Alex Rodriguez"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which pitcher has the most no-hitters in MLB history?",
+        "correct_answer": "Nolan Ryan",
+        "incorrect_answers": ["Sandy Koufax", "Randy Johnson", "Roger Clemens"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "What year did the Houston Astros win their first World Series?",
+        "correct_answer": "2017",
+        "incorrect_answers": ["2015", "2018", "2019"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which position is labeled as '6' in scorekeeping?",
+        "correct_answer": "Shortstop",
+        "incorrect_answers": ["Second base", "Third base", "Catcher"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Which MLB team plays at Dodger Stadium?",
+        "correct_answer": "Los Angeles Dodgers",
+        "incorrect_answers": ["San Francisco Giants", "San Diego Padres", "Los Angeles Angels"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },
+      {
+        "question": "Who was the last player to hit over .400 in a season?",
+        "correct_answer": "Ted Williams",
+        "incorrect_answers": ["Tony Gwynn", "Ichiro Suzuki", "Barry Bonds"],
+        "difficulty": "medium",
+        "sport": "baseball"
+      },      
       {
         "question": "Who holds the MLB record for most home runs in a single season?",
         "correct_answer": "Barry Bonds",
@@ -777,6 +882,69 @@ const baseballQuestions = [
       "difficulty": "hard",
       "sport": "baseball"
     },
+    {
+      "question": "Which player holds the MLB record for most career hits?",
+      "correct_answer": "Pete Rose",
+      "incorrect_answers": ["Derek Jeter", "Ichiro Suzuki", "Hank Aaron"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team was the first to win back-to-back World Series titles in the 21st century?",
+      "correct_answer": "New York Yankees",
+      "incorrect_answers": ["Red Sox", "Giants", "Astros"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What year did Jackie Robinson break the color barrier in baseball?",
+      "correct_answer": "1947",
+      "incorrect_answers": ["1945", "1950", "1948"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which stadium has the Green Monster?",
+      "correct_answer": "Fenway Park",
+      "incorrect_answers": ["Wrigley Field", "Yankee Stadium", "Camden Yards"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "What pitcher threw a perfect game in the 2012 MLB season?",
+      "correct_answer": "Felix Hernandez",
+      "incorrect_answers": ["Matt Cain", "Philip Humber", "Roy Halladay"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which player was named World Series MVP in 2023?",
+      "correct_answer": "Corey Seager",
+      "incorrect_answers": ["Jose Altuve", "Bryce Harper", "Marcus Semien"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which MLB team has gone the longest without a World Series title?",
+      "correct_answer": "Cleveland Guardians",
+      "incorrect_answers": ["Chicago Cubs", "Seattle Mariners", "Texas Rangers"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Who hit the walk-off home run known as 'The Shot Heard 'Round the World'?",
+      "correct_answer": "Bobby Thomson",
+      "incorrect_answers": ["Mickey Mantle", "Joe DiMaggio", "Willie Mays"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },
+    {
+      "question": "Which team did Ichiro Suzuki debut with in the MLB?",
+      "correct_answer": "Seattle Mariners",
+      "incorrect_answers": ["New York Yankees", "Texas Rangers", "Oakland Athletics"],
+      "difficulty": "hard",
+      "sport": "baseball"
+    },    
     {
       "question": "What pitcher holds the record for most career strikeouts?",
       "correct_answer": "Nolan Ryan",

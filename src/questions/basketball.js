@@ -9,6 +9,55 @@ const basketballQuestions = [
       "sport": "basketball"
     },
     {
+      "question": "How many points is a free throw worth in basketball?",
+      "correct_answer": "1",
+      "incorrect_answers": ["2", "3", "4"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "How many players from each team are on the court during play?",
+      "correct_answer": "5",
+      "incorrect_answers": ["6", "4", "7"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who is known as 'King James'?",
+      "correct_answer": "LeBron James",
+      "incorrect_answers": ["Kevin Durant", "Stephen Curry", "Kobe Bryant"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team has the most NBA championships?",
+      "correct_answer": "Boston Celtics",
+      "incorrect_answers": ["Chicago Bulls", "Los Angeles Lakers", "Golden State Warriors"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What color is a standard basketball?",
+      "correct_answer": "Orange",
+      "incorrect_answers": ["Brown", "Black", "Red"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "How many points is a shot from behind the arc worth?",
+      "correct_answer": "3",
+      "incorrect_answers": ["2", "1", "4"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA player is famous for his 'Sky Hook' shot?",
+      "correct_answer": "Kareem Abdul-Jabbar",
+      "incorrect_answers": ["Shaquille O'Neal", "Tim Duncan", "Wilt Chamberlain"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },    
+    {
       "question": "What does NBA stand for?",
       "correct_answer": "National Basketball Association",
       "incorrect_answers": ["National Ball Association", "North Basketball Alliance", "National Basketball Authority"],
@@ -138,13 +187,6 @@ const basketballQuestions = [
       "question": "What is it called when a player scores by jumping and slamming the ball into the hoop?",
       "correct_answer": "Dunk",
       "incorrect_answers": ["Layup", "Free throw", "Alley-oop"],
-      "difficulty": "easy",
-      "sport": "basketball"
-    },
-    {
-      "question": "Which team is based in Los Angeles?",
-      "correct_answer": "Lakers",
-      "incorrect_answers": ["Heat", "Bulls", "Celtics"],
       "difficulty": "easy",
       "sport": "basketball"
     },
@@ -404,6 +446,76 @@ const basketballQuestions = [
       "sport": "basketball"
     },
     {
+      "question": "Which NBA player won MVP in 2021?",
+      "correct_answer": "Nikola Jokic",
+      "incorrect_answers": ["Joel Embiid", "Stephen Curry", "Giannis Antetokounmpo"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "What team did Kevin Durant win his first NBA title with?",
+      "correct_answer": "Golden State Warriors",
+      "incorrect_answers": ["Oklahoma City Thunder", "Brooklyn Nets", "Phoenix Suns"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who was the first overall pick in the 2023 NBA Draft?",
+      "correct_answer": "Victor Wembanyama",
+      "incorrect_answers": ["Scoot Henderson", "Brandon Miller", "Amen Thompson"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "What team did Shaquille O'Neal win his last NBA title with?",
+      "correct_answer": "Miami Heat",
+      "incorrect_answers": ["Los Angeles Lakers", "Orlando Magic", "Boston Celtics"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team drafted Luka Dončić?",
+      "correct_answer": "Atlanta Hawks",
+      "incorrect_answers": ["Dallas Mavericks", "Sacramento Kings", "Phoenix Suns"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which coach has the most career NBA wins?",
+      "correct_answer": "Gregg Popovich",
+      "incorrect_answers": ["Phil Jackson", "Don Nelson", "Red Auerbach"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player was nicknamed 'The Answer'?",
+      "correct_answer": "Allen Iverson",
+      "incorrect_answers": ["Dwyane Wade", "Kyrie Irving", "Chris Paul"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player holds the record for most 3-pointers in a single game?",
+      "correct_answer": "Klay Thompson",
+      "incorrect_answers": ["Stephen Curry", "Damian Lillard", "James Harden"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who is the NBA’s all-time assists leader?",
+      "correct_answer": "John Stockton",
+      "incorrect_answers": ["Magic Johnson", "Chris Paul", "Steve Nash"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who won the 2022 NBA Finals MVP?",
+      "correct_answer": "Stephen Curry",
+      "incorrect_answers": ["Jayson Tatum", "Andrew Wiggins", "Jaylen Brown"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },    
+    {
       "question": "Who won the NBA MVP award in 2023?",
       "correct_answer": "Joel Embiid",
       "incorrect_answers": ["Nikola Jokic", "Giannis Antetokounmpo", "Luka Doncic"],
@@ -575,13 +687,6 @@ const basketballQuestions = [
       "question": "How long is an NBA quarter?",
       "correct_answer": "12 minutes",
       "incorrect_answers": ["10 minutes", "15 minutes", "8 minutes"],
-      "difficulty": "medium",
-      "sport": "basketball"
-    },
-    {
-      "question": "Which team has the most NBA championships?",
-      "correct_answer": "Boston Celtics",
-      "incorrect_answers": ["Los Angeles Lakers", "Chicago Bulls", "Golden State Warriors"],
       "difficulty": "medium",
       "sport": "basketball"
     },
@@ -819,6 +924,69 @@ const basketballQuestions = [
         "difficulty": "hard",
         "sport": "basketball"
       },
+      {
+        "question": "What year was the NBA founded?",
+        "correct_answer": "1946",
+        "incorrect_answers": ["1949", "1939", "1952"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which player once scored 100 points in a single NBA game?",
+        "correct_answer": "Wilt Chamberlain",
+        "incorrect_answers": ["Kobe Bryant", "Michael Jordan", "Elgin Baylor"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which team was originally known as the Buffalo Braves?",
+        "correct_answer": "Los Angeles Clippers",
+        "incorrect_answers": ["Utah Jazz", "Sacramento Kings", "Golden State Warriors"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which player has the most career technical fouls?",
+        "correct_answer": "Rasheed Wallace",
+        "incorrect_answers": ["Dennis Rodman", "Charles Barkley", "Draymond Green"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which player had the first quadruple-double in NBA history?",
+        "correct_answer": "Nate Thurmond",
+        "incorrect_answers": ["Hakeem Olajuwon", "David Robinson", "Wilt Chamberlain"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which NBA team had a 73–9 regular season record?",
+        "correct_answer": "Golden State Warriors",
+        "incorrect_answers": ["Chicago Bulls", "Miami Heat", "Los Angeles Lakers"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "What is the name of the trophy awarded to the NBA MVP?",
+        "correct_answer": "Michael Jordan Trophy",
+        "incorrect_answers": ["Bill Russell Trophy", "Larry O'Brien Trophy", "Magic Johnson Trophy"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which player was drafted directly from high school in 2003?",
+        "correct_answer": "LeBron James",
+        "incorrect_answers": ["Dwyane Wade", "Carmelo Anthony", "Chris Bosh"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Who was the first African American coach in NBA history?",
+        "correct_answer": "Bill Russell",
+        "incorrect_answers": ["Lenny Wilkens", "Doc Rivers", "Al Attles"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },      
       {
         "question": "Who scored 100 points in a single NBA game?",
         "correct_answer": "Wilt Chamberlain",

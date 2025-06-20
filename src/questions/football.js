@@ -460,6 +460,76 @@ const footballQuestions = [
       "sport": "football"
     },
     {
+      "question": "Who was the first overall pick in the 2023 NFL Draft?",
+      "correct_answer": "Bryce Young",
+      "incorrect_answers": ["C.J. Stroud", "Will Levis", "Anthony Richardson"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which team has won the most Super Bowls?",
+      "correct_answer": "New England Patriots",
+      "incorrect_answers": ["Pittsburgh Steelers", "San Francisco 49ers", "Dallas Cowboys"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What is the minimum number of yards needed for a first down?",
+      "correct_answer": "10",
+      "incorrect_answers": ["15", "5", "20"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Who holds the record for most career rushing yards in the NFL?",
+      "correct_answer": "Emmitt Smith",
+      "incorrect_answers": ["Walter Payton", "Barry Sanders", "Adrian Peterson"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What team did Tom Brady finish his career with?",
+      "correct_answer": "Tampa Bay Buccaneers",
+      "incorrect_answers": ["New England Patriots", "Miami Dolphins", "New York Jets"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "How many players are on the field per team in an NFL game?",
+      "correct_answer": "11",
+      "incorrect_answers": ["10", "12", "9"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which team did the Rams defeat in Super Bowl LVI?",
+      "correct_answer": "Cincinnati Bengals",
+      "incorrect_answers": ["Kansas City Chiefs", "San Francisco 49ers", "Green Bay Packers"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What position typically snaps the ball to start a play?",
+      "correct_answer": "Center",
+      "incorrect_answers": ["Guard", "Quarterback", "Tackle"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which player won the 2022 NFL MVP award?",
+      "correct_answer": "Patrick Mahomes",
+      "incorrect_answers": ["Jalen Hurts", "Josh Allen", "Justin Jefferson"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What college did Peyton Manning attend?",
+      "correct_answer": "University of Tennessee",
+      "incorrect_answers": ["Michigan", "Alabama", "LSU"],
+      "difficulty": "medium",
+      "sport": "football"
+    },    
+    {
       "question": "Which NFL team went undefeated in the regular season in 2007?",
       "correct_answer": "New England Patriots",
       "incorrect_answers": ["Miami Dolphins", "Seattle Seahawks", "Pittsburgh Steelers"],
@@ -987,6 +1057,76 @@ const footballQuestions = [
         "difficulty": "hard",
         "sport": "football"
       },
+      {
+        "question": "Which team drafted Eli Manning before he was traded to the Giants?",
+        "correct_answer": "San Diego Chargers",
+        "incorrect_answers": ["New York Jets", "Buffalo Bills", "Arizona Cardinals"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Who was the MVP of Super Bowl LII?",
+        "correct_answer": "Nick Foles",
+        "incorrect_answers": ["Tom Brady", "Zach Ertz", "Alshon Jeffery"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which player caught 'The Immaculate Reception'?",
+        "correct_answer": "Franco Harris",
+        "incorrect_answers": ["Lynn Swann", "Terry Bradshaw", "John Stallworth"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which NFL team was originally known as the Decatur Staleys?",
+        "correct_answer": "Chicago Bears",
+        "incorrect_answers": ["Detroit Lions", "Cleveland Browns", "Green Bay Packers"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "What year did the NFL and AFL merge?",
+        "correct_answer": "1970",
+        "incorrect_answers": ["1966", "1972", "1969"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Who holds the NFL single-season record for touchdown passes?",
+        "correct_answer": "Peyton Manning",
+        "incorrect_answers": ["Tom Brady", "Patrick Mahomes", "Drew Brees"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which NFL stadium is nicknamed 'The Black Hole'?",
+        "correct_answer": "Allegiant Stadium",
+        "incorrect_answers": ["Arrowhead Stadium", "AT&T Stadium", "Lumen Field"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which player was known as 'The Minister of Defense'?",
+        "correct_answer": "Reggie White",
+        "incorrect_answers": ["Ray Lewis", "Lawrence Taylor", "Brian Urlacher"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Who holds the record for most career sacks in NFL history?",
+        "correct_answer": "Bruce Smith",
+        "incorrect_answers": ["Reggie White", "Kevin Greene", "J.J. Watt"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which team did the New England Patriots defeat in the infamous 'Tuck Rule Game'?",
+        "correct_answer": "Oakland Raiders",
+        "incorrect_answers": ["Pittsburgh Steelers", "Baltimore Ravens", "Tennessee Titans"],
+        "difficulty": "hard",
+        "sport": "football"
+      },      
       {
         "question": "Which NFL team lost four consecutive Super Bowls in the 1990s?",
         "correct_answer": "Buffalo Bills",
