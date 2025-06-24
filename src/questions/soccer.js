@@ -2,12 +2,68 @@ const soccerQuestions = [
       // easy soccer
  
       {
+        "question": "What is the maximum number of players allowed on the field for one team in soccer?",
+        "correct_answer": "11",
+        "incorrect_answers": ["10", "12", "9"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country won the 2022 FIFA World Cup?",
+        "correct_answer": "Argentina",
+        "incorrect_answers": ["France", "Brazil", "Germany"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is a hat trick in soccer?",
+        "correct_answer": "Scoring 3 goals in a game",
+        "incorrect_answers": ["3 assists", "3 fouls", "3 saves"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Who is known as 'CR7'?",
+        "correct_answer": "Cristiano Ronaldo",
+        "incorrect_answers": ["Lionel Messi", "Neymar", "Kylian Mbappé"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "What shape is a soccer ball?",
+        "correct_answer": "Sphere",
+        "incorrect_answers": ["Cube", "Oval", "Circle"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
         "question": "Which country has won the most FIFA World Cups?",
         "correct_answer": "Brazil",
         "incorrect_answers": ["Germany", "Italy", "Argentina"],
         "difficulty": "easy",
         "sport": "soccer"
       },
+      {
+        "question": "What color card means a player is ejected from the game?",
+        "correct_answer": "Red",
+        "incorrect_answers": ["Yellow", "Blue", "Green"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which English club is nicknamed 'The Red Devils'?",
+        "correct_answer": "Manchester United",
+        "incorrect_answers": ["Liverpool", "Chelsea", "Arsenal"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },
+      {
+        "question": "In what country is La Liga primarily played?",
+        "correct_answer": "Spain",
+        "incorrect_answers": ["Italy", "England", "Germany"],
+        "difficulty": "easy",
+        "sport": "soccer"
+      },      
       {
         "question": "Which country hosted the 2022 FIFA World Cup?",
         "correct_answer": "Qatar",
@@ -306,13 +362,6 @@ const soccerQuestions = [
           "question": "What color card does a referee show to a player who must leave the field for misconduct?",
           "correct_answer": "Red",
           "incorrect_answers": ["Yellow", "Blue", "Green"],
-          "difficulty": "easy",
-          "sport": "soccer"
-        },
-        {
-          "question": "Which country hosted the 2018 FIFA World Cup?",
-          "correct_answer": "Russia",
-          "incorrect_answers": ["Brazil", "Germany", "South Africa"],
           "difficulty": "easy",
           "sport": "soccer"
         },
@@ -664,6 +713,76 @@ const soccerQuestions = [
         "sport": "soccer"
       },
       {
+        "question": "Which player won the 2023 Ballon d'Or?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": ["Erling Haaland", "Kylian Mbappé", "Kevin De Bruyne"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which club won the 2023 UEFA Champions League?",
+        "correct_answer": "Manchester City",
+        "incorrect_answers": ["Real Madrid", "Inter Milan", "Bayern Munich"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which German club has the most Bundesliga titles?",
+        "correct_answer": "Bayern Munich",
+        "incorrect_answers": ["Borussia Dortmund", "RB Leipzig", "Hamburger SV"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Who scored the winning goal in the 2014 World Cup final?",
+        "correct_answer": "Mario Götze",
+        "incorrect_answers": ["Mesut Özil", "Thomas Müller", "Toni Kroos"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which team did Erling Haaland transfer from to join Manchester City?",
+        "correct_answer": "Borussia Dortmund",
+        "incorrect_answers": ["RB Leipzig", "Red Bull Salzburg", "Ajax"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which African country made it to the 2022 World Cup semifinals?",
+        "correct_answer": "Morocco",
+        "incorrect_answers": ["Senegal", "Ghana", "Nigeria"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country hosted the 2018 FIFA World Cup?",
+        "correct_answer": "Russia",
+        "incorrect_answers": ["Brazil", "Germany", "Qatar"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Who is the all-time top scorer for Portugal?",
+        "correct_answer": "Cristiano Ronaldo",
+        "incorrect_answers": ["Luis Figo", "Eusébio", "João Félix"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which club is known as 'The Old Lady'?",
+        "correct_answer": "Juventus",
+        "incorrect_answers": ["AC Milan", "Real Madrid", "PSG"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which team won the UEFA Euro 2020 tournament?",
+        "correct_answer": "Italy",
+        "incorrect_answers": ["England", "France", "Spain"],
+        "difficulty": "medium",
+        "sport": "soccer"
+      },      
+      {
         "question": "Which team won the UEFA Champions League in 2023?",
         "correct_answer": "Manchester City",
         "incorrect_answers": ["Real Madrid", "Inter Milan", "Bayern Munich"],
@@ -702,13 +821,6 @@ const soccerQuestions = [
         "question": "Who won the Ballon d'Or in 2022?",
         "correct_answer": "Karim Benzema",
         "incorrect_answers": ["Lionel Messi", "Kylian Mbappé", "Robert Lewandowski"],
-        "difficulty": "medium",
-        "sport": "soccer"
-      },
-      {
-        "question": "Which country won the first ever FIFA World Cup in 1930?",
-        "correct_answer": "Uruguay",
-        "incorrect_answers": ["Brazil", "Italy", "Argentina"],
         "difficulty": "medium",
         "sport": "soccer"
       },
@@ -1206,6 +1318,76 @@ const soccerQuestions = [
         "difficulty": "hard",
         "sport": "soccer"
       },
+      {
+        "question": "Which country won the first ever FIFA World Cup in 1930?",
+        "correct_answer": "Uruguay",
+        "incorrect_answers": ["Brazil", "Germany", "Italy"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Who is the youngest player to appear in a World Cup match?",
+        "correct_answer": "Norman Whiteside",
+        "incorrect_answers": ["Pelé", "Kylian Mbappé", "Samuel Eto'o"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which country has lost the most World Cup finals?",
+        "correct_answer": "Germany",
+        "incorrect_answers": ["Argentina", "France", "Netherlands"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Who holds the record for most goals scored in a single World Cup?",
+        "correct_answer": "Just Fontaine",
+        "incorrect_answers": ["Ronaldo", "Miroslav Klose", "Pelé"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which player has played in the most World Cup tournaments?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": ["Lothar Matthäus", "Cristiano Ronaldo", "Rafael Márquez"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which club won the FIFA Club World Cup in 2023?",
+        "correct_answer": "Manchester City",
+        "incorrect_answers": ["Flamengo", "Al Hilal", "Real Madrid"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the only team to go undefeated in a World Cup and not win it?",
+        "correct_answer": "Scotland (1974)",
+        "incorrect_answers": ["Italy (1990)", "Portugal (2006)", "Belgium (1986)"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which manager won the Champions League with two different English clubs?",
+        "correct_answer": "None",
+        "incorrect_answers": ["Carlo Ancelotti", "Pep Guardiola", "Jose Mourinho"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "Which player was the top scorer in the UEFA Champions League 2022–23 season?",
+        "correct_answer": "Erling Haaland",
+        "incorrect_answers": ["Karim Benzema", "Kylian Mbappé", "Lionel Messi"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },
+      {
+        "question": "What is the fastest red card in World Cup history?",
+        "correct_answer": "José Batista (56 seconds)",
+        "incorrect_answers": ["Zinedine Zidane (90 seconds)", "Sergio Ramos (2 minutes)", "David Beckham (3 minutes)"],
+        "difficulty": "hard",
+        "sport": "soccer"
+      },      
       {
         "question": "Which team did Zinedine Zidane headbutt a player against in the 2006 World Cup final?",
         "correct_answer": "Italy",

@@ -9,16 +9,135 @@ const footballQuestions = [
       "sport": "football"
     },
     {
-      "question": "What is the name of the trophy awarded to the Super Bowl winner?",
-      "correct_answer": "Lombardi Trophy",
-      "incorrect_answers": ["Heisman Trophy", "MVP Trophy", "Gridiron Cup"],
+      "question": "How many points is a touchdown worth?",
+      "correct_answer": "6",
+      "incorrect_answers": ["3", "1", "7"],
       "difficulty": "easy",
       "sport": "football"
     },
     {
-      "question": "How many points is a touchdown worth?",
-      "correct_answer": "6",
-      "incorrect_answers": ["7", "3", "1"],
+      "question": "Which team is based in Green Bay?",
+      "correct_answer": "Packers",
+      "incorrect_answers": ["Bears", "Lions", "Vikings"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which position throws the football?",
+      "correct_answer": "Quarterback",
+      "incorrect_answers": ["Wide Receiver", "Linebacker", "Kicker"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What color is a standard football?",
+      "correct_answer": "Brown",
+      "incorrect_answers": ["Black", "White", "Orange"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What does NFL stand for?",
+      "correct_answer": "National Football League",
+      "incorrect_answers": ["National Flag League", "New Football League", "North Football League"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "How many quarters are in an NFL game?",
+      "correct_answer": "4",
+      "incorrect_answers": ["2", "3", "5"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team is based in Dallas?",
+      "correct_answer": "Cowboys",
+      "incorrect_answers": ["Texans", "Giants", "Chargers"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the area at the end of the field called where touchdowns are scored?",
+      "correct_answer": "End zone",
+      "incorrect_answers": ["Goal zone", "Scoring box", "Red zone"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team has a lightning bolt logo?",
+      "correct_answer": "Los Angeles Chargers",
+      "incorrect_answers": ["Seahawks", "Rams", "Buccaneers"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "How many points is a field goal worth?",
+      "correct_answer": "3",
+      "incorrect_answers": ["2", "6", "1"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What day is most NFL football played on?",
+      "correct_answer": "Sunday",
+      "incorrect_answers": ["Friday", "Monday", "Wednesday"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Who is known as 'The GOAT' of football?",
+      "correct_answer": "Tom Brady",
+      "incorrect_answers": ["Peyton Manning", "Joe Montana", "Aaron Rodgers"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What does a kicker do?",
+      "correct_answer": "Kicks field goals and extra points",
+      "incorrect_answers": ["Blocks passes", "Throws passes", "Catches touchdowns"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What city are the Bengals from?",
+      "correct_answer": "Cincinnati",
+      "incorrect_answers": ["Cleveland", "Pittsburgh", "Chicago"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which team is known as 'America’s Team'?",
+      "correct_answer": "Dallas Cowboys",
+      "incorrect_answers": ["New England Patriots", "Green Bay Packers", "New York Giants"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "What is the penalty called for grabbing a face mask?",
+      "correct_answer": "Face mask",
+      "incorrect_answers": ["Holding", "Interference", "Roughing the passer"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which team is from Kansas City?",
+      "correct_answer": "Chiefs",
+      "incorrect_answers": ["Bears", "Falcons", "Colts"],
+      "difficulty": "easy",
+      "sport": "football"
+    },
+    {
+      "question": "Which team has a star logo?",
+      "correct_answer": "Dallas Cowboys",
+      "incorrect_answers": ["New York Jets", "Chicago Bears", "Buffalo Bills"],
+      "difficulty": "easy",
+      "sport": "football"
+    },    
+    {
+      "question": "What is the name of the trophy awarded to the Super Bowl winner?",
+      "correct_answer": "Lombardi Trophy",
+      "incorrect_answers": ["Heisman Trophy", "MVP Trophy", "Gridiron Cup"],
       "difficulty": "easy",
       "sport": "football"
     },
@@ -459,6 +578,139 @@ const footballQuestions = [
       "difficulty": "medium",
       "sport": "football"
     },
+    {
+      "question": "Who was the MVP of Super Bowl LVII (2023)?",
+      "correct_answer": "Patrick Mahomes",
+      "incorrect_answers": ["Jalen Hurts", "Travis Kelce", "Tom Brady"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which team drafted Joe Burrow first overall in 2020?",
+      "correct_answer": "Cincinnati Bengals",
+      "incorrect_answers": ["Miami Dolphins", "New York Jets", "Detroit Lions"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Who holds the record for most rushing yards in a single NFL season?",
+      "correct_answer": "Eric Dickerson",
+      "incorrect_answers": ["Adrian Peterson", "Barry Sanders", "Derrick Henry"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which team did Peyton Manning retire with?",
+      "correct_answer": "Denver Broncos",
+      "incorrect_answers": ["Indianapolis Colts", "New England Patriots", "Kansas City Chiefs"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What number did Jerry Rice wear during most of his NFL career?",
+      "correct_answer": "80",
+      "incorrect_answers": ["81", "84", "85"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which team won Super Bowl LVI (2022)?",
+      "correct_answer": "Los Angeles Rams",
+      "incorrect_answers": ["Cincinnati Bengals", "Kansas City Chiefs", "San Francisco 49ers"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Who is the head coach of the New England Patriots after Bill Belichick?",
+      "correct_answer": "Jerod Mayo",
+      "incorrect_answers": ["Josh McDaniels", "Matt Patricia", "Brian Flores"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which stadium is home to the Las Vegas Raiders?",
+      "correct_answer": "Allegiant Stadium",
+      "incorrect_answers": ["SoFi Stadium", "MetLife Stadium", "Levi's Stadium"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL quarterback was nicknamed 'Matty Ice'?",
+      "correct_answer": "Matt Ryan",
+      "incorrect_answers": ["Matt Stafford", "Aaron Rodgers", "Andy Dalton"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What year did the NFL expand to 32 teams?",
+      "correct_answer": "2002",
+      "incorrect_answers": ["1998", "2000", "2004"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which player led the NFL in passing yards in the 2023 season?",
+      "correct_answer": "Tua Tagovailoa",
+      "incorrect_answers": ["Patrick Mahomes", "Dak Prescott", "C.J. Stroud"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Who holds the record for most career sacks in the NFL?",
+      "correct_answer": "Bruce Smith",
+      "incorrect_answers": ["Reggie White", "J.J. Watt", "Michael Strahan"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which team did Brett Favre retire with?",
+      "correct_answer": "Minnesota Vikings",
+      "incorrect_answers": ["Green Bay Packers", "New York Jets", "Atlanta Falcons"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which NFL team plays their home games at Arrowhead Stadium?",
+      "correct_answer": "Kansas City Chiefs",
+      "incorrect_answers": ["Denver Broncos", "Dallas Cowboys", "Seattle Seahawks"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Which division are the Baltimore Ravens part of?",
+      "correct_answer": "AFC North",
+      "incorrect_answers": ["AFC South", "NFC North", "NFC East"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What team did the Houston Texans replace when added to the NFL?",
+      "correct_answer": "They were a new expansion team",
+      "incorrect_answers": ["Houston Oilers", "Cleveland Browns", "St. Louis Rams"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Who caught the 'Helmet Catch' in Super Bowl XLII?",
+      "correct_answer": "David Tyree",
+      "incorrect_answers": ["Plaxico Burress", "Victor Cruz", "Amani Toomer"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "What is the minimum number of players required on the line of scrimmage?",
+      "correct_answer": "7",
+      "incorrect_answers": ["6", "8", "5"],
+      "difficulty": "medium",
+      "sport": "football"
+    },
+    {
+      "question": "Who holds the record for the longest field goal in NFL history?",
+      "correct_answer": "Justin Tucker",
+      "incorrect_answers": ["Matt Prater", "Adam Vinatieri", "Stephen Gostkowski"],
+      "difficulty": "medium",
+      "sport": "football"
+    },    
     {
       "question": "Who was the first overall pick in the 2023 NFL Draft?",
       "correct_answer": "Bryce Young",
@@ -1058,6 +1310,139 @@ const footballQuestions = [
         "sport": "football"
       },
       {
+        "question": "Which player has the most career interceptions thrown in NFL history?",
+        "correct_answer": "Brett Favre",
+        "incorrect_answers": ["Peyton Manning", "Dan Marino", "Eli Manning"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Who was the first player to rush for over 2,000 yards in a season?",
+        "correct_answer": "O.J. Simpson",
+        "incorrect_answers": ["Eric Dickerson", "Barry Sanders", "Terrell Davis"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which team lost four consecutive Super Bowls from 1990 to 1993?",
+        "correct_answer": "Buffalo Bills",
+        "incorrect_answers": ["Minnesota Vikings", "Denver Broncos", "Chicago Bears"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "What was the original name of the Tennessee Titans?",
+        "correct_answer": "Houston Oilers",
+        "incorrect_answers": ["Tennessee Oilers", "Memphis Titans", "Nashville Warriors"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which quarterback was selected ahead of Tom Brady in the 2000 NFL Draft?",
+        "correct_answer": "Chad Pennington",
+        "incorrect_answers": ["Drew Brees", "Philip Rivers", "Kyle Boller"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which team had an undefeated season in 1972?",
+        "correct_answer": "Miami Dolphins",
+        "incorrect_answers": ["New England Patriots", "Pittsburgh Steelers", "Dallas Cowboys"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Who was the first African American head coach to win a Super Bowl?",
+        "correct_answer": "Tony Dungy",
+        "incorrect_answers": ["Mike Tomlin", "Lovie Smith", "Dennis Green"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which kicker has scored the most points in NFL history?",
+        "correct_answer": "Adam Vinatieri",
+        "incorrect_answers": ["Morten Andersen", "Gary Anderson", "Jason Hanson"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "What team did Deion Sanders win a Super Bowl with first?",
+        "correct_answer": "San Francisco 49ers",
+        "incorrect_answers": ["Dallas Cowboys", "Atlanta Falcons", "Washington"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "What year did the Cleveland Browns return to the NFL after suspension?",
+        "correct_answer": "1999",
+        "incorrect_answers": ["1997", "2000", "1998"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which team was featured in the 'Music City Miracle'?",
+        "correct_answer": "Tennessee Titans",
+        "incorrect_answers": ["Buffalo Bills", "New York Giants", "San Diego Chargers"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "What team did John Elway play for his entire career?",
+        "correct_answer": "Denver Broncos",
+        "incorrect_answers": ["Cleveland Browns", "Baltimore Colts", "San Francisco 49ers"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "What college did Hall of Fame quarterback Steve Young attend?",
+        "correct_answer": "BYU",
+        "incorrect_answers": ["UCLA", "Stanford", "Utah"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which quarterback famously guaranteed a Super Bowl win in 1969?",
+        "correct_answer": "Joe Namath",
+        "incorrect_answers": ["Johnny Unitas", "Roger Staubach", "Bart Starr"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Who was the MVP of Super Bowl 50?",
+        "correct_answer": "Von Miller",
+        "incorrect_answers": ["Cam Newton", "Peyton Manning", "Demaryius Thomas"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "Which NFL team had the nickname 'Purple People Eaters'?",
+        "correct_answer": "Minnesota Vikings",
+        "incorrect_answers": ["Baltimore Ravens", "Chicago Bears", "New York Giants"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "What wide receiver had the nickname 'Megatron'?",
+        "correct_answer": "Calvin Johnson",
+        "incorrect_answers": ["Julio Jones", "Larry Fitzgerald", "Dez Bryant"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "What team drafted Randy Moss in 1998?",
+        "correct_answer": "Minnesota Vikings",
+        "incorrect_answers": ["Dallas Cowboys", "New England Patriots", "Oakland Raiders"],
+        "difficulty": "hard",
+        "sport": "football"
+      },
+      {
+        "question": "What player returned a missed field goal 109 yards for a touchdown in 2013?",
+        "correct_answer": "Chris Davis",
+        "incorrect_answers": ["Devin Hester", "Cordarrelle Patterson", "Patrick Peterson"],
+        "difficulty": "hard",
+        "sport": "football"
+      },      
+      {
         "question": "Which team drafted Eli Manning before he was traded to the Giants?",
         "correct_answer": "San Diego Chargers",
         "incorrect_answers": ["New York Jets", "Buffalo Bills", "Arizona Cardinals"],
@@ -1412,13 +1797,6 @@ const footballQuestions = [
         "question": "Which team won the first AFL-NFL World Championship Game (now Super Bowl I)?",
         "correct_answer": "Green Bay Packers",
         "incorrect_answers": ["Kansas City Chiefs", "Chicago Bears", "Baltimore Colts"],
-        "difficulty": "hard",
-        "sport": "football"
-      },
-      {
-        "question": "Who holds the record for the longest field goal in NFL history?",
-        "correct_answer": "Justin Tucker",
-        "incorrect_answers": ["Matt Prater", "Adam Vinatieri", "Tom Dempsey"],
         "difficulty": "hard",
         "sport": "football"
       },

@@ -9,12 +9,124 @@ const basketballQuestions = [
       "sport": "basketball"
     },
     {
-      "question": "How many points is a free throw worth in basketball?",
-      "correct_answer": "1",
-      "incorrect_answers": ["2", "3", "4"],
+      "question": "Which team is based in Los Angeles?",
+      "correct_answer": "Lakers",
+      "incorrect_answers": ["Knicks", "Heat", "Celtics"],
       "difficulty": "easy",
       "sport": "basketball"
     },
+    {
+      "question": "What is the name of the professional basketball league in the U.S.?",
+      "correct_answer": "NBA",
+      "incorrect_answers": ["NFL", "MLB", "NHL"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "How many players from one team are on the court during a game?",
+      "correct_answer": "5",
+      "incorrect_answers": ["6", "7", "4"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team does Kevin Durant currently play for (2024)?",
+      "correct_answer": "Phoenix Suns",
+      "incorrect_answers": ["Golden State Warriors", "Brooklyn Nets", "Miami Heat"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which position usually brings the ball up the court?",
+      "correct_answer": "Point Guard",
+      "incorrect_answers": ["Center", "Shooting Guard", "Power Forward"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team won the 2022 NBA Championship?",
+      "correct_answer": "Golden State Warriors",
+      "incorrect_answers": ["Boston Celtics", "Phoenix Suns", "Miami Heat"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team has green and white as team colors?",
+      "correct_answer": "Boston Celtics",
+      "incorrect_answers": ["Miami Heat", "Chicago Bulls", "Los Angeles Clippers"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who wore number 23 for the Chicago Bulls?",
+      "correct_answer": "Michael Jordan",
+      "incorrect_answers": ["LeBron James", "Scottie Pippen", "Dennis Rodman"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is it called when a player scores, gets 10 rebounds, and 10 assists?",
+      "correct_answer": "Triple-double",
+      "incorrect_answers": ["Hat-trick", "Double-double", "Home run"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team is located in New York?",
+      "correct_answer": "Knicks",
+      "incorrect_answers": ["Cavaliers", "Heat", "Spurs"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player is famous for the 'Air Jordan' shoe line?",
+      "correct_answer": "Michael Jordan",
+      "incorrect_answers": ["Kobe Bryant", "Allen Iverson", "Shaquille O’Neal"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team plays at Chase Center?",
+      "correct_answer": "Golden State Warriors",
+      "incorrect_answers": ["Lakers", "Clippers", "Nets"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "How many points is a free throw worth?",
+      "correct_answer": "1",
+      "incorrect_answers": ["2", "3", "0"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is the shot clock in the NBA?",
+      "correct_answer": "24 seconds",
+      "incorrect_answers": ["30 seconds", "20 seconds", "40 seconds"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player was nicknamed 'The Black Mamba'?",
+      "correct_answer": "Kobe Bryant",
+      "incorrect_answers": ["LeBron James", "Shaquille O’Neal", "Stephen Curry"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "What is the name of the NBA team in Toronto?",
+      "correct_answer": "Raptors",
+      "incorrect_answers": ["Grizzlies", "Kings", "Wizards"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player was known for his size 22 shoes and dominance in the paint?",
+      "correct_answer": "Shaquille O'Neal",
+      "incorrect_answers": ["Tim Duncan", "Yao Ming", "Dirk Nowitzki"],
+      "difficulty": "easy",
+      "sport": "basketball"
+    },    
     {
       "question": "How many players from each team are on the court during play?",
       "correct_answer": "5",
@@ -156,13 +268,6 @@ const basketballQuestions = [
       "sport": "basketball"
     },
     {
-      "question": "Which position usually brings the ball up the court?",
-      "correct_answer": "Point guard",
-      "incorrect_answers": ["Center", "Power forward", "Shooting guard"],
-      "difficulty": "easy",
-      "sport": "basketball"
-    },
-    {
       "question": "Which NBA team has a purple and gold color scheme?",
       "correct_answer": "Los Angeles Lakers",
       "incorrect_answers": ["Phoenix Suns", "Golden State Warriors", "Utah Jazz"],
@@ -187,13 +292,6 @@ const basketballQuestions = [
       "question": "What is it called when a player scores by jumping and slamming the ball into the hoop?",
       "correct_answer": "Dunk",
       "incorrect_answers": ["Layup", "Free throw", "Alley-oop"],
-      "difficulty": "easy",
-      "sport": "basketball"
-    },
-    {
-      "question": "How many points is a free throw worth?",
-      "correct_answer": "1",
-      "incorrect_answers": ["2", "3", "0"],
       "difficulty": "easy",
       "sport": "basketball"
     },
@@ -445,6 +543,132 @@ const basketballQuestions = [
       "difficulty": "medium",
       "sport": "basketball"
     },
+    {
+      "question": "Which NBA player won the 2023 MVP award?",
+      "correct_answer": "Joel Embiid",
+      "incorrect_answers": ["Nikola Jokic", "Giannis Antetokounmpo", "Jayson Tatum"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team drafted Stephen Curry in the 2009 NBA Draft?",
+      "correct_answer": "Golden State Warriors",
+      "incorrect_answers": ["Charlotte Bobcats", "Minnesota Timberwolves", "New York Knicks"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who was the 2021 NBA Finals MVP?",
+      "correct_answer": "Giannis Antetokounmpo",
+      "incorrect_answers": ["Khris Middleton", "Chris Paul", "Devin Booker"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player scored 81 points in a single NBA game in 2006?",
+      "correct_answer": "Kobe Bryant",
+      "incorrect_answers": ["Allen Iverson", "LeBron James", "Carmelo Anthony"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA team plays at Madison Square Garden?",
+      "correct_answer": "New York Knicks",
+      "incorrect_answers": ["Brooklyn Nets", "Boston Celtics", "Chicago Bulls"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which player is known for the 'Sky Hook' shot?",
+      "correct_answer": "Kareem Abdul-Jabbar",
+      "incorrect_answers": ["Wilt Chamberlain", "Shaquille O'Neal", "Tim Duncan"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who did the Miami Heat defeat in the 2012 NBA Finals?",
+      "correct_answer": "Oklahoma City Thunder",
+      "incorrect_answers": ["San Antonio Spurs", "Boston Celtics", "Indiana Pacers"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team drafted Luka Dončić before trading him to Dallas?",
+      "correct_answer": "Atlanta Hawks",
+      "incorrect_answers": ["Phoenix Suns", "Memphis Grizzlies", "Orlando Magic"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who led the NBA in scoring during the 2022-2023 season?",
+      "correct_answer": "Joel Embiid",
+      "incorrect_answers": ["Luka Dončić", "Jayson Tatum", "Damian Lillard"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA team won back-to-back championships in 1994 and 1995?",
+      "correct_answer": "Houston Rockets",
+      "incorrect_answers": ["Chicago Bulls", "Detroit Pistons", "Indiana Pacers"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team did Allen Iverson spend most of his career with?",
+      "correct_answer": "Philadelphia 76ers",
+      "incorrect_answers": ["Denver Nuggets", "Detroit Pistons", "Charlotte Bobcats"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who won the 2022 NBA 3-point contest?",
+      "correct_answer": "Karl-Anthony Towns",
+      "incorrect_answers": ["Stephen Curry", "Desmond Bane", "Fred VanVleet"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team has won the most NBA championships?",
+      "correct_answer": "Boston Celtics",
+      "incorrect_answers": ["Los Angeles Lakers", "Chicago Bulls", "Golden State Warriors"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who did the Milwaukee Bucks defeat in the 2021 NBA Finals?",
+      "correct_answer": "Phoenix Suns",
+      "incorrect_answers": ["Los Angeles Lakers", "Brooklyn Nets", "Miami Heat"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who was the first overall pick in the 2022 NBA Draft?",
+      "correct_answer": "Paolo Banchero",
+      "incorrect_answers": ["Chet Holmgren", "Jabari Smith Jr.", "Jaden Ivey"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Who led the Golden State Warriors in points during the 2015 Finals?",
+      "correct_answer": "Stephen Curry",
+      "incorrect_answers": ["Andre Iguodala", "Klay Thompson", "Draymond Green"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which NBA player won Defensive Player of the Year in 2023?",
+      "correct_answer": "Jaren Jackson Jr.",
+      "incorrect_answers": ["Bam Adebayo", "Brook Lopez", "Draymond Green"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },
+    {
+      "question": "Which team did Chris Paul start his NBA career with?",
+      "correct_answer": "New Orleans Hornets",
+      "incorrect_answers": ["Los Angeles Clippers", "Houston Rockets", "Phoenix Suns"],
+      "difficulty": "medium",
+      "sport": "basketball"
+    },    
     {
       "question": "Which NBA player won MVP in 2021?",
       "correct_answer": "Nikola Jokic",
@@ -923,7 +1147,146 @@ const basketballQuestions = [
         "incorrect_answers": ["Hakeem Olajuwon", "David Robinson", "Wilt Chamberlain"],
         "difficulty": "hard",
         "sport": "basketball"
+      },{
+        "question": "Who is the only player in NBA history to record a quadruple-double with steals?",
+        "correct_answer": "Hakeem Olajuwon",
+        "incorrect_answers": ["David Robinson", "Draymond Green", "Scottie Pippen"],
+        "difficulty": "hard",
+        "sport": "basketball"
       },
+      {
+        "question": "Which NBA team drafted Kobe Bryant before trading him to the Lakers?",
+        "correct_answer": "Charlotte Hornets",
+        "incorrect_answers": ["Philadelphia 76ers", "New Jersey Nets", "Toronto Raptors"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which team won the very first NBA championship in 1947?",
+        "correct_answer": "Philadelphia Warriors",
+        "incorrect_answers": ["Boston Celtics", "New York Knicks", "Chicago Stags"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Who holds the NBA record for most technical fouls in a career?",
+        "correct_answer": "Karl Malone",
+        "incorrect_answers": ["Rasheed Wallace", "Dennis Rodman", "Charles Barkley"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which coach has the most career wins in NBA history?",
+        "correct_answer": "Don Nelson",
+        "incorrect_answers": ["Gregg Popovich", "Phil Jackson", "Pat Riley"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which player scored 70+ points in a single game and was born after 1995?",
+        "correct_answer": "Devin Booker",
+        "incorrect_answers": ["Luka Dončić", "Jayson Tatum", "Anthony Edwards"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which franchise did Shaquille O’Neal finish his NBA career with?",
+        "correct_answer": "Boston Celtics",
+        "incorrect_answers": ["Miami Heat", "Cleveland Cavaliers", "Phoenix Suns"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which NBA team has the most regular-season losses all-time?",
+        "correct_answer": "Sacramento Kings",
+        "incorrect_answers": ["Detroit Pistons", "New York Knicks", "Atlanta Hawks"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "What year did the NBA implement the three-point line?",
+        "correct_answer": "1979",
+        "incorrect_answers": ["1975", "1981", "1980"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Who is the only player to win MVP, All-Star MVP, Finals MVP, and Olympic gold in the same year?",
+        "correct_answer": "Michael Jordan",
+        "incorrect_answers": ["Kobe Bryant", "LeBron James", "Magic Johnson"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which team was known as the Buffalo Braves before relocating?",
+        "correct_answer": "Los Angeles Clippers",
+        "incorrect_answers": ["Atlanta Hawks", "New Orleans Pelicans", "Utah Jazz"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Who was the first player in NBA history to record 10,000 assists?",
+        "correct_answer": "Magic Johnson",
+        "incorrect_answers": ["Oscar Robertson", "John Stockton", "Isiah Thomas"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which player holds the NBA record for most blocks in a single game?",
+        "correct_answer": "Elmore Smith",
+        "incorrect_answers": ["Manute Bol", "Dikembe Mutombo", "Hakeem Olajuwon"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which two teams played in the highest-scoring NBA game in history?",
+        "correct_answer": "Pistons and Nuggets",
+        "incorrect_answers": ["Spurs and Warriors", "Celtics and Bulls", "Kings and Suns"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Who was the first European player drafted #1 overall?",
+        "correct_answer": "Andrea Bargnani",
+        "incorrect_answers": ["Dirk Nowitzki", "Pau Gasol", "Tony Parker"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Who was the first NBA commissioner?",
+        "correct_answer": "Maurice Podoloff",
+        "incorrect_answers": ["David Stern", "Adam Silver", "Walter Kennedy"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which player scored the most points in an NBA game without making a three-pointer?",
+        "correct_answer": "David Robinson",
+        "incorrect_answers": ["Kareem Abdul-Jabbar", "Karl Malone", "Tim Duncan"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Who was the youngest player in NBA history to reach 10,000 points?",
+        "correct_answer": "LeBron James",
+        "incorrect_answers": ["Kevin Durant", "Kobe Bryant", "Carmelo Anthony"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Which NBA player was known as 'The Iceman'?",
+        "correct_answer": "George Gervin",
+        "incorrect_answers": ["Wilt Chamberlain", "Clyde Drexler", "Julius Erving"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },
+      {
+        "question": "Who is the only player to record a 30-20-10 triple-double in the NBA Finals?",
+        "correct_answer": "Nikola Jokic",
+        "incorrect_answers": ["LeBron James", "Tim Duncan", "Larry Bird"],
+        "difficulty": "hard",
+        "sport": "basketball"
+      },      
       {
         "question": "What year was the NBA founded?",
         "correct_answer": "1946",

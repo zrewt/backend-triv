@@ -9,6 +9,62 @@ const hockeyQuestions = [
         "sport": "hockey"
       },
       {
+        "question": "How many players are on the ice for one team during standard NHL play?",
+        "correct_answer": "6",
+        "incorrect_answers": ["5", "7", "4"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "What is the object that players hit in hockey?",
+        "correct_answer": "Puck",
+        "incorrect_answers": ["Ball", "Disk", "Drop"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "Which country is known for producing top hockey players?",
+        "correct_answer": "Canada",
+        "incorrect_answers": ["Mexico", "Brazil", "Spain"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "Which team won the 2024 Stanley Cup?",
+        "correct_answer": "Florida Panthers",
+        "incorrect_answers": ["Edmonton Oilers", "Vegas Golden Knights", "Colorado Avalanche"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "Who is considered one of the greatest hockey players of all time?",
+        "correct_answer": "Wayne Gretzky",
+        "incorrect_answers": ["Michael Jordan", "Tom Brady", "Babe Ruth"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "How long is a standard NHL game?",
+        "correct_answer": "60 minutes",
+        "incorrect_answers": ["45 minutes", "90 minutes", "75 minutes"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "What color is a standard hockey puck?",
+        "correct_answer": "Black",
+        "incorrect_answers": ["Red", "Blue", "White"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },
+      {
+        "question": "Which player position guards the net?",
+        "correct_answer": "Goaltender",
+        "incorrect_answers": ["Center", "Defenseman", "Winger"],
+        "difficulty": "easy",
+        "sport": "hockey"
+      },      
+      {
         "question": "How many players are on the ice per team during even-strength play?",
         "correct_answer": "6",
         "incorrect_answers": ["5", "7", "4"],
@@ -89,13 +145,6 @@ const hockeyQuestions = [
         "question": "What piece of equipment do goalies wear on their hands?",
         "correct_answer": "Glove and blocker",
         "incorrect_answers": ["Pads and helmet", "Stick and visor", "Chest and skates"],
-        "difficulty": "easy",
-        "sport": "hockey"
-      },
-      {
-        "question": "What NHL team plays at Madison Square Garden?",
-        "correct_answer": "New York Rangers",
-        "incorrect_answers": ["Islanders", "Devils", "Flyers"],
         "difficulty": "easy",
         "sport": "hockey"
       },
@@ -494,6 +543,76 @@ const hockeyQuestions = [
       "sport": "hockey"
     },
     {
+      "question": "Which NHL team did Wayne Gretzky play for first?",
+      "correct_answer": "Edmonton Oilers",
+      "incorrect_answers": ["Los Angeles Kings", "New York Rangers", "St. Louis Blues"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "What trophy is awarded to the NHL's best goaltender?",
+      "correct_answer": "Vezina Trophy",
+      "incorrect_answers": ["Hart Trophy", "Norris Trophy", "Art Ross Trophy"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the captain of the Pittsburgh Penguins in 2023?",
+      "correct_answer": "Sidney Crosby",
+      "incorrect_answers": ["Evgeni Malkin", "Kris Letang", "Jake Guentzel"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "How many games are played in a regular NHL season?",
+      "correct_answer": "82",
+      "incorrect_answers": ["80", "84", "90"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "What NHL team plays at Madison Square Garden?",
+      "correct_answer": "New York Rangers",
+      "incorrect_answers": ["Islanders", "Devils", "Sabres"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who won the Conn Smythe Trophy in the 2023 Stanley Cup Playoffs?",
+      "correct_answer": "Jonathan Marchessault",
+      "incorrect_answers": ["Sergei Bobrovsky", "Jack Eichel", "Connor McDavid"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team did the Vegas Golden Knights defeat in the 2023 Stanley Cup Final?",
+      "correct_answer": "Florida Panthers",
+      "incorrect_answers": ["Colorado Avalanche", "Carolina Hurricanes", "Dallas Stars"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is the maximum length of a minor penalty in the NHL?",
+      "correct_answer": "2 minutes",
+      "incorrect_answers": ["4 minutes", "5 minutes", "3 minutes"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which player won the NHL scoring title in 2023?",
+      "correct_answer": "Connor McDavid",
+      "incorrect_answers": ["Leon Draisaitl", "David Pastrnak", "Nathan MacKinnon"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team moved to become the Arizona Coyotes?",
+      "correct_answer": "Winnipeg Jets",
+      "incorrect_answers": ["Hartford Whalers", "Quebec Nordiques", "Atlanta Thrashers"],
+      "difficulty": "medium",
+      "sport": "hockey"
+    },    
+    {
       "question": "Which NHL team joined the league most recently as of 2021?",
       "correct_answer": "Seattle Kraken",
       "incorrect_answers": ["Vegas Golden Knights", "Columbus Blue Jackets", "Winnipeg Jets"],
@@ -599,13 +718,7 @@ const hockeyQuestions = [
       "difficulty": "medium",
       "sport": "hockey"
     },
-    {
-      "question": "Which team moved to become the Arizona Coyotes?",
-      "correct_answer": "Winnipeg Jets",
-      "incorrect_answers": ["Quebec Nordiques", "Hartford Whalers", "Atlanta Thrashers"],
-      "difficulty": "medium",
-      "sport": "hockey"
-    },
+
     {
       "question": "Who is known for the 'Michigan goal' move in hockey?",
       "correct_answer": "Mike Legg",
@@ -1014,6 +1127,76 @@ const hockeyQuestions = [
       "difficulty": "hard",
       "sport": "hockey"
     },
+    {
+      "question": "Who holds the NHL record for most goals in a single season?",
+      "correct_answer": "Wayne Gretzky",
+      "incorrect_answers": ["Brett Hull", "Alexander Ovechkin", "Mario Lemieux"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is the fewest games a team has needed to win the Stanley Cup Final?",
+      "correct_answer": "4",
+      "incorrect_answers": ["5", "6", "7"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which goalie recorded the most shutouts in NHL history?",
+      "correct_answer": "Martin Brodeur",
+      "incorrect_answers": ["Patrick Roy", "Dominik Hasek", "Henrik Lundqvist"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team did Mario Lemieux play for during his entire NHL career?",
+      "correct_answer": "Pittsburgh Penguins",
+      "incorrect_answers": ["Philadelphia Flyers", "New Jersey Devils", "Buffalo Sabres"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which NHL team drafted Jaromír Jágr?",
+      "correct_answer": "Pittsburgh Penguins",
+      "incorrect_answers": ["Washington Capitals", "New York Rangers", "Dallas Stars"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which year did the NHL introduce the shootout to decide regular season games?",
+      "correct_answer": "2005",
+      "incorrect_answers": ["2003", "2006", "2004"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which team did the Seattle Kraken play in their first ever NHL game?",
+      "correct_answer": "Vegas Golden Knights",
+      "incorrect_answers": ["San Jose Sharks", "Los Angeles Kings", "Vancouver Canucks"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "What is the longest NHL playoff game ever played?",
+      "correct_answer": "Detroit vs. Montreal (1936, 116:30 OT)",
+      "incorrect_answers": ["Philadelphia vs. Pittsburgh (2000)", "Toronto vs. Boston (1951)", "Rangers vs. Capitals (2012)"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Which player has the most career penalty minutes in NHL history?",
+      "correct_answer": "Dave 'Tiger' Williams",
+      "incorrect_answers": ["Bob Probert", "Tie Domi", "Chris Pronger"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },
+    {
+      "question": "Who was the first goaltender to score a goal in the NHL?",
+      "correct_answer": "Billy Smith",
+      "incorrect_answers": ["Martin Brodeur", "Ron Hextall", "Patrick Roy"],
+      "difficulty": "hard",
+      "sport": "hockey"
+    },    
     {
       "question": "Which player won the Conn Smythe Trophy in 2022?",
       "correct_answer": "Cale Makar",
