@@ -33,6 +33,29 @@ const getRandomQuestions = (count) => {
   return questionsCopy.slice(0, count);
 };
 
+// Deterministic daily quiz endpoint
+function getTodaySeed() {
+  const now = new Date();
+  return `${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()}`;
+}
+
+function seededShuffle(array, seed) {
+  let arr = array.slice();
+  let s = seed.split('').reduce((a, c) => a + c.charCodeAt(0), 0);
+  for (let i = arr.length - 1; i > 0; i--) {
+    s = (s * 9301 + 49297) % 233280;
+    const j = Math.floor((s / 233280) * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+app.get('/api/daily-quiz', (req, res) => {
+  const hardQuestions = questions.filter(q => q.difficulty === 'hard');
+  const seed = getTodaySeed();
+  const shuffled = seededShuffle(hardQuestions, seed);
+  res.json(shuffled.slice(0, 5));
+});
 
 app.get('/api/questions', (req, res) => {
   const count = parseInt(req.query.count) || 5;
