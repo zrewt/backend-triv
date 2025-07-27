@@ -16,7 +16,7 @@ const basketballQuestions = [
       "sport": "basketball"
     },
     {
-      "question": "What is the name of the professional basketball league in the U.S.?",
+      "question": "What is the name of the professional Basketball league in the U.S.?",
       "correct_answer": "NBA",
       "incorrect_answers": ["NFL", "MLB", "NHL"],
       "difficulty": "easy",
