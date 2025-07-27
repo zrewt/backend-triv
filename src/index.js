@@ -36,7 +36,7 @@ const getRandomQuestions = (count) => {
 // Deterministic daily quiz endpoint
 function getTodaySeed() {
   const now = new Date();
-  return `${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()}`;
+  return `${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()}-new`;
 }
 
 function seededShuffle(array, seed) {
