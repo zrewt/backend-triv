@@ -345,12 +345,6 @@ const hockeyQuestions = [
         "sport": "hockey"
       },
       {
-        "correct_answer": "Maple Leafs",
-        "incorrect_answers": ["Canadiens", "Senators", "Oilers"],
-        "difficulty": "easy",
-        "sport": "hockey"
-      },
-      {
         "question": "How many players are on the ice for one team in standard play (not including the goalie)?",
         "correct_answer": "5",
         "incorrect_answers": ["6", "4", "3"],
