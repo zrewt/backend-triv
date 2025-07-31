@@ -1126,12 +1126,6 @@ const soccerQuestions = [
         "sport": "soccer"
       },
       {
-        "correct_answer": "Manchester United",
-        "incorrect_answers": ["Liverpool", "Arsenal", "Chelsea"],
-        "difficulty": "medium",
-        "sport": "soccer"
-      },
-      {
         "question": "Who scored the 'Hand of God' goal in the 1986 World Cup?",
         "correct_answer": "Diego Maradona",
         "incorrect_answers": ["Pelé", "Zinedine Zidane", "Ronaldinho"],

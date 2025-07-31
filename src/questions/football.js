@@ -1703,54 +1703,6 @@ const footballQuestions = [
           "sport": "football"
         },
         {
-          "correct_answer": "Super Bowl XXV",
-          "incorrect_answers": ["Super Bowl XX", "Super Bowl XXX", "Super Bowl XL"],
-          "difficulty": "hard",
-          "sport": "football"
-        },
-        {
-          "correct_answer": "No team has ever recorded a shutout in Super Bowl history.",
-          "incorrect_answers": ["Baltimore Ravens", "Chicago Bears", "New York Giants"],
-          "difficulty": "hard",
-          "sport": "football"
-        },
-        {
-          "correct_answer": "Jerry Rice",
-          "incorrect_answers": ["Rob Gronkowski", "Emmitt Smith", "Franco Harris"],
-          "difficulty": "hard",
-          "sport": "football"
-        },
-        {
-          "correct_answer": "New Orleans",
-          "incorrect_answers": ["Detroit", "Houston", "Atlanta"],
-          "difficulty": "hard",
-          "sport": "football"
-        },
-        {
-          "correct_answer": "Super Bowl LV",
-          "incorrect_answers": ["Super Bowl I", "Super Bowl XX", "Super Bowl XL"],
-          "difficulty": "hard",
-          "sport": "football"
-        },
-        {
-          "correct_answer": "Bart Starr",
-          "incorrect_answers": ["Terry Bradshaw", "Joe Montana", "Tom Brady"],
-          "difficulty": "hard",
-          "sport": "football"
-        },
-        {
-          "correct_answer": "Miami Dolphins",
-          "incorrect_answers": ["Los Angeles Rams", "New York Giants", "Baltimore Ravens"],
-          "difficulty": "hard",
-          "sport": "football"
-        },
-        {
-          "correct_answer": "Tom Brady",
-          "incorrect_answers": ["Jerry Rice", "Peyton Manning", "Ben Roethlisberger"],
-          "difficulty": "hard",
-          "sport": "football"
-        },
-        {
           "question": "Who performed the national anthem at Super Bowl 50?",
           "correct_answer": "Lady Gaga",
           "incorrect_answers": ["Beyoncé", "Alicia Keys", "Whitney Houston"],

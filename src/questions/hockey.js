@@ -1115,12 +1115,6 @@ const hockeyQuestions = [
 
      // hard hockey
 
-     {
-      "correct_answer": "Maurice Richard",
-      "incorrect_answers": ["Wayne Gretzky", "Bobby Hull", "Gordie Howe"],
-      "difficulty": "hard",
-      "sport": "hockey"
-    },
     {
       "question": "Who holds the NHL record for most goals in a single season?",
       "correct_answer": "Wayne Gretzky",
@@ -1676,12 +1670,6 @@ const hockeyQuestions = [
       "sport": "hockey"
     },
     {
-      "correct_answer": "Montreal Canadiens",
-      "incorrect_answers": ["Toronto Maple Leafs", "Detroit Red Wings", "Boston Bruins"],
-      "difficulty": "hard",
-      "sport": "hockey"
-    },
-    {
       "question": "Who was the first player to win the Hart Trophy as league MVP more than six times?",
       "correct_answer": "Wayne Gretzky",
       "incorrect_answers": ["Gordie Howe", "Mario Lemieux", "Bobby Orr"],
@@ -1727,12 +1715,6 @@ const hockeyQuestions = [
       "question": "What year was the original NHL Winter Classic held?",
       "correct_answer": "2008",
       "incorrect_answers": ["2006", "2009", "2007"],
-      "difficulty": "hard",
-      "sport": "hockey"
-    },
-    {
-      "correct_answer": "Canada",
-      "incorrect_answers": ["USA", "Russia", "Sweden"],
       "difficulty": "hard",
       "sport": "hockey"
     },
