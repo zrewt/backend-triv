@@ -51,7 +51,7 @@ function seededShuffle(array, seed) {
 }
 
 app.get('/api/daily-quiz', (req, res) => {
-  const mediumQuestions = questions.filter(q => q.difficulty === 'medium');
+  const mediumQuestions = questions.filter(q => q.difficulty === 'easy');
   const seed = getTodaySeed();
   const shuffled = seededShuffle(mediumQuestions, seed);
   res.json(shuffled.slice(0, 5));
