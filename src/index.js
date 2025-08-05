@@ -60,14 +60,7 @@ function seededShuffle(array, seed) {
 
 app.get('/api/daily-quiz', (req, res) => {
   const mediumQuestions = questions.filter(q => q.difficulty === 'easy');
-  let seed = getTodaySeed();
-  
-  // If reset parameter is provided, add a random component to force new questions
-  if (req.query.reset === 'true') {
-    const randomComponent = Math.floor(Math.random() * 1000);
-    seed = `${seed}-reset-${randomComponent}`;
-  }
-  
+  const seed = getTodaySeed();
   const shuffled = seededShuffle(mediumQuestions, seed);
   res.json(shuffled.slice(0, 5));
 });
