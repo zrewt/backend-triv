@@ -38,7 +38,9 @@ function getTodaySeed() {
   const now = new Date();
   // Use UTC to ensure consistent reset time across all timezones
   // This will reset at 12 AM UTC, which is midnight in most timezones
-  return `${now.getUTCFullYear()}-${now.getUTCMonth() + 1}-${now.getUTCDate()}`;
+  // Adding random component for today to force new questions
+  const randomComponent = Math.floor(Math.random() * 1000);
+  return `${now.getUTCFullYear()}-${now.getUTCMonth() + 1}-${now.getUTCDate()}-reset-${randomComponent}`;
 }
 
 function seededShuffle(array, seed) {
@@ -54,7 +56,14 @@ function seededShuffle(array, seed) {
 
 app.get('/api/daily-quiz', (req, res) => {
   const mediumQuestions = questions.filter(q => q.difficulty === 'easy');
-  const seed = getTodaySeed();
+  let seed = getTodaySeed();
+  
+  // If reset parameter is provided, add a random component to force new questions
+  if (req.query.reset === 'true') {
+    const randomComponent = Math.floor(Math.random() * 1000);
+    seed = `${seed}-reset-${randomComponent}`;
+  }
+  
   const shuffled = seededShuffle(mediumQuestions, seed);
   res.json(shuffled.slice(0, 5));
 });
