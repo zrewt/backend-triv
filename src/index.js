@@ -36,7 +36,9 @@ const getRandomQuestions = (count) => {
 // Deterministic daily quiz endpoint
 function getTodaySeed() {
   const now = new Date();
-  return `${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()}-new`;
+  // Use UTC to ensure consistent reset time across all timezones
+  // This will reset at 12 AM UTC, which is midnight in most timezones
+  return `${now.getUTCFullYear()}-${now.getUTCMonth() + 1}-${now.getUTCDate()}`;
 }
 
 function seededShuffle(array, seed) {
