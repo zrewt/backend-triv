@@ -37,10 +37,14 @@ const getRandomQuestions = (count) => {
 function getTodaySeed() {
   const now = new Date();
   // Use UTC to ensure consistent reset time across all timezones
-  // This will reset at 12 AM UTC, which is midnight in most timezones
-  // Adding random component for today to force new questions
-  const randomComponent = Math.floor(Math.random() * 1000);
-  return `${now.getUTCFullYear()}-${now.getUTCMonth() + 1}-${now.getUTCDate()}-reset-${randomComponent}`;
+  // This will reset at 1 AM UTC instead of 12 AM
+  // If it's before 1 AM, use yesterday's date, otherwise use today's date
+  let resetDate = new Date(now);
+  if (now.getUTCHours() < 1) {
+    // Before 1 AM, use yesterday's date
+    resetDate.setUTCDate(resetDate.getUTCDate() - 1);
+  }
+  return `${resetDate.getUTCFullYear()}-${resetDate.getUTCMonth() + 1}-${resetDate.getUTCDate()}`;
 }
 
 function seededShuffle(array, seed) {
