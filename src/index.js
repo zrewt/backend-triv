@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 3001;
+const moment = require('moment-timezone');
 
 app.use(cors());
 app.use(express.json());
@@ -35,16 +36,10 @@ const getRandomQuestions = (count) => {
 
 // Deterministic daily quiz endpoint
 function getTodaySeed() {
-  const now = new Date();
-  // Use UTC to ensure consistent reset time across all timezones
-  // This will reset at 1 AM UTC instead of 12 AM
-  // If it's before 1 AM, use yesterday's date, otherwise use today's date
-  let resetDate = new Date(now);
-  if (now.getUTCHours() < 1) {
-    // Before 1 AM, use yesterday's date
-    resetDate.setUTCDate(resetDate.getUTCDate() - 1);
-  }
-  return `${resetDate.getUTCFullYear()}-${resetDate.getUTCMonth() + 1}-${resetDate.getUTCDate()}`;
+  // Get current time in Toronto timezone
+  const nowToronto = moment.tz('America/Toronto');
+  // Use Toronto's current date for the seed (resets at midnight Toronto time)
+  return `${nowToronto.year()}-${nowToronto.month() + 1}-${nowToronto.date()}`;
 }
 
 function seededShuffle(array, seed) {
